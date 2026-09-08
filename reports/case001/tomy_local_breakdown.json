@@ -1,0 +1,49 @@
+[
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "tomylocal.root",
+    "lifecycleRole" : "MIXED",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/TomyLocal",
+    "provenanceConfidence" : "UNKNOWN",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 8192,
+    "unknownReasons" : [
+      "UNKNOWN_CUSTOM_ASSET",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "DEFERRED:NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE",
+      "LIFECYCLE_DATABASE_UNKNOWN",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "tomylocal.child.FacebookMessenger",
+    "lifecycleRole" : "MIXED",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/TomyLocal\/FacebookMessenger",
+    "provenanceConfidence" : "UNKNOWN",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 7217315840,
+    "unknownReasons" : [
+      "UNKNOWN_CUSTOM_ASSET",
+      "DEFERRED:NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE",
+      "LIFECYCLE_DATABASE_UNKNOWN",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  }
+]

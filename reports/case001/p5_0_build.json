@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-09-05T23:50:52Z",
+  "configuration": "RELEASE",
+  "productName": "AI Storage Manager",
+  "version": "0.1.0",
+  "build": "50",
+  "bundleID": "com.tomystudio.aistoragemanager",
+  "minimumMacOS": "13.0",
+  "architecture": [
+    "arm64"
+  ],
+  "architectureClaim": "arm64-only (not universal)",
+  "releaseBuildSuccess": true,
+  "appBundlePath": "/Users/tomitakatsuhiro/Workspace/10_進行中/ai-storage-manager/dist/AI Storage Manager.app",
+  "zipArtifactPath": "/Users/tomitakatsuhiro/Workspace/10_進行中/ai-storage-manager/dist/AIStorageManager-0.1.0-rc50-arm64.zip",
+  "unexpectedBundleFiles": [],
+  "debugFixtureBundled": false,
+  "reportsBundled": false,
+  "absoluteDeveloperPathDependencies": false,
+  "residualDebugPathFragments": "truncated username/Workspace fragment may remain in binary strings; not a runtime load path",
+  "infoPlist": {
+    "CFBundleShortVersionString": "0.1.0",
+    "CFBundleVersion": "50",
+    "CFBundleIdentifier": "com.tomystudio.aistoragemanager",
+    "LSMinimumSystemVersion": "13.0"
+  },
+  "packagingType": "APP_BUNDLE_PLUS_ZIP",
+  "dmgProduced": false,
+  "dmgDecision": "ZIP chosen for v0.1 simplicity; DMG deferred"
+}

@@ -1,0 +1,18 @@
+{
+  "actualStoreCanonicalPath": "/Users/tomitakatsuhiro/Library/Application Support/Cursor/User/globalStorage/anysphere.cursor-agent-worker/agent-cli/.local/share/cursor-agent/versions",
+  "cleanupTargetCanonicalPath": "/Users/tomitakatsuhiro/.local/share/cursor-agent/versions",
+  "relationship": "SIBLING_STORE",
+  "semanticStorageClassMatch": true,
+  "canonicalPathMatch": false,
+  "cleanupCoversActualStore": false,
+  "reason": "CLEANUP_CONTRACT_PATH_MISMATCH: vendor cleanup resolves to HOME ~/.local/share/cursor-agent/versions while the material ~2.68GB store is the worker globalStorage agent-cli versions tree. Same leaf name 'versions', sibling distribution mechanisms (CLI home install vs worker embed).",
+  "legacyMigrationEvidence": "NONE_PROVEN \u2014 both layouts coexist; not proven as migration residue",
+  "stagingEvidence": false,
+  "downloadCacheEvidence": false,
+  "classification": "SIBLING_STORE / DIFFERENT_INSTALLATION_MECHANISM",
+  "unknowns": [
+    "Whether worker will ever call cleanupOldInstallVersions with GS versionsDir",
+    "Whether future Cursor unifies roots"
+  ],
+  "generatedAt": "2026-09-05T03:39:05Z"
+}

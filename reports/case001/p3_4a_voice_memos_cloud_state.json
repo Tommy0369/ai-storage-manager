@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-09-05T10:11:41Z",
+  "appNativeSyncEvidence": "PARTIAL \u2014 CloudRecordings.db uses NSCloudKitMirroring schema (ANSCK*); ZCLOUDRECORDING=125; ANSCKEVENT=1536",
+  "remoteIdentityEvidence": "CloudKit record metadata count=128; per-recording remote byte identity NOT VERIFIED",
+  "remoteVerifiedBytes": 0,
+  "localOnlyBytes": "UNKNOWN_SUBSET",
+  "locallyResidentBytes": 14021960498,
+  "remoteUnknownBytes": 14021960498,
+  "localResidencyState": "LOCALLY_RESIDENT_MEDIA",
+  "deletePropagationSemantics": "UNKNOWN \u2014 must not assume local file delete is local-only",
+  "nativeLocalEvictionOperationFound": false,
+  "evictionModelHints": {
+    "ZEVICTIONDATE_nonnull": 7,
+    "ZCLOUDRECORDING_count": 125,
+    "note": "Schema knows eviction dates; user-facing/native local-only eviction API not proven"
+  },
+  "iCloudAccountAlone": "NOT_SUFFICIENT",
+  "brctlFileProvider": "NOT_APPLICABLE_BRCloudDocsErrorDomain_30",
+  "genericICloudRelocationAllowed": false,
+  "confidence": "PARTIAL",
+  "unknowns": [
+    "Whether CloudKit holds full audio bytes for each recording",
+    "Whether local media removal propagates cloud delete",
+    "Exact native UI/API for Remove Download / keep-in-cloud"
+  ]
+}

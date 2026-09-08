@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SafetyRule",
+  "type": "object",
+  "required": [
+    "id",
+    "entity",
+    "match",
+    "default_class",
+    "action_mode",
+    "evaluation_layer",
+    "required_predicates"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "default_class": {
+      "enum": [
+        "GREEN",
+        "RED",
+        "UNKNOWN",
+        "YELLOW"
+      ]
+    },
+    "action_mode": {
+      "enum": [
+        "APP_API_ONLY",
+        "APP_UNINSTALL",
+        "CLOUD_EVICT_ONLY",
+        "HARD_BLOCK",
+        "MOVE_TO_TRASH",
+        "NO_ACTION",
+        "OS_API_ONLY",
+        "PACKAGE_MANAGER_COMMAND",
+        "TOOL_CLI_ONLY",
+        "USER_REVIEW"
+      ]
+    },
+    "evaluation_layer": {
+      "enum": [
+        "ACTIVE_USE",
+        "EXACT_VENDOR_RULE",
+        "GENERIC_CACHE_TEMP",
+        "HARD_BLOCK",
+        "RUNTIME_PREDICATES",
+        "SOURCE_OF_TRUTH",
+        "SYNC_BLAST_RADIUS",
+        "UNKNOWN_FALLBACK",
+        "USER_PROTECTION"
+      ]
+    }
+  }
+}

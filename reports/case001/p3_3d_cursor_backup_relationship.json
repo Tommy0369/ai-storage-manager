@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-09-05T09:09:36Z",
+  "sourceDBBytes": 10488516608,
+  "backupBytes": 1278717952,
+  "schemaRelationship": {
+    "backupTables": [
+      "ItemTable",
+      "cursorDiskKV"
+    ],
+    "mainTables": [
+      "ItemTable",
+      "composerHeaders",
+      "cursorDiskKV"
+    ],
+    "schemaObjectNamesEqual": false,
+    "mainHasExtraTable": "composerHeaders",
+    "schemaCookieBackup": 2,
+    "schemaCookieMain": 6
+  },
+  "logicalCoverage": "PARTIAL_OLDER_SNAPSHOT \u2014 same key-class families; fewer rows/bytes than live main",
+  "structuralSimilarity": "SAME_FAMILY_SQLITE_PARTIAL_COVERAGE",
+  "keyClassComparison": [
+    {
+      "class": "bubbleId",
+      "backupValueBytes": 147868135,
+      "mainValueBytes": 5130305854,
+      "backupCount": 19840,
+      "mainCount": 187214
+    },
+    {
+      "class": "agentKv",
+      "backupValueBytes": 828321527,
+      "mainValueBytes": 4413999183,
+      "backupCount": 26676,
+      "mainCount": 96186
+    },
+    {
+      "class": "checkpointId",
+      "backupValueBytes": 79979921,
+      "mainValueBytes": 292177798,
+      "backupCount": 609,
+      "mainCount": 1231
+    }
+  ],
+  "uniqueRecoveryStateEstimate": 176877,
+  "mainOnlyStateEstimate": 8915843951,
+  "backupOnlyStateEstimate": 176877,
+  "RECOVERY_UNIQUE_STATE_PRESENT": true,
+  "backupOnlyKeyCounts": {
+    "cursorDiskKV": 43,
+    "ItemTable": 10
+  },
+  "sharedKeyCount_cursorDiskKV": 49211,
+  "createdByVendor": true,
+  "restoreRelationship": "OPEN_FAILURE_RENAMES_BACKUP_TO_MAIN",
+  "currentUse": "NOT_OPEN \u2014 recovery slot retained",
+  "recoveryRole": "RECOVERY_SOURCE",
+  "confidence": "VERIFIED",
+  "privacyNote": "No chat/prompt/content values exported \u2014 counts and byte aggregates only"
+}

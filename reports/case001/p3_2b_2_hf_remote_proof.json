@@ -1,0 +1,12 @@
+{
+  "authMode": "ANONYMOUS",
+  "exactRemoteIdentity": "49e6aa286ad60c14352c404340ded53710378a11",
+  "failureReason": null,
+  "fresh": true,
+  "freshUntil": "2026-09-05T06:03:05Z",
+  "httpStatus": 200,
+  "reacquisitionStatus": "REACQUIRABLE_VERIFIED",
+  "repo": "mlx-community/whisper-large-v3-mlx",
+  "revision": "49e6aa286ad60c14352c404340ded53710378a11",
+  "verifiedAt": "2026-09-05T00:03:05Z"
+}

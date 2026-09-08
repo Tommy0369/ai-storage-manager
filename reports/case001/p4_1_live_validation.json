@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-09-05T12:17:32Z",
+  "liveScanUsed": true,
+  "realMutation": false,
+  "diskCapacityTruth": {
+    "total": 494332366848,
+    "used": 363894300672,
+    "free": 130438066176,
+    "source": "shutil.disk_usage(HOME)"
+  },
+  "currentTopEntities": [
+    "Library",
+    "Documents",
+    ".ollama",
+    ".cache",
+    "Downloads",
+    "Movies",
+    "Pictures",
+    "Restricted/Not scanned"
+  ],
+  "selectedEntityJourneys": [
+    "Cursor KEEP drill-down",
+    "Structure/Meaning/Decision lenses",
+    "Plan",
+    "History"
+  ],
+  "partialMapObserved": true,
+  "completedMapObserved": true,
+  "mapListSync": true,
+  "lensesValidated": [
+    "STRUCTURE",
+    "MEANING",
+    "DECISION"
+  ],
+  "planValidated": true,
+  "historyValidated": true,
+  "settingsValidated": true,
+  "screenshotDataSource": "case001 explorer demo geometry + live disk capacity bar numbers from snapshot; fixture action flows labelled",
+  "verifiedRecoveredShown": 5580814899
+}

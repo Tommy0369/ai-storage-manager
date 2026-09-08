@@ -1,0 +1,159 @@
+Archive:  /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/Ollama-darwin-85A0D889.zip
+   creating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app
+   creating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/CodeResources  
+   creating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/_CodeSignature
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/_CodeSignature/CodeResources  
+   creating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/MacOS
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/MacOS/Ollama  
+   creating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-cpu-icelake.so  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/MLX_C_LICENSE  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-cpu-sapphirerapids.so  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/claude.svg  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/ollamaUpdate@2x.png  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/JSON_LICENSE.MIT  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/icon.icns  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/ollamaUpdateDark.png  
+    linking: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libllama.0.dylib  -> libllama.0.3.0.dylib 
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/ollamaDark.png  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/LLAMA_CPP_VENDORS_LICENSE  
+    linking: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libmtmd.0.dylib  -> libmtmd.0.3.0.dylib 
+    linking: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml.dylib  -> libggml.0.dylib 
+    linking: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml.0.dylib  -> libggml.0.22.0.dylib 
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/FMT_LICENSE  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-cpu-sse42.so  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-cpu-haswell.so  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/GO_LICENSE  
+    linking: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libmtmd.dylib  -> libmtmd.0.dylib 
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/CPP_HTTPLIB_LICENSE  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libllama-server-impl.dylib  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-cpu-cannonlake.so  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/DLPACK_LICENSE  
+    linking: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-base.dylib  -> libggml-base.0.dylib 
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/ollamaDark@2x.png  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-cpu-zen4.so  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-base.0.22.0.dylib  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-blas.so  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/PICOJSON_LICENSE  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-cpu-alderlake.so  
+   creating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/mlx_metal_v3
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/mlx_metal_v3/libmlx.dylib  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/mlx_metal_v3/mlx.metallib  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/mlx_metal_v3/libmlxc.dylib  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/mlx_metal_v3/libollama_xgrammar.dylib  
+   creating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/mlx_metal_v4
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/mlx_metal_v4/libjaccl.dylib  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/mlx_metal_v4/libmlx.dylib  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/mlx_metal_v4/mlx.metallib  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/mlx_metal_v4/libmlxc.dylib  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/mlx_metal_v4/libollama_xgrammar.dylib  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/METAL_CPP_LICENSE.txt  
+    linking: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libllama-common.0.dylib  -> libllama-common.0.3.0.dylib 
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-cpu-sandybridge.so  
+    linking: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libllama.dylib  -> libllama.0.dylib 
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/LLAMA_CPP_LICENSE  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/ollamaUpdate.png  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/MLX_LICENSE  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libllama-quantize-impl.dylib  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/ollama.png  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/ollamaUpdateDark@2x.png  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml.0.22.0.dylib  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-cpu-x64.so  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/ollama@2x.png  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/XGRAMMAR_LICENSE  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/llama-server  
+    linking: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libllama-common.dylib  -> libllama-common.0.dylib 
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libllama-common.0.3.0.dylib  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libmtmd.0.3.0.dylib  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libllama.0.3.0.dylib  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/ollama  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-cpu-skylakex.so  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/llama-quantize  
+    linking: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-base.0.dylib  -> libggml-base.0.22.0.dylib 
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-cpu-cascadelake.so  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-cpu-cooperlake.so  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-cpu-ivybridge.so  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/XGRAMMAR_NOTICE  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-cpu-piledriver.so  
+   creating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Library
+   creating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Library/LaunchAgents
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Library/LaunchAgents/com.ollama.ollama.plist  
+   creating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks
+   creating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework
+    linking: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework/Resources  -> Versions/Current/Resources 
+   creating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework/Versions
+   creating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework/Versions/A
+   creating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework/Versions/A/_CodeSignature
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework/Versions/A/_CodeSignature/CodeResources  
+   creating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources
+    linking: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources/ShipIt  -> ../Squirrel 
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources/Info.plist  
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel  
+    linking: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework/Versions/Current  -> A 
+    linking: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework/Squirrel  -> Versions/Current/Squirrel 
+  inflating: /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Info.plist  
+finishing deferred symbolic links:
+  /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libllama.0.dylib -> libllama.0.3.0.dylib
+  /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libmtmd.0.dylib -> libmtmd.0.3.0.dylib
+  /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml.dylib -> libggml.0.dylib
+  /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml.0.dylib -> libggml.0.22.0.dylib
+  /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libmtmd.dylib -> libmtmd.0.dylib
+  /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-base.dylib -> libggml-base.0.dylib
+  /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libllama-common.0.dylib -> libllama-common.0.3.0.dylib
+  /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libllama.dylib -> libllama.0.dylib
+  /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libllama-common.dylib -> libllama-common.0.dylib
+  /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Resources/libggml-base.0.dylib -> libggml-base.0.22.0.dylib
+  /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework/Resources -> Versions/Current/Resources
+  /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources/ShipIt -> ../Squirrel
+  /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework/Versions/Current -> A
+  /var/folders/gy/qr_n085n1wq196lwrs42vcmw0000gn/T/ollama-extract-1DCACC66/Ollama.app/Contents/Frameworks/Squirrel.framework/Squirrel -> Versions/Current/Squirrel
+{
+  "bucketTotals" : {
+    "backup" : 8192,
+    "cloud" : 682377216,
+    "developer" : 77751582720,
+    "generated" : 3104571392,
+    "userData" : 14623346688
+  },
+  "classTotals" : {
+    "RED" : 88525099008,
+    "UNKNOWN" : 7434825728,
+    "YELLOW" : 201961472
+  },
+  "coveragePercent" : 100,
+  "destructiveActionsExecuted" : false,
+  "domainTotals" : {
+    "AI Tools" : 49720516608,
+    "Cloud" : 682377216,
+    "Docker" : 8192,
+    "Git" : 9633792,
+    "Homebrew" : 1220214784,
+    "Node" : 188416,
+    "Python" : 45056,
+    "Xcode" : 2348879872,
+    "macOS" : 42180022272
+  },
+  "downgradedGreen" : 0,
+  "duplicateBytesRemoved" : 143707409117,
+  "identifiedBytes" : 14543294464,
+  "itemCount" : 530,
+  "knowledgeVersion" : "0.1.1",
+  "preview" : {
+    "executable" : false,
+    "greenPotentialRecovery" : 0,
+    "protectedRed" : 88525099008,
+    "unknown" : 7434825728,
+    "yellowReview" : 201961472
+  },
+  "remainingGreenAfterAudit" : 0,
+  "ruleCount" : 178,
+  "scanRuntimeSeconds" : 114.1720939874649,
+  "scannedBytes" : 14543294464,
+  "semanticDebtBytes" : 26983259889,
+  "semanticL3" : 86.28079463056282,
+  "semanticL4" : 67.04087680180791,
+  "semanticL5" : 0,
+  "uniqueBytes" : 96161886208,
+  "unknownBytes" : 0
+}

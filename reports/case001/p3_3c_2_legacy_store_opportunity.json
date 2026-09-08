@@ -1,0 +1,17 @@
+{
+  "GS_root_bytes": 2678732085,
+  "currentReferencedBytes": 234186013,
+  "activeBytes": 0,
+  "fallbackProtectedBytes": 0,
+  "migrationRequiredBytes": 0,
+  "unreferencedVerifiedBytes": 0,
+  "unknownReferenceBytes": 2444546072,
+  "vendorRemediationCoveredBytes": 0,
+  "potentialRecoveryBytes": 0,
+  "planTier": "KEEP",
+  "planReason": "GS is CURRENT_PRIMARY_STORE for cursor-agent-worker; HOME cleanup manages sibling store only",
+  "currentExecutable": false,
+  "insight": "Cursor stores ~2.68GB Agent CLI versions in a second location still managed by the worker extension.",
+  "full_2_68GB_potential": false,
+  "generatedAt": "2026-09-05T08:12:05Z"
+}

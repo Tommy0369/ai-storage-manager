@@ -1,0 +1,7 @@
+FIXTURE — P3.3C.2 dual-store lifecycle UX (live-safe; no cleanup button).
+cursor_p33c2_dual_store.png = HOME + GS separately resolved; SIBLING_STORE
+cursor_p33c2_home_vs_gs.png = two managers: CLI install-core vs worker globalStorage
+cursor_p33c2_reference_graph.png = GS CURRENT_PRIMARY selected; runtime none; fallback UNKNOWN
+cursor_p33c2_migration_state.png = migrationEvidenceFound=false
+cursor_p33c2_legacy_opportunity.png = plan KEEP / potentialRecoveryBytes=0 / VERIFY insight only
+No cleanup CTA — not executable.

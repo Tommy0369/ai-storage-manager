@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-09-05T10:11:41Z",
+  "rankingModel": [
+    "uniqueBytes",
+    "userValue",
+    "sourceOfTruthRisk",
+    "proofFeasibility",
+    "nativeContractAvailability",
+    "preservationPotential",
+    "expectedLocalRecovery",
+    "implementationEffort",
+    "runtimeRisk"
+  ],
+  "scoreAuthorizesAction": false,
+  "candidates": [
+    {
+      "entity": "macos.voicememos.group.com.apple.VoiceMemos.shared",
+      "uniqueBytes": 14092847946,
+      "userValueRisk": "HIGH_USER_ORIGINALS",
+      "proofFeasibility": "MEDIUM_HIGH",
+      "nativeContractAvailability": "PARTIAL_CLOUDKIT_ZEVICTIONDATE",
+      "preservationPotential": "APP_NATIVE_SYNC_OFFLOAD_CANDIDATE",
+      "expectedLocalRecovery": 0,
+      "currentSafety": "PROTECTED_USER_ORIGINAL",
+      "currentActionability": 0,
+      "score": 0.5557,
+      "reasoning": "Largest preservation-first opportunity; CloudKit metadata+ZEVICTIONDATE exist; remote/delete-propagation unproven",
+      "closedProtectedInvestigation": false,
+      "preservationOpportunity": "APP_NATIVE_SYNC_OFFLOAD_CANDIDATE"
+    },
+    {
+      "entity": "appsupport.Google.Chrome",
+      "uniqueBytes": 10718934840,
+      "userValueRisk": "HIGH_BROWSER_STATE",
+      "proofFeasibility": "MEDIUM",
+      "nativeContractAvailability": "UNKNOWN",
+      "preservationPotential": "UNKNOWN",
+      "expectedLocalRecovery": 0,
+      "currentSafety": "PROTECTED_DEFAULT",
+      "currentActionability": 0,
+      "score": 0.2379,
+      "reasoning": "Not cache; need semantic decomposition before any action",
+      "closedProtectedInvestigation": false,
+      "preservationOpportunity": "UNKNOWN"
+    },
+    {
+      "entity": "appsupport.Claude",
+      "uniqueBytes": 12634891950,
+      "userValueRisk": "HIGH_APP_RUNTIME",
+      "proofFeasibility": "LOW_MEDIUM",
+      "nativeContractAvailability": "UNKNOWN",
+      "preservationPotential": "UNKNOWN",
+      "expectedLocalRecovery": 0,
+      "currentSafety": "KEEP_VERIFY_MORE",
+      "currentActionability": 0,
+      "score": 0.186,
+      "reasoning": "Do not raw-delete VM; needs vendor lifecycle proof",
+      "closedProtectedInvestigation": false,
+      "preservationOpportunity": "UNKNOWN"
+    },
+    {
+      "entity": "ai.cursor.global_storage",
+      "uniqueBytes": 14932455593,
+      "userValueRisk": "HIGH_LIVE_STATE",
+      "proofFeasibility": "LOW_FOR_ACTION",
+      "nativeContractAvailability": "NONE_CLEANUP",
+      "preservationPotential": "NONE",
+      "expectedLocalRecovery": 0,
+      "currentSafety": "PROTECTED_KEEP",
+      "currentActionability": 0,
+      "score": 0.0,
+      "reasoning": "Cursor investigation closed; size must not reopen",
+      "closedProtectedInvestigation": true,
+      "preservationOpportunity": "NONE"
+    },
+    {
+      "entity": "ai.cursor.agent_cli_gs",
+      "uniqueBytes": 2678732268,
+      "userValueRisk": "TOOLCHAIN",
+      "proofFeasibility": "CLOSED",
+      "nativeContractAvailability": "HOME_ONLY_MISMATCH",
+      "preservationPotential": "NONE",
+      "expectedLocalRecovery": 0,
+      "currentSafety": "KEEP_CURRENTLY_USED",
+      "currentActionability": 0,
+      "score": 0.0,
+      "reasoning": "Cursor agent-cli GS still used; actionable=0",
+      "closedProtectedInvestigation": true,
+      "preservationOpportunity": "NONE"
+    }
+  ],
+  "selectedForNextProof": "macos.voicememos.group.com.apple.VoiceMemos.shared"
+}

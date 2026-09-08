@@ -1,0 +1,30 @@
+{
+  "currentTopStorageEntities": [
+    "ai.cursor.global_storage",
+    "appsupport.Claude.cache",
+    "cursor.snapshots.rootref.cursor-b1863998",
+    "macos.application_support.child.Code",
+    "user.downloads",
+    "macos.user_caches.child.notion.id.ShipIt",
+    "xcode.simulator_devices",
+    "macos.application_support.child.Claude",
+    "claude.vm.bundle.claudevm.bundle.kernel",
+    "ai.cursor_logs"
+  ],
+  "selectedNextCenterpin": "CURSOR_DATABASE_GROWTH_ROOT_CAUSE",
+  "selectedEntity": "ai.cursor.global_storage",
+  "selectedComponent": "state.vscdb (cursorDiskKV: bubbleId + agentKv)",
+  "selectedBytes": 10372714496,
+  "whyThisBeatsAlternatives": "~10GB of ~14GB is an OPEN core SQLite DB whose value bytes are conversation/agent state classes. Understanding growth/retention is higher leverage than deleting protected user state or chasing smaller targets. Agent-cli multi-version (~2.6GB) is a secondary NATIVE_CLEANUP_CANDIDATE only.",
+  "expectedProofPath": "Vendor-documented retention/cleanup for cursorDiskKV classes; export/archive contract if reduction is ever considered; COMPLETE runtime inactivity proof; never raw SQLite mutation.",
+  "mutationNeededNextPhase": false,
+  "humanAuthorizationNeededNextPhase": false,
+  "rejectedAlternatives": [
+    "CURSOR_COMPONENT_NATIVE_CLEANUP_PROOF (agent-cli versions) — valuable but secondary bytes",
+    "CURSOR_COMPONENT_PRESERVATION_PROOF — relevant later once export contract exists",
+    "CURSOR_EXTENSION_ABSENT_REMEDIATION — first-party namespaces, not disposable marketplace orphans",
+    "DIFFERENT_CURRENT_ENTITY_HIGHER_VALUE — Cursor remains #1 unique bytes",
+    "NO_SAFE_HIGH_VALUE_ACTION_YET — intelligence gap is the action"
+  ],
+  "generatedAt": "2026-09-05T01:05:39Z"
+}

@@ -1,0 +1,188 @@
+{
+  "opportunities": [
+    {
+      "version": "2026.08.04-aaa8809",
+      "uniqueBytes": 238166458,
+      "selectionState": "NOT_SELECTED",
+      "runtimeState": "RUNTIME_UNKNOWN",
+      "reacquisition": "UNKNOWN",
+      "nativeCleanup": "ALGORITHM_KNOWN_GS_UNPROVEN",
+      "risk": "HIGH",
+      "proofFeasibility": "MEDIUM",
+      "requiredMissingProof": [
+        "Prove cleanupOldInstallVersions can target GS worker versionsDir",
+        "COMPLETE runtime inactive VERIFIED",
+        "Exact artifact reacquisition or accept irreversible local loss"
+      ],
+      "ranking": 1,
+      "currentExecutable": false,
+      "isNativeCleanupCandidate": false
+    },
+    {
+      "version": "2026.07.23-e383d2b",
+      "uniqueBytes": 208497042,
+      "selectionState": "NOT_SELECTED",
+      "runtimeState": "RUNTIME_UNKNOWN",
+      "reacquisition": "UNKNOWN",
+      "nativeCleanup": "ALGORITHM_KNOWN_GS_UNPROVEN",
+      "risk": "HIGH",
+      "proofFeasibility": "MEDIUM",
+      "requiredMissingProof": [
+        "Prove cleanupOldInstallVersions can target GS worker versionsDir",
+        "COMPLETE runtime inactive VERIFIED",
+        "Exact artifact reacquisition or accept irreversible local loss"
+      ],
+      "ranking": 2,
+      "currentExecutable": false,
+      "isNativeCleanupCandidate": false
+    },
+    {
+      "version": "2026.07.20-8cc9c0b",
+      "uniqueBytes": 208441121,
+      "selectionState": "NOT_SELECTED",
+      "runtimeState": "RUNTIME_UNKNOWN",
+      "reacquisition": "UNKNOWN",
+      "nativeCleanup": "ALGORITHM_KNOWN_GS_UNPROVEN",
+      "risk": "HIGH",
+      "proofFeasibility": "MEDIUM",
+      "requiredMissingProof": [
+        "Prove cleanupOldInstallVersions can target GS worker versionsDir",
+        "COMPLETE runtime inactive VERIFIED",
+        "Exact artifact reacquisition or accept irreversible local loss"
+      ],
+      "ranking": 3,
+      "currentExecutable": false,
+      "isNativeCleanupCandidate": false
+    },
+    {
+      "version": "2026.07.16-899851b",
+      "uniqueBytes": 208410416,
+      "selectionState": "NOT_SELECTED",
+      "runtimeState": "RUNTIME_UNKNOWN",
+      "reacquisition": "UNKNOWN",
+      "nativeCleanup": "ALGORITHM_KNOWN_GS_UNPROVEN",
+      "risk": "HIGH",
+      "proofFeasibility": "MEDIUM",
+      "requiredMissingProof": [
+        "Prove cleanupOldInstallVersions can target GS worker versionsDir",
+        "COMPLETE runtime inactive VERIFIED",
+        "Exact artifact reacquisition or accept irreversible local loss"
+      ],
+      "ranking": 4,
+      "currentExecutable": false,
+      "isNativeCleanupCandidate": false
+    },
+    {
+      "version": "2026.07.13-7fe37d2",
+      "uniqueBytes": 208380655,
+      "selectionState": "NOT_SELECTED",
+      "runtimeState": "RUNTIME_UNKNOWN",
+      "reacquisition": "UNKNOWN",
+      "nativeCleanup": "ALGORITHM_KNOWN_GS_UNPROVEN",
+      "risk": "HIGH",
+      "proofFeasibility": "MEDIUM",
+      "requiredMissingProof": [
+        "Prove cleanupOldInstallVersions can target GS worker versionsDir",
+        "COMPLETE runtime inactive VERIFIED",
+        "Exact artifact reacquisition or accept irreversible local loss"
+      ],
+      "ranking": 5,
+      "currentExecutable": false,
+      "isNativeCleanupCandidate": false
+    },
+    {
+      "version": "2026.07.09-a3815c0",
+      "uniqueBytes": 181205699,
+      "selectionState": "NOT_SELECTED",
+      "runtimeState": "RUNTIME_UNKNOWN",
+      "reacquisition": "UNKNOWN",
+      "nativeCleanup": "ALGORITHM_KNOWN_GS_UNPROVEN",
+      "risk": "HIGH",
+      "proofFeasibility": "MEDIUM",
+      "requiredMissingProof": [
+        "Prove cleanupOldInstallVersions can target GS worker versionsDir",
+        "COMPLETE runtime inactive VERIFIED",
+        "Exact artifact reacquisition or accept irreversible local loss"
+      ],
+      "ranking": 6,
+      "currentExecutable": false,
+      "isNativeCleanupCandidate": false
+    },
+    {
+      "version": "2026.07.01-41b2de7",
+      "uniqueBytes": 181005940,
+      "selectionState": "NOT_SELECTED",
+      "runtimeState": "RUNTIME_UNKNOWN",
+      "reacquisition": "UNKNOWN",
+      "nativeCleanup": "ALGORITHM_KNOWN_GS_UNPROVEN",
+      "risk": "HIGH",
+      "proofFeasibility": "MEDIUM",
+      "requiredMissingProof": [
+        "Prove cleanupOldInstallVersions can target GS worker versionsDir",
+        "COMPLETE runtime inactive VERIFIED",
+        "Exact artifact reacquisition or accept irreversible local loss"
+      ],
+      "ranking": 7,
+      "currentExecutable": false,
+      "isNativeCleanupCandidate": false
+    },
+    {
+      "version": "2026.06.29-2ad2186",
+      "uniqueBytes": 180999804,
+      "selectionState": "NOT_SELECTED",
+      "runtimeState": "RUNTIME_UNKNOWN",
+      "reacquisition": "UNKNOWN",
+      "nativeCleanup": "ALGORITHM_KNOWN_GS_UNPROVEN",
+      "risk": "HIGH",
+      "proofFeasibility": "MEDIUM",
+      "requiredMissingProof": [
+        "Prove cleanupOldInstallVersions can target GS worker versionsDir",
+        "COMPLETE runtime inactive VERIFIED",
+        "Exact artifact reacquisition or accept irreversible local loss"
+      ],
+      "ranking": 8,
+      "currentExecutable": false,
+      "isNativeCleanupCandidate": false
+    },
+    {
+      "version": "2026.06.26-7079533",
+      "uniqueBytes": 180585664,
+      "selectionState": "NOT_SELECTED",
+      "runtimeState": "RUNTIME_UNKNOWN",
+      "reacquisition": "UNKNOWN",
+      "nativeCleanup": "ALGORITHM_KNOWN_GS_UNPROVEN",
+      "risk": "HIGH",
+      "proofFeasibility": "MEDIUM",
+      "requiredMissingProof": [
+        "Prove cleanupOldInstallVersions can target GS worker versionsDir",
+        "COMPLETE runtime inactive VERIFIED",
+        "Exact artifact reacquisition or accept irreversible local loss"
+      ],
+      "ranking": 9,
+      "currentExecutable": false,
+      "isNativeCleanupCandidate": false
+    },
+    {
+      "version": "2026.06.24-00-45-58-9f61de7",
+      "uniqueBytes": 180812457,
+      "selectionState": "NOT_SELECTED",
+      "runtimeState": "RUNTIME_UNKNOWN",
+      "reacquisition": "UNKNOWN",
+      "nativeCleanup": "ALGORITHM_KNOWN_GS_UNPROVEN",
+      "risk": "HIGH",
+      "proofFeasibility": "MEDIUM",
+      "requiredMissingProof": [
+        "Prove cleanupOldInstallVersions can target GS worker versionsDir",
+        "COMPLETE runtime inactive VERIFIED",
+        "Exact artifact reacquisition or accept irreversible local loss"
+      ],
+      "ranking": 10,
+      "currentExecutable": false,
+      "isNativeCleanupCandidate": false
+    }
+  ],
+  "aggregateCandidateBytesIfVendorRuleAppliedToGS": 1976505256,
+  "nativeCleanupCandidateBytes": 0,
+  "note": "No NATIVE_CLEANUP_CANDIDATE this phase \u2014 GS store applicability unproven",
+  "generatedAt": "2026-09-05T03:02:51Z"
+}

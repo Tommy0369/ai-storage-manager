@@ -1,0 +1,111 @@
+{
+  "action" : "VENDOR_NATIVE_CLEANUP",
+  "approvalBindingValid" : true,
+  "approvalConsumed" : true,
+  "approvalID" : "human-approval-ollama-FF421CEE",
+  "argvContract" : [
+    "rm",
+    "library\/qwen3:4b"
+  ],
+  "auditRecord" : {
+    "action" : "VENDOR_NATIVE_CLEANUP",
+    "actionID" : "permit-ai.ollama.model.library.qwen3:4b-VENDOR_NATIVE_CLEANUP-61E62746",
+    "approvalID" : "human-approval-ollama-FF421CEE",
+    "auditStatus" : "POST_VERIFY_PENDING",
+    "bindingFingerprint" : {
+      "action" : "VENDOR_NATIVE_CLEANUP",
+      "canonicalPath" : "\/Users\/tomitakatsuhiro\/.ollama\/models\/manifests\/registry.ollama.ai\/library\/qwen3\/4b",
+      "entityID" : "ai.ollama.model.library.qwen3:4b",
+      "evidenceGeneration" : -7639869772343789648,
+      "ruleVersion" : "0.1.1",
+      "runtimeGeneration" : 6786317635292166707,
+      "semanticBindingDigest" : "f5806282d08a46d2",
+      "transactionContractVersion" : "OLLAMA_MODEL_NATIVE_CLEANUP_v0.1",
+      "verificationGeneration" : -5457842357919390666
+    },
+    "entityID" : "ai.ollama.model.library.qwen3:4b",
+    "executedAt" : "2026-09-04T14:03:18Z",
+    "notes" : [
+      "NATIVE_ARGV=ollama rm library\/qwen3:4b",
+      "PROCESS_OUTCOME=COMMAND_ACCEPTED",
+      "STDERR_SUMMARY=\u001b[?2026h\u001b[?25l\u001b[1G⠙ \u001b[K\u001b[?25h\u001b[?2026l\u001b[?25l\u001b[?2026h\u001b[?25l\u001b[1G\u001b[K\u001b[?25h\u001b[?2026l\u001b[2K\u001b[1G\u001b[?25h"
+    ],
+    "preflightClaims" : [
+
+    ],
+    "preflightReceiptID" : "fresh-preflight-ai.ollama.model.library.qwen3:4b-VENDOR_NATIVE_CLEANUP-BF6849F4",
+    "sourcePath" : "\/Users\/tomitakatsuhiro\/.ollama\/models\/manifests\/registry.ollama.ai\/library\/qwen3\/4b",
+    "startedAt" : "2026-09-04T14:03:18Z",
+    "transactionPhase" : "VERIFYING_MODEL_ABSENT"
+  },
+  "authorizationTextFingerprint" : "af43f204f346b7aa",
+  "binaryFingerprint" : "path=\/Applications\/Ollama.app\/Contents\/Resources\/ollama;size=68353744;mtime=1788509181",
+  "bindingPreflightReceiptID" : "fresh-preflight-ai.ollama.model.library.qwen3:4b-VENDOR_NATIVE_CLEANUP-BF6849F4",
+  "canonicalActionDecisionEligible" : true,
+  "canonicalModel" : "library\/qwen3:4b",
+  "cliExecutablePath" : "\/Applications\/Ollama.app\/Contents\/Resources\/ollama",
+  "diskFreeDeltaBytes" : 2497445888,
+  "entityID" : "ai.ollama.model.library.qwen3:4b",
+  "executionMs" : 2789,
+  "executorInvoked" : true,
+  "exitStatus" : 0,
+  "explanation" : "Logical model removal verified via ollama list; storage=MODEL_REMOVED_STORAGE_RECOVERED",
+  "finalPreflightReadiness" : "APPROVAL_REQUIRED",
+  "finalPreflightReceiptID" : "fresh-preflight-ai.ollama.model.library.qwen3:4b-VENDOR_NATIVE_CLEANUP-BF6849F4",
+  "humanConfirmed" : true,
+  "immediateExpectedRecoveryBytes" : 0,
+  "logicalRemovalVerified" : true,
+  "mappedDeltaBytes" : 2497293931,
+  "modelPresentAfter" : false,
+  "modelPresentBefore" : true,
+  "oldManifestPresentAfter" : false,
+  "outcome" : "MODEL_REMOVED",
+  "permitConsumed" : true,
+  "permitID" : "permit-ai.ollama.model.library.qwen3:4b-VENDOR_NATIVE_CLEANUP-61E62746",
+  "phase" : "P3.2A.5",
+  "postVerifyStatus" : "MODEL_REMOVED",
+  "postVerifySteps" : [
+    {
+      "detail" : "absent",
+      "satisfied" : true,
+      "step" : "verify_exact_model_absent"
+    },
+    {
+      "detail" : "2497293931",
+      "satisfied" : true,
+      "step" : "record_actual_recovered_bytes"
+    },
+    {
+      "detail" : "remaining=0;shared=0",
+      "satisfied" : true,
+      "step" : "record_remaining_blob_bytes"
+    },
+    {
+      "satisfied" : true,
+      "step" : "remeasure_storage"
+    },
+    {
+      "satisfied" : true,
+      "step" : "complete_audit"
+    },
+    {
+      "detail" : "MODEL_REMOVED_STORAGE_RECOVERED",
+      "satisfied" : true,
+      "step" : "complete_audit"
+    }
+  ],
+  "potentialRecoveryBytesBefore" : 2497293931,
+  "processOutcome" : "COMMAND_ACCEPTED",
+  "rawDeleteFallback" : false,
+  "realMutationExecuted" : true,
+  "recoveryStatus" : "MODEL_REMOVED_STORAGE_RECOVERED",
+  "regenerationDetected" : false,
+  "remainingReferencedBlobCount" : 0,
+  "remainingSharedBytes" : 0,
+  "remainingUniqueBytes" : 0,
+  "retryPerformed" : false,
+  "shellUsed" : false,
+  "strictConflictCount" : 0,
+  "strictUnknownCount" : 0,
+  "verifiedRecoveredBytes" : 2497293931
+}

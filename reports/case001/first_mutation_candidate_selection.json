@@ -1,0 +1,9 @@
+{
+  "executorImplemented" : false,
+  "outcome" : "CANDIDATE_REQUIRES_MORE_PREFLIGHT",
+  "rationale" : "Fresh preflight blocked: SOURCE_ACTIVE",
+  "remainingHumanApprovalRequired" : false,
+  "selectedAction" : "MOVE_TO_ICLOUD",
+  "selectedEntityID" : "macos.keychain",
+  "selectedPath" : "\/Users\/tomitakatsuhiro\/Library\/Keychains"
+}

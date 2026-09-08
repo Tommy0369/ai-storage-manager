@@ -1,0 +1,13 @@
+{
+  "firstMapRegressionPercent" : -21.155729676787463,
+  "hfProofMs" : 0,
+  "metadataReads" : 3,
+  "ollamaProofMs" : 0,
+  "proofClaimsAttempted" : 0,
+  "proofClaimsUnknown" : 0,
+  "proofClaimsVerified" : 0,
+  "remoteProofMs" : 0,
+  "safetyCompletionMs" : 149492,
+  "timeToFirstUsefulMapMs" : 805,
+  "vendorCLICalls" : 0
+}

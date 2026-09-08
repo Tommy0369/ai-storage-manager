@@ -1,0 +1,28 @@
+{
+  "historyComparisonAvailable": false,
+  "comparisonQuality": "INSUFFICIENT",
+  "dbGrowthBytes": null,
+  "logicalKVGrowthEstimate": null,
+  "freePageGrowthEstimate": 0,
+  "walGrowthEstimate": null,
+  "backupGrowthEstimate": null,
+  "topGrowingKVClasses": [
+    "bubbleId",
+    "agentKv:blob"
+  ],
+  "primaryRootCause": "LIVE_USER_AGENT_STATE_DOMINANT",
+  "secondaryRootCauses": [
+    "VENDOR_RETENTION_GAP_SUSPECTED",
+    "BACKUP_RETENTION_SIGNIFICANT"
+  ],
+  "unknownBytes": 373498860,
+  "growthAffectsSafety": false,
+  "physicalVsLogical": {
+    "dbFileBytes": 10445103104,
+    "logicalKVValueBytes": 10067778580,
+    "freelistBytes": 3825664,
+    "walBytes": 186677232,
+    "dominant": "LOGICAL_KV_PAYLOAD"
+  },
+  "generatedAt": "2026-09-05T02:13:45Z"
+}

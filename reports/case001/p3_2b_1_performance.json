@@ -1,0 +1,10 @@
+{
+  "hfInstallEnvironmentResolutionMs": 3269,
+  "brewMetadataMs": 1478,
+  "uvMetadataMs": 0,
+  "pythonMetadataMs": 1787,
+  "proposalBuildMs": 1,
+  "firstMapImpactMs": 0,
+  "networkOnFirstMapPath": false,
+  "packageManagerOnFirstMapPath": false
+}

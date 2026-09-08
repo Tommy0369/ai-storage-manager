@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-09-05T12:17:32Z",
+  "liveScreensReviewed": [
+    "p41_decision_live.png",
+    "p41_history_live.png",
+    "p41_meaning_live.png",
+    "p41_overview_live.png",
+    "p41_plan_live.png",
+    "p41_protected_live.png",
+    "p41_structure_live.png"
+  ],
+  "fixtureScreensReviewed": [
+    "p41_action_review_fixture.png",
+    "p41_preflight_fixture.png",
+    "p41_trash_pending_fixture.png",
+    "p41_verified_receipt_fixture.png"
+  ],
+  "visualIssuesFound": [
+    "Protected drill-down can leave child list empty (leaf folder) \u2014 inspector should still show entity detail",
+    "Goal Free 10/20 buttons felt pushy when Ready=0 (fixed)"
+  ],
+  "visualIssuesFixed": [
+    "Inspector hierarchy: Name\u2192Size\u2192What\u2192Why\u2192Recommendation\u2192Why can't\u2192Technical",
+    "Decision badges: Keep/Protected use seal/shield (not warning hand)",
+    "Verified recovered hint under disk summary",
+    "Scan stage copy humanized",
+    "Plan summary shows Goal / Verified / Remaining",
+    "Goal entry softens when Ready=0",
+    "ConsumerPresentationCopy centralization"
+  ],
+  "remainingCosmeticIssues": [
+    "Leaf drill-down empty child list is expected; detail panel depends on ImageRenderer capture of ScrollView",
+    "Screenshot frames use case001 explorer demo data for map geometry (labelled live presentation frames)"
+  ],
+  "debugUIVisibleCount": 0,
+  "rawEnumVisibleCount": 0,
+  "fakeRecoveryPresentationCount": 0,
+  "protectedNegativePresentationCount": 0,
+  "navigationItems": [
+    "Storage",
+    "Plan",
+    "History",
+    "Settings"
+  ],
+  "primaryHero": "Sunburst",
+  "macNativeAssessment": "Sidebar + inspector + sheets; native SwiftUI patterns retained",
+  "imageDimensions": {
+    "p41_decision_live.png": {
+      "w": 2560,
+      "h": 1720,
+      "bytes": 303321
+    },
+    "p41_history_live.png": {
+      "w": 1800,
+      "h": 1440,
+      "bytes": 96705
+    },
+    "p41_meaning_live.png": {
+      "w": 2560,
+      "h": 1720,
+      "bytes": 302249
+    },
+    "p41_overview_live.png": {
+      "w": 2560,
+      "h": 1720,
+      "bytes": 304482
+    },
+    "p41_plan_live.png": {
+      "w": 1920,
+      "h": 1520,
+      "bytes": 211276
+    },
+    "p41_protected_live.png": {
+      "w": 2560,
+      "h": 1720,
+      "bytes": 201971
+    },
+    "p41_structure_live.png": {
+      "w": 2560,
+      "h": 1720,
+      "bytes": 304482
+    },
+    "p41_action_review_fixture.png": {
+      "w": 1800,
+      "h": 1440,
+      "bytes": 90581
+    },
+    "p41_preflight_fixture.png": {
+      "w": 1800,
+      "h": 1440,
+      "bytes": 82158
+    },
+    "p41_trash_pending_fixture.png": {
+      "w": 1800,
+      "h": 1440,
+      "bytes": 114108
+    },
+    "p41_verified_receipt_fixture.png": {
+      "w": 1800,
+      "h": 1440,
+      "bytes": 127829
+    }
+  }
+}

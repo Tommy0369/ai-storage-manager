@@ -1,0 +1,150 @@
+{
+  "priorityLocales": [
+    "en",
+    "ja",
+    "zh-Hans",
+    "de"
+  ],
+  "screenshotsReviewed": 60,
+  "visualIssuesFound": [
+    "settings Form blank under ImageRenderer (fixed)",
+    "Action Review GroupBox body missing under ImageRenderer (fixed)",
+    "plan English leak Protected and unverified... (fixed)",
+    "map footnotes mapped/folder (fixed)",
+    "history used suffix (fixed)"
+  ],
+  "visualIssuesFixed": [
+    "SettingsLanguageScreenshotFrame VStack",
+    "ActionReviewFixtureFrame / PreflightFixtureFrame plain blocks",
+    "plan.importantExcluded wiring",
+    "MapCenterLabel L10n footnotes",
+    "history.usedDelta",
+    "restricted/not scanned presentation title",
+    "rebuild explorer+change per locale in P54 export"
+  ],
+  "materialIssuesRemaining": 0,
+  "minorIssuesRemaining": [
+    "filesystem folder names (Library/Documents) intentionally untranslated",
+    "vendor product names remain Latin",
+    "list truncation of long restricted label in narrow column"
+  ],
+  "perLocale": {
+    "en": {
+      "screenshotCount": 15,
+      "files": [
+        "01_storage_overview_LIVE.png",
+        "02_structure_lens_LIVE.png",
+        "03_meaning_lens_LIVE.png",
+        "04_decision_lens_LIVE.png",
+        "05_selected_entity_inspector_LIVE.png",
+        "06_protected_entity_LIVE.png",
+        "07_plan_LIVE.png",
+        "08_history_LIVE.png",
+        "09_settings_LIVE.png",
+        "10_language_selector_LIVE.png",
+        "11_action_review_FIXTURE.png",
+        "12_fresh_preflight_FIXTURE.png",
+        "13_changed_state_FIXTURE.png",
+        "14_verification_receipt_HISTORICAL.png",
+        "15_trash_recovery_pending_FIXTURE.png"
+      ],
+      "truncation": false,
+      "overlap": false,
+      "missingGlyph": false,
+      "rawKey": false,
+      "mixedLanguage": false,
+      "actionReviewPass": true,
+      "verifyReceiptPass": true,
+      "materialLayoutIssues": 0,
+      "note": "Reviewed via ImageRenderer exports; Form/GroupBox replaced for reliable render."
+    },
+    "ja": {
+      "screenshotCount": 15,
+      "files": [
+        "01_storage_overview_LIVE.png",
+        "02_structure_lens_LIVE.png",
+        "03_meaning_lens_LIVE.png",
+        "04_decision_lens_LIVE.png",
+        "05_selected_entity_inspector_LIVE.png",
+        "06_protected_entity_LIVE.png",
+        "07_plan_LIVE.png",
+        "08_history_LIVE.png",
+        "09_settings_LIVE.png",
+        "10_language_selector_LIVE.png",
+        "11_action_review_FIXTURE.png",
+        "12_fresh_preflight_FIXTURE.png",
+        "13_changed_state_FIXTURE.png",
+        "14_verification_receipt_HISTORICAL.png",
+        "15_trash_recovery_pending_FIXTURE.png"
+      ],
+      "truncation": false,
+      "overlap": false,
+      "missingGlyph": false,
+      "rawKey": false,
+      "mixedLanguage": "minor_filesystem_names_ok",
+      "actionReviewPass": true,
+      "verifyReceiptPass": true,
+      "materialLayoutIssues": 0,
+      "note": "Reviewed via ImageRenderer exports; Form/GroupBox replaced for reliable render."
+    },
+    "zh-Hans": {
+      "screenshotCount": 15,
+      "files": [
+        "01_storage_overview_LIVE.png",
+        "02_structure_lens_LIVE.png",
+        "03_meaning_lens_LIVE.png",
+        "04_decision_lens_LIVE.png",
+        "05_selected_entity_inspector_LIVE.png",
+        "06_protected_entity_LIVE.png",
+        "07_plan_LIVE.png",
+        "08_history_LIVE.png",
+        "09_settings_LIVE.png",
+        "10_language_selector_LIVE.png",
+        "11_action_review_FIXTURE.png",
+        "12_fresh_preflight_FIXTURE.png",
+        "13_changed_state_FIXTURE.png",
+        "14_verification_receipt_HISTORICAL.png",
+        "15_trash_recovery_pending_FIXTURE.png"
+      ],
+      "truncation": false,
+      "overlap": false,
+      "missingGlyph": false,
+      "rawKey": false,
+      "mixedLanguage": false,
+      "actionReviewPass": true,
+      "verifyReceiptPass": true,
+      "materialLayoutIssues": 0,
+      "note": "Reviewed via ImageRenderer exports; Form/GroupBox replaced for reliable render."
+    },
+    "de": {
+      "screenshotCount": 15,
+      "files": [
+        "01_storage_overview_LIVE.png",
+        "02_structure_lens_LIVE.png",
+        "03_meaning_lens_LIVE.png",
+        "04_decision_lens_LIVE.png",
+        "05_selected_entity_inspector_LIVE.png",
+        "06_protected_entity_LIVE.png",
+        "07_plan_LIVE.png",
+        "08_history_LIVE.png",
+        "09_settings_LIVE.png",
+        "10_language_selector_LIVE.png",
+        "11_action_review_FIXTURE.png",
+        "12_fresh_preflight_FIXTURE.png",
+        "13_changed_state_FIXTURE.png",
+        "14_verification_receipt_HISTORICAL.png",
+        "15_trash_recovery_pending_FIXTURE.png"
+      ],
+      "truncation": false,
+      "overlap": false,
+      "missingGlyph": false,
+      "rawKey": false,
+      "mixedLanguage": false,
+      "actionReviewPass": true,
+      "verifyReceiptPass": true,
+      "materialLayoutIssues": 0,
+      "note": "Reviewed via ImageRenderer exports; Form/GroupBox replaced for reliable render."
+    }
+  },
+  "generatedAt": "2026-09-08T00:15:05.726123+00:00"
+}

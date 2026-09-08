@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-09-05T09:09:36Z",
+  "backupBytes": 1278717952,
+  "currentRecoveryRole": "RECOVERY_SOURCE / CURRENT_RECOVERY_BACKUP",
+  "uniqueRecoveryStateBytes": 176877,
+  "vendorRetentionCoveredBytes": 0,
+  "protectedBytes": 1278717952,
+  "unknownBytes": 0,
+  "potentialRecoveryBytes": 0,
+  "futureActionUnit": "NONE",
+  "nativeContractReady": false,
+  "currentExecutable": false,
+  "planTier": "KEEP",
+  "ux": {
+    "line1": "Cursor keeps a ~1.28GB backup of its main state database.",
+    "line2": "This is an active recovery copy. Keep it.",
+    "line3": "Close-time backup creation is currently disabled, so this file is the only recovery snapshot."
+  }
+}

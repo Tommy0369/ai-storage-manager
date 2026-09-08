@@ -1,0 +1,61 @@
+{
+  "discoveredLiterals": {
+    "cursorDiskKV": {
+      "locations": [
+        "workbench.desktop.main.js",
+        "conversationSearchMain.js",
+        "storageSizeScanMain.js"
+      ],
+      "confidence": "VERIFIED_LITERAL_REFERENCE"
+    },
+    "bubbleId": {
+      "locations": [
+        "conversationSearchMain.js",
+        "storageSizeScanMain.js"
+      ],
+      "confidence": "VERIFIED_LITERAL_REFERENCE",
+      "keyShape": "bubbleId:${conversationId}:${messageId}"
+    },
+    "agentKv": {
+      "locations": [
+        "storageSizeScanMain.js",
+        "workbench.desktop.main.js"
+      ],
+      "confidence": "VERIFIED_LITERAL_REFERENCE",
+      "subclasses": [
+        "agentKv:blob:",
+        "agentKv:checkpoint:",
+        "agentKv:bubbleCheckpoint:",
+        "agentKv:artifact:"
+      ]
+    },
+    "checkpointId": {
+      "locations": [
+        "storageSizeScanMain.js"
+      ],
+      "confidence": "VERIFIED_LITERAL_REFERENCE",
+      "vendorLabel": "Composer file checkpoints"
+    },
+    "state.vscdb.backup": {
+      "locations": [],
+      "confidence": "UNKNOWN_SEMANTICS",
+      "note": "No literal found in inspected Cursor.app out/ bundle"
+    }
+  },
+  "writerEvidence": "Cursor workbench/agent runtime writes cursorDiskKV (inferred from key templates + live OPEN DB); exact writer call path minified",
+  "readerEvidence": "conversationSearchMain.js SELECT from cursorDiskKV for bubbleId/composerData; storageSizeScanMain.js aggregates by prefix",
+  "deleteEvidence": "No DELETE FROM cursorDiskKV found in inspected bundle; conversationSearch DELETE targets conversation_fts/cloud-cache only",
+  "retentionEvidence": "NO_VENDOR_RETENTION_PROOF_FOUND (no TTL/max-entry/size GC constants tied to cursorDiskKV)",
+  "syncEvidence": "UNKNOWN \u2014 cloud-cache exists for conversation search index, not proven as cursorDiskKV reacquisition",
+  "backupEvidence": "UNKNOWN_SEMANTICS for creation/retention; backup file present with same schema subset",
+  "commandIDs": [],
+  "vendorStorageSizeScanLabels": {
+    "bubbleId": "Chat messages \u2014 per-bubble message bodies (Cursor storageSizeScan)",
+    "agentKv": "Agent conversation-state blobs (agentKv:blob:* dominant)",
+    "checkpointId": "Composer file checkpoints",
+    "composer.content": "Composer content payloads",
+    "composerData": "Per-chat composerData payloads"
+  },
+  "vacuumEvidence": "VACUUM found only for conversation-search.db migration path \u2014 not state.vscdb maintenance UI",
+  "generatedAt": "2026-09-05T02:13:42Z"
+}

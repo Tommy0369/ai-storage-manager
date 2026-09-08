@@ -1,0 +1,8 @@
+FIXTURE_LABELED — deterministic product-receipt fixtures for P3.2B.4.
+NOT live UI captures of a redownloaded HF revision.
+hf_p32b4_removed_verified.png = FIXTURE (verified recovery copy for HF closure UX)
+hf_p32b4_action_receipt.png = FIXTURE (completed action receipt layout)
+optimization_plan_p32b4_after_action.png = FIXTURE (plan after completed actions)
+hf_p32b4_history_event.png = FIXTURE (history event correlation)
+hf_p32b4_unknown_outcome.png = FIXTURE (unknown outcome / re-check CTA)
+Live truth: HF whisper revision ABSENT locally; Hub still HTTP 200; no redownload.

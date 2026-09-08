@@ -1,0 +1,31 @@
+{
+  "locales": [
+    "en",
+    "ja",
+    "zh-Hans",
+    "zh-Hant",
+    "ko",
+    "es",
+    "fr",
+    "de",
+    "pt-BR"
+  ],
+  "filesPresent": [
+    "de.md",
+    "en.md",
+    "es.md",
+    "fr.md",
+    "ja.md",
+    "ko.md",
+    "pt-BR.md",
+    "zh-Hans.md",
+    "zh-Hant.md"
+  ],
+  "nativePolishComplete": true,
+  "unsupportedClaimCount": 0,
+  "untranslatedSections": [],
+  "manualReviewRecommendedLocales": [],
+  "readyForSubmissionPreparation": true,
+  "note": "Draft metadata only — do not auto-submit to Apple",
+  "generatedAt": "2026-09-08T00:15:05.727335+00:00"
+}

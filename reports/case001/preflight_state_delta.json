@@ -1,0 +1,62 @@
+{
+  "action" : "MOVE_TO_ICLOUD",
+  "bindingValid" : true,
+  "entityID" : "macos.keychain",
+  "entries" : [
+    {
+      "changed" : true,
+      "currentValue" : "ACTIVE:VERIFIED",
+      "disposition" : "REFRESHED",
+      "freshnessClass" : "RUNTIME_FRESH",
+      "previousValue" : "UNKNOWN:UNKNOWN",
+      "requirement" : "active_state"
+    },
+    {
+      "changed" : true,
+      "currentValue" : "true:VERIFIED",
+      "disposition" : "REFRESHED",
+      "freshnessClass" : "RUNTIME_FRESH",
+      "previousValue" : "unknown:UNKNOWN",
+      "requirement" : "open_file_state"
+    },
+    {
+      "changed" : true,
+      "currentValue" : "COMPLETE",
+      "disposition" : "REFRESHED",
+      "freshnessClass" : "RUNTIME_FRESH",
+      "previousValue" : "scan",
+      "requirement" : "process_snapshot_completeness"
+    },
+    {
+      "changed" : true,
+      "currentValue" : "COMPLETE",
+      "disposition" : "REFRESHED",
+      "freshnessClass" : "RUNTIME_FRESH",
+      "previousValue" : "scan",
+      "requirement" : "handle_snapshot_completeness"
+    }
+  ],
+  "freshBindingFingerprint" : {
+    "action" : "MOVE_TO_ICLOUD",
+    "canonicalPath" : "\/Users\/tomitakatsuhiro\/Library\/Keychains",
+    "entityID" : "macos.keychain",
+    "evidenceGeneration" : -8063155166213642426,
+    "ruleVersion" : "0.1.1",
+    "runtimeGeneration" : 1669289844533074962,
+    "semanticBindingDigest" : "",
+    "transactionContractVersion" : "MOVE_TO_ICLOUD_v0.1",
+    "verificationGeneration" : -7048227354854316166
+  },
+  "scanBindingFingerprint" : {
+    "action" : "MOVE_TO_ICLOUD",
+    "canonicalPath" : "\/Users\/tomitakatsuhiro\/Library\/Keychains",
+    "entityID" : "macos.keychain",
+    "evidenceGeneration" : -8063155166213642426,
+    "ruleVersion" : "0.1.1",
+    "runtimeGeneration" : 1374046261383287141,
+    "semanticBindingDigest" : "",
+    "transactionContractVersion" : "MOVE_TO_ICLOUD_v0.1",
+    "verificationGeneration" : -7048227354854316166
+  },
+  "sourceUnchanged" : true
+}

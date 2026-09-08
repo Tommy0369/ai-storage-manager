@@ -1,0 +1,271 @@
+{
+  "generatedAt": "2026-09-05T08:12:05Z",
+  "perVersion": [
+    {
+      "version": "2026.06.24-00-45-58-9f61de7",
+      "artifactIdentity": {
+        "packageName": "@anysphere/agent-cli-runtime",
+        "packageHash16HOME": null,
+        "packageHash16GS": "625a6b5d64e45fd9",
+        "nodeSizeHOME": null,
+        "nodeSizeGS": 116870064
+      },
+      "HOME_GS_equivalence": "N/A",
+      "architecture": "arm64",
+      "signatureIdentity": "Identifier=node; Authority=Developer ID Application: Node.js Foundation (HX7739G8FX); Authority=Developer ID Certification Authority",
+      "immutableToolchainEvidence": "VERIFIED",
+      "mutableUserStateEvidence": "ABSENT",
+      "mutableMarkers": [],
+      "remoteReacquisition": "UNKNOWN_HISTORICAL_BUILD",
+      "localDuplicateState": "NONE",
+      "overlapClass": "GS_ONLY_VERSION"
+    },
+    {
+      "version": "2026.06.26-7079533",
+      "artifactIdentity": {
+        "packageName": "@anysphere/agent-cli-runtime",
+        "packageHash16HOME": null,
+        "packageHash16GS": "625a6b5d64e45fd9",
+        "nodeSizeHOME": null,
+        "nodeSizeGS": 116870064
+      },
+      "HOME_GS_equivalence": "N/A",
+      "architecture": "arm64",
+      "signatureIdentity": "Identifier=node; Authority=Developer ID Application: Node.js Foundation (HX7739G8FX); Authority=Developer ID Certification Authority",
+      "immutableToolchainEvidence": "VERIFIED",
+      "mutableUserStateEvidence": "ABSENT",
+      "mutableMarkers": [],
+      "remoteReacquisition": "UNKNOWN_HISTORICAL_BUILD",
+      "localDuplicateState": "NONE",
+      "overlapClass": "GS_ONLY_VERSION"
+    },
+    {
+      "version": "2026.06.29-2ad2186",
+      "artifactIdentity": {
+        "packageName": "@anysphere/agent-cli-runtime",
+        "packageHash16HOME": null,
+        "packageHash16GS": "625a6b5d64e45fd9",
+        "nodeSizeHOME": null,
+        "nodeSizeGS": 116870064
+      },
+      "HOME_GS_equivalence": "N/A",
+      "architecture": "arm64",
+      "signatureIdentity": "Identifier=node; Authority=Developer ID Application: Node.js Foundation (HX7739G8FX); Authority=Developer ID Certification Authority",
+      "immutableToolchainEvidence": "VERIFIED",
+      "mutableUserStateEvidence": "ABSENT",
+      "mutableMarkers": [],
+      "remoteReacquisition": "UNKNOWN_HISTORICAL_BUILD",
+      "localDuplicateState": "NONE",
+      "overlapClass": "GS_ONLY_VERSION"
+    },
+    {
+      "version": "2026.07.01-41b2de7",
+      "artifactIdentity": {
+        "packageName": "@anysphere/agent-cli-runtime",
+        "packageHash16HOME": null,
+        "packageHash16GS": "625a6b5d64e45fd9",
+        "nodeSizeHOME": null,
+        "nodeSizeGS": 116870064
+      },
+      "HOME_GS_equivalence": "N/A",
+      "architecture": "arm64",
+      "signatureIdentity": "Identifier=node; Authority=Developer ID Application: Node.js Foundation (HX7739G8FX); Authority=Developer ID Certification Authority",
+      "immutableToolchainEvidence": "VERIFIED",
+      "mutableUserStateEvidence": "ABSENT",
+      "mutableMarkers": [],
+      "remoteReacquisition": "UNKNOWN_HISTORICAL_BUILD",
+      "localDuplicateState": "NONE",
+      "overlapClass": "GS_ONLY_VERSION"
+    },
+    {
+      "version": "2026.07.09-a3815c0",
+      "artifactIdentity": {
+        "packageName": "@anysphere/agent-cli-runtime",
+        "packageHash16HOME": null,
+        "packageHash16GS": "625a6b5d64e45fd9",
+        "nodeSizeHOME": null,
+        "nodeSizeGS": 116870064
+      },
+      "HOME_GS_equivalence": "N/A",
+      "architecture": "arm64",
+      "signatureIdentity": "Identifier=node; Authority=Developer ID Application: Node.js Foundation (HX7739G8FX); Authority=Developer ID Certification Authority",
+      "immutableToolchainEvidence": "VERIFIED",
+      "mutableUserStateEvidence": "ABSENT",
+      "mutableMarkers": [],
+      "remoteReacquisition": "UNKNOWN_HISTORICAL_BUILD",
+      "localDuplicateState": "NONE",
+      "overlapClass": "GS_ONLY_VERSION"
+    },
+    {
+      "version": "2026.07.13-7fe37d2",
+      "artifactIdentity": {
+        "packageName": "@anysphere/agent-cli-runtime",
+        "packageHash16HOME": null,
+        "packageHash16GS": "625a6b5d64e45fd9",
+        "nodeSizeHOME": null,
+        "nodeSizeGS": 116870064
+      },
+      "HOME_GS_equivalence": "N/A",
+      "architecture": "arm64",
+      "signatureIdentity": "Identifier=node; Authority=Developer ID Application: Node.js Foundation (HX7739G8FX); Authority=Developer ID Certification Authority",
+      "immutableToolchainEvidence": "VERIFIED",
+      "mutableUserStateEvidence": "ABSENT",
+      "mutableMarkers": [
+        ".running"
+      ],
+      "remoteReacquisition": "UNKNOWN_HISTORICAL_BUILD",
+      "localDuplicateState": "NONE",
+      "overlapClass": "GS_ONLY_VERSION"
+    },
+    {
+      "version": "2026.07.16-899851b",
+      "artifactIdentity": {
+        "packageName": "@anysphere/agent-cli-runtime",
+        "packageHash16HOME": null,
+        "packageHash16GS": "625a6b5d64e45fd9",
+        "nodeSizeHOME": null,
+        "nodeSizeGS": 116870064
+      },
+      "HOME_GS_equivalence": "N/A",
+      "architecture": "arm64",
+      "signatureIdentity": "Identifier=node; Authority=Developer ID Application: Node.js Foundation (HX7739G8FX); Authority=Developer ID Certification Authority",
+      "immutableToolchainEvidence": "VERIFIED",
+      "mutableUserStateEvidence": "ABSENT",
+      "mutableMarkers": [
+        ".running"
+      ],
+      "remoteReacquisition": "UNKNOWN_HISTORICAL_BUILD",
+      "localDuplicateState": "NONE",
+      "overlapClass": "GS_ONLY_VERSION"
+    },
+    {
+      "version": "2026.07.20-8cc9c0b",
+      "artifactIdentity": {
+        "packageName": "@anysphere/agent-cli-runtime",
+        "packageHash16HOME": null,
+        "packageHash16GS": "625a6b5d64e45fd9",
+        "nodeSizeHOME": null,
+        "nodeSizeGS": 116870064
+      },
+      "HOME_GS_equivalence": "N/A",
+      "architecture": "arm64",
+      "signatureIdentity": "Identifier=node; Authority=Developer ID Application: Node.js Foundation (HX7739G8FX); Authority=Developer ID Certification Authority",
+      "immutableToolchainEvidence": "VERIFIED",
+      "mutableUserStateEvidence": "ABSENT",
+      "mutableMarkers": [
+        ".running"
+      ],
+      "remoteReacquisition": "UNKNOWN_HISTORICAL_BUILD",
+      "localDuplicateState": "NONE",
+      "overlapClass": "GS_ONLY_VERSION"
+    },
+    {
+      "version": "2026.07.23-e383d2b",
+      "artifactIdentity": {
+        "packageName": "@anysphere/agent-cli-runtime",
+        "packageHash16HOME": null,
+        "packageHash16GS": "625a6b5d64e45fd9",
+        "nodeSizeHOME": null,
+        "nodeSizeGS": 116870064
+      },
+      "HOME_GS_equivalence": "N/A",
+      "architecture": "arm64",
+      "signatureIdentity": "Identifier=node; Authority=Developer ID Application: Node.js Foundation (HX7739G8FX); Authority=Developer ID Certification Authority",
+      "immutableToolchainEvidence": "VERIFIED",
+      "mutableUserStateEvidence": "ABSENT",
+      "mutableMarkers": [
+        ".running"
+      ],
+      "remoteReacquisition": "UNKNOWN_HISTORICAL_BUILD",
+      "localDuplicateState": "NONE",
+      "overlapClass": "GS_ONLY_VERSION"
+    },
+    {
+      "version": "2026.08.04-aaa8809",
+      "artifactIdentity": {
+        "packageName": "@anysphere/agent-cli-runtime",
+        "packageHash16HOME": null,
+        "packageHash16GS": "625a6b5d64e45fd9",
+        "nodeSizeHOME": null,
+        "nodeSizeGS": 116870064
+      },
+      "HOME_GS_equivalence": "N/A",
+      "architecture": "arm64",
+      "signatureIdentity": "Identifier=node; Authority=Developer ID Application: Node.js Foundation (HX7739G8FX); Authority=Developer ID Certification Authority",
+      "immutableToolchainEvidence": "VERIFIED",
+      "mutableUserStateEvidence": "ABSENT",
+      "mutableMarkers": [
+        ".running"
+      ],
+      "remoteReacquisition": "UNKNOWN_HISTORICAL_BUILD",
+      "localDuplicateState": "NONE",
+      "overlapClass": "GS_ONLY_VERSION"
+    },
+    {
+      "version": "2026.08.11-e8db854",
+      "artifactIdentity": {
+        "packageName": "@anysphere/agent-cli-runtime",
+        "packageHash16HOME": "625a6b5d64e45fd9",
+        "packageHash16GS": "625a6b5d64e45fd9",
+        "nodeSizeHOME": 116870064,
+        "nodeSizeGS": 116870064
+      },
+      "HOME_GS_equivalence": "SAME_LABEL_DIFFERENT_ARTIFACT",
+      "architecture": "arm64",
+      "signatureIdentity": "Identifier=node; Authority=Developer ID Application: Node.js Foundation (HX7739G8FX); Authority=Developer ID Certification Authority",
+      "immutableToolchainEvidence": "VERIFIED",
+      "mutableUserStateEvidence": "ABSENT",
+      "mutableMarkers": [
+        ".running"
+      ],
+      "remoteReacquisition": "UNKNOWN_HISTORICAL_BUILD",
+      "localDuplicateState": "NOT_DUPLICATE",
+      "overlapClass": "SAME_LABEL_DIFFERENT_ARTIFACT"
+    },
+    {
+      "version": "2026.08.25-3e8eec8",
+      "artifactIdentity": {
+        "packageName": "@anysphere/agent-cli-runtime",
+        "packageHash16HOME": null,
+        "packageHash16GS": "625a6b5d64e45fd9",
+        "nodeSizeHOME": null,
+        "nodeSizeGS": 116870064
+      },
+      "HOME_GS_equivalence": "N/A",
+      "architecture": "arm64",
+      "signatureIdentity": "Identifier=node; Authority=Developer ID Application: Node.js Foundation (HX7739G8FX); Authority=Developer ID Certification Authority",
+      "immutableToolchainEvidence": "VERIFIED",
+      "mutableUserStateEvidence": "ABSENT",
+      "mutableMarkers": [
+        ".running"
+      ],
+      "remoteReacquisition": "UNKNOWN_HISTORICAL_BUILD",
+      "localDuplicateState": "NONE",
+      "overlapClass": "GS_ONLY_VERSION"
+    },
+    {
+      "version": "2026.08.31-4057e58",
+      "artifactIdentity": {
+        "packageName": "@anysphere/agent-cli-runtime",
+        "packageHash16HOME": null,
+        "packageHash16GS": "625a6b5d64e45fd9",
+        "nodeSizeHOME": null,
+        "nodeSizeGS": 116870064
+      },
+      "HOME_GS_equivalence": "N/A",
+      "architecture": "arm64",
+      "signatureIdentity": "Identifier=node; Authority=Developer ID Application: Node.js Foundation (HX7739G8FX); Authority=Developer ID Certification Authority",
+      "immutableToolchainEvidence": "VERIFIED",
+      "mutableUserStateEvidence": "ABSENT",
+      "mutableMarkers": [
+        ".running"
+      ],
+      "remoteReacquisition": "UNKNOWN_HISTORICAL_BUILD",
+      "localDuplicateState": "NONE",
+      "overlapClass": "GS_ONLY_VERSION"
+    }
+  ],
+  "gsVendorOwnedToolchain": true,
+  "mutableUserStateFoundInGS": false,
+  "hashingPolicy": "hierarchical/bounded \u2014 package.json hash + node size/arch/signature; no full 2.68GB hash"
+}

@@ -1,0 +1,14 @@
+{
+  "previewRevisionCount": 1,
+  "actualRevisionRemoved": true,
+  "previewRepoRemovalExpected": true,
+  "actualRepoRemoved": true,
+  "previewVendorFreed": "~3.1G",
+  "semanticExpectedFreed": 3083520968,
+  "verifiedRecovered": 3083520968,
+  "diskFreeObserved": 3083640832,
+  "logicalConsequenceMatched": true,
+  "sizeSemanticsCompatible": true,
+  "unexpectedEffects": false,
+  "generatedAt": "2026-09-05T00:39:09Z"
+}

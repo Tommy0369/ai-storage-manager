@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-09-05T23:50:52Z",
+  "signed": true,
+  "signingType": "ADHOC_LOCAL_ONLY",
+  "developmentSigningIdentity": null,
+  "distributionIdentityAvailable": false,
+  "developerIDApplicationAvailable": false,
+  "teamID": null,
+  "hardenedRuntime": false,
+  "entitlements": [],
+  "entitlementsValidated": true,
+  "entitlementsNote": "Empty entitlements on purpose — no inflation; FDA is TCC not entitlement",
+  "codesignVerify": "valid on disk / satisfies Designated Requirement (adhoc)",
+  "notarizationReady": false,
+  "notarized": false,
+  "stapled": false,
+  "gatekeeperAssessment": "rejected (adhoc / not notarized)",
+  "credentialBoundary": "NOTARIZATION_CREDENTIALS_REQUIRED — no Developer ID Application identity on this Mac; do not store Apple credentials in repo",
+  "externalDistributionReady": false,
+  "spctl": "rejected"
+}

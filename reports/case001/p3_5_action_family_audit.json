@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-09-05T11:06:34Z",
+  "actions": [
+    {
+      "action": "KEEP",
+      "semanticModelReady": true,
+      "executorExists": false,
+      "realWorldProof": "Cursor/Voice Memos/Chrome/Claude KEEP",
+      "negativeProof": null,
+      "futurePhaseNeeded": false,
+      "v0_1Required": true
+    },
+    {
+      "action": "VERIFY_MORE",
+      "semanticModelReady": true,
+      "executorExists": false,
+      "realWorldProof": "Preflight VERIFY_MORE",
+      "negativeProof": null,
+      "futurePhaseNeeded": false,
+      "v0_1Required": true
+    },
+    {
+      "action": "MOVE_TO_TRASH",
+      "semanticModelReady": true,
+      "executorExists": true,
+      "realWorldProof": "DerivedData mutation+postverify",
+      "negativeProof": null,
+      "futurePhaseNeeded": false,
+      "v0_1Required": true
+    },
+    {
+      "action": "VENDOR_NATIVE_CLEANUP",
+      "semanticModelReady": true,
+      "executorExists": true,
+      "realWorldProof": "Ollama+HF verified recovery",
+      "negativeProof": null,
+      "futurePhaseNeeded": false,
+      "v0_1Required": true
+    },
+    {
+      "action": "REMOVE_LOCAL_DOWNLOAD",
+      "semanticModelReady": true,
+      "executorExists": false,
+      "realWorldProof": null,
+      "negativeProof": "Voice Memos no native eviction",
+      "futurePhaseNeeded": true,
+      "v0_1Required": false
+    },
+    {
+      "action": "MOVE_TO_ICLOUD_PRESERVATION_RELOCATION",
+      "semanticModelReady": true,
+      "executorExists": false,
+      "realWorldProof": null,
+      "negativeProof": "Generic MOVE_TO_ICLOUD blocked",
+      "futurePhaseNeeded": true,
+      "v0_1Required": false
+    },
+    {
+      "action": "EXPORT_ARCHIVE",
+      "semanticModelReady": true,
+      "executorExists": false,
+      "realWorldProof": null,
+      "negativeProof": "Export \u2260 residency removal",
+      "futurePhaseNeeded": true,
+      "v0_1Required": false
+    },
+    {
+      "action": "NO_ACTION",
+      "semanticModelReady": true,
+      "executorExists": false,
+      "realWorldProof": "Default for unproven",
+      "negativeProof": null,
+      "futurePhaseNeeded": false,
+      "v0_1Required": true
+    }
+  ]
+}

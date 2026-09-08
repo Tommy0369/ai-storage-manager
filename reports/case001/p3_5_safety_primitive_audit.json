@@ -1,0 +1,176 @@
+{
+  "generatedAt": "2026-09-05T11:06:34Z",
+  "primitivesTotal": 24,
+  "primitivesComplete": 24,
+  "architecturalGaps": [],
+  "primitives": [
+    {
+      "primitive": "ownership",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "ProductIdentity + detectors",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "semantic_storage_class",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "LifecycleRole / Chrome+Claude classes",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "unique_byte_accounting",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "P1.1 unique bytes",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "runtime_activity",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "RuntimeObservationIndex batch",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "source_of_truth",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "SOT resolvers + VERIFIED gate",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "user_original_protection",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "Voice Memos USER_ORIGINAL",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "regenerability",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "DerivedData + vendor artifacts",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "reacquisition",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "HF revision + Ollama model",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "remote_truth",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "P3.1.1 remote proof",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "local_residency",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "Voice Memos residency model",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "sync_delete_propagation",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "Voice Memos SYNC_PROPAGATES_DELETE",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "backup_recovery_role",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "Cursor .backup KEEP",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "version_fallback_role",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "agent-cli retention",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "vendor_native_contract",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "VendorCleanupContractGate",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "exact_target",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "MODEL / SNAPSHOT / path binding",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "blast_radius",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "Chrome clear-data + vendor gate",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "current_state",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "EntitySafetySnapshot",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "fresh_preflight",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "Fresh preflight",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "human_approval",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "UserActionApproval",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "single_use_permit",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "ExecutionPermit",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "execution",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "MOVE_TO_TRASH / ollama rm / hf cache rm",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "post_verification",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "PostMutationVerifier",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "verified_recovery",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "5.58GB verifiedRecoveredBytes",
+      "remainingArchitecturalGap": null
+    },
+    {
+      "primitive": "history_change_intelligence",
+      "implemented": true,
+      "tested": true,
+      "representativeProof": "P3.0.2 DiffEngine",
+      "remainingArchitecturalGap": null
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-09-05T10:31:22Z",
+  "userFacingRemoveDownloadFound": false,
+  "internalNativeEvictionFound": false,
+  "internalHintsNotSufficient": [
+    "voicememod: CloudRecordingsMarkedPlayableAndEvicted",
+    "voicememod: rc_moveToTempAndMarkAsPurgeable (not proven REMOVE_LOCAL_DOWNLOAD)",
+    "schema: ZEVICTIONDATE on ZCLOUDRECORDING"
+  ],
+  "framework": "CloudKit + VoiceMemos.framework (dyld-cache; Support/voicememod searchable)",
+  "nativeOperation": "NONE_PROVEN",
+  "targetUnit": "NONE",
+  "callPathReachable": false,
+  "deletePropagationSemantics": "UNKNOWN_FOR_EVICTION; DELETE_RECORDING=SYNC_PROPAGATES_DELETE (vendor docs + UI)",
+  "remotePreservationSemantics": "UNKNOWN_WITHOUT_EVICTION_OP",
+  "redownloadSemantics": "UNKNOWN",
+  "blastRadius": "N/A",
+  "fileProviderUsedForMediaResidency": false,
+  "confidence": "VERIFIED_ABSENCE_BOUNDED_SEARCH",
+  "remainingUnknowns": [
+    "Whether future Apple builds expose Keep Downloaded / Remove Download",
+    "Semantics of CloudRecordingsMarkedPlayableAndEvicted without public API"
+  ]
+}

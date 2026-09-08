@@ -1,0 +1,17 @@
+{
+  "retentionContractFound": true,
+  "currentVersionProtected": true,
+  "previousVersionProtected": true,
+  "retainedCount": "current + 2 newest non-current (+ in-use)",
+  "ageRule": null,
+  "sizeRule": null,
+  "cleanupTrigger": "after install/update; optional manual hidden command",
+  "fallbackSemantics": "implied by keep-2 window on HOME store only",
+  "migrationSemantics": "UNKNOWN",
+  "cleanupTargetRoot": "/Users/tomitakatsuhiro/.local/share/cursor-agent/versions",
+  "appliesToActualGSStore": false,
+  "unknowns": [
+    "GS worker retention policy beyond cache-hit of current buildId"
+  ],
+  "generatedAt": "2026-09-05T03:39:05Z"
+}

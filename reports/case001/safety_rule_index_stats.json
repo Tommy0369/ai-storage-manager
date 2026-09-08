@@ -1,0 +1,11 @@
+{
+  "indexFallbacks" : 0,
+  "indexedLookups" : 527,
+  "keywordBuckets" : 169,
+  "pathCacheHits" : 400,
+  "pathCacheMisses" : 527,
+  "referenceLookups" : 0,
+  "rulesConsideredTotal" : 1156,
+  "totalRules" : 178,
+  "universalRules" : 0
+}

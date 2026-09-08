@@ -1,0 +1,20 @@
+{
+  "actionCorrelation" : "ai.ollama.model.library.qwen3:4b|VENDOR_NATIVE_CLEANUP|permit-ai.ollama.model.library.qwen3:4b-VENDOR_NATIVE_CLEANUP-61E62746|MODEL_REMOVED",
+  "after" : {
+    "modelInstalled" : false,
+    "planTier" : "COMPLETED",
+    "potentialBytes" : 0,
+    "sharedBytes" : 0,
+    "uniqueBytes" : 0
+  },
+  "before" : {
+    "modelInstalled" : true,
+    "planTier" : "APPROVAL_REQUIRED",
+    "potentialBytes" : 2497293931,
+    "sharedBytes" : 0,
+    "uniqueBytes" : 2497293931
+  },
+  "generatedAt" : "2026-09-04T14:03:19Z",
+  "logicalRemovalVerified" : true,
+  "storageRecoveryVerified" : true
+}

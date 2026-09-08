@@ -1,0 +1,51 @@
+{
+  "claims" : [
+    {
+      "claim" : "provenance",
+      "inferredBytes" : 29966413824,
+      "inferredCount" : 151,
+      "unknownBytes" : 56040529920,
+      "unknownCount" : 364,
+      "verifiedBytes" : 14173478912,
+      "verifiedCount" : 12
+    },
+    {
+      "claim" : "source_of_truth",
+      "inferredBytes" : 0,
+      "inferredCount" : 0,
+      "unknownBytes" : 85541392113,
+      "unknownCount" : 463,
+      "verifiedBytes" : 14639030543,
+      "verifiedCount" : 64
+    },
+    {
+      "claim" : "regenerability",
+      "inferredBytes" : 0,
+      "inferredCount" : 0,
+      "unknownBytes" : 85541392113,
+      "unknownCount" : 463,
+      "verifiedBytes" : 14639030543,
+      "verifiedCount" : 64
+    },
+    {
+      "claim" : "runtime_state",
+      "inferredBytes" : 10910224384,
+      "inferredCount" : 7,
+      "unknownBytes" : 61978386432,
+      "unknownCount" : 472,
+      "verifiedBytes" : 27291811840,
+      "verifiedCount" : 48
+    },
+    {
+      "claim" : "verified_relationship",
+      "inferredBytes" : 0,
+      "inferredCount" : 0,
+      "unknownBytes" : 92693639168,
+      "unknownCount" : 511,
+      "verifiedBytes" : 7486783488,
+      "verifiedCount" : 16
+    }
+  ],
+  "verificationChainCount" : 196,
+  "verifiedRelationshipCoveragePercent" : 7.473299961718221
+}

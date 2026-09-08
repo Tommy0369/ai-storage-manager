@@ -1,0 +1,22 @@
+{
+  "architecturalFixMade" : false,
+  "architecturalFixRequired" : false,
+  "classification" : "EXPECTED_CURRENT_BEHAVIOR",
+  "detectorMatchCount" : 1,
+  "detectorRan" : true,
+  "evidence" : [
+    "filesystem_child_count=1",
+    "historical_still_exist=0\/2",
+    "proof_detector_match_count=1",
+    "concrete_semantic_entities=1",
+    "root_entity_surfaced=true",
+    "Surfacing pipeline consistent with observed filesystem"
+  ],
+  "explanation" : "Observed surfacing matches filesystem and detector outputs.",
+  "filesystemChildCount" : 1,
+  "historicalEntitiesStillExist" : 0,
+  "p21GateImplication" : "Re-evaluate DerivedData mutation readiness funnel",
+  "secondaryClassifications" : [
+
+  ]
+}

@@ -1,0 +1,481 @@
+{
+  "approvalRequired" : 0,
+  "contractSatisfiedReadOnly" : 0,
+  "entitiesDiscovered" : 3,
+  "entries" : [
+    {
+      "activeState" : "INACTIVE",
+      "activeStateConfidence" : "VERIFIED",
+      "allBlockingReasons" : [
+        "REGENERABILITY",
+        "REGENERABILITY_UNKNOWN",
+        "SAFETY_CLASS_UNKNOWN",
+        "SOURCE_OF_TRUTH",
+        "SOURCE_OF_TRUTH_UNKNOWN",
+        "regenerable_true_verified",
+        "source_of_truth_false_verified"
+      ],
+      "auditContractAvailable" : true,
+      "bindingFingerprintPossible" : true,
+      "canonicalPath" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData",
+      "entityID" : "xcode.derived_data",
+      "evidenceCompleteness" : "COMPLETE",
+      "evidenceConflicts" : false,
+      "evidenceFreshness" : "RESOLVED",
+      "executorImplemented" : false,
+      "firstBlockingGate" : "derived_from_workspace_verified",
+      "gateSteps" : [
+        {
+          "claim" : "canonical_path_verified",
+          "satisfied" : true,
+          "step" : 1,
+          "value" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData"
+        },
+        {
+          "claim" : "entity_identity_verified",
+          "satisfied" : true,
+          "step" : 2,
+          "value" : "xcode.derived_data"
+        },
+        {
+          "claim" : "generated_by_xcode_verified",
+          "satisfied" : true,
+          "step" : 3
+        },
+        {
+          "claim" : "derived_from_workspace_verified",
+          "satisfied" : false,
+          "step" : 4
+        },
+        {
+          "claim" : "source_workspace_exists_verified",
+          "satisfied" : false,
+          "step" : 5
+        },
+        {
+          "claim" : "sot_false_verified",
+          "satisfied" : false,
+          "step" : 6,
+          "value" : "unknown"
+        },
+        {
+          "claim" : "regenerable_true_verified",
+          "satisfied" : false,
+          "step" : 7,
+          "value" : "unknown"
+        },
+        {
+          "claim" : "runtime_evidence_fresh",
+          "satisfied" : true,
+          "step" : 8,
+          "value" : "RESOLVED"
+        },
+        {
+          "claim" : "xcode_inactive_verified",
+          "satisfied" : true,
+          "step" : 9,
+          "value" : "inactive"
+        },
+        {
+          "claim" : "xcodebuild_inactive_verified",
+          "satisfied" : true,
+          "step" : 10,
+          "value" : "inactive"
+        },
+        {
+          "claim" : "open_file_safe_verified",
+          "satisfied" : true,
+          "step" : 11,
+          "value" : "false"
+        },
+        {
+          "claim" : "no_evidence_conflict",
+          "satisfied" : true,
+          "step" : 12
+        },
+        {
+          "claim" : "no_symlink_ambiguity",
+          "satisfied" : true,
+          "step" : 13
+        },
+        {
+          "claim" : "move_to_trash_safety_green",
+          "satisfied" : false,
+          "step" : 14,
+          "value" : "UNKNOWN"
+        },
+        {
+          "claim" : "transaction_contract_available",
+          "satisfied" : true,
+          "step" : 15
+        },
+        {
+          "claim" : "post_verify_contract_available",
+          "satisfied" : true,
+          "step" : 16
+        },
+        {
+          "claim" : "audit_contract_available",
+          "satisfied" : true,
+          "step" : 17
+        },
+        {
+          "claim" : "fresh_execution_preflight_required",
+          "satisfied" : true,
+          "step" : 18,
+          "value" : "required_at_execution"
+        },
+        {
+          "claim" : "explicit_user_approval",
+          "satisfied" : false,
+          "step" : 19,
+          "value" : "missing"
+        },
+        {
+          "claim" : "executor_absent",
+          "satisfied" : true,
+          "step" : 20,
+          "value" : "NOT_STARTED"
+        }
+      ],
+      "generatedBy" : "DerivedData",
+      "matchedRuleID" : "xcode.derived_data_root",
+      "measurementBytes" : 12345344,
+      "moveToTrashEligible" : false,
+      "moveToTrashSafetyClass" : "UNKNOWN",
+      "mutationReadiness" : "BLOCKED",
+      "openFileConfidence" : "VERIFIED",
+      "openFileState" : "false",
+      "postVerifyContractAvailable" : true,
+      "preflightAllowed" : false,
+      "recommendation" : "KEEP",
+      "recommendationDisposition" : "keep",
+      "regenerability" : "unknown",
+      "regenerabilityConfidence" : "UNKNOWN",
+      "rootCauseCategory" : "REGENERABILITY_PROOF_CHANGED",
+      "sourceOfTruth" : "unknown",
+      "sourceOfTruthConfidence" : "UNKNOWN",
+      "transactionContractAvailable" : true,
+      "xcodeRunning" : "inactive",
+      "xcodebuildRunning" : "inactive"
+    },
+    {
+      "activeState" : "INACTIVE",
+      "activeStateConfidence" : "VERIFIED",
+      "allBlockingReasons" : [
+        "REGENERABILITY",
+        "REGENERABILITY_UNKNOWN",
+        "SAFETY_CLASS_UNKNOWN",
+        "SOURCE_OF_TRUTH",
+        "SOURCE_OF_TRUTH_UNKNOWN",
+        "regenerable_true_verified",
+        "source_of_truth_false_verified"
+      ],
+      "auditContractAvailable" : true,
+      "bindingFingerprintPossible" : true,
+      "canonicalPath" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/SDKStatCaches.noindex",
+      "entityID" : "xcode.deriveddata.SDKStatCaches.noindex",
+      "evidenceCompleteness" : "COMPLETE",
+      "evidenceConflicts" : false,
+      "evidenceFreshness" : "RESOLVED",
+      "executorImplemented" : false,
+      "firstBlockingGate" : "derived_from_workspace_verified",
+      "gateSteps" : [
+        {
+          "claim" : "canonical_path_verified",
+          "satisfied" : true,
+          "step" : 1,
+          "value" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/SDKStatCaches.noindex"
+        },
+        {
+          "claim" : "entity_identity_verified",
+          "satisfied" : true,
+          "step" : 2,
+          "value" : "xcode.deriveddata.SDKStatCaches.noindex"
+        },
+        {
+          "claim" : "generated_by_xcode_verified",
+          "satisfied" : true,
+          "step" : 3,
+          "value" : "XCODE_DERIVEDDATA_INSTANCE"
+        },
+        {
+          "claim" : "derived_from_workspace_verified",
+          "satisfied" : false,
+          "step" : 4
+        },
+        {
+          "claim" : "source_workspace_exists_verified",
+          "satisfied" : false,
+          "step" : 5
+        },
+        {
+          "claim" : "sot_false_verified",
+          "satisfied" : false,
+          "step" : 6,
+          "value" : "unknown"
+        },
+        {
+          "claim" : "regenerable_true_verified",
+          "satisfied" : false,
+          "step" : 7,
+          "value" : "unknown"
+        },
+        {
+          "claim" : "runtime_evidence_fresh",
+          "satisfied" : true,
+          "step" : 8,
+          "value" : "RESOLVED"
+        },
+        {
+          "claim" : "xcode_inactive_verified",
+          "satisfied" : true,
+          "step" : 9,
+          "value" : "inactive"
+        },
+        {
+          "claim" : "xcodebuild_inactive_verified",
+          "satisfied" : true,
+          "step" : 10,
+          "value" : "inactive"
+        },
+        {
+          "claim" : "open_file_safe_verified",
+          "satisfied" : true,
+          "step" : 11,
+          "value" : "false"
+        },
+        {
+          "claim" : "no_evidence_conflict",
+          "satisfied" : true,
+          "step" : 12
+        },
+        {
+          "claim" : "no_symlink_ambiguity",
+          "satisfied" : true,
+          "step" : 13
+        },
+        {
+          "claim" : "move_to_trash_safety_green",
+          "satisfied" : false,
+          "step" : 14,
+          "value" : "UNKNOWN"
+        },
+        {
+          "claim" : "transaction_contract_available",
+          "satisfied" : true,
+          "step" : 15
+        },
+        {
+          "claim" : "post_verify_contract_available",
+          "satisfied" : true,
+          "step" : 16
+        },
+        {
+          "claim" : "audit_contract_available",
+          "satisfied" : true,
+          "step" : 17
+        },
+        {
+          "claim" : "fresh_execution_preflight_required",
+          "satisfied" : true,
+          "step" : 18,
+          "value" : "required_at_execution"
+        },
+        {
+          "claim" : "explicit_user_approval",
+          "satisfied" : false,
+          "step" : 19,
+          "value" : "missing"
+        },
+        {
+          "claim" : "executor_absent",
+          "satisfied" : true,
+          "step" : 20,
+          "value" : "NOT_STARTED"
+        }
+      ],
+      "generatedBy" : "XCODE",
+      "matchedRuleID" : "xcode.derived_data",
+      "measurementBytes" : 1544192,
+      "moveToTrashEligible" : false,
+      "moveToTrashSafetyClass" : "UNKNOWN",
+      "mutationReadiness" : "BLOCKED",
+      "openFileConfidence" : "VERIFIED",
+      "openFileState" : "false",
+      "postVerifyContractAvailable" : true,
+      "preflightAllowed" : false,
+      "recommendation" : "KEEP",
+      "recommendationDisposition" : "keep",
+      "regenerability" : "unknown",
+      "regenerabilityConfidence" : "UNKNOWN",
+      "rootCauseCategory" : "REGENERABILITY_PROOF_CHANGED",
+      "semanticIdentity" : "XCODE_DERIVEDDATA_INSTANCE",
+      "sourceOfTruth" : "unknown",
+      "sourceOfTruthConfidence" : "UNKNOWN",
+      "transactionContractAvailable" : true,
+      "xcodeRunning" : "inactive",
+      "xcodebuildRunning" : "inactive"
+    },
+    {
+      "activeState" : "INACTIVE",
+      "activeStateConfidence" : "VERIFIED",
+      "allBlockingReasons" : [
+        "REGENERABILITY",
+        "REGENERABILITY_UNKNOWN",
+        "SAFETY_CLASS_UNKNOWN",
+        "SOURCE_OF_TRUTH",
+        "SOURCE_OF_TRUTH_UNKNOWN",
+        "regenerable_true_verified",
+        "source_of_truth_false_verified"
+      ],
+      "auditContractAvailable" : true,
+      "bindingFingerprintPossible" : true,
+      "canonicalPath" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex",
+      "entityID" : "xcode.module_cache",
+      "evidenceCompleteness" : "COMPLETE",
+      "evidenceConflicts" : false,
+      "evidenceFreshness" : "RESOLVED",
+      "executorImplemented" : false,
+      "firstBlockingGate" : "derived_from_workspace_verified",
+      "gateSteps" : [
+        {
+          "claim" : "canonical_path_verified",
+          "satisfied" : true,
+          "step" : 1,
+          "value" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex"
+        },
+        {
+          "claim" : "entity_identity_verified",
+          "satisfied" : true,
+          "step" : 2,
+          "value" : "xcode.module_cache"
+        },
+        {
+          "claim" : "generated_by_xcode_verified",
+          "satisfied" : true,
+          "step" : 3
+        },
+        {
+          "claim" : "derived_from_workspace_verified",
+          "satisfied" : false,
+          "step" : 4
+        },
+        {
+          "claim" : "source_workspace_exists_verified",
+          "satisfied" : false,
+          "step" : 5
+        },
+        {
+          "claim" : "sot_false_verified",
+          "satisfied" : false,
+          "step" : 6,
+          "value" : "unknown"
+        },
+        {
+          "claim" : "regenerable_true_verified",
+          "satisfied" : false,
+          "step" : 7,
+          "value" : "unknown"
+        },
+        {
+          "claim" : "runtime_evidence_fresh",
+          "satisfied" : true,
+          "step" : 8,
+          "value" : "RESOLVED"
+        },
+        {
+          "claim" : "xcode_inactive_verified",
+          "satisfied" : true,
+          "step" : 9,
+          "value" : "inactive"
+        },
+        {
+          "claim" : "xcodebuild_inactive_verified",
+          "satisfied" : true,
+          "step" : 10,
+          "value" : "inactive"
+        },
+        {
+          "claim" : "open_file_safe_verified",
+          "satisfied" : true,
+          "step" : 11,
+          "value" : "false"
+        },
+        {
+          "claim" : "no_evidence_conflict",
+          "satisfied" : true,
+          "step" : 12
+        },
+        {
+          "claim" : "no_symlink_ambiguity",
+          "satisfied" : true,
+          "step" : 13
+        },
+        {
+          "claim" : "move_to_trash_safety_green",
+          "satisfied" : false,
+          "step" : 14,
+          "value" : "UNKNOWN"
+        },
+        {
+          "claim" : "transaction_contract_available",
+          "satisfied" : true,
+          "step" : 15
+        },
+        {
+          "claim" : "post_verify_contract_available",
+          "satisfied" : true,
+          "step" : 16
+        },
+        {
+          "claim" : "audit_contract_available",
+          "satisfied" : true,
+          "step" : 17
+        },
+        {
+          "claim" : "fresh_execution_preflight_required",
+          "satisfied" : true,
+          "step" : 18,
+          "value" : "required_at_execution"
+        },
+        {
+          "claim" : "explicit_user_approval",
+          "satisfied" : false,
+          "step" : 19,
+          "value" : "missing"
+        },
+        {
+          "claim" : "executor_absent",
+          "satisfied" : true,
+          "step" : 20,
+          "value" : "NOT_STARTED"
+        }
+      ],
+      "generatedBy" : "ModuleCache",
+      "matchedRuleID" : "xcode.derived_data",
+      "measurementBytes" : 107364352,
+      "moveToTrashEligible" : false,
+      "moveToTrashSafetyClass" : "UNKNOWN",
+      "mutationReadiness" : "BLOCKED",
+      "openFileConfidence" : "VERIFIED",
+      "openFileState" : "false",
+      "postVerifyContractAvailable" : true,
+      "preflightAllowed" : false,
+      "recommendation" : "KEEP",
+      "recommendationDisposition" : "keep",
+      "regenerability" : "unknown",
+      "regenerabilityConfidence" : "UNKNOWN",
+      "rootCauseCategory" : "REGENERABILITY_PROOF_CHANGED",
+      "sourceOfTruth" : "unknown",
+      "sourceOfTruthConfidence" : "UNKNOWN",
+      "transactionContractAvailable" : true,
+      "xcodeRunning" : "inactive",
+      "xcodebuildRunning" : "inactive"
+    }
+  ],
+  "executorImplemented" : false,
+  "moveToTrashSafetyGreen" : 0,
+  "preflightRequired" : 0,
+  "recommendedMoveToTrash" : 0
+}

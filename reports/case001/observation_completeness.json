@@ -1,0 +1,53 @@
+{
+  "bySource" : [
+    {
+      "budgetLimitations" : 0,
+      "complete" : 527,
+      "errors" : 0,
+      "impact" : "ACTIVE\/INACTIVE negative claims require COMPLETE",
+      "partial" : 128,
+      "permissionLimitations" : 0,
+      "source" : "PROCESS",
+      "timeouts" : 0,
+      "total" : 527,
+      "unknown" : 351
+    },
+    {
+      "budgetLimitations" : 0,
+      "complete" : 527,
+      "errors" : 0,
+      "impact" : "open_file=false VERIFIED requires COMPLETE",
+      "partial" : 48,
+      "permissionLimitations" : 0,
+      "source" : "OPEN_FILE",
+      "timeouts" : 0,
+      "total" : 527,
+      "unknown" : 431
+    },
+    {
+      "budgetLimitations" : 1,
+      "complete" : 4,
+      "errors" : 0,
+      "impact" : "Cursor explicit metadata; timeout→UNKNOWN",
+      "partial" : 1,
+      "permissionLimitations" : 0,
+      "source" : "DB_QUERY",
+      "timeouts" : 0,
+      "total" : 4,
+      "unknown" : 0
+    },
+    {
+      "budgetLimitations" : 0,
+      "complete" : 15,
+      "errors" : 0,
+      "impact" : "Cursor relationship confidence",
+      "partial" : 3,
+      "permissionLimitations" : 0,
+      "source" : "METADATA",
+      "timeouts" : 0,
+      "total" : 3,
+      "unknown" : 4
+    }
+  ],
+  "negativeClaimsBlockedByIncompleteness" : 0
+}

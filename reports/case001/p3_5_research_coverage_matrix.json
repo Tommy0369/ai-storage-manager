@@ -1,0 +1,203 @@
+{
+  "generatedAt": "2026-09-05T11:06:34Z",
+  "researchCoverageIsNotEntityCoverage": true,
+  "mandatoryRepresentativesTotal": 8,
+  "mandatoryRepresentativesComplete": 8,
+  "representativeFamilyCoverageComplete": true,
+  "families": [
+    {
+      "family": "REGENERABLE_BUILD_ARTIFACT",
+      "representativeEntity": "Xcode DerivedData",
+      "bytes": 0,
+      "proofState": "PROVEN",
+      "SafetyResult": "GREEN_WHEN_INACTIVE",
+      "actionResult": "MOVE_TO_TRASH_EXECUTED",
+      "positiveOrNegativeProof": "POSITIVE",
+      "missingPrimitive": null,
+      "vendorSpecificUnknowns": [],
+      "researchCompleteForFamily": true
+    },
+    {
+      "family": "REACQUIRABLE_VENDOR_ARTIFACT",
+      "representativeEntity": "Ollama + Hugging Face",
+      "bytes": 5580814899,
+      "proofState": "PROVEN",
+      "SafetyResult": "VENDOR_NATIVE_ALIGNED",
+      "actionResult": "VENDOR_NATIVE_CLEANUP_EXECUTED",
+      "positiveOrNegativeProof": "POSITIVE",
+      "missingPrimitive": null,
+      "vendorSpecificUnknowns": [],
+      "researchCompleteForFamily": true
+    },
+    {
+      "family": "LIVE_APPLICATION_DATABASE",
+      "representativeEntity": "Cursor state.vscdb",
+      "bytes": 0,
+      "proofState": "NEGATIVE_PROOF",
+      "SafetyResult": "KEEP",
+      "actionResult": "NO_SAFE_ACTION",
+      "positiveOrNegativeProof": "NEGATIVE",
+      "missingPrimitive": null,
+      "vendorSpecificUnknowns": [
+        "internal KV schema"
+      ],
+      "researchCompleteForFamily": true
+    },
+    {
+      "family": "APPLICATION_BACKUP",
+      "representativeEntity": "Cursor state.vscdb.backup",
+      "bytes": 0,
+      "proofState": "NEGATIVE_PROOF",
+      "SafetyResult": "KEEP_RECOVERY_SOURCE",
+      "actionResult": "NO_CLEANUP",
+      "positiveOrNegativeProof": "NEGATIVE",
+      "missingPrimitive": null,
+      "vendorSpecificUnknowns": [],
+      "researchCompleteForFamily": true
+    },
+    {
+      "family": "MULTI_VERSION_TOOLCHAIN",
+      "representativeEntity": "Cursor agent-cli",
+      "bytes": 0,
+      "proofState": "NEGATIVE_PROOF",
+      "SafetyResult": "KEEP_CURRENT_PRIMARY",
+      "actionResult": "NO_SAFE_ACTION",
+      "positiveOrNegativeProof": "NEGATIVE",
+      "missingPrimitive": null,
+      "vendorSpecificUnknowns": [],
+      "researchCompleteForFamily": true
+    },
+    {
+      "family": "CLOUD_SYNCED_USER_DATA",
+      "representativeEntity": "Voice Memos",
+      "bytes": 0,
+      "proofState": "NEGATIVE_PROOF",
+      "SafetyResult": "KEEP_USER_ORIGINAL",
+      "actionResult": "NO_NATIVE_LOCAL_EVICTION",
+      "positiveOrNegativeProof": "NEGATIVE",
+      "missingPrimitive": null,
+      "vendorSpecificUnknowns": [
+        "recording-level remote currentness"
+      ],
+      "researchCompleteForFamily": true
+    },
+    {
+      "family": "USER_ORIGINAL",
+      "representativeEntity": "Voice Memos recordings",
+      "bytes": 0,
+      "proofState": "PROVEN",
+      "SafetyResult": "PROTECTED",
+      "actionResult": "KEEP",
+      "positiveOrNegativeProof": "POSITIVE_PROTECTION",
+      "missingPrimitive": null,
+      "vendorSpecificUnknowns": [],
+      "researchCompleteForFamily": true
+    },
+    {
+      "family": "MIXED_BROWSER_APPLICATION_SUPPORT",
+      "representativeEntity": "Google Chrome",
+      "bytes": 15133630464,
+      "proofState": "PROVEN",
+      "SafetyResult": "KEEP_MIXED_DECOMPOSED",
+      "actionResult": "NO_EXECUTOR",
+      "positiveOrNegativeProof": "POSITIVE_ARCHITECTURE",
+      "missingPrimitive": null,
+      "vendorSpecificUnknowns": [
+        "undocumented profile DBs",
+        "OptGuide refresh"
+      ],
+      "researchCompleteForFamily": true
+    },
+    {
+      "family": "VIRTUAL_MACHINE_OR_RUNTIME_IMAGE",
+      "representativeEntity": "Claude Desktop VM",
+      "bytes": 12659658752,
+      "proofState": "PROVEN",
+      "SafetyResult": "KEEP_ACTIVE_OR_MUTABLE",
+      "actionResult": "NO_EXECUTOR",
+      "positiveOrNegativeProof": "POSITIVE_ARCHITECTURE",
+      "missingPrimitive": null,
+      "vendorSpecificUnknowns": [
+        "exact image redownload URL",
+        "reset blast details"
+      ],
+      "researchCompleteForFamily": true
+    },
+    {
+      "family": "CACHE_VERIFIED",
+      "representativeEntity": "Chrome HTTP/Code/GPU Cache",
+      "bytes": 4313763840,
+      "proofState": "PROVEN",
+      "SafetyResult": "CACHE_VERIFIED_NOT_EXECUTABLE",
+      "actionResult": "NO_ALIGNED_CONTRACT",
+      "positiveOrNegativeProof": "POSITIVE_CLASSIFICATION",
+      "missingPrimitive": null,
+      "vendorSpecificUnknowns": [],
+      "researchCompleteForFamily": true
+    },
+    {
+      "family": "CACHE_SUSPECT",
+      "representativeEntity": "Chrome OptGuide/Shader",
+      "bytes": 4888326144,
+      "proofState": "PROVEN",
+      "SafetyResult": "SUSPECT_NOT_GREEN",
+      "actionResult": "NO_ACTION",
+      "positiveOrNegativeProof": "POSITIVE_CLASSIFICATION",
+      "missingPrimitive": null,
+      "vendorSpecificUnknowns": [],
+      "researchCompleteForFamily": true
+    },
+    {
+      "family": "APP_MANAGED_UNKNOWN",
+      "representativeEntity": "Chrome/Claude undocumented",
+      "bytes": 384528384,
+      "proofState": "PROVEN",
+      "SafetyResult": "UNKNOWN_NON_AUTHORIZING",
+      "actionResult": "NO_ACTION",
+      "positiveOrNegativeProof": "POSITIVE_SEMANTICS",
+      "missingPrimitive": null,
+      "vendorSpecificUnknowns": [
+        "per-file attribution"
+      ],
+      "researchCompleteForFamily": true
+    },
+    {
+      "family": "REMOTE_BACKED_ASSET",
+      "representativeEntity": "HF Hub + Voice Memos CloudKit",
+      "bytes": 0,
+      "proofState": "PARTIAL",
+      "SafetyResult": "REMOTE_PROOF_STRICT",
+      "actionResult": "HF_OK_VM_NO_EVICT",
+      "positiveOrNegativeProof": "MIXED",
+      "missingPrimitive": null,
+      "vendorSpecificUnknowns": [
+        "Voice Memos remote identity"
+      ],
+      "researchCompleteForFamily": true
+    },
+    {
+      "family": "DEVELOPER_PACKAGE_DEPENDENCY",
+      "representativeEntity": "node_modules opt-in",
+      "bytes": 0,
+      "proofState": "PARTIAL",
+      "SafetyResult": "VERIFY_MORE_DEFAULT",
+      "actionResult": "NO_DEFAULT_EXECUTOR",
+      "positiveOrNegativeProof": "PARTIAL",
+      "missingPrimitive": null,
+      "vendorSpecificUnknowns": [],
+      "researchCompleteForFamily": true
+    },
+    {
+      "family": "VENDOR_NATIVE_MANAGED_STORE",
+      "representativeEntity": "Ollama/HF stores",
+      "bytes": 5580814899,
+      "proofState": "PROVEN",
+      "SafetyResult": "CONTRACT_ALIGNED",
+      "actionResult": "VENDOR_NATIVE_CLEANUP",
+      "positiveOrNegativeProof": "POSITIVE",
+      "missingPrimitive": null,
+      "vendorSpecificUnknowns": [],
+      "researchCompleteForFamily": true
+    }
+  ]
+}

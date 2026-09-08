@@ -1,0 +1,8 @@
+{
+  "actionSafetyEvaluatorInvocations" : 2635,
+  "buildRuntimeMs" : 3646,
+  "decisionReuseCount" : 2108,
+  "duplicateEvaluations" : 0,
+  "entitiesEvaluated" : 527,
+  "uniqueEntityActionPairs" : 2635
+}

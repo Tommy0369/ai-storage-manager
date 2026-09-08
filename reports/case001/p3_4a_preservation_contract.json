@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-09-05T10:11:41Z",
+  "vendor": "APPLE_VOICE_MEMOS",
+  "storageClass": "USER_ORIGINAL_RECORDINGS",
+  "actionClass": "REMOVE_LOCAL_DOWNLOAD",
+  "exactTargetUnit": "UNKNOWN \u2014 recording-level or vendor set TBD",
+  "remoteProofRequirement": "REMOTE_VERIFIED per target",
+  "localResidencyRequirement": "LOCALLY_RESIDENT media only",
+  "deletePropagationRequirement": "MUST_BE_LOCAL_ONLY (A)",
+  "nativeOperation": "NONE_PROVEN",
+  "blastRadius": "UNBOUNDED_UNTIL_PROPAGATION_KNOWN",
+  "postVerifyContract": "N/A",
+  "candidateBytes": 0,
+  "currentExecutable": false,
+  "contractReady": false,
+  "remainingUnknowns": [
+    "remote audio identity",
+    "delete propagation",
+    "native eviction operation"
+  ],
+  "resultClass": "PRESERVATION_PROOF_FOUND_BUT_NO_NATIVE_EVICTION_CONTRACT"
+}

@@ -1,0 +1,388 @@
+{
+  "budgetExceeded" : 4,
+  "cacheHits" : 458,
+  "cacheMisses" : 1811,
+  "directoriesVisited" : 1032,
+  "directoryEnumerations" : 77,
+  "duSpawns" : 690,
+  "duTimeouts" : 4,
+  "errors" : 0,
+  "metadataReads" : 226,
+  "roots" : [
+    {
+      "durationMs" : 3003,
+      "measurementQuality" : "UNKNOWN",
+      "rootPath" : "\/Users\/tomitakatsuhiro\/Library\/Caches",
+      "timedOut" : true
+    },
+    {
+      "bytes" : 4369154048,
+      "durationMs" : 1334,
+      "measurementQuality" : "EXACT",
+      "rootPath" : "\/Users\/tomitakatsuhiro\/Library\/Developer",
+      "timedOut" : false
+    },
+    {
+      "durationMs" : 3008,
+      "measurementQuality" : "UNKNOWN",
+      "rootPath" : "\/Users\/tomitakatsuhiro\/Library\/Application Support",
+      "timedOut" : true
+    },
+    {
+      "durationMs" : 3042,
+      "measurementQuality" : "UNKNOWN",
+      "rootPath" : "\/Users\/tomitakatsuhiro\/Library\/Containers",
+      "timedOut" : true
+    },
+    {
+      "bytes" : 23060566016,
+      "durationMs" : 2153,
+      "measurementQuality" : "EXACT",
+      "rootPath" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers",
+      "timedOut" : false
+    },
+    {
+      "bytes" : 123559936,
+      "durationMs" : 52,
+      "measurementQuality" : "EXACT",
+      "rootPath" : "\/Users\/tomitakatsuhiro\/Library\/Logs",
+      "timedOut" : false
+    },
+    {
+      "durationMs" : 3028,
+      "measurementQuality" : "UNKNOWN",
+      "rootPath" : "\/Users\/tomitakatsuhiro\/Library\/Mobile Documents",
+      "timedOut" : true
+    },
+    {
+      "bytes" : 363962368,
+      "durationMs" : 214,
+      "measurementQuality" : "EXACT",
+      "rootPath" : "\/Users\/tomitakatsuhiro\/Library\/Preferences",
+      "timedOut" : false
+    },
+    {
+      "bytes" : 429068288,
+      "durationMs" : 54,
+      "measurementQuality" : "EXACT",
+      "rootPath" : "\/Users\/tomitakatsuhiro\/Downloads",
+      "timedOut" : false
+    },
+    {
+      "bytes" : 0,
+      "durationMs" : 0,
+      "measurementQuality" : "EXACT",
+      "rootPath" : "\/Users\/tomitakatsuhiro\/.Trash",
+      "timedOut" : false
+    },
+    {
+      "bytes" : 947904512,
+      "durationMs" : 374,
+      "measurementQuality" : "EXACT",
+      "rootPath" : "\/Users\/tomitakatsuhiro\/.npm",
+      "timedOut" : false
+    },
+    {
+      "bytes" : 1069056,
+      "durationMs" : 53,
+      "measurementQuality" : "EXACT",
+      "rootPath" : "\/Users\/tomitakatsuhiro\/.ollama",
+      "timedOut" : false
+    },
+    {
+      "bytes" : 2161905664,
+      "durationMs" : 0,
+      "measurementQuality" : "EXACT",
+      "rootPath" : "\/Users\/tomitakatsuhiro\/.cache",
+      "timedOut" : false
+    },
+    {
+      "bytes" : 293756928,
+      "durationMs" : 0,
+      "measurementQuality" : "EXACT",
+      "rootPath" : "\/Users\/tomitakatsuhiro\/.claude",
+      "timedOut" : false
+    },
+    {
+      "bytes" : 0,
+      "durationMs" : 53,
+      "measurementQuality" : "EXACT",
+      "rootPath" : "\/Users\/tomitakatsuhiro\/Library\/CloudStorage",
+      "timedOut" : false
+    },
+    {
+      "bytes" : 460976128,
+      "durationMs" : 162,
+      "measurementQuality" : "EXACT",
+      "rootPath" : "\/opt\/homebrew\/Cellar",
+      "timedOut" : false
+    },
+    {
+      "bytes" : 0,
+      "durationMs" : 53,
+      "measurementQuality" : "EXACT",
+      "rootPath" : "\/opt\/homebrew\/Caskroom",
+      "timedOut" : false
+    }
+  ],
+  "sizeCalculations" : 1331,
+  "slowestPaths" : [
+    {
+      "bytesResult" : 190789066752,
+      "cacheHit" : false,
+      "caller" : "PhysicalHierarchyBuilder.root",
+      "childrenCount" : 0,
+      "depth" : 2,
+      "durationMs" : 37843,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro",
+      "timedOut" : false
+    },
+    {
+      "cacheHit" : false,
+      "caller" : "scanRoots",
+      "childrenCount" : 0,
+      "depth" : 4,
+      "durationMs" : 3041,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "UNKNOWN",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers",
+      "timedOut" : true
+    },
+    {
+      "cacheHit" : false,
+      "caller" : "scanRoots",
+      "childrenCount" : 0,
+      "depth" : 4,
+      "durationMs" : 3007,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "UNKNOWN",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support",
+      "timedOut" : true
+    },
+    {
+      "cacheHit" : false,
+      "caller" : "scanRoots",
+      "childrenCount" : 0,
+      "depth" : 4,
+      "durationMs" : 3002,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "UNKNOWN",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches",
+      "timedOut" : true
+    },
+    {
+      "cacheHit" : false,
+      "caller" : "scanRoots",
+      "childrenCount" : 0,
+      "depth" : 4,
+      "durationMs" : 3002,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "UNKNOWN",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Mobile Documents",
+      "timedOut" : true
+    },
+    {
+      "bytesResult" : 23060566016,
+      "cacheHit" : false,
+      "caller" : "scanRoots",
+      "childrenCount" : 0,
+      "depth" : 4,
+      "durationMs" : 2153,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers",
+      "timedOut" : false
+    },
+    {
+      "bytesResult" : 1142931456,
+      "cacheHit" : false,
+      "caller" : "lightweightNode",
+      "childrenCount" : 0,
+      "depth" : 5,
+      "durationMs" : 1856,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/var\/folders\/gy\/qr_n085n1wq196lwrs42vcmw0000gn\/T",
+      "timedOut" : false
+    },
+    {
+      "bytesResult" : 4369154048,
+      "cacheHit" : false,
+      "caller" : "scanRoots",
+      "childrenCount" : 0,
+      "depth" : 4,
+      "durationMs" : 1334,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer",
+      "timedOut" : false
+    },
+    {
+      "bytesResult" : 2025504768,
+      "cacheHit" : false,
+      "caller" : "ScannedNodeCache",
+      "childrenCount" : 0,
+      "depth" : 7,
+      "durationMs" : 1109,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/UserData\/Previews",
+      "timedOut" : false
+    },
+    {
+      "bytesResult" : 27779940352,
+      "cacheHit" : false,
+      "caller" : "ScannedNodeCache",
+      "childrenCount" : 0,
+      "depth" : 5,
+      "durationMs" : 912,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor",
+      "timedOut" : false
+    },
+    {
+      "bytesResult" : 711114752,
+      "cacheHit" : false,
+      "caller" : "FolderDecomposer",
+      "childrenCount" : 0,
+      "depth" : 5,
+      "durationMs" : 763,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/VUTU7AKEUR.jp.naver.line.mac",
+      "timedOut" : false
+    },
+    {
+      "bytesResult" : 11710021632,
+      "cacheHit" : false,
+      "caller" : "FolderDecomposer",
+      "childrenCount" : 0,
+      "depth" : 5,
+      "durationMs" : 760,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google",
+      "timedOut" : false
+    },
+    {
+      "bytesResult" : 2161905664,
+      "cacheHit" : false,
+      "caller" : "PhysicalHierarchyBuilder",
+      "childrenCount" : 0,
+      "depth" : 3,
+      "durationMs" : 682,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/.cache",
+      "timedOut" : false
+    },
+    {
+      "bytesResult" : 1677344768,
+      "cacheHit" : false,
+      "caller" : "PhysicalHierarchyBuilder",
+      "childrenCount" : 0,
+      "depth" : 4,
+      "durationMs" : 485,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/.cache\/codex-runtimes",
+      "timedOut" : false
+    },
+    {
+      "bytesResult" : 3814346752,
+      "cacheHit" : false,
+      "caller" : "PhysicalHierarchyBuilder",
+      "childrenCount" : 0,
+      "depth" : 3,
+      "durationMs" : 383,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/.codex",
+      "timedOut" : false
+    },
+    {
+      "bytesResult" : 947904512,
+      "cacheHit" : false,
+      "caller" : "scanRoots",
+      "childrenCount" : 0,
+      "depth" : 3,
+      "durationMs" : 374,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/.npm",
+      "timedOut" : false
+    },
+    {
+      "bytesResult" : 1364283392,
+      "cacheHit" : false,
+      "caller" : "PhysicalHierarchyBuilder",
+      "childrenCount" : 0,
+      "depth" : 4,
+      "durationMs" : 369,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/.cursor\/extensions",
+      "timedOut" : false
+    },
+    {
+      "bytesResult" : 684625920,
+      "cacheHit" : false,
+      "caller" : "ScannedNodeCache",
+      "childrenCount" : 0,
+      "depth" : 4,
+      "durationMs" : 319,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/.npm\/_cacache",
+      "timedOut" : false
+    },
+    {
+      "bytesResult" : 10794512384,
+      "cacheHit" : false,
+      "caller" : "ScannedNodeCache",
+      "childrenCount" : 0,
+      "depth" : 6,
+      "durationMs" : 270,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome",
+      "timedOut" : false
+    },
+    {
+      "bytesResult" : 2013384704,
+      "cacheHit" : false,
+      "caller" : "PhysicalHierarchyBuilder",
+      "childrenCount" : 0,
+      "depth" : 3,
+      "durationMs" : 215,
+      "measurementMode" : "bounded_du",
+      "measurementQuality" : "EXACT",
+      "operation" : "size_calculation",
+      "path" : "\/Users\/tomitakatsuhiro\/.cursor",
+      "timedOut" : false
+    }
+  ],
+  "totalDurationMs" : 16590
+}

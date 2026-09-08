@@ -1,0 +1,30 @@
+{
+  "actions" : [
+    {
+      "action" : "CLOUD_EVICT_ONLY",
+      "averageRules" : 1.6,
+      "entitiesEvaluated" : 5,
+      "predicateSnapshotReuse" : 5,
+      "resolverReuse" : 5,
+      "totalRuntimeMs" : 0
+    },
+    {
+      "action" : "MOVE_TO_TRASH",
+      "averageRules" : 1.6,
+      "entitiesEvaluated" : 5,
+      "predicateSnapshotReuse" : 5,
+      "resolverReuse" : 5,
+      "totalRuntimeMs" : 0
+    },
+    {
+      "action" : "USER_REVIEW",
+      "averageRules" : 2.193548387096774,
+      "entitiesEvaluated" : 527,
+      "predicateSnapshotReuse" : 527,
+      "resolverReuse" : 527,
+      "totalRuntimeMs" : 5114
+    }
+  ],
+  "snapshotReuseCount" : 537,
+  "totalActionsEvaluated" : 537
+}

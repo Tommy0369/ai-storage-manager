@@ -1,0 +1,18 @@
+{
+  "vendorRetentionFound": true,
+  "maxVersions": "current + 2 newest non-current (+ in-use + active-bin targets)",
+  "retentionAge": null,
+  "fallbackCount": 2,
+  "cleanupTrigger": "after successful installCursorAgent / agent update (detached spawn)",
+  "cleanupCallPath": "cleanupInstalledAgentVersions \u2192 cleanupOldInstallVersions",
+  "nativeCleanupContractFound": true,
+  "cleanupBlastRadiusKnown": true,
+  "cleanupBlastRadiusScope": "HOME/.local/share/cursor-agent/versions by default",
+  "globalStorageCleanupProven": false,
+  "unknowns": [
+    "Whether worker ever invokes cleanup against GS versions tree",
+    "Exact historical artifact reacquisition per buildId",
+    "Whether .running markers currently protect any GS version"
+  ],
+  "generatedAt": "2026-09-05T03:02:51Z"
+}

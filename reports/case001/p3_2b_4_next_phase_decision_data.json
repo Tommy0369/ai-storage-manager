@@ -1,0 +1,63 @@
+{
+  "top20LargestSemanticEntities": [
+    {
+      "entityID": "ai.cursor.global_storage",
+      "approxBytes": 14115708928
+    },
+    {
+      "entityID": "appsupport.Claude.cache",
+      "approxBytes": 814108672
+    },
+    {
+      "entityID": "cursor.snapshots.rootref.cursor-b1863998",
+      "approxBytes": 645615616
+    },
+    {
+      "entityID": "macos.application_support.child.Code",
+      "approxBytes": 435814400
+    },
+    {
+      "entityID": "macos.downloads",
+      "approxBytes": 426496000
+    },
+    {
+      "entityID": "macos.user_caches.child.notion.id.ShipIt",
+      "approxBytes": 301215744
+    },
+    {
+      "entityID": "xcode.simulator_devices",
+      "approxBytes": 201773056
+    },
+    {
+      "entityID": "macos.application_support.child.Claude",
+      "approxBytes": 161021952
+    },
+    {
+      "entityID": "claude.vm.bundle.claudevm.bundle.kernel",
+      "approxBytes": 59074952
+    },
+    {
+      "entityID": "ai.cursor_logs",
+      "approxBytes": 58585088
+    }
+  ],
+  "topVerifiedFutureOpportunities": [],
+  "topVerifyMoreOpportunities": [
+    "ai.cursor.global_storage",
+    "appsupport.Claude.cache",
+    "cursor.snapshots.*"
+  ],
+  "topProtectedButLarge": [],
+  "currentlyExecutableActions": [
+    "MOVE_TO_TRASH (when GREEN trash candidates exist)",
+    "OLLAMA MODEL VENDOR_NATIVE_CLEANUP (implemented; no present target)",
+    "HF SNAPSHOT VENDOR_NATIVE_CLEANUP (implemented; no present target)"
+  ],
+  "potentialPreservationOffloadCandidates": [
+    "macos.downloads",
+    "large user documents if ranked later"
+  ],
+  "doNotAutoStartNextCleaner": true,
+  "source": "cached History snapshot 733C0341…; excluded removed HF whisper + qwen3",
+  "generatedAt": "2026-09-05T00:39:56Z"
+}

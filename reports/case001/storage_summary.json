@@ -1,0 +1,49 @@
+{
+  "bucketTotals" : {
+    "backup" : 8192,
+    "cloud" : 0,
+    "developer" : 83357810688,
+    "generated" : 2193252352,
+    "userData" : 14629351424
+  },
+  "classTotals" : {
+    "RED" : 94745976832,
+    "UNKNOWN" : 4548038656,
+    "YELLOW" : 886407168
+  },
+  "coveragePercent" : 100,
+  "destructiveActionsExecuted" : false,
+  "domainTotals" : {
+    "AI Tools" : 45385871360,
+    "Cloud" : 0,
+    "Docker" : 8192,
+    "Git" : 9633792,
+    "Homebrew" : 2105200640,
+    "Node" : 684634112,
+    "Python" : 45056,
+    "Xcode" : 2348879872,
+    "macOS" : 49646149632
+  },
+  "downgradedGreen" : 0,
+  "duplicateBytesRemoved" : 155817609949,
+  "identifiedBytes" : 32211922944,
+  "itemCount" : 527,
+  "knowledgeVersion" : "0.1.1",
+  "preview" : {
+    "executable" : false,
+    "greenPotentialRecovery" : 0,
+    "protectedRed" : 94745976832,
+    "unknown" : 4548038656,
+    "yellowReview" : 886407168
+  },
+  "remainingGreenAfterAudit" : 0,
+  "ruleCount" : 178,
+  "scanRuntimeSeconds" : 111.56959795951843,
+  "scannedBytes" : 32211922944,
+  "semanticDebtBytes" : 34229645041,
+  "semanticL3" : 79.80368148627667,
+  "semanticL4" : 60.90089731853008,
+  "semanticL5" : 0,
+  "uniqueBytes" : 100180422656,
+  "unknownBytes" : 0
+}

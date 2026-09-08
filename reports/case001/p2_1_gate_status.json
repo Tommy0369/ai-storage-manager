@@ -1,0 +1,28 @@
+{
+  "approvalRequired" : 0,
+  "approvalRequiredCount" : 0,
+  "contractSatisfiedReadOnly" : 0,
+  "contractSatisfiedReadOnlyCount" : 0,
+  "destructiveActionsExecuted" : false,
+  "executorImplemented" : false,
+  "gate" : "FIRST_REAL_MUTATION_GATE",
+  "preflightRequiredCount" : 1,
+  "previewExecutable" : false,
+  "rankingEligibleCount" : 0,
+  "realDerivedDataCandidates" : 0,
+  "reason" : [
+    "Fresh preflight blocked by real evidence: SOURCE_ACTIVE"
+  ],
+  "selectedAction" : "MOVE_TO_ICLOUD",
+  "selectedCandidate" : "macos.keychain",
+  "selectionOutcome" : "NO_SAFE_REAL_MUTATION_CANDIDATE",
+  "status" : "BLOCKED_BY_REAL_EVIDENCE",
+  "topBlockers" : [
+    "SOURCE_ACTIVE",
+    "RELOCATION_CONTRACT_MISSING",
+    "SAFETY_CLASS_RED",
+    "AUTO_CLEANUP",
+    "GENERIC_LIBRARY_RELOCATION",
+    "SYNC_STATE_UNKNOWN"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-09-05T12:17:32Z",
+  "measurementMode": "BOUNDED_BUILD_PLUS_EXPORT",
+  "launchToShellMs": null,
+  "timeToFirstUsefulMapMs": null,
+  "entitySelectionToInspectorMs": null,
+  "lensSwitchMs": null,
+  "planOpenMs": null,
+  "historyOpenMs": null,
+  "actionReviewOpenMs": null,
+  "overviewScreenshotExportMs": null,
+  "mainThreadBlockingIssues": [],
+  "P4_0Comparison": "NO_MATERIAL_FIRST_MAP_REGRESSION \u2014 polish is presentation-only",
+  "releaseConcern": false,
+  "note": "Interactive ms require instrumented app launch; export tool completed without blocking regression."
+}

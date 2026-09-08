@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-09-07T15:49:13Z",
+  "overallPass": true,
+  "claims": [
+    {
+      "claim": "Signed and notarized for direct macOS distribution",
+      "presentInDocs": true,
+      "pass": true,
+      "evidence": "codesign+notary Accepted+stapler+spctl"
+    },
+    {
+      "claim": "Do not bypass Gatekeeper",
+      "presentInDocs": true,
+      "pass": true
+    },
+    {
+      "claim": "arm64 only / macOS 13+",
+      "presentInDocs": true,
+      "pass": true
+    },
+    {
+      "claim": "Canonical verified recovery 5,580,814,899",
+      "presentInDocs": true,
+      "pass": true
+    }
+  ]
+}

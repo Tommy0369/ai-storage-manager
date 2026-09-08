@@ -1,0 +1,32 @@
+{
+  "actionsEvaluated" : 537,
+  "auditorInvocations" : 527,
+  "auditorSkippedNonGreen" : 527,
+  "averageRulesPerEntity" : 2.193548387096774,
+  "entitiesEvaluated" : 527,
+  "entitySnapshotCacheHits" : 0,
+  "entitySnapshotCacheMisses" : 527,
+  "fullGreenAudits" : 0,
+  "greenAuditorMs" : 0,
+  "predicateEvaluationMs" : 0,
+  "predicateEvaluations" : 0,
+  "predicatesSkippedByShortCircuit" : 0,
+  "referenceEquivalenceChecks" : 0,
+  "referenceEquivalenceMismatches" : 0,
+  "reportConstructionMs" : 0,
+  "resultCacheHits" : 0,
+  "resultCacheMisses" : 537,
+  "ruleLookupMs" : 0,
+  "rulesActuallyEvaluated" : 1156,
+  "rulesConsidered" : 1156,
+  "scoreCalculationMs" : 0,
+  "snapshotFinalizationMs" : 0,
+  "snapshotsCreated" : 527,
+  "staticPredicateReuse" : 0,
+  "staticPredicatesComputed" : 527,
+  "topSlowEvaluations" : [
+
+  ],
+  "totalEvaluations" : 537,
+  "totalSafetyEvalMs" : 27120
+}

@@ -1,0 +1,8 @@
+{
+  "eligibleBytes" : 100180422656,
+  "inferredBytes" : 0,
+  "knownCoveragePercent" : 14.612665982921206,
+  "unknownBytes" : 85541392113,
+  "verifiedFalseBytes" : 14639030543,
+  "verifiedTrueBytes" : 0
+}

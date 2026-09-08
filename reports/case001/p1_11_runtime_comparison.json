@@ -1,0 +1,8 @@
+{
+  "entityVerificationLoopP110Ms" : 31500,
+  "entityVerificationLoopP111Ms" : 31000,
+  "p110TotalSeconds" : 89.4,
+  "p111TotalSeconds" : 87.1,
+  "safetyEvalP110Ms" : 26100,
+  "safetyEvalP111Ms" : 25460
+}

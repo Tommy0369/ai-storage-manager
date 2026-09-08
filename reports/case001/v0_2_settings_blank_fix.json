@@ -1,0 +1,11 @@
+{
+  "status": "SETTINGS_PANE_FIXED",
+  "rootCause": "Form + frame(maxHeight:.infinity, alignment:.topLeading) collapsed inside NavigationSplitView content column (title still updated)",
+  "fix": "ScrollView + VStack settings layout (same class as P5.4 ImageRenderer Form blank)",
+  "qaHook": "ASM_START_SECTION=settings via NSWorkspace OpenConfiguration.environment",
+  "visualConfirm": "settings-start.png showed 情報/言語/開発者 with language picker",
+  "tests": "V02UXFix001Tests includes testSettingsPaneDoesNotUseCollapsingFormLayout",
+  "distTouched": false,
+  "realMutationCount": 0,
+  "generatedAt": "2026-09-08T10:38:18Z"
+}

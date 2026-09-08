@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-09-05T08:12:05Z",
+  "Cursor_HOME_cleanup": {
+    "targetRelationshipWhenEntityIsHOME": "EXACT_ROOT_MATCH",
+    "alignmentWhenEntityIsHOME": "ALIGNED",
+    "stillLimitedToHOME": true
+  },
+  "Cursor_GS": {
+    "targetRelationshipWhenEntityIsGS": "SIBLING_STORE",
+    "alignment": "STORE_MISMATCH",
+    "remediationOutcome": "NONE \u2014 potentialRecoveryBytes=0"
+  },
+  "Ollama": "ALIGNED",
+  "HF": "ALIGNED",
+  "unknownOrMismatchCannotReachActionability": true,
+  "globalInvariant": "NO_VENDOR_CLEANUP_ACTION_WITHOUT_ALIGNED_CONTRACT",
+  "executorSetUnchanged": [
+    "MOVE_TO_TRASH",
+    "OLLAMA \u00d7 MODEL \u00d7 VENDOR_NATIVE_CLEANUP",
+    "HF \u00d7 SNAPSHOT \u00d7 VENDOR_NATIVE_CLEANUP"
+  ],
+  "cursorExecutorAdded": false,
+  "state_vscdb_protected": true,
+  "bubbleId_protected": true,
+  "agentKv_protected": true,
+  "backup_protected": true
+}

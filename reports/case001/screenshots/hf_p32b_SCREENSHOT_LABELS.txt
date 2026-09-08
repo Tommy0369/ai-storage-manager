@@ -1,0 +1,3 @@
+FIXTURE_LABELED — not live UI captures.
+hf_p32b_ready_for_authorization.png = FIXTURE (live did NOT reach APPROVAL_REQUIRED; CLI unresolved).
+hf_p32b_dry_run_verified.png = FIXTURE (vendor dry-run not executed).

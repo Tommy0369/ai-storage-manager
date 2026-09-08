@@ -1,0 +1,24 @@
+{
+  "before": {
+    "HF_tier": "VERIFIED_FUTURE",
+    "HF_bytes": 3083520968,
+    "Ready_Now": 0,
+    "Approval_Required": 0,
+    "Verified_Future": 3189771208,
+    "Verify_More": 0,
+    "source": "p3_2a_6_current_inventory.json"
+  },
+  "after": {
+    "HF_tier": "VERIFY_MORE",
+    "HF_bytes": 3083520968,
+    "Ready_Now": 0,
+    "Approval_Required": 0,
+    "Verified_Future": 0,
+    "Verify_More": 3083520968,
+    "reason": "Executor IMPLEMENTED but HF CLI unresolved \u2192 cannot complete vendor dry-run / Fresh Preflight to APPROVAL_REQUIRED"
+  },
+  "Ollama_remains_absent": true,
+  "qwen3_not_candidate": true,
+  "HF_current_opportunity": "mlx-community/whisper-large-v3-mlx@49e6aa286ad6 ~3.08GB unique; install/resolve hf CLI then re-run Fresh Preflight",
+  "generatedAt": "2026-09-04T15:53:22Z"
+}

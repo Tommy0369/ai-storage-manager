@@ -1,0 +1,94 @@
+{
+  "totalBytes": 2688192512,
+  "versionCount": 13,
+  "versions": [
+    {
+      "version": "2026.08.04-aaa8809",
+      "bytes": 239312896,
+      "active": false
+    },
+    {
+      "version": "2026.08.31-4057e58",
+      "bytes": 235229184,
+      "active": true
+    },
+    {
+      "version": "2026.08.25-3e8eec8",
+      "bytes": 235171840,
+      "active": false
+    },
+    {
+      "version": "2026.08.11-e8db854",
+      "bytes": 235044864,
+      "active": false
+    },
+    {
+      "version": "2026.07.23-e383d2b",
+      "bytes": 209211392,
+      "active": false
+    },
+    {
+      "version": "2026.07.20-8cc9c0b",
+      "bytes": 209145856,
+      "active": false
+    },
+    {
+      "version": "2026.07.16-899851b",
+      "bytes": 209113088,
+      "active": false
+    },
+    {
+      "version": "2026.07.13-7fe37d2",
+      "bytes": 209080320,
+      "active": false
+    },
+    {
+      "version": "2026.07.09-a3815c0",
+      "bytes": 181669888,
+      "active": false
+    },
+    {
+      "version": "2026.07.01-41b2de7",
+      "bytes": 181465088,
+      "active": false
+    },
+    {
+      "version": "2026.06.29-2ad2186",
+      "bytes": 181460992,
+      "active": false
+    },
+    {
+      "version": "2026.06.24-00-45-58-9f61de7",
+      "bytes": 181256192,
+      "active": false
+    },
+    {
+      "version": "2026.06.26-7079533",
+      "bytes": 181030912,
+      "active": false
+    }
+  ],
+  "activeVersion": "2026.08.31-4057e58",
+  "inactiveVersions": [
+    "2026.06.24-00-45-58-9f61de7",
+    "2026.06.26-7079533",
+    "2026.06.29-2ad2186",
+    "2026.07.01-41b2de7",
+    "2026.07.09-a3815c0",
+    "2026.07.13-7fe37d2",
+    "2026.07.16-899851b",
+    "2026.07.20-8cc9c0b",
+    "2026.07.23-e383d2b",
+    "2026.08.04-aaa8809",
+    "2026.08.11-e8db854",
+    "2026.08.25-3e8eec8"
+  ],
+  "inactiveVersionBytes": 2452963328,
+  "ownership": "CURSOR_CORE / anysphere.cursor-agent-worker",
+  "installUpdateMechanism": "Versioned directories under agent-cli/.local/share/cursor-agent/versions; symlink cursor-agent -> active",
+  "runtimeReferences": "active symlink present; per-version process references not fully enumerated",
+  "nativeCleanupMechanismKnown": false,
+  "potentialFutureBytes": 2452963328,
+  "currentExecutable": false,
+  "generatedAt": "2026-09-05T02:13:45Z"
+}

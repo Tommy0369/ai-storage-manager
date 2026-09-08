@@ -1,0 +1,16 @@
+{
+  "HF_tier_before": "APPROVAL_REQUIRED",
+  "HF_tier_after": "ABSENT_OR_ZERO",
+  "HF_potential_bytes_before": 3083520968,
+  "HF_potential_bytes_after": 0,
+  "verifiedRecoveredBytes": 3083520968,
+  "diskFreeDeltaBytes": 3083640832,
+  "targetStillPresent": false,
+  "repoCacheStillPresent": false,
+  "hubRemoteStillPresent": true,
+  "qwen3StillAbsent": true,
+  "rawBlobStillNotSupported": true,
+  "moveToTrashUnchanged": true,
+  "outcome": "SNAPSHOT_REMOVED_STORAGE_RECOVERED",
+  "observedAt": "2026-09-05T00:22:49Z"
+}

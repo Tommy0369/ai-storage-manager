@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-09-05T11:35:58Z",
+  "fixtureLabelled": true,
+  "journeys": [
+    {
+      "id": "deriveddata",
+      "SEE": "large developer artifact",
+      "UNDERSTAND": "build output",
+      "DECIDE": "safe trash candidate",
+      "ACT": "review Move to Trash",
+      "VERIFY": "moved to Trash, recovery pending",
+      "protectedReason": null,
+      "actionableBytes": 0
+    },
+    {
+      "id": "ollama",
+      "SEE": "downloaded AI model",
+      "UNDERSTAND": "vendor model",
+      "DECIDE": "vendor-native removal",
+      "ACT": "historical fixture",
+      "VERIFY": "2497293931 verified",
+      "protectedReason": null,
+      "actionableBytes": 0
+    },
+    {
+      "id": "huggingface",
+      "SEE": "local model snapshot",
+      "UNDERSTAND": "exact revision",
+      "DECIDE": "exact revision cleanup",
+      "ACT": "historical fixture",
+      "VERIFY": "3083520968 verified",
+      "protectedReason": null,
+      "actionableBytes": 0
+    },
+    {
+      "id": "cursor",
+      "SEE": "large AI/app state",
+      "UNDERSTAND": "live conversation/agent state",
+      "DECIDE": "KEEP",
+      "ACT": "unavailable",
+      "VERIFY": "N/A",
+      "protectedReason": "valuable active/recovery state",
+      "actionableBytes": 0
+    },
+    {
+      "id": "voicememos",
+      "SEE": "~14GB recordings",
+      "UNDERSTAND": "original audio",
+      "DECIDE": "KEEP",
+      "ACT": "unavailable",
+      "VERIFY": "N/A",
+      "protectedReason": "no Apple local-only eviction contract",
+      "actionableBytes": 0
+    },
+    {
+      "id": "chrome",
+      "SEE": "mixed browser storage",
+      "UNDERSTAND": "site state + verified cache",
+      "DECIDE": "protect site state",
+      "ACT": "unavailable",
+      "VERIFY": "N/A",
+      "protectedReason": "IndexedDB/site state not cache",
+      "actionableBytes": 0
+    },
+    {
+      "id": "claude",
+      "SEE": "VM/runtime storage",
+      "UNDERSTAND": "base + mutable",
+      "DECIDE": "KEEP while active",
+      "ACT": "unavailable",
+      "VERIFY": "N/A",
+      "protectedReason": "active runtime / mutable overlay",
+      "actionableBytes": 0
+    }
+  ]
+}

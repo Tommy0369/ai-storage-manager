@@ -1,0 +1,336 @@
+{
+  "generatedAt": "2026-09-05T08:12:05Z",
+  "versions": [
+    {
+      "version": "2026.06.24-00-45-58-9f61de7",
+      "presentInHOME": false,
+      "presentInGS": true,
+      "bytesHOME": null,
+      "bytesGS": 180812457,
+      "architecture": "arm64",
+      "artifactMatch": null,
+      "overlapClass": "GS_ONLY_VERSION",
+      "selectionReference": {
+        "HOME": "NOT_SELECTED",
+        "GS": "NOT_SELECTED"
+      },
+      "runtimeReference": {
+        "HOME": "NONE_OBSERVED",
+        "GS": "NONE_OBSERVED"
+      },
+      "fallbackReference": {
+        "HOME": "VENDOR_KEEP_PLUS_2_SEMANTICS",
+        "GS": "UNKNOWN_NO_WORKER_FALLBACK_GRAPH"
+      },
+      "migrationReference": "NONE",
+      "GS_lifecycleState": "UNKNOWN",
+      "GS_referenceState": "UNKNOWN"
+    },
+    {
+      "version": "2026.06.26-7079533",
+      "presentInHOME": false,
+      "presentInGS": true,
+      "bytesHOME": null,
+      "bytesGS": 180585664,
+      "architecture": "arm64",
+      "artifactMatch": null,
+      "overlapClass": "GS_ONLY_VERSION",
+      "selectionReference": {
+        "HOME": "NOT_SELECTED",
+        "GS": "NOT_SELECTED"
+      },
+      "runtimeReference": {
+        "HOME": "NONE_OBSERVED",
+        "GS": "NONE_OBSERVED"
+      },
+      "fallbackReference": {
+        "HOME": "VENDOR_KEEP_PLUS_2_SEMANTICS",
+        "GS": "UNKNOWN_NO_WORKER_FALLBACK_GRAPH"
+      },
+      "migrationReference": "NONE",
+      "GS_lifecycleState": "UNKNOWN",
+      "GS_referenceState": "UNKNOWN"
+    },
+    {
+      "version": "2026.06.29-2ad2186",
+      "presentInHOME": false,
+      "presentInGS": true,
+      "bytesHOME": null,
+      "bytesGS": 180999804,
+      "architecture": "arm64",
+      "artifactMatch": null,
+      "overlapClass": "GS_ONLY_VERSION",
+      "selectionReference": {
+        "HOME": "NOT_SELECTED",
+        "GS": "NOT_SELECTED"
+      },
+      "runtimeReference": {
+        "HOME": "NONE_OBSERVED",
+        "GS": "NONE_OBSERVED"
+      },
+      "fallbackReference": {
+        "HOME": "VENDOR_KEEP_PLUS_2_SEMANTICS",
+        "GS": "UNKNOWN_NO_WORKER_FALLBACK_GRAPH"
+      },
+      "migrationReference": "NONE",
+      "GS_lifecycleState": "UNKNOWN",
+      "GS_referenceState": "UNKNOWN"
+    },
+    {
+      "version": "2026.07.01-41b2de7",
+      "presentInHOME": false,
+      "presentInGS": true,
+      "bytesHOME": null,
+      "bytesGS": 181005940,
+      "architecture": "arm64",
+      "artifactMatch": null,
+      "overlapClass": "GS_ONLY_VERSION",
+      "selectionReference": {
+        "HOME": "NOT_SELECTED",
+        "GS": "NOT_SELECTED"
+      },
+      "runtimeReference": {
+        "HOME": "NONE_OBSERVED",
+        "GS": "NONE_OBSERVED"
+      },
+      "fallbackReference": {
+        "HOME": "VENDOR_KEEP_PLUS_2_SEMANTICS",
+        "GS": "UNKNOWN_NO_WORKER_FALLBACK_GRAPH"
+      },
+      "migrationReference": "NONE",
+      "GS_lifecycleState": "UNKNOWN",
+      "GS_referenceState": "UNKNOWN"
+    },
+    {
+      "version": "2026.07.09-a3815c0",
+      "presentInHOME": false,
+      "presentInGS": true,
+      "bytesHOME": null,
+      "bytesGS": 181205699,
+      "architecture": "arm64",
+      "artifactMatch": null,
+      "overlapClass": "GS_ONLY_VERSION",
+      "selectionReference": {
+        "HOME": "NOT_SELECTED",
+        "GS": "NOT_SELECTED"
+      },
+      "runtimeReference": {
+        "HOME": "NONE_OBSERVED",
+        "GS": "NONE_OBSERVED"
+      },
+      "fallbackReference": {
+        "HOME": "VENDOR_KEEP_PLUS_2_SEMANTICS",
+        "GS": "UNKNOWN_NO_WORKER_FALLBACK_GRAPH"
+      },
+      "migrationReference": "NONE",
+      "GS_lifecycleState": "UNKNOWN",
+      "GS_referenceState": "UNKNOWN"
+    },
+    {
+      "version": "2026.07.13-7fe37d2",
+      "presentInHOME": false,
+      "presentInGS": true,
+      "bytesHOME": null,
+      "bytesGS": 208380655,
+      "architecture": "arm64",
+      "artifactMatch": null,
+      "overlapClass": "GS_ONLY_VERSION",
+      "selectionReference": {
+        "HOME": "NOT_SELECTED",
+        "GS": "NOT_SELECTED"
+      },
+      "runtimeReference": {
+        "HOME": "NONE_OBSERVED",
+        "GS": "NONE_OBSERVED"
+      },
+      "fallbackReference": {
+        "HOME": "VENDOR_KEEP_PLUS_2_SEMANTICS",
+        "GS": "UNKNOWN_NO_WORKER_FALLBACK_GRAPH"
+      },
+      "migrationReference": "NONE",
+      "GS_lifecycleState": "UNKNOWN",
+      "GS_referenceState": "UNKNOWN"
+    },
+    {
+      "version": "2026.07.16-899851b",
+      "presentInHOME": false,
+      "presentInGS": true,
+      "bytesHOME": null,
+      "bytesGS": 208410416,
+      "architecture": "arm64",
+      "artifactMatch": null,
+      "overlapClass": "GS_ONLY_VERSION",
+      "selectionReference": {
+        "HOME": "NOT_SELECTED",
+        "GS": "NOT_SELECTED"
+      },
+      "runtimeReference": {
+        "HOME": "NONE_OBSERVED",
+        "GS": "NONE_OBSERVED"
+      },
+      "fallbackReference": {
+        "HOME": "VENDOR_KEEP_PLUS_2_SEMANTICS",
+        "GS": "UNKNOWN_NO_WORKER_FALLBACK_GRAPH"
+      },
+      "migrationReference": "NONE",
+      "GS_lifecycleState": "UNKNOWN",
+      "GS_referenceState": "UNKNOWN"
+    },
+    {
+      "version": "2026.07.20-8cc9c0b",
+      "presentInHOME": false,
+      "presentInGS": true,
+      "bytesHOME": null,
+      "bytesGS": 208441121,
+      "architecture": "arm64",
+      "artifactMatch": null,
+      "overlapClass": "GS_ONLY_VERSION",
+      "selectionReference": {
+        "HOME": "NOT_SELECTED",
+        "GS": "NOT_SELECTED"
+      },
+      "runtimeReference": {
+        "HOME": "NONE_OBSERVED",
+        "GS": "NONE_OBSERVED"
+      },
+      "fallbackReference": {
+        "HOME": "VENDOR_KEEP_PLUS_2_SEMANTICS",
+        "GS": "UNKNOWN_NO_WORKER_FALLBACK_GRAPH"
+      },
+      "migrationReference": "NONE",
+      "GS_lifecycleState": "UNKNOWN",
+      "GS_referenceState": "UNKNOWN"
+    },
+    {
+      "version": "2026.07.23-e383d2b",
+      "presentInHOME": false,
+      "presentInGS": true,
+      "bytesHOME": null,
+      "bytesGS": 208497042,
+      "architecture": "arm64",
+      "artifactMatch": null,
+      "overlapClass": "GS_ONLY_VERSION",
+      "selectionReference": {
+        "HOME": "NOT_SELECTED",
+        "GS": "NOT_SELECTED"
+      },
+      "runtimeReference": {
+        "HOME": "NONE_OBSERVED",
+        "GS": "NONE_OBSERVED"
+      },
+      "fallbackReference": {
+        "HOME": "VENDOR_KEEP_PLUS_2_SEMANTICS",
+        "GS": "UNKNOWN_NO_WORKER_FALLBACK_GRAPH"
+      },
+      "migrationReference": "NONE",
+      "GS_lifecycleState": "UNKNOWN",
+      "GS_referenceState": "UNKNOWN"
+    },
+    {
+      "version": "2026.08.04-aaa8809",
+      "presentInHOME": false,
+      "presentInGS": true,
+      "bytesHOME": null,
+      "bytesGS": 238166458,
+      "architecture": "arm64",
+      "artifactMatch": null,
+      "overlapClass": "GS_ONLY_VERSION",
+      "selectionReference": {
+        "HOME": "NOT_SELECTED",
+        "GS": "NOT_SELECTED"
+      },
+      "runtimeReference": {
+        "HOME": "NONE_OBSERVED",
+        "GS": "NONE_OBSERVED"
+      },
+      "fallbackReference": {
+        "HOME": "VENDOR_KEEP_PLUS_2_SEMANTICS",
+        "GS": "UNKNOWN_NO_WORKER_FALLBACK_GRAPH"
+      },
+      "migrationReference": "NONE",
+      "GS_lifecycleState": "UNKNOWN",
+      "GS_referenceState": "UNKNOWN"
+    },
+    {
+      "version": "2026.08.11-e8db854",
+      "presentInHOME": true,
+      "presentInGS": true,
+      "bytesHOME": 233896754,
+      "bytesGS": 233916074,
+      "architecture": "arm64",
+      "artifactMatch": "SAME_LABEL_DIFFERENT_ARTIFACT",
+      "overlapClass": "SAME_LABEL_DIFFERENT_ARTIFACT",
+      "selectionReference": {
+        "HOME": "SELECTED",
+        "GS": "NOT_SELECTED"
+      },
+      "runtimeReference": {
+        "HOME": "NONE_OBSERVED",
+        "GS": "NONE_OBSERVED"
+      },
+      "fallbackReference": {
+        "HOME": "VENDOR_KEEP_PLUS_2_SEMANTICS",
+        "GS": "UNKNOWN_NO_WORKER_FALLBACK_GRAPH"
+      },
+      "migrationReference": "NONE",
+      "GS_lifecycleState": "UNKNOWN",
+      "GS_referenceState": "UNKNOWN"
+    },
+    {
+      "version": "2026.08.25-3e8eec8",
+      "presentInHOME": false,
+      "presentInGS": true,
+      "bytesHOME": null,
+      "bytesGS": 234124742,
+      "architecture": "arm64",
+      "artifactMatch": null,
+      "overlapClass": "GS_ONLY_VERSION",
+      "selectionReference": {
+        "HOME": "NOT_SELECTED",
+        "GS": "NOT_SELECTED"
+      },
+      "runtimeReference": {
+        "HOME": "NONE_OBSERVED",
+        "GS": "NONE_OBSERVED"
+      },
+      "fallbackReference": {
+        "HOME": "VENDOR_KEEP_PLUS_2_SEMANTICS",
+        "GS": "UNKNOWN_NO_WORKER_FALLBACK_GRAPH"
+      },
+      "migrationReference": "NONE",
+      "GS_lifecycleState": "UNKNOWN",
+      "GS_referenceState": "UNKNOWN"
+    },
+    {
+      "version": "2026.08.31-4057e58",
+      "presentInHOME": false,
+      "presentInGS": true,
+      "bytesHOME": null,
+      "bytesGS": 234186013,
+      "architecture": "arm64",
+      "artifactMatch": null,
+      "overlapClass": "GS_ONLY_VERSION",
+      "selectionReference": {
+        "HOME": "NOT_SELECTED",
+        "GS": "SELECTED"
+      },
+      "runtimeReference": {
+        "HOME": "NONE_OBSERVED",
+        "GS": "NONE_OBSERVED"
+      },
+      "fallbackReference": {
+        "HOME": "VENDOR_KEEP_PLUS_2_SEMANTICS",
+        "GS": "UNKNOWN_NO_WORKER_FALLBACK_GRAPH"
+      },
+      "migrationReference": "NONE",
+      "GS_lifecycleState": "SELECTED",
+      "GS_referenceState": "SELECTED"
+    }
+  ],
+  "summary": {
+    "versionOverlapCount": 1,
+    "exactDuplicateVersionBytes": 0,
+    "gsOnlyVersionBytes": 2444816011,
+    "sameLabelDifferentArtifactBytes": 233916074
+  }
+}

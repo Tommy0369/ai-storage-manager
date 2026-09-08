@@ -1,0 +1,131 @@
+{
+  "averageFinalizationMs" : 0,
+  "entitiesFinalized" : 527,
+  "p95FinalizationMs" : 0,
+  "resolverContributionMs" : 0,
+  "slowestEntities" : [
+    {
+      "durationMs" : 0,
+      "entityID" : "container.com.apple.Network-Settings.extension.app_support",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Network-Settings.extension\/Data\/Library\/Application Support",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "git.dot_git",
+      "path" : "\/Users\/tomitakatsuhiro\/Projects\/ai-orchestra\/.git",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "appsupport.Cursor.process-monitor",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/process-monitor",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "git.dot_git",
+      "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-opportunity-finder\/.git",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "macos.containers.child.com.apple.freeform",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.freeform",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e8d79678-1c39-4e37-9066-559b7d7a772b",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "macos.containers.child.com.apple.AuthKit.AKDiagnosticExtension",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.AuthKit.AKDiagnosticExtension",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "appsupport.Cursor.cache",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/CachedData",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "macos.application_support.child.Wondershare_Repairit",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Wondershare Repairit",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "macos.application_support.child.discord",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/discord",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "macos.user_caches.child.notion.id",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/notion.id",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "macos.application_support.child.MobileSync",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/MobileSync",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "appsupport.Claude.cache",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/DawnGraphiteCache",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.preferences",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB\/Data\/Library\/Preferences",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "macos.containers.child.com.apple.ScreenSaver.Engine.legacyScreenSaver",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.ScreenSaver.Engine.legacyScreenSaver",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "macos.user_caches.child.com.github.atom.ShipIt",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.github.atom.ShipIt",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "macos.keychain",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Keychains",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "macos.containers.child.com.apple.Mouse-Settings.extension",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Mouse-Settings.extension",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "appsupport.Discord.cache",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/DawnGraphiteCache",
+      "resolverContributionMs" : 0
+    },
+    {
+      "durationMs" : 0,
+      "entityID" : "appsupport.Cursor.cache",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/Cache",
+      "resolverContributionMs" : 0
+    }
+  ],
+  "snapshotCacheHits" : 0,
+  "snapshotCacheMisses" : 527,
+  "snapshotsCreated" : 527
+}

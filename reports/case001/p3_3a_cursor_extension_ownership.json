@@ -1,0 +1,45 @@
+{
+  "namespaces": [
+    {
+      "namespace": "anysphere.cursor-agent-worker",
+      "extensionID": "anysphere.cursor-agent-worker",
+      "extensionInstalled": false,
+      "version": null,
+      "ownershipEvidence": "CURSOR_FIRST_PARTY_NAMESPACE_NO_MARKETPLACE_DIR",
+      "storageBytes": 2713722880,
+      "availabilityState": "CURSOR_FIRST_PARTY_NAMESPACE",
+      "recommendedNextProof": "Prove agent-cli version retention policy"
+    },
+    {
+      "namespace": "anysphere.cursor-commits",
+      "extensionID": "anysphere.cursor-commits",
+      "extensionInstalled": false,
+      "version": null,
+      "ownershipEvidence": "CURSOR_FIRST_PARTY_NAMESPACE_NO_MARKETPLACE_DIR",
+      "storageBytes": 0,
+      "availabilityState": "CURSOR_FIRST_PARTY_NAMESPACE",
+      "recommendedNextProof": "Confirm commit-related state semantics"
+    },
+    {
+      "namespace": "anysphere.cursor-retrieval",
+      "extensionID": "anysphere.cursor-retrieval",
+      "extensionInstalled": false,
+      "version": null,
+      "ownershipEvidence": "CURSOR_FIRST_PARTY_NAMESPACE_NO_MARKETPLACE_DIR",
+      "storageBytes": 16846848,
+      "availabilityState": "CURSOR_FIRST_PARTY_NAMESPACE",
+      "recommendedNextProof": "Checkpoint lifecycle semantics"
+    },
+    {
+      "namespace": "ms-dotnettools.vscode-dotnet-runtime",
+      "extensionID": "ms-dotnettools.vscode-dotnet-runtime",
+      "extensionInstalled": true,
+      "version": "3.1.0-universal",
+      "ownershipEvidence": "EXTENSION_DIR_EXACT_PREFIX_MATCH",
+      "storageBytes": 0,
+      "availabilityState": "EXTENSION_PRESENT",
+      "recommendedNextProof": "Vendor-native lifecycle"
+    }
+  ],
+  "generatedAt": "2026-09-05T01:05:39Z"
+}

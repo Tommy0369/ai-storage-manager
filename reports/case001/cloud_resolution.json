@@ -1,0 +1,48 @@
+[
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "cloud.icloud.mobile_documents",
+    "lifecycleRole" : "MIXED",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Mobile Documents",
+    "provenanceConfidence" : "VERIFIED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "UNKNOWN",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 0,
+    "unknownReasons" : [
+      "DEFERRED:NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE",
+      "LIFECYCLE_DATABASE_UNKNOWN",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "cloud.fileprovider.root",
+    "lifecycleRole" : "MIXED",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/CloudStorage",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "UNKNOWN",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 0,
+    "unknownReasons" : [
+      "UNKNOWN_REMOTE_COPY",
+      "UNKNOWN_SYNC_STATE",
+      "DEFERRED:NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE",
+      "LIFECYCLE_DATABASE_UNKNOWN",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  }
+]

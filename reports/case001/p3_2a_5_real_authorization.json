@@ -1,0 +1,12 @@
+{
+  "approvalBindingValid" : true,
+  "approvalConsumed" : true,
+  "approvalCreated" : true,
+  "approvalID" : "human-approval-ollama-FF421CEE",
+  "authorizationReceived" : true,
+  "authorizationTextFingerprint" : "af43f204f346b7aa",
+  "authorizedAction" : "VENDOR_NATIVE_CLEANUP",
+  "authorizedCanonicalModel" : "library\/qwen3:4b",
+  "authorizedEntity" : "ai.ollama.model.library.qwen3:4b",
+  "generatedAt" : "2026-09-04T14:03:19Z"
+}

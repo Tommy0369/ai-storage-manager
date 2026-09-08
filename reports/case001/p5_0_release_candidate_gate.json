@@ -1,0 +1,117 @@
+{
+  "generatedAt": "2026-09-05T23:50:52Z",
+  "overallStatus": "RC_PASS_LOCAL_BETA_READY",
+  "BUILD": "PASS",
+  "TESTS": "PASS",
+  "SAFETY": "PASS",
+  "PRIVACY": "PASS",
+  "PERMISSIONS": "PASS",
+  "PERFORMANCE": "PASS",
+  "PACKAGING": "PASS",
+  "SIGNING": "MANUAL_REQUIRED",
+  "NOTARIZATION": "MANUAL_REQUIRED",
+  "FIRST_LAUNCH": "PASS",
+  "CLEAN_STATE": "PASS",
+  "FAILURE_RECOVERY": "PASS",
+  "ACTION_FLOW": "PASS",
+  "DOCUMENTATION": "PASS",
+  "dimensions": [
+    {
+      "name": "BUILD",
+      "status": "PASS",
+      "note": "Release build + app bundle produced"
+    },
+    {
+      "name": "TESTS",
+      "status": "PASS",
+      "note": "780/0 after P5 tests"
+    },
+    {
+      "name": "SAFETY",
+      "status": "PASS",
+      "note": "FalseGREEN=0; UNKNOWN auth=0; contract/approval bypass=0"
+    },
+    {
+      "name": "PRIVACY",
+      "status": "PASS",
+      "note": "No secrets shipped; no third-party telemetry"
+    },
+    {
+      "name": "PERMISSIONS",
+      "status": "PASS",
+      "note": "FDA optional; denied degrades safely"
+    },
+    {
+      "name": "PERFORMANCE",
+      "status": "PASS",
+      "note": "No material P4.1 regression introduced"
+    },
+    {
+      "name": "PACKAGING",
+      "status": "PASS",
+      "note": "dist .app + ZIP"
+    },
+    {
+      "name": "SIGNING",
+      "status": "MANUAL_REQUIRED",
+      "note": "Ad-hoc only; Developer ID missing"
+    },
+    {
+      "name": "NOTARIZATION",
+      "status": "MANUAL_REQUIRED",
+      "note": "NOTARIZATION_CREDENTIALS_REQUIRED"
+    },
+    {
+      "name": "FIRST_LAUNCH",
+      "status": "PASS",
+      "note": "Smoke launch + empty history copy"
+    },
+    {
+      "name": "CLEAN_STATE",
+      "status": "PASS",
+      "note": "No reports/fixture dependency"
+    },
+    {
+      "name": "FAILURE_RECOVERY",
+      "status": "PASS",
+      "note": "Failure matrix safe"
+    },
+    {
+      "name": "ACTION_FLOW",
+      "status": "PASS",
+      "note": "Fixture/historical regression; no live mutation"
+    },
+    {
+      "name": "DOCUMENTATION",
+      "status": "PASS",
+      "note": "README/INSTALL/SAFETY/PRIVACY/LIMITATIONS/RELEASE_NOTES"
+    }
+  ],
+  "hardBlockers": [],
+  "manualRequired": [
+    "SIGNING: Developer ID Application identity",
+    "NOTARIZATION: Apple notarization credentials + staple",
+    "Gatekeeper external assessment after notarization",
+    "Optional fresh OS user account validation (P5.1)"
+  ],
+  "nonBlockingLimitations": [
+    "arm64-only RC on this host",
+    "Voice Memos local-only eviction unavailable",
+    "Many large entities remain KEEP / actionable=0",
+    "Interactive Release performance ms not instrumented",
+    "Residual truncated debug path fragment in binary strings"
+  ],
+  "liveMutationValidationRequired": false,
+  "humanAuthorizationNeededNow": false,
+  "recommendedNextPhase": "P5.1_SIGN_NOTARIZE_PACKAGE",
+  "researchFrozen": true,
+  "newResearch": false,
+  "newExecutors": false,
+  "realMutations": false,
+  "testsBefore": 769,
+  "testsAfter": 780,
+  "failures": 0,
+  "FalseGREEN": 0,
+  "duplicateEvaluations": 0,
+  "secondCrawlerAdded": false
+}

@@ -1,0 +1,34 @@
+{
+  "architectureMatchesHost": true,
+  "brewCandidates": [
+    {
+      "architecture": "arm64",
+      "hostNative": true,
+      "path": "/opt/homebrew/bin/brew",
+      "prefix": "/opt/homebrew",
+      "usable": true,
+      "version": "Homebrew 6.0.21"
+    },
+    {
+      "architecture": "x86_64",
+      "hostNative": false,
+      "path": "/usr/local/bin/brew",
+      "prefix": "/usr/local",
+      "usable": true,
+      "version": "Homebrew 6.0.21"
+    }
+  ],
+  "cleanupOfFailedBrewAttemptPerformed": false,
+  "failedInstallBrew": "/usr/local/bin/brew",
+  "failedInstallResult": "FAILED_OPENSSL_SOURCE_BUILD",
+  "hfInstalledByNativeBrew": true,
+  "hostArchitecture": "arm64",
+  "multipleInstallations": true,
+  "nativeInstallBrew": "/opt/homebrew/bin/brew",
+  "nativeInstallResult": "SUCCESS",
+  "observedAt": "2026-09-05T00:03:01Z",
+  "selectedArchitecture": "arm64",
+  "selectedBrew": "/opt/homebrew/bin/brew",
+  "selectedPrefix": "/opt/homebrew",
+  "selectionReason": "HOST_NATIVE_PREFERRED_OVER_PATH_ORDER_MULTIPLE_INSTALLATIONS"
+}

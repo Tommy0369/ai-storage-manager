@@ -1,0 +1,6 @@
+FIXTURE (not live authorization)
+Optimization Plan — Vendor Restoration
+Ready Now: 0
+Requires Vendor Restoration: ~2.497 GB
+Verified Future: HF remains non-executable
+Ollama tier: REQUIRES_VENDOR_RESTORATION

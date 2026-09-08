@@ -1,0 +1,51 @@
+{
+  "budgetExhausted" : false,
+  "candidateBuildingMs" : 102,
+  "candidatesAttempted" : 119,
+  "candidatesBlocked" : 405,
+  "candidatesDiscovered" : 524,
+  "candidatesSkipped" : 16,
+  "claimUpdateMs" : 0,
+  "claimsConflicted" : 0,
+  "claimsInferred" : 85,
+  "claimsUnknown" : 9,
+  "claimsVerified" : 37,
+  "proofExecutionMs" : 15862,
+  "proofStrategyCounts" : {
+    "ActiveStateResolver" : 115,
+    "ClaudeVMActiveProofStrategy" : 7,
+    "FileProviderProofStrategy" : 2,
+    "HuggingFaceStorageProofStrategy" : 2,
+    "OllamaStorageProofStrategy" : 3,
+    "SourceOfTruthResolver" : 3
+  },
+  "runtimePerVerifiedClaimMs" : 428.7027027027027,
+  "safetyEvaluationMs" : 27120,
+  "strategySelectionMs" : 0,
+  "topSuccessfulProofs" : [
+    "ActiveStateResolver:xcode.derived_data",
+    "ActiveStateResolver:xcode.module_cache",
+    "ActiveStateResolver:xcode.deriveddata.SDKStatCaches.noindex",
+    "ActiveStateResolver:xcode.preview_cache",
+    "ActiveStateResolver:xcode.simulator_devices",
+    "ActiveStateResolver:cursor.workspaceStorage.e0fc1104707bd07ae87361090d3c6aaf",
+    "ActiveStateResolver:cursor.workspaceStorage.9c26c191bf61ff9bea68275f86e9981a",
+    "ActiveStateResolver:ai.ollama.logs",
+    "ActiveStateResolver:cursor.workspaceStorage.f216a64957730028c62a2233c73dd5b4",
+    "ActiveStateResolver:docker.volumes"
+  ],
+  "topUnresolvedProofs" : [
+    "OllamaStorageProofStrategy:ai.ollama.blobs",
+    "OllamaStorageProofStrategy:ai.ollama.manifests",
+    "OllamaStorageProofStrategy:ai.ollama_models",
+    "SourceOfTruthResolver:xcode.derived_data",
+    "SourceOfTruthResolver:xcode.module_cache",
+    "SourceOfTruthResolver:xcode.deriveddata.SDKStatCaches.noindex",
+    "HuggingFaceStorageProofStrategy:ai.hf.hub",
+    "HuggingFaceStorageProofStrategy:ai.huggingface_cache",
+    "FileProviderProofStrategy:cloud.icloud.mobile_documents"
+  ],
+  "totalRuntimeMs" : 43117,
+  "verificationYield" : 0.2803030303030303,
+  "verifiedBytesImpacted" : 79258554368
+}

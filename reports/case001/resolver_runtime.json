@@ -1,0 +1,60 @@
+{
+  "resolvers" : [
+    {
+      "cacheHits" : 527,
+      "cacheMisses" : 0,
+      "conflictedResults" : 0,
+      "invocations" : 527,
+      "medianRuntimeMs" : 0,
+      "p95RuntimeMs" : 0,
+      "resolver" : "active_state",
+      "slowestEntities" : [
+
+      ],
+      "totalRuntimeMs" : 0,
+      "uniqueEntities" : 487,
+      "unknownResults" : 0,
+      "verifiedResults" : 0
+    },
+    {
+      "cacheHits" : 0,
+      "cacheMisses" : 527,
+      "conflictedResults" : 0,
+      "invocations" : 527,
+      "medianRuntimeMs" : 0,
+      "p95RuntimeMs" : 0,
+      "resolver" : "regenerability",
+      "slowestEntities" : [
+        "macos.application_support.child.Codex",
+        "macos.containers.child.com.apple.PDFImporter",
+        "macos.containers.child.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension",
+        "macos.application_support.child.Wondershare_Repairit",
+        "macos.containers.child.com.apple.priml.PFLMLHostPlugins.SiriMASPFLCK"
+      ],
+      "totalRuntimeMs" : 0,
+      "uniqueEntities" : 487,
+      "unknownResults" : 463,
+      "verifiedResults" : 64
+    },
+    {
+      "cacheHits" : 0,
+      "cacheMisses" : 527,
+      "conflictedResults" : 0,
+      "invocations" : 527,
+      "medianRuntimeMs" : 0,
+      "p95RuntimeMs" : 0,
+      "resolver" : "source_of_truth",
+      "slowestEntities" : [
+        "macos.application_support.child.Codex",
+        "macos.containers.child.com.apple.PDFImporter",
+        "macos.containers.child.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension",
+        "macos.application_support.child.Wondershare_Repairit",
+        "macos.containers.child.com.apple.priml.PFLMLHostPlugins.SiriMASPFLCK"
+      ],
+      "totalRuntimeMs" : 0,
+      "uniqueEntities" : 487,
+      "unknownResults" : 463,
+      "verifiedResults" : 64
+    }
+  ]
+}

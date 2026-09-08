@@ -1,0 +1,13 @@
+{
+  "appFound" : true,
+  "binaryFingerprint" : "path=\/Applications\/Ollama.app\/Contents\/Resources\/ollama;size=68353744;mtime=1788509181",
+  "bundleIdentifier" : "com.electron.ollama",
+  "cliResolved" : true,
+  "cliVersion" : "ollama version is 0.32.15",
+  "interfaceKind" : "CLI",
+  "localAPIReachable" : true,
+  "resolutionMethod" : "BUNDLE_EMBEDDED_CLI",
+  "status" : "RESOLVED_CLI",
+  "supportsPS" : true,
+  "supportsRM" : true
+}

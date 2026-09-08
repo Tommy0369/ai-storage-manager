@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-09-05T11:06:34Z",
+  "chromeRootResolutionMs": 3366,
+  "chromeSemanticClassificationMs": 8656,
+  "chromeVendorContractMs": 50,
+  "claudeRootResolutionMs": 437,
+  "claudeSemanticClassificationMs": 792,
+  "claudeLifecycleTraceMs": 94,
+  "coverageMatrixBuildMs": 0,
+  "graduationGateMs": 0,
+  "firstMapImpact": "NONE_LATE_ON_DEMAND"
+}

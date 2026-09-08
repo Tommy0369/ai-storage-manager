@@ -1,0 +1,17 @@
+{
+  "actionDecisionBuildMs" : 3646,
+  "decisionReuseCount" : 2108,
+  "duplicateEvaluations" : 0,
+  "mutationGateMs" : 14,
+  "p113SafetyEvalMs" : 11300,
+  "p113TotalSeconds" : 70.5,
+  "p201SafetyEvalMs" : 27120,
+  "p201TotalSeconds" : 110.89235496520996,
+  "p20SafetyEvalMs" : 25000,
+  "p20TotalSeconds" : 117,
+  "preflightMs" : 8,
+  "readinessMs" : 20,
+  "recommendationMs" : 28,
+  "reportGenerationMs" : 0,
+  "runtimeBatchMs" : 4230
+}

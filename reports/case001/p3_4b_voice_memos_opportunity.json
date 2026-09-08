@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-09-05T10:31:22Z",
+  "totalRecordingBytes": 14021960498,
+  "remoteVerifiedBytes": 0,
+  "residentBytes": 14021960498,
+  "eligibleLocalEvictionBytes": 0,
+  "protectedLocalOnlyBytes": 14021960498,
+  "remoteUnknownBytes": 14021960498,
+  "nativeContractCoveredBytes": 0,
+  "potentialRecoveryBytes": 0,
+  "planTier": "PROTECTED",
+  "planSubTier": "PRESERVATION_PROOF_CLOSED_NO_NATIVE_EVICTION",
+  "currentExecutable": false,
+  "reason": "CloudKit sync exists; permanent delete propagates; no proven local-only eviction. KEEP recordings. Do not invent workaround.",
+  "ux": {
+    "line1": "Voice Memos ~14.0GB \u2014 your recordings.",
+    "line2": "Safe deletion: No (deletion can sync across Apple devices).",
+    "line3": "Local-only offload: Apple does not expose a verified Remove Download contract for Voice Memos on this Mac."
+  }
+}

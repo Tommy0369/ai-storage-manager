@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-09-05T10:31:22Z",
+  "privacySafe": true,
+  "audioContentInspected": false,
+  "transcriptionPerformed": false,
+  "rootEntities": [
+    {
+      "class": "GROUP_CONTAINER",
+      "pathClass": "group.com.apple.VoiceMemos.shared",
+      "observedBytes": 14092847946,
+      "uniqueBytes": 14092847946
+    },
+    {
+      "class": "APP_CONTAINER",
+      "pathClass": "com.apple.VoiceMemos",
+      "observedBytes": 193776
+    }
+  ],
+  "rootObservedBytes": 14092847946,
+  "rootUniqueBytes": 14092847946,
+  "recordingCount": 128,
+  "cloudRecordingEntityCount": 125,
+  "recordingMediaBytes": 14021960498,
+  "databaseBytes": 5042568,
+  "metadataBytes": 9548,
+  "cacheBytesVerified": 65835332,
+  "waveformBytes": 65835332,
+  "recentlyDeletedBytes": 0,
+  "temporaryBytes": 0,
+  "unknownBytes": 0,
+  "classificationCoverage": 1.0,
+  "accountingValid": true,
+  "app": {
+    "bundleID": "com.apple.VoiceMemos",
+    "version": "3.2",
+    "build": "1380"
+  },
+  "running": false,
+  "mediaByExt": {
+    ".m4a": {
+      "count": 41,
+      "bytes": 2386351523
+    },
+    ".qta": {
+      "count": 87,
+      "bytes": 11635608975
+    }
+  }
+}

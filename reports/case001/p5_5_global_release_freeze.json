@@ -1,0 +1,44 @@
+{
+  "localizationReleaseReady": true,
+  "localizationFrozen": true,
+  "supportedLocales": [
+    "en",
+    "ja",
+    "zh-Hans",
+    "zh-Hant",
+    "ko",
+    "es",
+    "fr",
+    "de",
+    "pt-BR"
+  ],
+  "packagedLocales": [
+    "en",
+    "ja",
+    "zh-Hans",
+    "zh-Hant",
+    "ko",
+    "es",
+    "fr",
+    "de",
+    "pt-BR"
+  ],
+  "localizationBundleValidation": "PASS",
+  "packagingInvariantPresent": true,
+  "packagingInvariant": "NO_RELEASE_SIGNING_WITHOUT_LOCALIZATION_BUNDLE_VALIDATION",
+  "catalogFingerprintSHA256": "5eb7141a8f41815fe75ce3cb8f1fa29daf1ec26117fa72fffe06cda4bc75ba79",
+  "catalogKeyCount": 222,
+  "releaseBuild": "50",
+  "releaseVersion": "0.1.0",
+  "packagingValidated": true,
+  "researchFrozen": true,
+  "safetySemanticsFrozen": true,
+  "executorSet": [
+    "MOVE_TO_TRASH",
+    "OLLAMA_MODEL_VENDOR_NATIVE_CLEANUP",
+    "HF_SNAPSHOT_VENDOR_NATIVE_CLEANUP"
+  ],
+  "realMutations": 0,
+  "storeMetadataFrozen": true,
+  "generatedAt": "2026-09-08T00:51:18Z"
+}

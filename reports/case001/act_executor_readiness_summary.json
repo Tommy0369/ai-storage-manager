@@ -1,0 +1,17 @@
+{
+  "approvalRequiredCount" : 0,
+  "blockedCount" : 1,
+  "contractSatisfiedReadOnlyCount" : 0,
+  "executorImplemented" : true,
+  "keepCount" : 0,
+  "missingActionContracts" : 0,
+  "missingAuditContracts" : 0,
+  "missingPostVerifyContracts" : 0,
+  "missingTransactionContracts" : 0,
+  "moveToICloudCount" : 1,
+  "moveToTrashCount" : 0,
+  "preflightRequiredCount" : 0,
+  "removeLocalDownloadCount" : 0,
+  "totalEvaluated" : 1,
+  "verifyMoreCount" : 0
+}

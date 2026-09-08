@@ -1,0 +1,12 @@
+{
+  "FalseGREEN" : 0,
+  "HFExecutable" : false,
+  "MOVE_TO_TRASHChanged" : false,
+  "duplicateEvaluations" : 0,
+  "generatedAt" : "2026-09-04T14:03:19Z",
+  "newMutationCapabilitiesAddedInThisPhase" : [
+    "OLLAMA_MODEL_VENDOR_NATIVE_CLEANUP_REAL_PATH"
+  ],
+  "rawBlobExecutable" : false,
+  "secondCrawlerAdded" : false
+}

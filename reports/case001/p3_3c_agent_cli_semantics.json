@@ -1,0 +1,56 @@
+{
+  "installPathEvidence": {
+    "worker": "cursor-agent-worker dist/main.js installs into globalStorage/.../agent-cli/.local/share/cursor-agent/versions via GetCliDownloadUrl",
+    "cli": "install-core-posix installCursorAgent downloads agent-cli-package.tar.gz into HOME/.local/share/cursor-agent/versions",
+    "confidence": "VERIFIED_CALL_PATH"
+  },
+  "versionSelectionEvidence": {
+    "globalStorage": "symlink agent-cli/.local/bin/cursor-agent \u2192 versions/<id>/cursor-agent",
+    "home": "symlink ~/.local/bin/{agent,cursor-agent} \u2192 home versions",
+    "confidence": "VERIFIED"
+  },
+  "launchPathEvidence": {
+    "launcher": "cursor-agent bash wrapper execs ./node index.js",
+    "confidence": "VERIFIED"
+  },
+  "fallbackEvidence": {
+    "vendorKeep": "cleanupOldInstallVersions keeps current + 2 newest non-current (mtime desc), skips in-use markers and active bin targets",
+    "confidence": "VERIFIED_CALL_PATH"
+  },
+  "rollbackEvidence": {
+    "explicitRollbackGraph": "UNKNOWN",
+    "impliedByRetention": "last 2 non-current retained by cleanup algorithm",
+    "confidence": "INFERRED_FROM_RETENTION"
+  },
+  "updateEvidence": {
+    "cliCommand": "agent update",
+    "afterInstall": "spawns detached cleanup-install-versions <currentVersion>",
+    "worker": "downloads latest buildId into GS cache; no old-version prune found",
+    "confidence": "VERIFIED_CALL_PATH"
+  },
+  "retentionEvidence": {
+    "maxAdditionalNonCurrent": 2,
+    "policySource": "agent-cli install-core-posix cleanupOldInstallVersions",
+    "confidence": "VERIFIED_CALL_PATH"
+  },
+  "cleanupEvidence": {
+    "command": "agent cleanup-install-versions <currentVersion>",
+    "hidden": true,
+    "description": "Remove stale Cursor Agent install versions",
+    "defaultTarget": "HOME/.local/share/cursor-agent/versions",
+    "globalStorageTargetProven": false,
+    "confidence": "VERIFIED_CALL_PATH_FOR_HOME_STORE"
+  },
+  "artifactSourceEvidence": {
+    "api": "GetCliDownloadUrl / getCliDownloadUrl({channel})",
+    "package": "darwin|linux|windows / arch / agent-cli-package.tar.gz",
+    "exactOldVersionURL": "UNKNOWN \u2014 API returns latest channel version",
+    "confidence": "VERIFIED_LITERAL_AND_CALL_PATH"
+  },
+  "checksumEvidence": {
+    "localChecksumFiles": "NONE_FOUND",
+    "confidence": "VERIFIED_ABSENCE_IN_VERSION_DIRS"
+  },
+  "dualStoreNote": "GS worker store (~2.6GB) \u2260 HOME CLI store; native cleanup defaults to HOME",
+  "generatedAt": "2026-09-05T03:02:51Z"
+}

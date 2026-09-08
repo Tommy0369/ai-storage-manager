@@ -1,0 +1,6 @@
+FIXTURE — P3.4B Voice Memos preservation proof (no Free 14GB CTA).
+voice_memos_p34b_overview.png = ~14GB recordings; CloudKit sync inferred
+voice_memos_p34b_keep_not_delete.png = KEEP recordings; deletion is not cleanup
+voice_memos_p34b_sync_delete_warning.png = permanent delete can propagate across Apple devices
+voice_memos_p34b_residency.png = media RESIDENT; no native nonresident proof
+voice_memos_p34b_preservation_candidate.png = NOT GENERATED (no local-eviction contract)

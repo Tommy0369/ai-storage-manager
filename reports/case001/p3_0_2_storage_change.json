@@ -1,0 +1,169 @@
+{
+  "categoryDeltas" : [
+    {
+      "category" : "MACOS_SYSTEM",
+      "currentBytes" : 190789066752,
+      "deltaBytes" : 190789066752,
+      "previousBytes" : 0
+    },
+    {
+      "category" : "OTHER_UNKNOWN",
+      "currentBytes" : 44843772543,
+      "deltaBytes" : 6045696,
+      "previousBytes" : 44837726847
+    },
+    {
+      "category" : "AI_TOOLS",
+      "currentBytes" : 11030484719,
+      "deltaBytes" : 2097152,
+      "previousBytes" : 11028387567
+    },
+    {
+      "category" : "TRASH",
+      "currentBytes" : 0,
+      "deltaBytes" : 0,
+      "previousBytes" : 0
+    }
+  ],
+  "comparisonQuality" : "PARTIALLY_COMPARABLE",
+  "comparisonSnapshotID" : "36825CC2-72FF-453E-8656-11E74CFF2DD8",
+  "comparisonWindow" : "since_last_scan",
+  "coverageNotes" : [
+    "Map totals not fully comparable; reporting identified matched-node growth as lower bound.",
+    "PARTIAL comparison: unexplained remainder may include unmapped scope."
+  ],
+  "currentSnapshotID" : "808CAE54-6E8A-4CAF-ABA5-945C7C6D8510",
+  "diskFreeCurrent" : 135860862557,
+  "diskFreeDelta" : -2163453952,
+  "diskFreePrevious" : 138024316509,
+  "diskUsedCurrent" : 358471504291,
+  "diskUsedDelta" : 2163453952,
+  "diskUsedPrevious" : 356308050339,
+  "duplicateEvaluations" : 0,
+  "falseGREEN" : 0,
+  "generatedAt" : "2026-09-05T10:15:02Z",
+  "identifiedGrowthBytes" : 7279672,
+  "identifiedShrinkBytes" : 0,
+  "mappedCurrent" : 190789066752,
+  "mappedPrevious" : 19775011941,
+  "newLargeItems" : [
+    {
+      "changeKind" : "NEW",
+      "comparisonConfidence" : "NEW",
+      "currentBytes" : 190789066752,
+      "deltaBytes" : 190789066752,
+      "displayName" : "Macintosh HD",
+      "identity" : "entity:macos.application_support.child.com.apple.callintelligenced",
+      "nodeKind" : "volume",
+      "semanticCategory" : "MACOS_SYSTEM"
+    },
+    {
+      "changeKind" : "NEW",
+      "comparisonConfidence" : "NEW",
+      "currentBytes" : 4096,
+      "deltaBytes" : 4096,
+      "displayName" : "Hugging Face Models",
+      "identity" : "phys:\/Users\/tomitakatsuhiro\/.cache\/huggingface\/hub",
+      "nodeKind" : "directory",
+      "semanticCategory" : "AI_TOOLS"
+    }
+  ],
+  "regeneratedItems" : [
+
+  ],
+  "relatedVerifiedActions" : [
+
+  ],
+  "removedLargeItems" : [
+    {
+      "changeKind" : "REMOVED",
+      "comparisonConfidence" : "REMOVED",
+      "deltaBytes" : -4096,
+      "displayName" : "Hugging Face Models",
+      "identity" : "entity:ai.hf.hub",
+      "nodeKind" : "directory",
+      "previousBytes" : 4096,
+      "semanticCategory" : "AI_TOOLS"
+    },
+    {
+      "changeKind" : "REMOVED",
+      "comparisonConfidence" : "REMOVED",
+      "displayName" : "Macintosh HD",
+      "identity" : "entity:cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.refs",
+      "nodeKind" : "volume",
+      "semanticCategory" : "AI_TOOLS"
+    }
+  ],
+  "topGrowing" : [
+    {
+      "changeKind" : "GREW",
+      "comparisonConfidence" : "MATCHED",
+      "currentBytes" : 10084122624,
+      "deltaBytes" : 1966080,
+      "displayName" : "_lima",
+      "identity" : "phys:\/Users\/tomitakatsuhiro\/.colima\/_lima",
+      "nodeKind" : "directory",
+      "previousBytes" : 10082156544,
+      "semanticCategory" : "OTHER_UNKNOWN"
+    },
+    {
+      "changeKind" : "GREW",
+      "comparisonConfidence" : "MATCHED",
+      "currentBytes" : 10084143104,
+      "deltaBytes" : 1966080,
+      "displayName" : ".colima",
+      "identity" : "phys:\/Users\/tomitakatsuhiro\/.colima",
+      "nodeKind" : "directory",
+      "previousBytes" : 10082177024,
+      "semanticCategory" : "OTHER_UNKNOWN"
+    },
+    {
+      "changeKind" : "GREW",
+      "comparisonConfidence" : "MATCHED",
+      "currentBytes" : 1191862272,
+      "deltaBytes" : 1966080,
+      "displayName" : "colima",
+      "identity" : "phys:\/Users\/tomitakatsuhiro\/.colima\/_lima\/colima",
+      "nodeKind" : "directory",
+      "previousBytes" : 1189896192,
+      "semanticCategory" : "OTHER_UNKNOWN"
+    },
+    {
+      "changeKind" : "GREW",
+      "comparisonConfidence" : "MATCHED",
+      "currentBytes" : 3814346752,
+      "deltaBytes" : 1048576,
+      "displayName" : "Codex",
+      "identity" : "phys:\/Users\/tomitakatsuhiro\/.codex",
+      "nodeKind" : "directory",
+      "previousBytes" : 3813298176,
+      "semanticCategory" : "AI_TOOLS"
+    },
+    {
+      "changeKind" : "GREW",
+      "comparisonConfidence" : "MATCHED",
+      "currentBytes" : 2125952,
+      "deltaBytes" : 185400,
+      "displayName" : "logs_2.sqlite-wal",
+      "identity" : "phys:\/Users\/tomitakatsuhiro\/.codex\/logs_2.sqlite-wal",
+      "nodeKind" : "file",
+      "previousBytes" : 1940552,
+      "semanticCategory" : "AI_TOOLS"
+    },
+    {
+      "changeKind" : "GREW",
+      "comparisonConfidence" : "MATCHED",
+      "currentBytes" : 35340288,
+      "deltaBytes" : 147456,
+      "displayName" : "ai-code-tracking.db",
+      "identity" : "phys:\/Users\/tomitakatsuhiro\/.cursor\/ai-tracking\/ai-code-tracking.db",
+      "nodeKind" : "file",
+      "previousBytes" : 35192832,
+      "semanticCategory" : "OTHER_UNKNOWN"
+    }
+  ],
+  "topShrinking" : [
+
+  ],
+  "unexplainedDeltaBytes" : 2156174280
+}

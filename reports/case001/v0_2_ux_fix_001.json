@@ -1,0 +1,212 @@
+{
+  "generatedAt": "2026-09-08T04:13:26Z",
+  "phase": "v0.2_UX_FIX_001",
+  "baseline": "v0.1 = V0_1_GLOBAL_RELEASE_FROZEN (untouched)",
+  "verdict": "UX_FIX_001_COMPLETE",
+  "dividerRootCause": "StorageExplorerView.mapSplit rendered a hand-rolled split: HStack { map; Divider(); ExplorerInspectorView.frame(width: 320) }. The separator was decorative and the boundary lived in a hardcoded width, so the app showed two identical-looking vertical rules while only one — the NavigationSplitView's AXSplitter — was a real, draggable pane boundary. Dragging the real one left the inert twin standing, which reads as a stale line at the old position.",
+  "dividerRootCauseEvidenceBefore": {
+    "axSplitters": 1,
+    "axSplitterCentersPt": [
+      1127.0
+    ],
+    "visibleVerticalLinesPx": [
+      1612,
+      2254
+    ],
+    "visibleVerticalLineCount": 2,
+    "dragOnDecorativeLine": "no movement (splitter stayed 900pt, line stayed 1158px)",
+    "note": "visible lines (2) exceeded draggable boundaries (1) — one line was a ghost"
+  },
+  "dividerFix": "Replaced the hand-rolled HStack with HSplitView so AppKit's NSSplitView owns both the separator and the boundary — one authoritative source of truth. The inspector keeps v0.1's 320pt default width (map takes the slack via layoutPriority) but is now resizable between 320 and 560pt instead of pinned.",
+  "dividerFixIsOwnershipNotHiding": true,
+  "dividerStates": [
+    {
+      "state": "fullscreen default",
+      "splitters": 2,
+      "visibleLines": 2,
+      "pass": true
+    },
+    {
+      "state": "fullscreen drag left (~35%)",
+      "splitters": 2,
+      "visibleLines": 2,
+      "pass": true
+    },
+    {
+      "state": "fullscreen drag center (~50%)",
+      "splitters": 2,
+      "visibleLines": 2,
+      "pass": true
+    },
+    {
+      "state": "fullscreen drag right (~65%)",
+      "splitters": 2,
+      "visibleLines": 2,
+      "pass": true
+    },
+    {
+      "state": "restored from fullscreen",
+      "splitters": 2,
+      "visibleLines": 2,
+      "pass": true
+    },
+    {
+      "state": "resized narrow (1000x780)",
+      "splitters": 2,
+      "visibleLines": 2,
+      "pass": true
+    },
+    {
+      "state": "resized wide (1400x900)",
+      "splitters": 2,
+      "visibleLines": 2,
+      "pass": true
+    },
+    {
+      "state": "re-entered fullscreen",
+      "splitters": 2,
+      "visibleLines": 2,
+      "pass": true
+    }
+  ],
+  "fullscreenPass": true,
+  "resizePass": true,
+  "fullscreenRestorePass": true,
+  "staleDividerCount": 0,
+  "ghostSeparatorCount": 0,
+  "duplicateDividerCount": 0,
+  "innerSplitterIsDraggable": true,
+  "dividerVerificationMethod": "AXSplitter frames (accessibility) compared against vertical separator lines detected in window screenshots. The invariant checked at every state: visible vertical lines == draggable splitters, and every visible line sits on a splitter.",
+  "japaneseLensLabels": {
+    "STRUCTURE": "どこにある？",
+    "MEANING": "これは何？",
+    "DECISION": "どうする？"
+  },
+  "englishLensLabels": {
+    "STRUCTURE": "Where?",
+    "MEANING": "What is it?",
+    "DECISION": "What can I do?"
+  },
+  "lensInternalIdentifiersUnchanged": [
+    "STRUCTURE",
+    "MEANING",
+    "DECISION"
+  ],
+  "lensLabelsLocalizedInAllShippingLocales": true,
+  "scanStatusCopyChanged": true,
+  "contradictoryFailureCopyRemoved": true,
+  "scanStatusModel": {
+    "type": "StorageScanStatus",
+    "states": [
+      "IDLE",
+      "ACTIVE",
+      "DEEPENING",
+      "PARTIAL_CONTINUING",
+      "COMPLETE",
+      "FAILED"
+    ],
+    "japanese": {
+      "ACTIVE": "スキャン中…",
+      "DEEPENING": "さらに詳しく確認しています…",
+      "PARTIAL_CONTINUING": "一部を確認できませんでした。残りをスキャンしています…",
+      "COMPLETE": "スキャン完了",
+      "FAILED": "スキャンを完了できませんでした"
+    },
+    "beforeBehaviour": "The banner composed a stage label and a separate 'scanning deeper' chip next to an always-on spinner, so a failed scan could render 'スキャンに失敗しました' + 'さらに詳しくスキャン中…' + a spinner at the same time.",
+    "afterBehaviour": "One state resolves to one sentence; the spinner shows only while work is in flight.",
+    "partialIsNeverPresentedAsFailure": true
+  },
+  "topBarEnglishLeakageFixed": [
+    "story.largestFolder (was hardcoded '<name> is the largest mapped folder: <size>.')",
+    "map.inThisFolder (was hardcoded 'In this folder')",
+    "sidebar.navigate (was hardcoded 'Navigate')",
+    "sidebar.ataGlance (was hardcoded 'At a glance')"
+  ],
+  "newLocalizationKeys": 13,
+  "totalLocalizationKeys": 235,
+  "localesCovered": [
+    "en",
+    "ja",
+    "zh-Hans",
+    "zh-Hant",
+    "ko",
+    "es",
+    "fr",
+    "de",
+    "pt-BR"
+  ],
+  "missingLocaleValues": 0,
+  "nineLocaleSupportReduced": false,
+  "japaneseAppMenuPass": true,
+  "englishAppMenuPass": true,
+  "appMenuRootCause": "The app bundle declared no Japanese localization. AppKit renders the standard app menu from the BUNDLE's localizations and SwiftUI rebuilds that menu after launch, so runtime rewriting of NSApp.mainMenu did not survive — the menu stayed English next to a Japanese UI no matter what the process did.",
+  "appMenuFix": "Ship en.lproj and ja.lproj in the packaged .app so macOS localizes the standard menu natively (this also covers Edit / View / Window / Help), and mirror the in-app language choice into the app's own AppleLanguages default so the choice reaches that menu on next launch — which is what the Settings screen already tells the user.",
+  "appMenuJapaneseTitles": {
+    "about": "AI Storage Managerについて",
+    "services": "サービス",
+    "hide": "AI Storage Managerを非表示",
+    "hideOthers": "ほかを非表示",
+    "showAll": "すべてを表示",
+    "quit": "AI Storage Managerを終了"
+  },
+  "menuActionsPreserved": true,
+  "menuShortcutsPreserved": {
+    "hide": "⌘H",
+    "hideOthers": "⌥⌘H",
+    "quit": "⌘Q"
+  },
+  "menuServicesSubmenuPreserved": true,
+  "menuItemsIdentifiedBySelectorNotTitle": true,
+  "menuMixedLanguageState": false,
+  "nonJapaneseLocalesUseEnglishMenu": true,
+  "v01ArtifactUntouched": true,
+  "v01ZipSHA256": "3f9983dbcc705e99cf252ab6e1750ae854b7881271d3a23b452ec2a0ef2e2819",
+  "v01BundleFingerprint": "b509184cbdc9967bf2142c43505766e728d36116b868a57f0ce819751a838d9e",
+  "v01StapleStillValid": true,
+  "v01Rebuilt": false,
+  "v01Resigned": false,
+  "v01Renotarized": false,
+  "devOutputPath": "dist-dev/AI Storage Manager.app",
+  "frozenOutputGuardAdded": true,
+  "testsBefore": "819 / 0 failures",
+  "testsAfter": "843 / 0 failures",
+  "failures": "0",
+  "newTests": 24,
+  "safetyCounters": {
+    "falseGreen": 0,
+    "duplicateEvaluations": 0,
+    "secondCrawlerAdded": false,
+    "unknownAuthorizationCount": 0,
+    "contractGateBypassCount": 0,
+    "approvalBypassCount": 0,
+    "unverifiedRecoveryPresentationCount": 0,
+    "fakeRecoverableByteCount": 0,
+    "mutationAutoRetryCount": 0
+  },
+  "safetySemanticDifferences": "none",
+  "actionDecisionDifferences": "none",
+  "realStorageMutations": 0,
+  "canonicalVerifiedRecovery": 5580814899,
+  "executorCount": 3,
+  "executorSetUnchanged": true,
+  "screenshots": [
+    "reports/case001/screenshots/v02_split_fullscreen_left.png",
+    "reports/case001/screenshots/v02_split_fullscreen_right.png",
+    "reports/case001/screenshots/v02_topbar_ja.png",
+    "reports/case001/screenshots/v02_topbar_en.png",
+    "reports/case001/screenshots/v02_appmenu_ja.png",
+    "reports/case001/screenshots/v02_appmenu_en.png"
+  ],
+  "preExistingDefectsFound": [
+    {
+      "id": "settings-pane-blank",
+      "summary": "The Settings section renders a blank pane; the language picker is unreachable.",
+      "reproducedInFrozenV01": true,
+      "inScopeForThisFix": false,
+      "impact": "Runtime language switching cannot be exercised through the UI, because the control that performs it does not render. The underlying mechanism is covered by tests and by launching with the language preference set."
+    }
+  ],
+  "gitCommit": false,
+  "gitTag": false,
+  "gitPush": false
+}

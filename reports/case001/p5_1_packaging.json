@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-09-07T15:49:13Z",
+  "sourceAppPath": "/Users/tomitakatsuhiro/Workspace/10_進行中/ai-storage-manager/dist/AI Storage Manager.app",
+  "signedAppPath": "/Users/tomitakatsuhiro/Workspace/10_進行中/ai-storage-manager/dist/AI Storage Manager.app",
+  "notarizationZipPath": null,
+  "finalZipPath": "/Users/tomitakatsuhiro/Workspace/10_進行中/ai-storage-manager/dist/AIStorageManager-0.1.0-rc50-arm64.zip",
+  "zipSHA256": "436757806cec2c589f3e99de7ae0dd5a3dc2688ac76ccbb74acb7f0fb9b746bd",
+  "zipBytes": 5272027,
+  "extractedFinalZipValidated": true,
+  "extractedCodesignPass": true,
+  "extractedStaplePass": true,
+  "extractedSpctlPass": true,
+  "appLaunchAfterSign": true,
+  "appLaunchAfterExtract": true,
+  "debugArtifactsBundled": false,
+  "fixtureBundled": false,
+  "reportsBundled": false,
+  "packagingType": "APP_PLUS_ZIP",
+  "dmgProduced": false
+}

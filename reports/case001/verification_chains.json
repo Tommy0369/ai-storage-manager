@@ -1,0 +1,4726 @@
+[
+  {
+    "chainID" : "4478A0FF-6035-49E9-9033-0E4AC9AB420F",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.dot_git",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "1AE1FEAB-C012-451C-BE21-56FD735D18AC",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.dot_git",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "48477BEC-ECC1-42A9-A383-0C0D2BAB44C5",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.dot_git",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "40C9B80C-B959-48B5-AAE6-E9B9DCB08218",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.dot_git",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "46B48BAF-4AC1-4E77-BD07-11BA78886956",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "A7C35393-A52E-4085-BCFD-8B7BBD7E9738",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "D4260E00-DCDE-46B4-B511-BA38FEE832ED",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "macos.keychain",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "32A0D218-7B20-42D9-A81D-CC08F73FF4CF",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "macos.keychain",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "37F9C128-0152-444D-89EC-9D18A23E3D85",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.nektony.Boost-Memory.launcher.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "F494B83C-CE2F-4A83-A98D-D330A0D1A491",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.nektony.Boost-Memory.launcher.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "B0093725-FAFA-4570-8686-D8514AD1DF40",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "56423010-F853-451A-97C1-EBD11921F5C8",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "D78DC541-D4E3-48E1-9FC1-56275B726143",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "89F86691-D2ED-41CE-980E-B5BED8E33324",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "3AE61440-F398-4A72-B26D-664FE6A3FAC7",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.Mouse-Settings.extension.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "FD66F275-B52E-4C17-99E7-9E68F17CB8E4",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.Mouse-Settings.extension.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "B5FB11F7-0A96-4062-8928-8A3797943C1F",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "3D3ABF49-3443-417C-8EAC-41DB76A2B13C",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "97A8F34C-E56B-4193-8B01-486D244D1068",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.packfiles",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "6023F2E7-D9FB-4F1D-9116-D5A7B93B229B",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.packfiles",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "250E253F-75DB-4A21-A59D-63F36CA82FD2",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.packfiles",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "757D518C-4470-4259-A765-3E3337FAB61F",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.packfiles",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "684E8E20-7B08-4FC0-B652-E6B8216815C5",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.dot_git",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "DBE66456-D3EF-41A5-B170-9CFC1B23585F",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.dot_git",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "86C4CAD1-E25E-4D26-AE44-1A2D21F7D529",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "DDFF4216-E1A2-4ACC-B3BE-D9F31E08A134",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.freeform.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "4ADF3C65-5C14-4D1F-8F38-EEAEF9DE962A",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.freeform.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "8BAFB498-5B8A-4FF5-9799-F0933D74CAE4",
+    "claim" : "RELATIONSHIP_BELONGS_TO_WORKSPACE",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:\/Users\/tomitakatsuhiro\/AIGIG",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.workspaceStorage.f3d25ed098f27592cdeb4a1a5643a3d2",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "7357F55E-A125-4231-B760-CA9D31525C40",
+    "claim" : "RELATIONSHIP_BELONGS_TO_WORKSPACE",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-opportunity-finder",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.workspaceStorage.0aedbd575912a71ca589e7173fdb8451",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "F4724938-5CDC-47DE-B386-98B1AD6C55D2",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "ai.ollama.logs",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "845B2B8B-6CE4-4C19-B0C5-BE77F335C930",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.SonicKit.diagnostics.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "9F9E9058-BE1D-46C7-9BDB-FE518949AA1B",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.SonicKit.diagnostics.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "C5469FF1-8470-48BD-AD69-CC4CBAFD9E84",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.rootref.ai-storage-manager-644107ef",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "BB9B3A7E-3C4B-4F50-A203-AA040053BD16",
+    "claim" : "RELATIONSHIP_ASSOCIATED_WITH_CURSOR_STORE",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:ai-storage-manager-644107ef",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.rootref.ai-storage-manager-644107ef",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "68FB8B42-0741-4955-96FC-F699B8DBF445",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "chrome.profile.profile_10.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "B34A2F3C-7091-409E-9A9A-742C43E7936F",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "chrome.profile.profile_10.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "E0672E26-BDD8-4EA1-9E17-9FC9B8743A65",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.CloudPhotosConfiguration.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "02FC1EC9-A8BE-4761-AE4D-3B8FA88A5940",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.CloudPhotosConfiguration.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "E57E3D7E-A041-4726-A361-0B92FD9DBB2B",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "INACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "xcode.swiftpm_cache",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "9FB4EC33-81B9-4CFB-8688-6B1E035C0DDF",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.nektony.Boost-Memory.launcher.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "C869AE95-81F7-42B7-AC88-C4A62C06A6FC",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.nektony.Boost-Memory.launcher.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "F40D1D04-A3AE-42E1-818B-564148B6266A",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "ai.cursor_app_support",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "B9B1DAB1-0F1A-4462-A2B6-BF8EDF950604",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.SonicKit.diagnostics.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "242FA9A8-613F-42B7-80B7-1571C6185BC8",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.SonicKit.diagnostics.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "D8F0D846-82E7-4942-88A0-28CB8FF43D11",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "macos.user_caches.child.com.apple.proactive.eventtracker",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "81BB3238-937C-4366-A99F-C205EEC85A79",
+    "claim" : "RELATIONSHIP_BELONGS_TO_WORKSPACE",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:\/Users\/tomitakatsuhiro\/Library\/Mobile Documents\/com~apple~CloudDocs\/99_システム\/AI共有OS\/AI活動OS\/資料の部屋\/inbox\/jungle-biz",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.workspaceStorage.682dded78a349fd566ac1eee6c100612",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "2D501E8B-9347-4FEA-BBEC-827803010258",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.PressAndHold.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "DFC9795B-BFC3-45B0-BD7C-13409E2BEE7C",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.PressAndHold.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "CACFD2B7-6D31-4F36-BAEF-0279BDD4FDC4",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "macos.user_caches.child.familycircled",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "66A35520-3078-4F96-AC5E-FF95D4130F01",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.database",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "889AD5AC-0DD9-4699-B094-A9D78AAE1CEE",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "A28F0CF8-3A1C-4369-ACA1-DF787DB587B8",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.videoapps.RegisterProExtension.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "60402F9D-6CF3-4B09-9668-CFA1A1DCD9EC",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.videoapps.RegisterProExtension.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "3110455A-8C0F-4524-A995-BB9CEAF2BE37",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "macos.user_caches.child.CloudKit",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "2CA6195B-28AB-4791-A022-0DFE82892B55",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "user.downloads",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "33D6FB34-57E2-4B0F-93B0-BAE5222D3E86",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "user.downloads",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "765959D3-1A52-4549-A305-FCBBAB0ED4B8",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "user.downloads",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "F409EB03-4A6E-425F-9E9E-CB6D344872CF",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.de.codenuts.HotKey.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "44E03FF6-A3B9-405E-8B0C-4BC664A3F82D",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.de.codenuts.HotKey.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "572BB66C-A85A-4C29-A65C-BCE6F8AAEF1A",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "5454A9EC-A834-417C-9486-A985794D423A",
+    "claim" : "RELATIONSHIP_ASSOCIATED_WITH_CURSOR_STORE",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:81a50d8e-b83d-8058-aa3b-3288b57a9e49",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "D333E332-FED5-44DB-81D6-90047067ABD8",
+    "claim" : "RELATIONSHIP_OBSERVED_IN_CURSOR_CONTEXT",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/81a50d8e-b83d-8058-aa3b-3288b57a9e49",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "2E8CEE8A-DEB3-47CB-9E8E-E41CD6CED044",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "63B8F1FD-4A33-46C0-A6D7-C32067C66595",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "AFDB28E7-5AAC-41FF-9FD1-10211A19BBA0",
+    "claim" : "RELATIONSHIP_BELONGS_TO_WORKSPACE",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:\/Users\/tomitakatsuhiro\/Library\/Mobile Documents\/com~apple~CloudDocs\/10_進行中\/和牛の刀",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.workspaceStorage.7d8494cb71771bfa30d47b3f808a8ce3",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "C81D247F-FFA7-41CD-B580-A20B6A684C1B",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.workspaceStorage.e0fc1104707bd07ae87361090d3c6aaf",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "BC2140E8-817F-4E47-9A57-18174782E60D",
+    "claim" : "RELATIONSHIP_BELONGS_TO_WORKSPACE",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:\/Users\/tomitakatsuhiro\/AIGIG\/my-portfolio",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.workspaceStorage.e0fc1104707bd07ae87361090d3c6aaf",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "8C59976A-3471-4765-97F0-430C0FCC7762",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "742AB378-47C1-440A-8CED-491209A09509",
+    "claim" : "RELATIONSHIP_ASSOCIATED_WITH_CURSOR_STORE",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:d42eecea-ba9b-89e2-9fc1-793666b76c53",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "C0B88EFD-0CF0-46BB-88BB-46327E9A5A3E",
+    "claim" : "RELATIONSHIP_OBSERVED_IN_CURSOR_CONTEXT",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/d42eecea-ba9b-89e2-9fc1-793666b76c53",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "A6FB77A0-09F4-4B54-95A2-E1AE5BF5D46F",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "INACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "xcode.simulator_devices",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "CE7D38B3-5B8B-4FF5-8228-0E880A9E2CB3",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.rootref.cursor-b1863998",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "BF3E353D-64D8-43BF-8503-1BA23BD6F1D2",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.packfiles",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "83E3B585-904F-47B3-AB50-A2B4961B4BB7",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.packfiles",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "4DCE2932-2D85-44A4-A905-D93DEDEA7E0F",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "DD4E2BB6-17D3-4213-9C69-468689146399",
+    "claim" : "RELATIONSHIP_ASSOCIATED_WITH_CURSOR_STORE",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:ai-assessment-session-e2535413",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.rootref.ai-assessment-session-e2535413",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "93EDF333-4647-47B8-93DD-7216D3BBA719",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "INACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "docker.dot_docker",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "CE26F83D-1967-4267-AB87-B121F6DB608B",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "macos.user_caches",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "75EDF174-C6FC-4FEA-8D77-E5D3EBA77FAF",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.codebases",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "16CC968E-7283-45BD-B0BA-9045B38420EB",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.Mouse-Settings.extension.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "29E7D8D5-58AE-478B-B924-5FCA9C90F859",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.Mouse-Settings.extension.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "F6F09661-62E1-4214-954F-9A2343C58442",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.languageassetd.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "B07D7F00-1A40-4ABC-B7BA-FFC696882390",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.languageassetd.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "0BE3D437-6887-4901-8D6A-835D8631D3AB",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "INACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "xcode.module_cache",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "A008BDEE-56F8-4C64-A419-C7BF5ACC03F1",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.dot_git",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "D0A0B06B-A4D4-4B7E-8463-19C9A5CE40F6",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.dot_git",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "16FF604B-DABF-4305-AF4A-3D2FB317374B",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "INACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "xcode.derived_data",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "F33DA0AF-2952-4C57-BAE9-1A30594310AA",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.workspaceStorage.9c26c191bf61ff9bea68275f86e9981a",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "75B8D784-465B-4888-A51E-2EE50AA5B54F",
+    "claim" : "RELATIONSHIP_BELONGS_TO_WORKSPACE",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-storage-manager",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.workspaceStorage.9c26c191bf61ff9bea68275f86e9981a",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "03E105DB-B076-43DE-AA73-E8482E9B2149",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.root",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "DCB7993B-29B7-4562-B1B8-BAD6773C906F",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "INACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "xcode.preview_cache",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "C1CA0B0E-B667-4467-AD92-8915AEA0A80E",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.settings-intents.TransferResetIntents.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "044889A6-D609-4DF5-B2FF-537B4F9EE836",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.settings-intents.TransferResetIntents.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "B545FE6F-0D23-4982-969E-BBB9B71C95B0",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "ai.cursor.global_storage",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "DFF5253F-2B82-4334-B41D-6E21007E155D",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "voicememos.recordings",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "3ED4E3DC-8142-4EDC-BE37-2D538C68F456",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "voicememos.recordings",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "17082821-F149-44CA-BFB9-F0CB8D140DDF",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.de.codenuts.HotKey.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "2F75490A-2C17-47C6-9463-289D939601E2",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.de.codenuts.HotKey.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "2780CF6B-F26F-495F-8298-D8D7909E1AD8",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.working_tree",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "F7F79B1E-91CF-4777-A710-5462FA95786D",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.working_tree",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "2A8237D6-98A1-49F0-91D6-370EE325A901",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "7CED46C6-D87B-4C45-B91C-3B7C2ABBD838",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.dot_git",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "F9A37C6D-E0BA-4AF5-A57A-3E34695D465C",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.dot_git",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "1106AA55-28EC-4500-93B4-C2E31AE76E77",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.iCal.CalendarNC.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "4B4E0308-A0F0-441C-9BF3-103786303E56",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.iCal.CalendarNC.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "B7FE75C4-7FAC-42B2-AEBD-DAAB42DEA3CD",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.working_tree",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "728F5FB6-BBE9-48E3-BBE0-189E1C3685AB",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.working_tree",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "811ED45C-3A5E-46B9-ACF4-746317AB6672",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.working_tree",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "B98FAAC8-C99F-4567-AAEB-66A27B5C122C",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.working_tree",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "0CCD5831-6503-471D-AFBF-405B0CEF715F",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "C6FAC2A8-7CA6-486D-93A1-FD4E0C39E679",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "1458D173-611E-4B98-9B2F-D403C5774ABD",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "03CAC0C2-7004-435D-89AA-0C00734E9286",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "772CFD54-C2BC-4887-9B3A-9A49D32E4936",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "4DB344E7-0C58-436E-86AE-432E58612B42",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.settings-intents.TransferResetIntents.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "FF1ECE6A-FEFB-4331-8958-1D0BD60844CD",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.settings-intents.TransferResetIntents.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "46674F75-C42F-48C1-8EBC-20C419C35A67",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.PressAndHold.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "279624E6-1E3C-4086-8663-F3BE722411B9",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.PressAndHold.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "0CC23D46-997C-4D48-ACE1-9F61B85A6B13",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.freeform.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "E1A44C06-742F-4CA9-949F-0420DB1F2096",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.freeform.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "F53A5FBD-B0BD-4CA6-9B11-68BAEBD18E09",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "3DB0F425-E1D2-401E-806C-83F405A489E0",
+    "claim" : "RELATIONSHIP_ASSOCIATED_WITH_CURSOR_STORE",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:d42eecea-ba9b-89e2-9fc1-793666b76c53",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "70B52C45-CE85-4B7E-A19A-0112D7ADB1DB",
+    "claim" : "RELATIONSHIP_OBSERVED_IN_CURSOR_CONTEXT",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/d42eecea-ba9b-89e2-9fc1-793666b76c53",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "B8B9A55E-8010-4CF8-9DEC-F6EBEC313883",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "INACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "docker.volumes",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "C0091499-C969-4080-B2AA-47C9BCBAFDA7",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.workspaceStorage.f216a64957730028c62a2233c73dd5b4",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "A97C16E3-8ED3-41BA-BE2C-1F779C74742D",
+    "claim" : "RELATIONSHIP_BELONGS_TO_WORKSPACE",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-assessment-session",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.workspaceStorage.f216a64957730028c62a2233c73dd5b4",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "E0087A95-DF68-48CC-BED3-474933D95E63",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.working_tree",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "57B7DEE6-85A0-42F7-BECF-D4BDD4635E3D",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.working_tree",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "5C173D01-1D06-4A83-A704-E4A9EDB3E360",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.packfiles",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "EEA05B10-F141-4A9D-8C2D-6F176A75202C",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.packfiles",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "CEB97C4D-DBCB-4C71-971C-BDD5975C0777",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.working_tree",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "DA485CE1-CE53-458F-86E4-9EB1DD92EFB4",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.working_tree",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "AD8B3EA3-7F37-407D-80AE-2C0118F79578",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.working_tree",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "9912E126-C38A-49A7-858B-DFCD0B702DD2",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.working_tree",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "B0E9918E-C39E-401B-A271-2401773C0851",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "3EFFA6C3-5D9E-4F45-BB27-33B4E46261CE",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.roots",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "A9F9CE43-123D-47C0-A3E1-37B054D27E80",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.languageassetd.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "520B435D-E615-4EAC-A7D1-40E16CB4A997",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.languageassetd.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "0E5E760B-63C4-4D35-8D2F-A8A48A4AD7AC",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.packfiles",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "78FFD7B1-DA63-49D8-84E2-B17CF4F7EDBA",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.packfiles",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "78A3E3B0-9A98-406E-8C45-5EDC5038CD60",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "macos.user_caches.child.com.google.GeminiMacOS",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "33B97009-9E9A-48B3-8CD6-D329707CAD04",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.packfiles",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "3E64485D-E6FA-42DC-8055-8F93D44BC77F",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.packfiles",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "4C09A347-591B-4611-97BF-0548CDAC07B0",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "F17F2C29-A343-48C3-AC14-69B6EF5FAFA9",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "698C46D3-A636-4D87-89BA-37830CA761A8",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "C933A15E-C7D0-4F00-86F5-714A4AD64CC1",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "4978933C-77A8-449C-AD20-01FB96516051",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "654B85CF-87D9-4839-B9A7-AC66683124DD",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "07CCE8A9-B348-4346-946A-6233B244E219",
+    "claim" : "RELATIONSHIP_BELONGS_TO_WORKSPACE",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:\/Users\/tomitakatsuhiro\/voice-memo-transcribe",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.workspaceStorage.cedd91a3de98d1a97796881a4c66966b",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "9DD765F9-5CFF-4B2E-9DCD-9B5B4D6E8316",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "A506CFC3-7A8A-4AA9-81B0-DE81DBD8C3BB",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "BA6793AD-498B-40BB-9904-4990A7A69DFC",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "ai.cursor_logs",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "11A779D3-F777-4DE7-8BB8-984D7A10A374",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "1050D89F-1298-4CE9-A5B4-A2F73292DD8D",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "72210F7D-A46E-4217-A652-C965DDAB78CC",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.Network-Settings.extension.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "E61E04E3-F6D4-490D-9D00-EF0C9047AA4D",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.Network-Settings.extension.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "C5359655-BEC5-4810-986C-3701133D373B",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.working_tree",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "6F1BAE60-A3C4-430B-A960-51172E97D2E6",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.working_tree",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "174A2F53-3FFB-4603-9425-7CEA67D6F78F",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.stores",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "C68D577A-E3BF-442E-A9D5-37A1A319D233",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.iCal.CalendarNC.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "54D3B8AC-89D2-4925-AE86-60556E53B5DE",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.iCal.CalendarNC.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "80F6CD87-48BC-4AE4-A5DD-5612D20E69E9",
+    "claim" : "RELATIONSHIP_ASSOCIATED_WITH_CURSOR_STORE",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:my-portfolio-59e3672d",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.rootref.my-portfolio-59e3672d",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "CD04D40F-FEE6-477C-BC7F-5AFD72D5B27D",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "0E650A81-74E6-484C-814A-B19C126B61DE",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "22D26EE6-566E-4608-9B9B-7B382C0827CE",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.packfiles",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "142DD303-C4C3-49D5-8335-E039D2899DCE",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.packfiles",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "AEE7BBD0-0497-4C31-ABCB-AE9A16AA417E",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "macos.user_caches.child.com.apple.akd",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "85B4429D-A60B-4D98-8325-930C2800539A",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.dot_git",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "60034C3B-A1A1-4F50-9553-03F02BC13DBB",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.dot_git",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "29CFC15E-CA4A-4A18-842C-E451FED8D510",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "macos.user_caches.child.com.google.GeminiMacOS.launcher",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "5C15779E-CE6D-46EA-9811-629004025108",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "macos.tmpdir",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "F1E18621-F2F9-4AF1-8413-7695191E283C",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.Network-Settings.extension.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "17BDC97D-CB37-4736-93D4-282B6E0594F4",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.Network-Settings.extension.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "39E9104E-3836-425B-82E2-C29A0816A4B5",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "ai.cursor.workspace_storage",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "D1E7E275-3239-4982-AB6A-3AB0BF704D57",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "macos.logs",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "A1A80536-7FB1-4874-BF97-6EF8F5BB2D79",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "INACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "xcode.deriveddata.SDKStatCaches.noindex",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "677A718A-678C-4351-ABF6-614B88696263",
+    "claim" : "RELATIONSHIP_GENERATED_BY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:Xcode",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "xcode.deriveddata.SDKStatCaches.noindex",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "809FA262-4706-47B2-962E-51812FB1A60A",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.state",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "9BB9C9CB-069F-4D2C-825B-BEE66B06FA6B",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "ios.backup.root",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "A7E8C981-5E1E-4BD8-BA10-3DE46C310E0E",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "ios.backup.root",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "CFCCE995-A4E7-4DCE-9112-D140BD904DC5",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "7ABBCA38-D122-4F8B-B98B-32709328E7CE",
+    "claim" : "RELATIONSHIP_ASSOCIATED_WITH_CURSOR_STORE",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:81a50d8e-b83d-8058-aa3b-3288b57a9e49",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "A6149EE6-D3DD-4666-A6D3-3B8FFFE58921",
+    "claim" : "RELATIONSHIP_OBSERVED_IN_CURSOR_CONTEXT",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ],
+    "result" : "PRESENT:\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/81a50d8e-b83d-8058-aa3b-3288b57a9e49",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "explicit_metadata",
+      "target_resolved"
+    ]
+  },
+  {
+    "chainID" : "7ED01218-BC08-4511-9E6E-21AF0E424A89",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "3F1AB7C8-5E3C-4D8A-9D35-8C2F5CEDDDD2",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.objects",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "D5AD6F31-4FA1-4866-878B-ECC6140EF625",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "macos.user_caches.child.GeoServices",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "B78B53F4-4E4B-4FA8-A953-FA17D25F772C",
+    "claim" : "ACTIVE_STATE",
+    "evidenceSources" : [
+      "OPEN_FILE_SNAPSHOT",
+      "PROCESS_SNAPSHOT"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "runtime_observation_verified"
+    ],
+    "result" : "ACTIVE",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "cursor.workspaceStorage.38ea36f9",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "runtime_observation_verified"
+    ]
+  },
+  {
+    "chainID" : "01F58E36-EA6E-4ACA-B116-FE4964A29D68",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_CONFIGURATION"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.CloudPhotosConfiguration.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "6896AE35-A5D0-4388-8ED9-89764E74F15D",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.CloudPhotosConfiguration.preferences",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "3A4D2977-4AB3-4D18-A49B-2DE7E048E858",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.dot_git",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "738D53EE-569B-4CFD-B892-31958B018BD2",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "git.dot_git",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "CE5B9967-88FE-4430-B9B6-F3EE6C4FC105",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.videoapps.RegisterProExtension.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "3590C8DE-EF02-448D-9CDA-FC4F25F3931A",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "container.com.apple.videoapps.RegisterProExtension.documents",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  },
+  {
+    "chainID" : "7760A0F3-A378-4FA3-9895-9CED42FAD594",
+    "claim" : "SOURCE_OF_TRUTH",
+    "evidenceSources" : [
+      "FILESYSTEM_METADATA",
+      "USER_OR_AUTHORITATIVE_KIND"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "evidence_verified"
+    ],
+    "result" : "true",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "voicememos.root",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "evidence_verified"
+    ]
+  },
+  {
+    "chainID" : "04AC7191-FE53-4EB7-BB68-F83D6FC0837C",
+    "claim" : "REGENERABILITY",
+    "evidenceSources" : [
+      "RELATIONSHIP_METADATA",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ],
+    "inferredSteps" : [
+
+    ],
+    "requiredSteps" : [
+      "source_of_truth_true"
+    ],
+    "result" : "false",
+    "satisfiesStrictChain" : true,
+    "subjectEntity" : "voicememos.root",
+    "unknownSteps" : [
+
+    ],
+    "verificationLevel" : "VERIFIED",
+    "verifiedSteps" : [
+      "source_of_truth_true"
+    ]
+  }
+]

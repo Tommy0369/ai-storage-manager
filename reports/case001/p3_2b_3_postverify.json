@@ -1,0 +1,14 @@
+{
+  "diskFreeDelta" : 3083640832,
+  "logical" : "SNAPSHOT_REMOVED",
+  "notes" : [
+    "REVISION=49e6aa286ad60c14352c404340ded53710378a11",
+    "SNAPSHOT_PRESENT=false",
+    "REPO_PRESENT=false"
+  ],
+  "repoDirectoryStillPresent" : false,
+  "revisionStillPresent" : false,
+  "storage" : "SNAPSHOT_REMOVED_STORAGE_RECOVERED",
+  "vendorReportedFreedBytes" : 3100000000,
+  "verifiedRecoveredBytes" : 3083520968
+}

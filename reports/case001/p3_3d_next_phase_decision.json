@@ -1,0 +1,14 @@
+{
+  "selectedNextCenterpin": "CURSOR_RECOVERY_BACKUP_KEEP",
+  "selectedBytes": 0,
+  "why": "state.vscdb.backup is Cursor vendor recovery artifact (path+\".backup\"). Restore path LIVE on open failure. Unique recovery keys present. No cleanup/remediation contract. disableSqliteStorageBackup=true stops refresh but does not authorize deletion. potentialRecoveryBytes=0.",
+  "expectedProofPath": "N/A \u2014 keep; pivot inventory for next high-value entity",
+  "mutationNextPhase": false,
+  "humanAuthorizationExpectedLater": false,
+  "recommendedFollowOnPivot": "DIFFERENT_CURRENT_ENTITY",
+  "whyNotRetentionContract": "Retention exists as overwrite semantics, not removable cleanup",
+  "whyNotMigrationRemediation": "Not migration-specific artifact",
+  "agentCliActionableBytesStillZero": true,
+  "stateVscdbStillProtected": true,
+  "generatedAt": "2026-09-05T09:09:36Z"
+}

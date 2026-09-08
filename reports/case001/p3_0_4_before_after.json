@@ -1,0 +1,19 @@
+{
+  "afterFirstUsefulMap" : 805,
+  "afterHierarchy" : 37851,
+  "afterSafety" : 149492,
+  "architectureChanges" : [
+    "Root du no longer blocks first map publication",
+    "Direct-child-first measurement with bounded concurrency",
+    "In-flight measurement coalescing",
+    "Progressive immutable explorer snapshots"
+  ],
+  "beforeFirstUsefulMap" : 48560,
+  "beforeHierarchy" : 48560,
+  "beforeSafety" : 157000,
+  "generatedAt" : "2026-09-05T10:15:03Z",
+  "improvementMs" : 47755,
+  "improvementPercent" : 98.34225700164745,
+  "safetySemanticsChanged" : false,
+  "truthSemanticsChanged" : false
+}

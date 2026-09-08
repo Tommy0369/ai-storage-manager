@@ -1,0 +1,17 @@
+{
+  "comparisonAvailable": false,
+  "comparisonQuality": "INSUFFICIENT",
+  "rootDelta": null,
+  "series": [],
+  "liveRootBytes": 14421700608,
+  "topGrowingComponents": [
+    {
+      "component": "state.vscdb / cursorDiskKV(bubbleId+agentKv)",
+      "note": "Dominant live mass; subcomponent history not separately snapshotted"
+    }
+  ],
+  "topShrinkingComponents": [],
+  "unexplainedDelta": null,
+  "growthAffectsSafety": false,
+  "generatedAt": "2026-09-05T01:05:39Z"
+}

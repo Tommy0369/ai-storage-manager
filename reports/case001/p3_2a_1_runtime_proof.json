@@ -1,0 +1,12 @@
+{
+  "freshUntil" : "2026-09-04T11:08:37Z",
+  "observationSource" : "CLI_PS",
+  "observedAt" : "2026-09-04T11:06:37Z",
+  "runningModelCount" : 0,
+  "serviceRunning" : true,
+  "serviceRunningUsedAsTargetProof" : false,
+  "snapshotCompleteness" : "COMPLETE",
+  "targetEntity" : "ai.ollama.model.library.qwen3:4b",
+  "targetModel" : "library\/qwen3:4b",
+  "targetStatus" : "INACTIVE\/VERIFIED"
+}

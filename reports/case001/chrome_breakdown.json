@@ -1,0 +1,205 @@
+[
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "chrome.profile.profile_10.session_storage",
+    "lifecycleRole" : "SESSION",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Session Storage",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 16384,
+    "unknownReasons" : [
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "chrome.profile.profile_10.preferences",
+    "lifecycleRole" : "USER_CONFIGURATION",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Preferences",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "false",
+    "regenerableConfidence" : "VERIFIED",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "true",
+    "sourceOfTruthConfidence" : "VERIFIED",
+    "uniqueBytes" : 33039,
+    "unknownReasons" : [
+      "UNKNOWN_ACTIVE_STATE",
+      "USER_CONFIGURATION",
+      "SOURCE_OF_TRUTH_NOT_REGENERABLE"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "chrome.profile.profile_10.extensions",
+    "lifecycleRole" : "EXTENSION",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Extensions",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 1757184,
+    "unknownReasons" : [
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "chrome.profile.profile_10.service_worker",
+    "lifecycleRole" : "CACHE",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Service Worker",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 46379008,
+    "unknownReasons" : [
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "chrome.profile.profile_10.indexeddb",
+    "lifecycleRole" : "DATABASE",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/IndexedDB",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 151552,
+    "unknownReasons" : [
+      "UNKNOWN_DATABASE_ROLE",
+      "UNKNOWN_ACTIVE_STATE",
+      "LIFECYCLE_DATABASE_UNKNOWN",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "chrome.profile.profile_10.history",
+    "lifecycleRole" : "HISTORY",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/History",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 229376,
+    "unknownReasons" : [
+      "UNKNOWN_DATABASE_ROLE",
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "chrome.profile.profile_10.webstorage",
+    "lifecycleRole" : "DATABASE",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/WebStorage",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 40960,
+    "unknownReasons" : [
+      "UNKNOWN_DATABASE_ROLE",
+      "UNKNOWN_ACTIVE_STATE",
+      "LIFECYCLE_DATABASE_UNKNOWN",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "chrome.profile.profile_10.local_storage",
+    "lifecycleRole" : "DATABASE",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Local Storage",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 36864,
+    "unknownReasons" : [
+      "UNKNOWN_DATABASE_ROLE",
+      "UNKNOWN_ACTIVE_STATE",
+      "LIFECYCLE_DATABASE_UNKNOWN",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "chrome.profile.profile_10.cookies",
+    "lifecycleRole" : "APPLICATION_STATE",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Cookies",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 49152,
+    "unknownReasons" : [
+      "UNKNOWN_DATABASE_ROLE",
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  }
+]

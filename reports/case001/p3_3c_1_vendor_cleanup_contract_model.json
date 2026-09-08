@@ -1,0 +1,20 @@
+{
+  "vendor": "CURSOR",
+  "storageClass": "INSTALLED_VERSIONS",
+  "actionClass": "VENDOR_NATIVE_CLEANUP",
+  "canonicalTargetRoot": "/Users/tomitakatsuhiro/.local/share/cursor-agent/versions",
+  "targetSelector": "non-current, non-dev, non-dot, not active-bin target; keep 2 newest by mtime; skip in-use",
+  "exclusions": [
+    "currentVersion",
+    "dev",
+    "dotdirs",
+    "activeBinTargets",
+    "inUseMarkers",
+    "2 newest non-current"
+  ],
+  "previewCapability": false,
+  "runtimeRequirements": "HOME ~/.local/share/cursor-agent/versions/<version> recursive rm only",
+  "postVerifyContract": "UNKNOWN",
+  "confidence": "VERIFIED_FOR_HOME_STORE_ONLY",
+  "principle": "Cleanup capability exists must answer FOR WHICH STORE / VERSION / BLAST RADIUS"
+}

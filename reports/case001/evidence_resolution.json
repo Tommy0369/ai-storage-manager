@@ -1,0 +1,64 @@
+{
+  "knownRates" : {
+    "canonical_path" : 1,
+    "cloud" : 0.017077798861480076,
+    "lockfile" : 0.007590132827324478,
+    "manifest" : 0.0056925996204933585,
+    "open_file" : 0.1366223908918406,
+    "owner" : 0.9981024667931688,
+    "process" : 0.21821631878557876,
+    "regenerable" : 0.12144212523719165,
+    "source_of_truth" : 0.12144212523719165,
+    "symlink" : 1
+  },
+  "snapshotFailures" : [
+
+  ],
+  "totals" : {
+    "canonical_path" : {
+      "true" : 527
+    },
+    "cloud" : {
+      "true" : 9,
+      "unknown" : 518
+    },
+    "lockfile" : {
+      "true" : 4,
+      "unknown" : 523
+    },
+    "manifest" : {
+      "true" : 3,
+      "unknown" : 524
+    },
+    "open_file" : {
+      "false" : 61,
+      "true" : 11,
+      "unknown" : 455
+    },
+    "owner" : {
+      "false" : 1,
+      "true" : 525,
+      "unknown" : 1
+    },
+    "process" : {
+      "false" : 8,
+      "true" : 107,
+      "unknown" : 412
+    },
+    "regenerable" : {
+      "false" : 64,
+      "unknown" : 463
+    },
+    "source_of_truth" : {
+      "true" : 64,
+      "unknown" : 463
+    },
+    "symlink" : {
+      "false" : 527
+    }
+  },
+  "unknownReasonCounts" : {
+    "UNKNOWN_ACTIVE_STATE" : 47,
+    "UNKNOWN_REGENERABILITY" : 4
+  }
+}

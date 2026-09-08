@@ -1,0 +1,80 @@
+{
+  "pack_id": "chatgpt_disk_pressure_handoff_2026-08-27",
+  "purpose": "ChatGPT decision support for near-full Mac disk. Not a cleaner.",
+  "phase": "PROVE",
+  "machine": {
+    "data_volume_gib": 460,
+    "used_gib_approx": 394,
+    "free_gib_approx": 11,
+    "capacity_percent_approx": 98
+  },
+  "scan": {
+    "case": "case001",
+    "phase": "P1.6",
+    "runtime_sec": 203.69,
+    "entities": 507,
+    "unique_bytes": 165382750208,
+    "unique_gib": 154.02,
+    "false_green": 0,
+    "destructive_actions_executed": false,
+    "preview_executable": false
+  },
+  "class_unique_gib": {
+    "RED": 142.56,
+    "YELLOW": 7.3,
+    "UNKNOWN": 4.13,
+    "GREEN": 0.04
+  },
+  "tier_a_proven_review": [
+    {
+      "id": "xcode.deriveddata.Runner-ecnbmvkdltyrtnevcspalufxjhdq",
+      "path": "/Users/tomitakatsuhiro/Library/Developer/Xcode/DerivedData/Runner-ecnbmvkdltyrtnevcspalufxjhdq",
+      "bytes": 37543936,
+      "related_project": "/Users/tomitakatsuhiro/wagyu_no_katana_app/ios/Runner.xcworkspace",
+      "source_of_truth": "false",
+      "source_of_truth_confidence": "VERIFIED",
+      "regenerable": "true",
+      "regenerable_confidence": "VERIFIED",
+      "impact": "next_build_slower"
+    },
+    {
+      "id": "xcode.deriveddata.Runner-ckovnoskqurramhgydmrtirfscgd",
+      "path": "/Users/tomitakatsuhiro/Library/Developer/Xcode/DerivedData/Runner-ckovnoskqurramhgydmrtirfscgd",
+      "bytes": 131072,
+      "related_project": "/Users/tomitakatsuhiro/wagyu_no_katana_app/macos/Runner.xcworkspace",
+      "source_of_truth": "false",
+      "source_of_truth_confidence": "VERIFIED",
+      "regenerable": "true",
+      "regenerable_confidence": "VERIFIED",
+      "impact": "next_build_slower"
+    }
+  ],
+  "tier_b_human_review_high_leverage": [
+    {"path": "/Users/tomitakatsuhiro/.Trash", "gib_approx": 0.58, "class": null, "note": "empty after visual check"},
+    {"path": "/Users/tomitakatsuhiro/Downloads", "gib_approx": 1.05, "class": "YELLOW", "note": "sort keep vs discard"},
+    {"path": "/Users/tomitakatsuhiro/.npm/_cacache", "gib_approx": 5.32, "class": "YELLOW", "note": "often re-downloadable; not strict GREEN"},
+    {"path": "/Users/tomitakatsuhiro/.cache/huggingface/hub", "gib_approx": 2.87, "class": "UNKNOWN", "note": "keep if model still needed"},
+    {"path": "/Users/tomitakatsuhiro/Library/Developer/CoreSimulator/Devices", "gib_approx": 0.92, "class": "YELLOW", "note": "simulator recreate possible"}
+  ],
+  "tier_c_do_not_touch_today": [
+    {"path": "iOS Backup 00008110-...", "gib_approx": 24.83, "reason": "device restore original"},
+    {"path": "Voice Memos recordings", "gib_approx": 13.04, "reason": "user original"},
+    {"path": "Cursor User/globalStorage", "gib_approx": 11.94, "reason": "editor state; no whole-folder delete"},
+    {"path": "Claude rootfs.img", "gib_approx": 10.0, "reason": "ACTIVE exact unverified; regenerability unknown"},
+    {"path": "Cursor snapshot store 81a50d8e objects", "gib_approx": 4.8, "reason": "workspace link not VERIFIED"},
+    {"path": "TomyLocal", "gib_approx": 6.7, "reason": "contents unproven"},
+    {"path": "Ollama blobs", "gib_approx": 2.33, "reason": "model bodies"}
+  ],
+  "recommended_manual_order": [
+    "Trash visual empty",
+    "Downloads triage",
+    "npm cache only if no active install/build",
+    "HF hub only for unused models",
+    "keep Claude/Cursor/iOS Backup/Voice Memos untouched"
+  ],
+  "expected_safe_recovery_range_gib": {
+    "conservative": "1.5-2.0",
+    "if_npm_cache_confirmed": "6.5-7.5",
+    "proven_only": 0.04
+  }
+}

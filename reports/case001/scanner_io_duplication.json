@@ -1,0 +1,58 @@
+{
+  "entries" : [
+    {
+      "cacheable" : false,
+      "callers" : [
+        "ChildFolderEnumerator",
+        "FolderDecomposer.macos.containers"
+      ],
+      "count" : 2,
+      "estimatedDuplicatedRuntimeMs" : 21,
+      "operation" : "directory_enumeration",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers"
+    },
+    {
+      "cacheable" : false,
+      "callers" : [
+        "ChildFolderEnumerator",
+        "FolderDecomposer.macos.group_containers"
+      ],
+      "count" : 2,
+      "estimatedDuplicatedRuntimeMs" : 3,
+      "operation" : "directory_enumeration",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers"
+    },
+    {
+      "cacheable" : false,
+      "callers" : [
+        "ChildFolderEnumerator"
+      ],
+      "count" : 4,
+      "estimatedDuplicatedRuntimeMs" : 0,
+      "operation" : "directory_enumeration",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage"
+    },
+    {
+      "cacheable" : false,
+      "callers" : [
+        "ChildFolderEnumerator"
+      ],
+      "count" : 2,
+      "estimatedDuplicatedRuntimeMs" : 0,
+      "operation" : "directory_enumeration",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores"
+    },
+    {
+      "cacheable" : false,
+      "callers" : [
+        "ChildFolderEnumerator"
+      ],
+      "count" : 2,
+      "estimatedDuplicatedRuntimeMs" : 0,
+      "operation" : "directory_enumeration",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/roots"
+    }
+  ],
+  "estimatedDuplicatedRuntimeMs" : 24,
+  "totalDuplicatedOperations" : 7
+}

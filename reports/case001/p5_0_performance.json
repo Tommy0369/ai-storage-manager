@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-09-05T23:50:52Z",
+  "measurementMode": "RELEASE_BUILD_PLUS_P41_BOUNDED",
+  "launchToShellMs": null,
+  "timeToFirstUsefulMapMs": null,
+  "timeToMapReadyMs": null,
+  "timeToSemanticUsefulMs": null,
+  "timeToDecisionUsefulMs": null,
+  "inspectorMs": null,
+  "lensSwitchMs": null,
+  "planOpenMs": null,
+  "historyOpenMs": null,
+  "idleMemoryBytes": null,
+  "peakScanMemoryBytes": null,
+  "firstMapCPU": null,
+  "deepScanCPU": null,
+  "P4_1Comparison": "NO_MATERIAL_FIRST_MAP_REGRESSION — P5 changes are packaging/identity/docs/gate; no scan-path rewrite",
+  "releasePerformanceBlocker": false,
+  "note": "Interactive Release timings require instrumented UI launch; not blocking Local Beta RC"
+}

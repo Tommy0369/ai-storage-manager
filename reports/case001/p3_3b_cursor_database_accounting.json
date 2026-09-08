@@ -1,0 +1,48 @@
+{
+  "dbBytes": 10445103104,
+  "walBytes": 186677232,
+  "shmBytes": 393216,
+  "pageSize": 4096,
+  "pageCount": 2550074,
+  "freePageCount": 934,
+  "freePageBytes": 3825664,
+  "estimatedAllocatedBytes": 10441277440,
+  "journalMode": "wal",
+  "autoVacuumMode": "0",
+  "dbOpen": true,
+  "inspectionMethod": "sqlite3 mode=ro + PRAGMA query_only; no immutable=1 against live WAL",
+  "inspectionMutationDetected": false,
+  "accountingConfidence": "VERIFIED",
+  "largestObjectName": "cursorDiskKV",
+  "largestObjectBytes": 10408783872,
+  "freelistSignificant": false,
+  "walSignificant": false,
+  "significanceThreshold": {
+    "bytes": 1000000000,
+    "fractionOfDB": 0.1
+  },
+  "dbstatTop": [
+    {
+      "name": "cursorDiskKV",
+      "bytes": 10408783872
+    },
+    {
+      "name": "sqlite_autoindex_cursorDiskKV_1",
+      "bytes": 30154752
+    },
+    {
+      "name": "ItemTable",
+      "bytes": 1851392
+    },
+    {
+      "name": "composerHeaders",
+      "bytes": 376832
+    },
+    {
+      "name": "sqlite_autoindex_ItemTable_1",
+      "bytes": 57344
+    }
+  ],
+  "note": "WAL/SHM mtime may change due to concurrent Cursor writes; DB file bytes/mtime must stay stable for inspectionMutationDetected=false",
+  "generatedAt": "2026-09-05T02:12:12Z"
+}

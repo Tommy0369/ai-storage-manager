@@ -1,0 +1,16 @@
+{
+  "activeResolved" : 176,
+  "batchLookupRuntimeMs" : 4165,
+  "conflicts" : 0,
+  "deferPlannerMs" : 0,
+  "indexBuildRuntimeMs" : 244,
+  "indexEntries" : 7147,
+  "openResolved" : 176,
+  "positiveExactMatches" : 40,
+  "runtimeResolutionDeferred" : 351,
+  "runtimeResolutionRequired" : 176,
+  "totalEntities" : 527,
+  "totalRuntimeResolutionMs" : 4230,
+  "unknownIncompleteObservation" : 121,
+  "verifiedInactive" : 8
+}

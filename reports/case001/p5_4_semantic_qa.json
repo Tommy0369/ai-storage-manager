@@ -1,0 +1,36 @@
+{
+  "criticalConcepts": [
+    "KEEP",
+    "PROTECTED",
+    "VERIFY_MORE",
+    "READY",
+    "NEEDS_APPROVAL",
+    "MOVE_TO_TRASH",
+    "VENDOR_NATIVE_CLEANUP",
+    "VERIFIED_RECOVERED",
+    "RECOVERY_PENDING",
+    "UNKNOWN",
+    "REMOTE_VERIFIED",
+    "LOCAL_COPY",
+    "USER_ORIGINAL",
+    "APP_MANAGED_DATA"
+  ],
+  "locales": [
+    "en",
+    "ja",
+    "zh-Hans",
+    "zh-Hant",
+    "ko",
+    "es",
+    "fr",
+    "de",
+    "pt-BR"
+  ],
+  "dangerousMeaningDriftCount": 0,
+  "cloudDeleteCollapseCount": 0,
+  "trashDeleteCollapseCount": 0,
+  "verifiedPotentialCollapseCount": 0,
+  "protectedMeaningErrors": 0,
+  "verifyMoreMeaningErrors": 0,
+  "generatedAt": "2026-09-08T00:15:05.726488+00:00"
+}

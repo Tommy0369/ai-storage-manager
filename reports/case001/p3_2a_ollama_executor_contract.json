@@ -1,0 +1,18 @@
+{
+  "HFSupported" : false,
+  "approvalRequired" : true,
+  "commandContract" : "argv: <resolved-ollama-bin> rm <canonical-model>",
+  "executorImplemented" : true,
+  "freshPreflightRequired" : true,
+  "permitRequired" : true,
+  "postVerifyRequired" : true,
+  "rawBlobSupported" : false,
+  "rawDeleteFallback" : false,
+  "referenceGraphRequired" : true,
+  "remoteFreshnessRequired" : true,
+  "runtimePredicate" : "exact_model_INACTIVE_VERIFIED via bounded ollama ps",
+  "shellUsed" : false,
+  "supportedAction" : "VENDOR_NATIVE_CLEANUP",
+  "supportedEntityType" : "MODEL",
+  "supportedVendor" : "OLLAMA"
+}

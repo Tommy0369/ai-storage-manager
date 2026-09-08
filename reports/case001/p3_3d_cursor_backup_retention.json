@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-09-05T09:09:36Z",
+  "vendorRetentionFound": true,
+  "retentionMeans": "single-generation overwrite on close when enabled; NOT a cleanup/delete policy",
+  "generationCount": 1,
+  "maxGenerations": 1,
+  "ageRule": "NONE",
+  "replacementRule": "copy overwrites state.vscdb.backup",
+  "cleanupTrigger": "NONE",
+  "cleanupTarget": "NONE",
+  "blastRadius": "N/A \u2014 no cleanup contract",
+  "nativeCleanupCandidate": false,
+  "vendorCleanupRemediationFound": false,
+  "remainingUnknowns": [
+    "No vendor API to discard recovery copy",
+    "disableBackup does not delete existing backup"
+  ]
+}

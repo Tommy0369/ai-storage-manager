@@ -1,0 +1,45 @@
+{
+  "oldMismatchRootCause": "semanticBindingDigest included remote verifiedAt/freshUntil epoch seconds, so consecutive Fresh Preflights over identical material state diverged",
+  "semanticBindingFields": [
+    "entityID",
+    "action",
+    "canonicalModelID",
+    "canonicalPath",
+    "manifestIdentity",
+    "remoteExactIdentity",
+    "referenceGraphIdentity",
+    "executorContractVersion",
+    "nativeExecutableIdentity",
+    "transactionContractVersion",
+    "postVerifyContractVersion",
+    "uniqueBytesProven",
+    "sharedBytesProven",
+    "customOrUserOriginalSuspect"
+  ],
+  "freshnessFields": [
+    "runtimeFreshClass",
+    "remoteFreshClass",
+    "runtimeObservedAt",
+    "runtimeFreshUntil",
+    "remoteVerifiedAt",
+    "remoteFreshUntil",
+    "runtimeValidNow",
+    "remoteValidNow"
+  ],
+  "ephemeralFieldsExcluded": [
+    "verifiedAt_epoch",
+    "freshUntil_epoch",
+    "traceIDs",
+    "reportGenerationTimestamps",
+    "latencyValues",
+    "temporaryRequestIDs",
+    "scanTimingIDs",
+    "preflightSessionIDs"
+  ],
+  "consecutiveEquivalentPreflightStable": true,
+  "materialChangeInvalidates": true,
+  "freshnessExpiryBlocksPermit": true,
+  "preExecutionRejectedSemantics": "APPROVAL_BINDING_MISMATCH / gate failure before ExecutionPermit and before executor ⇒ PRE_EXECUTION_REJECTED; executorInvocationCount=0; not a native mutation attempt",
+  "postPermitRetrySemantics": "If permit issued/consumed or process start attempted ⇒ no automatic retry; require reconciliation + new Fresh Preflight + new human authorization when consent policy requires it",
+  "generatedAt": "2026-09-04T15:32:29Z"
+}

@@ -1,0 +1,2 @@
+All p35_*.png are FIXTURE_LABELLED with live numbers from p3_5_*.json.
+Do not treat as live UI captures.

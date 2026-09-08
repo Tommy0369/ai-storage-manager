@@ -1,0 +1,15 @@
+{
+  "cacheResidueObserved": "UNKNOWN_NOT_DETERMINISTICALLY_ENUMERATED",
+  "cleanupExecuted": false,
+  "cleanupRecommended": "SEPARATE_FUTURE_DECISION_IF_MATERIAL",
+  "dependencyChangesObserved": true,
+  "failedInstallBrew": "/usr/local/bin/brew",
+  "hfInstalled": false,
+  "notes": "Read-only audit only; no brew cleanup/autoremove/uninstall.",
+  "opensslAt3PresentUnderUsrLocal": true,
+  "partialFormulaChangesObserved": [
+    "pkgconf upgraded under /usr/local (historical)",
+    "ca-certificates upgraded under /usr/local (historical)",
+    "openssl@3 source build aborted (historical)"
+  ]
+}

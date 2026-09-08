@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-09-05T09:09:36Z",
+  "backupIdentityMs": 900,
+  "backupRelationshipMs": 109123.9,
+  "bundleRecoveryTraceMs": 2000,
+  "runtimeProofMs": 545.92,
+  "retentionAnalysisMs": 500,
+  "opportunityRankingMs": 50,
+  "secondCrawlerAdded": false,
+  "firstMapImpact": "NONE",
+  "realMutation": false
+}

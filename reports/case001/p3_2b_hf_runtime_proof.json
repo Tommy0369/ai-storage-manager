@@ -1,0 +1,11 @@
+{
+  "target": "/Users/tomitakatsuhiro/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-mlx/snapshots/49e6aa286ad60c14352c404340ded53710378a11",
+  "observationSource": "lsof_+D_directory",
+  "snapshotCompleteness": "PARTIAL",
+  "targetOpenFileState": "NO_HANDLES_OBSERVED",
+  "targetRuntimeState": "INACTIVE_OBSERVED_BUT_NOT_PRODUCT_VERIFIED",
+  "observedAt": "2026-09-04T15:53:22Z",
+  "freshUntil": null,
+  "failureReason": "PRODUCT_RUNTIME_INDEX_NOT_BOUND_IN_THIS_LIVE_PROBE; CLI_UNRESOLVED_ALREADY_BLOCKS",
+  "note": "Empty lsof +D on snapshot/repo. Still not sufficient alone for APPROVAL_REQUIRED without full Fresh Preflight + CLI."
+}

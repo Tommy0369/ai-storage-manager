@@ -1,0 +1,20 @@
+{
+  "artifactIdentity" : "ollama.com\/download\/Ollama-darwin.zip",
+  "authorizationPresent" : true,
+  "authorizationScope" : "OLLAMA_SOFTWARE_REINSTALLATION_ONLY",
+  "bundleIdentifier" : "com.electron.ollama",
+  "cleanupPerformed" : false,
+  "generatedAt" : "2026-09-04T08:05:36Z",
+  "installAttempted" : true,
+  "installMethod" : "OFFICIAL_APP_INSTALL",
+  "installSucceeded" : true,
+  "installedVersion" : "0.33.3",
+  "managementServiceStarted" : true,
+  "modelPullPerformed" : false,
+  "modelRunPerformed" : false,
+  "postInstallModelDataPresent" : true,
+  "preInstallModelDataPresent" : true,
+  "sourceClass" : "OFFICIAL_REMOTE_DISTRIBUTION",
+  "sourceVerified" : true,
+  "unexpectedDataMutation" : false
+}

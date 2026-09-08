@@ -1,0 +1,17 @@
+{
+  "claudeExactActiveVerified" : 0,
+  "cursorVerifiedWorkspaceLinks" : 8,
+  "derivedDataRegenTrueVerified" : 0,
+  "derivedDataSOTFalseVerified" : 0,
+  "destructiveActionsExecuted" : false,
+  "falseGreen" : 0,
+  "fullyVerifiedStrictChains" : 196,
+  "greenCount" : 0,
+  "previewExecutable" : false,
+  "proofTargets" : [
+    "derived-data"
+  ],
+  "scanRuntimeSeconds" : 111.56959795951843,
+  "uniqueBytes" : 100180422656,
+  "verificationChainTotal" : 196
+}

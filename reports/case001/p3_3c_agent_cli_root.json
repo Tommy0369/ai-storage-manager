@@ -1,0 +1,16 @@
+{
+  "rootEntityID": "ai.cursor.agent_cli_versions",
+  "rootPathClass": "anysphere.cursor-agent-worker/agent-cli",
+  "owner": "CURSOR",
+  "semanticRole": "AGENT_CLI_TOOLCHAIN_VERSIONS",
+  "observedBytes": 2678732268,
+  "uniqueBytes": 2678732268,
+  "mappedVersionBytes": 2678732085,
+  "unknownBytes": 183,
+  "versionCount": 13,
+  "accountingValid": true,
+  "rootExecutable": false,
+  "selectedVersion": "2026.08.31-4057e58",
+  "hardlinkSharedBytes": 0,
+  "generatedAt": "2026-09-05T03:02:50Z"
+}

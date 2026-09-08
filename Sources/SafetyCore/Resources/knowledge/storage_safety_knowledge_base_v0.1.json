@@ -1,0 +1,6 @@
+{
+  "version": "0.1-source-placeholder",
+  "note": "Deep Research 178-rule JSON was not present in the previous workspace. Keep this filename as the source artifact path. Do not overwrite with compiled DSL without archival copy.",
+  "expected_counts": { "GREEN": 47, "YELLOW": 58, "RED": 61, "UNKNOWN": 12, "TOTAL": 178 },
+  "rules": []
+}

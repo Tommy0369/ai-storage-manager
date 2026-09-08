@@ -1,0 +1,27 @@
+{
+  "contractFound": false,
+  "remediationKind": "NONE",
+  "sourceStore": "cursor.agent_cli.store.gs_worker",
+  "destinationStore": null,
+  "exactTargetSet": [],
+  "targetUnit": "NONE",
+  "preconditions": [
+    "Vendor-native GS lifecycle operation required",
+    "HOME cleanup-install-versions MUST NOT target GS"
+  ],
+  "runtimeRequirements": "N/A",
+  "fallbackProtection": "UNKNOWN_FOR_GS",
+  "blastRadius": "N/A",
+  "blastRadiusBound": false,
+  "nativeOperation": "NONE_FOUND",
+  "previewAvailable": false,
+  "postVerifyContract": "N/A",
+  "contractAligned": false,
+  "confidence": "VERIFIED_ABSENCE_BOUNDED_SEARCH",
+  "remainingUnknowns": [
+    "Worker may add eviction in future builds",
+    "No GS-specific repair/reconcile/reset found in installed Cursor"
+  ],
+  "REMEDIATION_CONTRACT_READY": false,
+  "generatedAt": "2026-09-05T08:12:05Z"
+}

@@ -1,0 +1,24 @@
+{
+  "action" : "VENDOR_NATIVE_CLEANUP",
+  "argvContract" : [
+    "rm",
+    "library\/qwen3:4b"
+  ],
+  "canonicalModel" : "library\/qwen3:4b",
+  "durationMs" : 2789,
+  "endedAt" : "2026-09-04T14:03:18Z",
+  "entityKind" : "MODEL",
+  "executionOutcome" : "COMMAND_ACCEPTED",
+  "executor" : "OllamaNativeCleanupExecutor",
+  "exitStatus" : 0,
+  "generatedAt" : "2026-09-04T14:03:19Z",
+  "permitConsumed" : true,
+  "permitID" : "permit-ai.ollama.model.library.qwen3:4b-VENDOR_NATIVE_CLEANUP-61E62746",
+  "processStarted" : true,
+  "rawDeleteFallback" : false,
+  "realMutationExecuted" : true,
+  "retryPerformed" : false,
+  "shellUsed" : false,
+  "startedAt" : "2026-09-04T14:03:18Z",
+  "vendor" : "OLLAMA"
+}

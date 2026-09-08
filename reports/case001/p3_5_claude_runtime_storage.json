@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-09-05T11:06:34Z",
+  "privacySafe": true,
+  "accountingValid": true,
+  "root": "/Users/tomitakatsuhiro/Library/Application Support/Claude",
+  "rootBytes": 12659658752,
+  "uniqueBytes": 12659658752,
+  "runtimeRunning": true,
+  "claudeAppRunning": true,
+  "virtualizationProcessRunning": true,
+  "openVMBackingEvidence": "PROCESS_PRESENT_PATH_OPEN_UNCONFIRMED",
+  "storageClass": "VM_RUNTIME_STORAGE",
+  "decomposition": {
+    "VM_BASE_IMAGE": {
+      "path": "vm_bundles/claudevm.bundle/rootfs.img",
+      "bytes": 10737418240,
+      "originToken": "2a762adfc2eea13eca0d113a2e6452ff00ae3f62"
+    },
+    "VM_OVERLAY": {
+      "path": "vm_bundles/claudevm.bundle/sessiondata.img",
+      "bytes": 79327232
+    },
+    "VM_RUNTIME_STATE": {
+      "bytes": 93442048,
+      "parts": [
+        "vmlinuz",
+        "initrd*",
+        "efivars.fd"
+      ]
+    },
+    "CACHE_VERIFIED_ELECTRON": {
+      "bytes": 985391104
+    },
+    "WORKSPACE_OR_USER_STATE": {
+      "bytes": 35459072
+    },
+    "VENDOR_TOOLCHAIN": {
+      "bytes": 718323712,
+      "note": "claude-code / claude-code-vm installs \u2014 not disposable by size"
+    },
+    "VM_SNAPSHOT": {
+      "bytes": 0,
+      "note": "no discrete snapshot generation proven"
+    }
+  },
+  "baseImageBytes": 10737418240,
+  "mutableStateBytes": 109481984,
+  "snapshotBytes": 0,
+  "verifiedCacheBytes": 985391104,
+  "unknownBytes": 5591040,
+  "sourceOfTruthState": "LOCAL_VENDOR_MANAGED_MIXED",
+  "reacquisitionState": "BASE_ORIGIN_TOKEN_PRESENT_BUT_DOWNLOAD_CONTRACT_UNVERIFIED",
+  "exactBaseReacquisition": false,
+  "vendorLifecycleFound": true,
+  "vendorLifecycleEvidence": [
+    "Apple Virtualization.framework process present with Claude Desktop",
+    "rootfs.img + sessiondata.img + vmlinuz bundle layout",
+    ".rootfs.img.origin content-address token present",
+    "warm/ directory empty (0 bytes) \u2014 not proven disposable cache contract"
+  ],
+  "resetSemantics": "DESTRUCTIVE_UNTIL_PROVEN_OTHERWISE",
+  "blastRadiusKnown": true,
+  "blastRadiusModel": {
+    "activeVM": "PROTECTED",
+    "deletingRootfs": "WOULD_DESTROY_RUNTIME_BASE \u2014 not cleanup",
+    "deletingSessiondata": "WOULD_DESTROY_MUTABLE_STATE \u2014 not cleanup",
+    "resetOrRebuild": "USER_STATE_CONSEQUENCE_UNKNOWN \u2014 cannot authorize as cleanup"
+  },
+  "potentialFutureRecoveryBytes": 0,
+  "currentExecutable": false,
+  "secondCrawlerAdded": false
+}

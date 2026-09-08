@@ -1,0 +1,63 @@
+{
+  "baselineEntityID" : "xcode.deriveddata.Runner-ckovnoskqurramhgydmrtirfscgd",
+  "baselineScan" : "P1.12 Case Study",
+  "currentScan" : "P2.0.1 Case Study",
+  "entries" : [
+    {
+      "changed" : true,
+      "claim" : "sot",
+      "currentState" : "unknown_UNKNOWN",
+      "evidenceSource" : "EntitySafetySnapshot\/Verification",
+      "previousState" : "FALSE_VERIFIED",
+      "reason" : "Evidence or pipeline state differs from P1.12 baseline"
+    },
+    {
+      "changed" : false,
+      "claim" : "active_state",
+      "currentState" : "INACTIVE_VERIFIED",
+      "evidenceSource" : "EntitySafetySnapshot\/Verification",
+      "previousState" : "INACTIVE_VERIFIED"
+    },
+    {
+      "changed" : true,
+      "claim" : "regenerability",
+      "currentState" : "unknown_UNKNOWN",
+      "evidenceSource" : "EntitySafetySnapshot\/Verification",
+      "previousState" : "TRUE_VERIFIED",
+      "reason" : "Proof target or verification budget changed"
+    },
+    {
+      "changed" : true,
+      "claim" : "recommendation",
+      "currentState" : "KEEP",
+      "evidenceSource" : "ActionDecisionSet\/MutationGate",
+      "previousState" : "MOVE_TO_TRASH",
+      "reason" : "Evidence or pipeline state differs from P1.12 baseline"
+    },
+    {
+      "changed" : true,
+      "claim" : "open_file",
+      "currentState" : "false_VERIFIED",
+      "evidenceSource" : "RuntimeObservationIndex\/EntitySafetySnapshot",
+      "previousState" : "FALSE_VERIFIED",
+      "reason" : "Evidence or pipeline state differs from P1.12 baseline"
+    },
+    {
+      "changed" : true,
+      "claim" : "mutation_readiness",
+      "currentState" : "BLOCKED",
+      "evidenceSource" : "ActionDecisionSet\/MutationGate",
+      "previousState" : "PREFLIGHT_REQUIRED",
+      "reason" : "Evidence or pipeline state differs from P1.12 baseline"
+    },
+    {
+      "changed" : true,
+      "claim" : "safety_class",
+      "currentState" : "UNKNOWN",
+      "evidenceSource" : "ActionDecisionSet\/MutationGate",
+      "previousState" : "GREEN",
+      "reason" : "Safety evaluation or evidence transport changed"
+    }
+  ],
+  "rootCauseCategory" : "EVIDENCE_FRESHNESS_CHANGED"
+}

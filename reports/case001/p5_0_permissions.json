@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-09-05T23:50:52Z",
+  "requiredPermissions": [],
+  "optionalPermissions": [
+    "Full Disk Access (TCC) for deeper Library visibility"
+  ],
+  "withoutPermissionBehavior": "App launches; maps accessible areas; inaccessible stay UNKNOWN",
+  "deniedStateSafe": true,
+  "permissionChangeBehavior": "Require rescan / new ScanSessionContext; no mixed visibility authority",
+  "unknownBytesHandling": "UNKNOWN remains UNKNOWN; never coerced to 0 or safe",
+  "privacyImpact": "Optional FDA expands metadata visibility; does not expand content-reading claims",
+  "permissionFirstCopy": "AI Storage Manager can map more of your Mac if you allow Full Disk Access.",
+  "mandatoryFDA": false
+}

@@ -1,0 +1,99 @@
+{
+  "generatedAt": "2026-09-07T23:34:41Z",
+  "supportedLocales": [
+    "en",
+    "ja",
+    "zh-Hans",
+    "zh-Hant",
+    "ko",
+    "es",
+    "fr",
+    "de",
+    "pt-BR"
+  ],
+  "defaultBehavior": "SYSTEM",
+  "languageOverrideAvailable": true,
+  "totalProductionKeys": 122,
+  "perLocale": [
+    {
+      "localeID": "en",
+      "totalKeys": 122,
+      "translatedKeys": 122,
+      "missingKeys": 0,
+      "fallbackKeys": 0,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "ja",
+      "totalKeys": 122,
+      "translatedKeys": 122,
+      "missingKeys": 0,
+      "fallbackKeys": 0,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "zh-Hans",
+      "totalKeys": 122,
+      "translatedKeys": 122,
+      "missingKeys": 0,
+      "fallbackKeys": 0,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "zh-Hant",
+      "totalKeys": 122,
+      "translatedKeys": 122,
+      "missingKeys": 0,
+      "fallbackKeys": 0,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "ko",
+      "totalKeys": 122,
+      "translatedKeys": 122,
+      "missingKeys": 0,
+      "fallbackKeys": 0,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "es",
+      "totalKeys": 122,
+      "translatedKeys": 122,
+      "missingKeys": 0,
+      "fallbackKeys": 0,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "fr",
+      "totalKeys": 122,
+      "translatedKeys": 122,
+      "missingKeys": 0,
+      "fallbackKeys": 0,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "de",
+      "totalKeys": 122,
+      "translatedKeys": 122,
+      "missingKeys": 0,
+      "fallbackKeys": 1,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "pt-BR",
+      "totalKeys": 122,
+      "translatedKeys": 122,
+      "missingKeys": 0,
+      "fallbackKeys": 0,
+      "coveragePercent": 100.0
+    }
+  ],
+  "safetySemanticChanges": 0,
+  "missingKeyCount": 0,
+  "rawKeyVisibleCount": 0,
+  "layoutBlockers": [],
+  "localizationReleaseBlockers": [],
+  "stringCatalog": "Sources/AppServices/Resources/Localization/Localizable.xcstrings",
+  "runtimeCatalog": "Sources/AppServices/Resources/Localization/LocalizationCatalog.json",
+  "architecture": "semantic keys → L10n → catalog; Safety untouched"
+}

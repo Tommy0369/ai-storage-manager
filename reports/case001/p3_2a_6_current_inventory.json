@@ -1,0 +1,20 @@
+{
+  "readyNowBytes": 0,
+  "approvalRequiredBytes": 0,
+  "verifiedFutureBytes": 3189771208,
+  "requiresVendorRestorationBytes": 0,
+  "verifyMoreBytes": 0,
+  "protectedBytes": 0,
+  "ollamaVendorNativeBytes": 0,
+  "hfVendorNativeBytes": 3083520968,
+  "ollamaStatus": "NO_MODEL_ENTITIES_AFTER_QWEN3_REMOVAL",
+  "hfStatus": "VENDOR_NATIVE_CLEANUP_NOT_IMPLEMENTED; remote REACQUIRABLE_VERIFIED ~3.08GB",
+  "qwen3StillCandidate": false,
+  "topOpportunities": [
+    "Hugging Face mlx-community/whisper-large-v3-mlx ~3.08 GB unique (Verified Future / executor unavailable)",
+    "DerivedData MOVE_TO_TRASH when candidates exist"
+  ],
+  "falseGREEN": 0,
+  "duplicateEvaluations": 0,
+  "generatedAt": "2026-09-04T15:32:29Z"
+}

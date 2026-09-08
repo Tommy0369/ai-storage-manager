@@ -1,0 +1,17 @@
+{
+  "diskFreeDeltaBytes" : 2497445888,
+  "generatedAt" : "2026-09-04T14:03:19Z",
+  "mappedDeltaBytes" : 2497293931,
+  "modelPresentAfter" : false,
+  "modelPresentBefore" : true,
+  "modelRemovalVerified" : true,
+  "oldManifestPresentAfter" : false,
+  "postVerifyStatus" : "MODEL_REMOVED",
+  "potentialRecoveryBytesBefore" : 2497293931,
+  "recoveryStatus" : "MODEL_REMOVED_STORAGE_RECOVERED",
+  "regenerationDetected" : false,
+  "remainingReferencedBlobCount" : 0,
+  "remainingSharedBytes" : 0,
+  "remainingUniqueBytes" : 0,
+  "verifiedRecoveredBytes" : 2497293931
+}

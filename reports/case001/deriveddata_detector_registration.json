@@ -1,0 +1,31 @@
+{
+  "catalogOptInProofDetectors" : [
+    "XcodeDerivedDataProofDetector"
+  ],
+  "defaultScanIncludesDerivedDataProof" : true,
+  "entries" : [
+    {
+      "defaultScanIncludes" : true,
+      "detectorID" : "XcodeDetector",
+      "enabled" : true,
+      "lastMatchCount" : 5,
+      "lastRuntimeMs" : 1341,
+      "tier" : "CORE"
+    },
+    {
+      "defaultScanIncludes" : true,
+      "detectorID" : "XcodeDerivedDataProofDetector",
+      "enabled" : true,
+      "lastMatchCount" : 1,
+      "lastRuntimeMs" : 56,
+      "maxChildren" : 4,
+      "proofTargetRequired" : "derived-data",
+      "tier" : "OPT_IN_PROOF"
+    }
+  ],
+  "proofDetectorID" : "XcodeDerivedDataProofDetector",
+  "proofTargets" : [
+    "derived-data"
+  ],
+  "rootDetectorID" : "XcodeDetector"
+}

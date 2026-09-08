@@ -1,0 +1,21 @@
+{
+  "canonicalModel" : "library\/qwen3:4b",
+  "cleanupCurrentlyExecutable" : true,
+  "cleanupRequiresSeparateApproval" : true,
+  "entity" : "ai.ollama.model.library.qwen3:4b",
+  "generatedAt" : "2026-09-04T11:06:37Z",
+  "localFormatCompatibility" : "LIKELY_COMPATIBLE_INFERRED",
+  "managedDataAvailabilityState" : "VENDOR_PRESENT_NATIVE_INTERFACE_AVAILABLE",
+  "nativeInterfacePresent" : true,
+  "observedBytes" : 2497293931,
+  "rawDeleteAllowed" : false,
+  "readyForOllamaInstallAuthorization" : false,
+  "recommendedRemediation" : "VERIFY_MORE",
+  "remoteReacquisitionStatus" : "REACQUIRABLE_VERIFIED\/VERIFIED",
+  "semanticOwnershipStatus" : "VERIFIED",
+  "sharedBytes" : 0,
+  "softwareInstallRequired" : false,
+  "uniqueBytes" : 2497293931,
+  "vendor" : "ollama",
+  "vendorApplicationPresent" : true
+}

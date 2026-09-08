@@ -1,0 +1,23 @@
+{
+  "afterApprovalRequired" : 0,
+  "afterOllamaCapability" : "IMPLEMENTED_BUT_CLI_UNRESOLVED_ON_THIS_MAC",
+  "afterReadyNow" : 0,
+  "afterVerifiedFuture" : 105398272,
+  "afterVerifyMore" : 5434445824,
+  "beforeOllamaCapability" : "NOT_IMPLEMENTED",
+  "beforeReadyNow" : 0,
+  "beforeVerifiedFuture" : 5684664883,
+  "beforeVerifyMore" : 0,
+  "goal20GBStatus" : "BELOW_20GB_POTENTIAL",
+  "hfExecutable" : false,
+  "hfRemainsNonExecutable" : true,
+  "hfVerifiedFutureBytes" : 0,
+  "ollamaExecutionCapability" : "IMPLEMENTED_BUT_CLI_UNRESOLVED_ON_THIS_MAC",
+  "ollamaPotentialBytes" : 0,
+  "ollamaPreflightStatus" : "NO_OLLAMA_MODEL_ENTITY",
+  "ollamaReadinessTier" : "NO_OLLAMA_MODEL_ENTITY",
+  "ollamaRemainingBlockers" : [
+
+  ],
+  "ollamaRuntimeStatus" : "UNKNOWN"
+}

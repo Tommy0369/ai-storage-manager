@@ -1,0 +1,33 @@
+{
+  "testedLocales": [
+    "en",
+    "ja",
+    "zh-Hans",
+    "zh-Hant",
+    "ko",
+    "es",
+    "fr",
+    "de",
+    "pt-BR"
+  ],
+  "representativeEntities": [
+    "Xcode DerivedData",
+    "Ollama",
+    "Hugging Face",
+    "Cursor DB",
+    "Cursor backup",
+    "Cursor agent-cli",
+    "Voice Memos",
+    "Chrome",
+    "Claude"
+  ],
+  "safetyDifferences": 0,
+  "decisionDifferences": 0,
+  "readinessDifferences": 0,
+  "candidateByteDifferences": 0,
+  "verifiedRecoveryDifferences": 0,
+  "approvalEligibilityDifferences": 0,
+  "executorRoutingDifferences": 0,
+  "canonicalVerifiedRecoveryBytes": 5580814899,
+  "generatedAt": "2026-09-08T00:15:05.730147+00:00"
+}

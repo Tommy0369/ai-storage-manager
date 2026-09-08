@@ -1,0 +1,27 @@
+{
+  "binaryFingerprint" : "path=\/Applications\/Ollama.app\/Contents\/Resources\/ollama;size=68353744;mtime=1788509181",
+  "bundleIdentifier" : "com.electron.ollama",
+  "bundleLocationClass" : "APPLICATIONS",
+  "bundleVersion" : "0.32.15",
+  "cliExecutableLocationClass" : "APP_BUNDLE_EMBEDDED",
+  "cliResolved" : true,
+  "cliVersion" : "ollama version is 0.32.15",
+  "generatedAt" : "2026-09-04T11:06:37Z",
+  "guiExecutableRejectedAsCLI" : false,
+  "installReality" : "OLLAMA_APP_INSTALLED_WITH_EMBEDDED_CLI",
+  "interfaceKind" : "CLI",
+  "localAPIIdentityVerified" : true,
+  "localAPIReachable" : true,
+  "ollamaAppFound" : true,
+  "resolutionDurationMs" : 135,
+  "resolutionEvidence" : [
+    "BUNDLE_RESOLVED=com.electron.ollama",
+    "EMBEDDED_CLI=ollama",
+    "CLI_CONTRACT_OK",
+    "LOCAL_API_IDENTITY_VERIFIED",
+    "MODEL_DATA_PRESENT"
+  ],
+  "resolutionMethod" : "BUNDLE_EMBEDDED_CLI",
+  "supportsPS" : true,
+  "supportsRM" : true
+}

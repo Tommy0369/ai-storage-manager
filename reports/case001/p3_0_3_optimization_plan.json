@@ -1,0 +1,114 @@
+{
+  "availableNowPotentialBytes" : 0,
+  "blockedCount" : 542,
+  "candidateBuildMs" : 170,
+  "candidateCount" : 1988,
+  "conflictCount" : 0,
+  "conflictResolutionMs" : 0,
+  "duplicateEvaluations" : 0,
+  "excludedReasons" : [
+    {
+      "bytes" : 14965690368,
+      "displayName" : "ai.cursor.global_storage",
+      "entityID" : "ai.cursor.global_storage",
+      "reason" : "This item is protected. AI Storage Manager cannot prove it is safe to move."
+    },
+    {
+      "bytes" : 14094864384,
+      "displayName" : "voicememos.recordings",
+      "entityID" : "voicememos.recordings",
+      "reason" : "This item is protected. AI Storage Manager cannot prove it is safe to move."
+    },
+    {
+      "bytes" : 10745818865,
+      "displayName" : "appsupport.Google.Chrome",
+      "entityID" : "appsupport.Google.Chrome",
+      "reason" : "This item is protected. AI Storage Manager cannot prove it is safe to move."
+    },
+    {
+      "bytes" : 10737418240,
+      "displayName" : "claude.vm.bundle.claudevm.bundle.runtime",
+      "entityID" : "claude.vm.bundle.claudevm.bundle.runtime",
+      "reason" : "This item is protected. AI Storage Manager cannot prove it is safe to move."
+    },
+    {
+      "bytes" : 8145022976,
+      "displayName" : "macos.group_containers",
+      "entityID" : "macos.group_containers",
+      "reason" : "This item is protected. AI Storage Manager cannot prove it is safe to move."
+    },
+    {
+      "bytes" : 7217315840,
+      "displayName" : "tomylocal.child.FacebookMessenger",
+      "entityID" : "tomylocal.child.FacebookMessenger",
+      "reason" : "This item is protected. AI Storage Manager cannot prove it is safe to move."
+    },
+    {
+      "bytes" : 5593268224,
+      "displayName" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49.objects",
+      "entityID" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49.objects",
+      "reason" : "This item is protected. AI Storage Manager cannot prove it is safe to move."
+    },
+    {
+      "bytes" : 2062807040,
+      "displayName" : "ai.codex.config",
+      "entityID" : "ai.codex.config",
+      "reason" : "More verification is required before this can enter a safe plan."
+    },
+    {
+      "bytes" : 2025504768,
+      "displayName" : "xcode.preview_cache",
+      "entityID" : "xcode.preview_cache",
+      "reason" : "This item is protected. AI Storage Manager cannot prove it is safe to move."
+    },
+    {
+      "bytes" : 1823993856,
+      "displayName" : "macos.application_support.child.zoom.us",
+      "entityID" : "macos.application_support.child.zoom.us",
+      "reason" : "This item is protected. AI Storage Manager cannot prove it is safe to move."
+    },
+    {
+      "bytes" : 1751539712,
+      "displayName" : "ai.codex.sessions",
+      "entityID" : "ai.codex.sessions",
+      "reason" : "This item is protected. AI Storage Manager cannot prove it is safe to move."
+    },
+    {
+      "bytes" : 1644224512,
+      "displayName" : "homebrew.cache",
+      "entityID" : "homebrew.cache",
+      "reason" : "More verification is required before this can enter a safe plan."
+    }
+  ],
+  "executorCapabilities" : {
+    "KEEP" : "NOT_IMPLEMENTED",
+    "MOVE_TO_ICLOUD" : "NOT_IMPLEMENTED",
+    "MOVE_TO_TRASH" : "IMPLEMENTED",
+    "REMOVE_LOCAL_DOWNLOAD" : "NOT_IMPLEMENTED",
+    "VENDOR_NATIVE_CLEANUP" : "NOT_IMPLEMENTED",
+    "VENDOR_NATIVE_CLEANUP|HUGGING_FACE|BLOB" : "NOT_SUPPORTED",
+    "VENDOR_NATIVE_CLEANUP|HUGGING_FACE|REPOSITORY" : "NOT_IMPLEMENTED",
+    "VENDOR_NATIVE_CLEANUP|HUGGING_FACE|SNAPSHOT" : "IMPLEMENTED",
+    "VENDOR_NATIVE_CLEANUP|OLLAMA|BLOB" : "NOT_SUPPORTED",
+    "VENDOR_NATIVE_CLEANUP|OLLAMA|MODEL" : "IMPLEMENTED"
+  },
+  "falseGREEN" : 0,
+  "generatedAt" : "2026-09-05T10:15:02Z",
+  "goalBytes" : 20000000000,
+  "goalStatus" : "NEEDS_MORE_VERIFICATION",
+  "overlapBytesPrevented" : 0,
+  "planID" : "D9A609F4-DAFE-43AB-902B-23C7CB70D6A1",
+  "planSelectionMs" : 0,
+  "planTotalMs" : 183,
+  "planningSnapshotID" : "808CAE54-6E8A-4CAF-ABA5-945C7C6D8510",
+  "preflightCount" : 0,
+  "preflightPossibleBytes" : 0,
+  "protectedCount" : 905,
+  "readyNowCount" : 0,
+  "selectedEntries" : [
+
+  ],
+  "shortfallBytes" : 20000000000,
+  "verifiedFutureCount" : 1,
+  "verifiedFuturePotentialBytes" : 105398272
+}

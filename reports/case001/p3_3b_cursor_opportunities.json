@@ -1,0 +1,77 @@
+{
+  "opportunities": [
+    {
+      "id": "AGENT_CLI_VERSION_CLEANUP",
+      "bytes": 2452963328,
+      "proofFeasibility": "MEDIUM",
+      "risk": "MEDIUM",
+      "userValueRisk": "LOW",
+      "vendorNativeContract": "UNKNOWN_DOCUMENTED_NATIVE",
+      "requiredNextProof": [
+        "active pin stability",
+        "update mechanism",
+        "safe removal of inactive versions"
+      ],
+      "currentExecutable": false,
+      "ranking": 1,
+      "why": "Largest safe-looking opportunity; does not destroy chat/agent history"
+    },
+    {
+      "id": "BACKUP_RETENTION",
+      "bytes": 1278717952,
+      "proofFeasibility": "HARD",
+      "risk": "HIGH",
+      "userValueRisk": "HIGH",
+      "vendorNativeContract": "NONE_PROVEN",
+      "requiredNextProof": [
+        "backup creation path",
+        "restore path",
+        "retention policy"
+      ],
+      "currentExecutable": false,
+      "ranking": 2
+    },
+    {
+      "id": "DATABASE_RETENTION",
+      "bytes": 10067778580,
+      "proofFeasibility": "HARD",
+      "risk": "CRITICAL",
+      "userValueRisk": "CRITICAL",
+      "vendorNativeContract": "NONE_PROVEN",
+      "requiredNextProof": [
+        "exact UI/command delete blast radius for bubbleId/agentKv"
+      ],
+      "currentExecutable": false,
+      "ranking": 3
+    },
+    {
+      "id": "DATABASE_COMPACTION",
+      "bytes": 3825664,
+      "proofFeasibility": "LOW",
+      "risk": "HIGH",
+      "userValueRisk": "MEDIUM",
+      "vendorNativeContract": "NONE_PROVEN \u2014 raw VACUUM forbidden",
+      "requiredNextProof": [
+        "vendor compaction command"
+      ],
+      "currentExecutable": false,
+      "ranking": 4,
+      "why": "Freelist only ~3.7MB \u2014 not material"
+    },
+    {
+      "id": "PRESERVATION_ARCHIVE",
+      "bytes": 10067778580,
+      "proofFeasibility": "HARD",
+      "risk": "MEDIUM",
+      "userValueRisk": "LOW",
+      "vendorNativeContract": "NONE_PROVEN",
+      "requiredNextProof": [
+        "export format",
+        "round-trip integrity"
+      ],
+      "currentExecutable": false,
+      "ranking": 5
+    }
+  ],
+  "generatedAt": "2026-09-05T02:13:45Z"
+}

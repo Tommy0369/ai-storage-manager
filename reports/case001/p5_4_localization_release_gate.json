@@ -1,0 +1,35 @@
+{
+  "COVERAGE": "PASS",
+  "SAFETY_SEMANTICS": "PASS",
+  "UI_LAYOUT": "PASS",
+  "ACCESSIBILITY": "PASS",
+  "FORMATTERS": "PASS",
+  "LANGUAGE_SWITCHING": "PASS",
+  "BUNDLE_RESOURCES": "PASS",
+  "STORE_METADATA": "PASS",
+  "OFFLINE": "PASS",
+  "PERFORMANCE": "PASS",
+  "REGRESSION": "PASS",
+  "overallStatus": "LOCALIZATION_RELEASE_READY",
+  "hardBlockers": [],
+  "manualReview": [
+    "App Store Connect metadata paste is human step",
+    "SYSTEM locale follows macOS preferredLanguages — do not mutate global macOS locale in automation",
+    "P5.4 repackage left dist UNSIGNED when Developer ID present — re-run scripts/notarize-release.sh in P5.5 before external redistribute"
+  ],
+  "nonBlockingIssues": [
+    "filesystem folder names (Library/Documents) intentionally untranslated",
+    "vendor product names remain Latin",
+    "list truncation of long restricted label in narrow column"
+  ],
+  "localizedReleaseReady": true,
+  "testsBefore": 797,
+  "testsAfter": 814,
+  "failuresAfter": 0,
+  "productVersion": "0.1.0",
+  "buildNumber": "50",
+  "versionBuildChanged": false,
+  "recommendedNextPhase": "P5.5_GLOBAL_RELEASE_FREEZE",
+  "exactStatus": "LOCALIZATION_RELEASE_READY",
+  "generatedAt": "2026-09-08T00:25:00Z"
+}

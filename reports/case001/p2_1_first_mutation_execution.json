@@ -1,0 +1,60 @@
+{
+  "action" : "MOVE_TO_TRASH",
+  "approvalID" : "human-approval-xcode.deriveddata.non-fgybrdayavddwbcebfphqhnsetjl-2CC11513",
+  "auditRecord" : {
+    "action" : "MOVE_TO_TRASH",
+    "actionID" : "permit-xcode.deriveddata.non-fgybrdayavddwbcebfphqhnsetjl-MOVE_TO_TRASH-B2BB47F4",
+    "destinationPath" : "\/Users\/tomitakatsuhiro\/.Trash\/non-fgybrdayavddwbcebfphqhnsetjl",
+    "entityID" : "xcode.deriveddata.non-fgybrdayavddwbcebfphqhnsetjl",
+    "logicalBytesAffected" : 63062016,
+    "measuredRecoveryBytes" : 352,
+    "preflightClaims" : [
+
+    ],
+    "sourcePath" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/non-fgybrdayavddwbcebfphqhnsetjl",
+    "startedAt" : "2026-09-02T10:33:29Z",
+    "transactionPhase" : "COMPLETED"
+  },
+  "destructiveActionsExecuted" : true,
+  "entityID" : "xcode.deriveddata.non-fgybrdayavddwbcebfphqhnsetjl",
+  "executionMs" : 1015,
+  "executorImplemented" : true,
+  "explanation" : "DerivedData child moved to Trash with fresh preflight, permit, and post-verify",
+  "humanConfirmed" : true,
+  "measuredRecoveryBytes" : 352,
+  "outcome" : "FIRST_MUTATION_COMPLETED",
+  "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/non-fgybrdayavddwbcebfphqhnsetjl",
+  "permitID" : "permit-xcode.deriveddata.non-fgybrdayavddwbcebfphqhnsetjl-MOVE_TO_TRASH-B2BB47F4",
+  "phase" : "P2.1",
+  "postVerifySteps" : [
+    {
+      "detail" : "absent",
+      "satisfied" : true,
+      "step" : "verify_source_no_longer_owns"
+    },
+    {
+      "detail" : "\/Users\/tomitakatsuhiro\/.Trash\/non-fgybrdayavddwbcebfphqhnsetjl",
+      "satisfied" : true,
+      "step" : "verify_trash_operation_result"
+    },
+    {
+      "detail" : "352",
+      "satisfied" : true,
+      "step" : "record_actual_recovered_bytes"
+    },
+    {
+      "satisfied" : true,
+      "step" : "remeasure_storage"
+    },
+    {
+      "satisfied" : true,
+      "step" : "complete_audit"
+    },
+    {
+      "satisfied" : true,
+      "step" : "complete_audit"
+    }
+  ],
+  "preflightSessionID" : "p211-exec-xcode.deriveddata.non-fgybrdayavddwbcebfphqhnsetjl-1788345208",
+  "trashDestinationPath" : "\/Users\/tomitakatsuhiro\/.Trash\/non-fgybrdayavddwbcebfphqhnsetjl"
+}

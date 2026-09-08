@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-09-05T10:11:41Z",
+  "privacySafe": true,
+  "app": {
+    "CFBundleIdentifier": "com.apple.VoiceMemos",
+    "CFBundleShortVersionString": "3.2",
+    "CFBundleVersion": "1380"
+  },
+  "storageRootClasses": {
+    "groupContainer": "/Users/tomitakatsuhiro/Library/Group Containers/group.com.apple.VoiceMemos.shared",
+    "appContainer": "/Users/tomitakatsuhiro/Library/Containers/com.apple.VoiceMemos"
+  },
+  "recordingCount": 125,
+  "recordingBytes": 14021960498,
+  "metadataBytes": 5042568,
+  "cacheBytesVerified": 65835332,
+  "unknownBytes": 718,
+  "sourceOfTruthState": "LOCAL_PRIMARY_REMOTE_UNKNOWN",
+  "decomposition": {
+    "local_recordings_root:m4a": {
+      "bytes": 2386351523,
+      "files": 41
+    },
+    "local_recordings_root:qta_sidecar": {
+      "bytes": 11635608975,
+      "files": 87
+    },
+    "local_recordings_root:waveform": {
+      "bytes": 65835332,
+      "files": 26
+    },
+    "local_recordings_root:db": {
+      "bytes": 3564008,
+      "files": 3
+    },
+    "local_recordings_root:other": {
+      "bytes": 718,
+      "files": 1
+    },
+    "encrypted_cloud_recordings:db": {
+      "bytes": 1478560,
+      "files": 3
+    }
+  },
+  "audioContentProcessed": false,
+  "transcriptionPerformed": false
+}

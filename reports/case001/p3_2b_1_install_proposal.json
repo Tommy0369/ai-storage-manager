@@ -1,0 +1,49 @@
+{
+  "installationRequired": true,
+  "selectedMethod": "HOMEBREW",
+  "selectedPackageManager": "homebrew",
+  "packageIdentity": "hf",
+  "sourceTrustStatus": "OFFICIAL_VERIFIED",
+  "desiredVersionPolicy": "homebrew-stable (1.29.0) \u2014 must support hf cache ls/verify/rm --dry-run --cache-dir",
+  "expectedExecutableClass": "homebrew-linked-bin",
+  "expectedExecutableAt": "/usr/local/bin/hf",
+  "expectedMutations": [
+    "brew install hf via /usr/local/bin/brew",
+    "new /usr/local/bin/hf",
+    "Homebrew Cellar package files for formula hf",
+    "possible dependency installs if missing: certifi, git-lfs, libyaml, python@3.14"
+  ],
+  "expectedDependencyChanges": [
+    "certifi",
+    "git-lfs",
+    "libyaml",
+    "python@3.14"
+  ],
+  "credentialChangesExpected": false,
+  "hfSkillsInstallExpected": false,
+  "rollbackMethod": "brew uninstall hf",
+  "policyRejectedMethods": [
+    "STANDALONE_PIPE_INSTALLER(curl|bash)",
+    "STANDALONE_PIPE_INSTALLER(curl|sh)",
+    "TRANSIENT_UVX_AS_LONG_TERM_EXECUTOR",
+    "ARBITRARY_GITHUB_RELEASE_BINARY",
+    "UNVERIFIED_TAP_OR_MIRROR"
+  ],
+  "humanAuthorizationRequired": true,
+  "readyForInstallAuthorization": true,
+  "verdict": "READY_FOR_HF_CLI_INSTALL_AUTHORIZATION",
+  "product": "HUGGING_FACE_CLI",
+  "purpose": "RESTORE_VENDOR_NATIVE_CACHE_MANAGEMENT",
+  "doesNotAuthorizeCacheCleanup": true,
+  "doesNotAuthorizeHubRemoteDeletion": true,
+  "recoveryBytesFromInstall": 0,
+  "selectionReason": "Homebrew already present; official core formula hf recognized; deterministic prefix binary; no new package manager required.",
+  "ux": {
+    "title": "Restore Hugging Face Cache Management",
+    "why": "3.08 GB of verified Hugging Face cache cannot be safely previewed because the official HF CLI is not installed.",
+    "does": "Installs the Hugging Face hf command-line tool.",
+    "doesNot": "Does not remove the cached model revision. Does not delete anything from Hugging Face Hub. Does not delete local cache files yet.",
+    "after": "AI Storage Manager will run a read-only vendor dry-run and ask separately before any local cache removal."
+  },
+  "generatedAt": "2026-09-04T23:33:28Z"
+}

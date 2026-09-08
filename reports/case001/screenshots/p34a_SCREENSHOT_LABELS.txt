@@ -1,0 +1,7 @@
+FIXTURE — P3.4A preservation-first UX (no Free 14GB CTA).
+storage_p34a_after_cursor_closure.png = Cursor KEEP ×3; actionable=0; recovered ~5.58GB
+storage_p34a_current_ranking.png = Voice Memos leads next-proof ranking
+storage_p34a_protected_vs_actionable.png = protected valuable ≠ failure; actionable=0
+storage_p34a_preservation_opportunities.png = KEEP DATA + reduce local residency (proof pending)
+voice_memos_p34a_overview.png = ~14GB recordings; CloudKit metadata present
+voice_memos_p34a_keep_but_free_space.png = question: keep recordings, free local? — not executable yet

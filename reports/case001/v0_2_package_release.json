@@ -1,0 +1,21 @@
+{
+  "status": "V0_2_EXTERNAL_DISTRIBUTION_READY",
+  "version": "0.2.0",
+  "build": "51",
+  "distDir": "dist-0.2",
+  "appPath": "/Users/tomitakatsuhiro/Workspace/10_進行中/ai-storage-manager/dist-0.2/AI Storage Manager.app",
+  "zipPath": "/Users/tomitakatsuhiro/Workspace/10_進行中/ai-storage-manager/dist-0.2/AIStorageManager-0.2.0-rc51-arm64.zip",
+  "zipBytes": 5616890,
+  "zipSHA256": "a5eb688a77084555af880f7c9bd2be54ff8d1fd4954efc7fb3d530be667c89b1",
+  "notarizationSubmissionID": "9698df53-d30a-48a7-ba52-5c447be2a5bf",
+  "codesignPass": true,
+  "staplePass": true,
+  "gatekeeperPass": true,
+  "gatekeeperSource": "Notarized Developer ID",
+  "reextractPass": true,
+  "localizationPackagedLocales": 9,
+  "missingPackagedLocales": 0,
+  "realMutationCount": 0,
+  "v01Untouched": true,
+  "generatedAt": "2026-09-08T12:34:09Z"
+}

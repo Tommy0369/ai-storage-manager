@@ -1,0 +1,6 @@
+FIXTURE — P3.3D backup recovery UX (live-safe; KEEP; no cleanup button).
+cursor_p33d_backup_overview.png = ~1.28GB state.vscdb.backup identity
+cursor_p33d_backup_relationship.png = partial older snapshot vs live ~10GB main
+cursor_p33d_recovery_role.png = RECOVERY_SOURCE; restore on open failure
+cursor_p33d_keep_recovery_copy.png = KEEP / potentialRecoveryBytes=0
+cursor_p33d_retention_candidate.png = NOT GENERATED (no cleanup contract)

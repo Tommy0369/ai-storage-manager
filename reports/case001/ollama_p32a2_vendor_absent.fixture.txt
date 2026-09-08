@@ -1,0 +1,8 @@
+FIXTURE (not live authorization)
+Vendor Absent Managed Data
+Ollama Model — library/qwen3:4b
+~2.5 GB unique
+Ollama installation: Not found
+Native cleanup: Unavailable
+Recommended: Restore Ollama Management
+Raw deletion: Blocked

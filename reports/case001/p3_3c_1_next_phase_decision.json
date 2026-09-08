@@ -1,0 +1,20 @@
+{
+  "selectedNextCenterpin": "CURSOR_AGENT_CLI_LEGACY_STORE_REMEDIATION",
+  "selectedBytes": 2678732085,
+  "actionUnit": "NONE",
+  "why": "Cleanup contract is LIVE for HOME installed versions, but does NOT cover the material GS worker store (2678732085 bytes). Potential recovery under native contract for the actual root is 0. Next proof must treat GS accumulation as a separate lifecycle/remediation problem (worker-managed eviction or vendor path extension), not as an executor for cleanup-install-versions.",
+  "whyNotExecutorDesign": "Would implement wrong-target action",
+  "whyNotAtomicStaleSet": "Atomic set only defined for HOME root",
+  "whyNotBackup": "Still secondary; first close agent-cli lifecycle honesty",
+  "whyNotDifferentEntity": "Cursor agent-cli remains largest safe-looking Cursor non-DB class needing remediation proof",
+  "remainingRisks": [
+    "Irreversible loss of historical CLI builds (reacquisition UNKNOWN)",
+    "Worker may still select/spawn from GS tree",
+    "No dry-run for cleanup-install-versions"
+  ],
+  "mutationNextPhase": false,
+  "humanAuthorizationExpectedLater": true,
+  "generatedAt": "2026-09-05T05:50:04Z",
+  "globalPrincipleApplied": true,
+  "gateStatus": "STORE_MISMATCH"
+}

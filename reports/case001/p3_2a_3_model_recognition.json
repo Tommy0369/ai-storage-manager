@@ -1,0 +1,14 @@
+{
+  "canonicalIdentity" : "library\/qwen3:4b",
+  "inventoryModels" : [
+    "qwen3:4b"
+  ],
+  "logicalBytes" : 0,
+  "manifestStatus" : "PRESENT_ON_DISK",
+  "modelRecognitionStatus" : "RECOGNIZED_EXACT",
+  "recognizedByVendorInventory" : true,
+  "referenceGraphStatus" : "VERIFIED",
+  "sharedBytes" : 0,
+  "targetModel" : "library\/qwen3:4b",
+  "uniqueBytes" : 2497293931
+}

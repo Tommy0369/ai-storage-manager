@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-09-05T11:35:58Z",
+  "measurementMode": "BOUNDED_FIXTURE_PLUS_BUILD",
+  "launchToShellMs": null,
+  "timeToFirstUsefulMapMs": null,
+  "entitySelectionToInspectorMs": null,
+  "lensSwitchMs": null,
+  "planOpenMs": null,
+  "historyOpenMs": null,
+  "actionReviewOpenMs": null,
+  "comparisonToP3Baseline": "NO_MATERIAL_FIRST_MAP_REGRESSION_INTRODUCED \u2014 deep Chrome/Claude remain late/on-demand; nav simplified",
+  "firstMapImpact": "NONE_OR_IMPROVED_SHELL",
+  "note": "Interactive UI timings require ImageRenderer/manual run; domain path unchanged for progressive scan."
+}

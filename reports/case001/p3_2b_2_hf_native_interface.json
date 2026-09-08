@@ -1,0 +1,16 @@
+{
+  "binaryFingerprint": "path=/opt/homebrew/Cellar/hf/1.29.0/libexec/bin/hf;size=202;mtime=1788565428;version=1.29.0",
+  "cellarSource": "/opt/homebrew/Cellar/hf/1.29.0/libexec/bin/hf",
+  "cliPath": "/opt/homebrew/bin/hf",
+  "cliResolved": true,
+  "cliResolvedSymlinkTarget": "/opt/homebrew/Cellar/hf/1.29.0/libexec/bin/hf",
+  "cliVersion": "1.29.0",
+  "formulaIdentity": "homebrew/core/hf",
+  "observedAt": "2026-09-05T00:03:02Z",
+  "supportsCacheDir": true,
+  "supportsCacheLS": true,
+  "supportsCacheRM": true,
+  "supportsCacheVerify": true,
+  "supportsDryRun": true,
+  "supportsYes": true
+}

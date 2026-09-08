@@ -1,0 +1,82 @@
+{
+  "supportedLocales": [
+    "en",
+    "ja",
+    "zh-Hans",
+    "zh-Hant",
+    "ko",
+    "es",
+    "fr",
+    "de",
+    "pt-BR"
+  ],
+  "totalProductionKeys": 222,
+  "perLocale": [
+    {
+      "localeID": "en",
+      "translated": 222,
+      "missing": 0,
+      "fallback": 0,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "ja",
+      "translated": 222,
+      "missing": 0,
+      "fallback": 0,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "zh-Hans",
+      "translated": 222,
+      "missing": 0,
+      "fallback": 0,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "zh-Hant",
+      "translated": 222,
+      "missing": 0,
+      "fallback": 0,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "ko",
+      "translated": 222,
+      "missing": 0,
+      "fallback": 0,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "es",
+      "translated": 222,
+      "missing": 0,
+      "fallback": 0,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "fr",
+      "translated": 222,
+      "missing": 0,
+      "fallback": 0,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "de",
+      "translated": 222,
+      "missing": 0,
+      "fallback": 0,
+      "coveragePercent": 100.0
+    },
+    {
+      "localeID": "pt-BR",
+      "translated": 222,
+      "missing": 0,
+      "fallback": 0,
+      "coveragePercent": 100.0
+    }
+  ],
+  "subtypeEnglishLeaks": 0,
+  "rawKeysVisible": 0,
+  "generatedAt": "2026-09-08T00:15:05.722660+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "secondCrawlerAdded": false,
+  "agentCLIRootResolutionMs": 740,
+  "agentCLIVersionInventoryMs": 740,
+  "agentCLIRuntimeMappingMs": 569,
+  "agentCLIBundleSemanticSearchMs": 0,
+  "agentCLIReacquisitionAnalysisMs": 0,
+  "agentCLIRetentionAnalysisMs": 0,
+  "agentCLIOpportunityRankingMs": 0,
+  "totalMs": 1316,
+  "fullSuiteBefore": {
+    "tests": 629,
+    "failures": 0
+  },
+  "fullSuiteAfter": {
+    "tests": 644,
+    "failures": 0
+  },
+  "falseGREEN": 0,
+  "duplicateEvaluations": 0,
+  "generatedAt": "2026-09-05T03:06:30Z"
+}

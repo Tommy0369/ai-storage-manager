@@ -1,0 +1,33 @@
+{
+  "brewPresent": true,
+  "brewExecutableClass": "homebrew-core-cli",
+  "brewExecutableURL": "/usr/local/bin/brew",
+  "brewPrefix": "/usr/local",
+  "brewVersion": "Homebrew 6.0.21",
+  "hfBrewFormulaInstalled": false,
+  "hfBrewFormulaRecognized": true,
+  "hfBrewFormulaVersion": "1.29.0",
+  "hfBrewExecutablePresent": false,
+  "hfBrewExecutableURL": null,
+  "brewDeclaredDependencies": [
+    "certifi",
+    "git-lfs",
+    "libyaml",
+    "python@3.14"
+  ],
+  "uvPresent": false,
+  "uvVersion": null,
+  "existingUVHFTool": false,
+  "pipxPresent": false,
+  "existingPipxHF": false,
+  "pythonRuntimesInspected": [
+    "/usr/local/bin/python3",
+    "/usr/bin/python3",
+    "/Users/tomitakatsuhiro/.pyenv/shims/python3"
+  ],
+  "huggingfaceHubPackagesFound": [],
+  "existingHFEntryPoints": [],
+  "trustedHFCLIAlreadyPresent": false,
+  "presenceClass": "HF_CLI_NOT_INSTALLED",
+  "generatedAt": "2026-09-04T23:33:28Z"
+}

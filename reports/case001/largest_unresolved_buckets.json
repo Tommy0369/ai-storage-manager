@@ -1,0 +1,182 @@
+[
+  {
+    "domain" : "macOS",
+    "exclusiveBytes" : 10745818865,
+    "nextDetector" : "AppSupportDeepDetector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome",
+    "product" : "Google",
+    "reason" : "UNKNOWN_MIXED_CONTENT",
+    "resolution" : 3
+  },
+  {
+    "domain" : "macOS",
+    "exclusiveBytes" : 8145022976,
+    "nextDetector" : "semantic-entity-detector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers",
+    "product" : "macos.group_containers",
+    "reason" : "UNKNOWN_PATH",
+    "resolution" : 1
+  },
+  {
+    "domain" : "macOS",
+    "exclusiveBytes" : 7217315840,
+    "nextDetector" : "AppSupportDeepDetector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/TomyLocal\/FacebookMessenger",
+    "product" : "TomyLocal",
+    "reason" : "UNKNOWN_PATH",
+    "resolution" : 2
+  },
+  {
+    "domain" : "AI Tools",
+    "exclusiveBytes" : 2062807040,
+    "nextDetector" : "AIToolDeepDetector",
+    "path" : "\/Users\/tomitakatsuhiro\/.codex",
+    "product" : "ai.codex.config",
+    "reason" : "UNKNOWN_MIXED_CONTENT",
+    "resolution" : 3
+  },
+  {
+    "domain" : "macOS",
+    "exclusiveBytes" : 1823993856,
+    "nextDetector" : "AppSupportDeepDetector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/zoom.us",
+    "product" : "zoom.us",
+    "reason" : "UNKNOWN_PATH",
+    "resolution" : 2
+  },
+  {
+    "domain" : "AI Tools",
+    "exclusiveBytes" : 1188261888,
+    "nextDetector" : "AIToolDeepDetector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/Partitions",
+    "product" : "Cursor",
+    "reason" : "UNKNOWN_MIXED_CONTENT",
+    "resolution" : 3
+  },
+  {
+    "domain" : "macOS",
+    "exclusiveBytes" : 1011929088,
+    "nextDetector" : "AppSupportDeepDetector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/discord",
+    "product" : "discord",
+    "reason" : "UNKNOWN_NO_RULE",
+    "resolution" : 3
+  },
+  {
+    "domain" : "macOS",
+    "exclusiveBytes" : 915226624,
+    "nextDetector" : "AppSupportDeepDetector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/GoogleUpdater",
+    "product" : "Google",
+    "reason" : "UNKNOWN_NO_RULE",
+    "resolution" : 3
+  },
+  {
+    "domain" : "macOS",
+    "exclusiveBytes" : 711114752,
+    "nextDetector" : "semantic-entity-detector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/VUTU7AKEUR.jp.naver.line.mac",
+    "product" : "VUTU7AKEUR.jp.naver.line.mac",
+    "reason" : "UNKNOWN_NO_RULE",
+    "resolution" : 3
+  },
+  {
+    "domain" : "macOS",
+    "exclusiveBytes" : 583823360,
+    "nextDetector" : "AppSupportDeepDetector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Evernote",
+    "product" : "Evernote",
+    "reason" : "UNKNOWN_PATH",
+    "resolution" : 2
+  },
+  {
+    "domain" : "macOS",
+    "exclusiveBytes" : 564805632,
+    "nextDetector" : "AppSupportDeepDetector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Wondershare Filmora Mac",
+    "product" : "Wondershare Filmora Mac",
+    "reason" : "UNKNOWN_PATH",
+    "resolution" : 2
+  },
+  {
+    "domain" : "Homebrew",
+    "exclusiveBytes" : 460976128,
+    "nextDetector" : "semantic-entity-detector",
+    "path" : "\/opt\/homebrew\/Cellar",
+    "product" : "HOMEBREW",
+    "reason" : "UNKNOWN_ACTIVE_STATE",
+    "resolution" : 3
+  },
+  {
+    "domain" : "macOS",
+    "exclusiveBytes" : 447815680,
+    "nextDetector" : "semantic-entity-detector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/CloudKit",
+    "product" : "CloudKit",
+    "reason" : "UNKNOWN_PATH",
+    "resolution" : 2
+  },
+  {
+    "domain" : "AI Tools",
+    "exclusiveBytes" : 435814400,
+    "nextDetector" : "AIToolDeepDetector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code",
+    "product" : "Code",
+    "reason" : "UNKNOWN_NO_RULE",
+    "resolution" : 3
+  },
+  {
+    "domain" : "AI Tools",
+    "exclusiveBytes" : 432136192,
+    "nextDetector" : "AIToolDeepDetector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/claude-code",
+    "product" : "Claude",
+    "reason" : "UNKNOWN_NO_RULE",
+    "resolution" : 3
+  },
+  {
+    "domain" : "macOS",
+    "exclusiveBytes" : 429068288,
+    "nextDetector" : "semantic-entity-detector",
+    "path" : "\/Users\/tomitakatsuhiro\/Downloads",
+    "product" : "user.downloads",
+    "reason" : "UNKNOWN_PATH",
+    "resolution" : 2
+  },
+  {
+    "domain" : "AI Tools",
+    "exclusiveBytes" : 286187520,
+    "nextDetector" : "AIToolDeepDetector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/claude-code-vm",
+    "product" : "Claude",
+    "reason" : "UNKNOWN_NO_RULE",
+    "resolution" : 3
+  },
+  {
+    "domain" : "AI Tools",
+    "exclusiveBytes" : 236437504,
+    "nextDetector" : "AIToolDeepDetector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Codex",
+    "product" : "Codex",
+    "reason" : "UNKNOWN_NO_RULE",
+    "resolution" : 3
+  },
+  {
+    "domain" : "AI Tools",
+    "exclusiveBytes" : 163151872,
+    "nextDetector" : "AIToolDeepDetector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude",
+    "product" : "Claude",
+    "reason" : "UNKNOWN_NO_RULE",
+    "resolution" : 3
+  },
+  {
+    "domain" : "macOS",
+    "exclusiveBytes" : 158392320,
+    "nextDetector" : "semantic-entity-detector",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.google.GeminiMacOS",
+    "product" : "com.google.GeminiMacOS",
+    "reason" : "UNKNOWN_PATH",
+    "resolution" : 2
+  }
+]

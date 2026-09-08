@@ -1,0 +1,22 @@
+{
+  "after" : {
+    "protectedBytes" : 94745976832,
+    "readyNowBytes" : 0,
+    "verifiedFutureBytes" : 105398272,
+    "verifyMoreBytes" : 5434445824
+  },
+  "before" : {
+    "protectedBytes" : 0,
+    "readyNowBytes" : 0,
+    "verifiedFutureBytes" : 103518208,
+    "verifyMoreBytes" : 5580000000
+  },
+  "hfVerifyMoreAfter" : 0,
+  "hfVerifyMoreBefore" : 3084000000,
+  "note" : "Ready Now must stay 0 while VENDOR_NATIVE_CLEANUP Executor is NOT_IMPLEMENTED.",
+  "ollamaVerifyMoreAfter" : 0,
+  "ollamaVerifyMoreBefore" : 2497000000,
+  "remoteUnknownBytes" : 0,
+  "remoteVerifiedBytes" : 0,
+  "vendorNativeVerifiedFutureBytes" : 0
+}

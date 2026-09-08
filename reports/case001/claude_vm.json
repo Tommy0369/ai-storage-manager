@@ -1,0 +1,86 @@
+[
+  {
+    "activeState" : "UNKNOWN",
+    "bundleIdentity" : "claude.vm.warm",
+    "bytes" : 0,
+    "canonicalPath" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/warm",
+    "exactPathMatch" : false,
+    "openFileEvidence" : "NONE_EXACT",
+    "processEvidence" : "NONE_EXACT",
+    "runtimeRole" : "CACHE",
+    "unknownReason" : "UNKNOWN_ACTIVE_STATE",
+    "verificationLevel" : "INFERRED"
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "bundleIdentity" : "claude.vm.bundle.claudevm.bundle.writable",
+    "bytes" : 105234432,
+    "canonicalPath" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/sessiondata.img",
+    "exactPathMatch" : false,
+    "openFileEvidence" : "NONE_EXACT",
+    "processEvidence" : "NONE_EXACT",
+    "runtimeRole" : "APPLICATION_STATE",
+    "unknownReason" : "VERSION_RELATION_UNKNOWN",
+    "verificationLevel" : "INFERRED"
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "bundleIdentity" : "claude.vm.root",
+    "bytes" : 0,
+    "canonicalPath" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles",
+    "exactPathMatch" : false,
+    "openFileEvidence" : "NONE_EXACT",
+    "processEvidence" : "NONE_EXACT",
+    "runtimeRole" : "RUNTIME",
+    "unknownReason" : "UNKNOWN_ACTIVE_STATE",
+    "verificationLevel" : "INFERRED"
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "bundleIdentity" : "claude.vm.bundle.claudevm.bundle.runtime",
+    "bytes" : 10737418240,
+    "canonicalPath" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/rootfs.img",
+    "exactPathMatch" : false,
+    "openFileEvidence" : "NONE_EXACT",
+    "processEvidence" : "NONE_EXACT",
+    "runtimeRole" : "RUNTIME",
+    "unknownReason" : "VERSION_RELATION_UNKNOWN",
+    "verificationLevel" : "INFERRED"
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "bundleIdentity" : "claude.vm.bundle.claudevm.bundle",
+    "bytes" : 8496690,
+    "canonicalPath" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle",
+    "exactPathMatch" : false,
+    "openFileEvidence" : "NONE_EXACT",
+    "processEvidence" : "NONE_EXACT",
+    "runtimeRole" : "RUNTIME",
+    "unknownReason" : "VERSION_RELATION_UNKNOWN",
+    "verificationLevel" : "INFERRED"
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "bundleIdentity" : "claude.vm.bundle.claudevm.bundle.kernel",
+    "bytes" : 59074952,
+    "canonicalPath" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/vmlinuz",
+    "exactPathMatch" : false,
+    "openFileEvidence" : "NONE_EXACT",
+    "processEvidence" : "NONE_EXACT",
+    "runtimeRole" : "RUNTIME",
+    "unknownReason" : "VERSION_RELATION_UNKNOWN",
+    "verificationLevel" : "INFERRED"
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "bundleIdentity" : "claude.vm.bundle.claudevm.bundle.metadata",
+    "bytes" : 70,
+    "canonicalPath" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/machineIdentifier",
+    "exactPathMatch" : false,
+    "openFileEvidence" : "NONE_EXACT",
+    "processEvidence" : "NONE_EXACT",
+    "runtimeRole" : "USER_CONFIGURATION",
+    "unknownReason" : "VERSION_RELATION_UNKNOWN",
+    "verificationLevel" : "INFERRED"
+  }
+]

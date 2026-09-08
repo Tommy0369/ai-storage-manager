@@ -1,0 +1,564 @@
+{
+  "approvalRequired" : 0,
+  "architecturalFixMade" : false,
+  "childRegenTrueVerified" : 0,
+  "childSOTFalseVerified" : 0,
+  "childWorkspaceRelationshipVerified" : 0,
+  "claimPrecedenceBugSuspected" : false,
+  "claimTransportBugSuspected" : false,
+  "concreteDerivedDataEntities" : 1,
+  "contradictionClassification" : "OTHER",
+  "contradictionExplanation" : "No aggregate contradiction pattern matched.",
+  "entities" : [
+    {
+      "activeState" : "INACTIVE",
+      "activeStateConfidence" : "VERIFIED",
+      "causalBlockerChain" : [
+        "GENERATED_BY_NOT_VERIFIED"
+      ],
+      "claimTransport" : [
+        {
+          "claimSurvived" : false,
+          "layer" : "DetectorMetadata",
+          "relationshipTypes" : [
+
+          ],
+          "verifiedRelationshipCount" : 0
+        },
+        {
+          "claimSurvived" : false,
+          "layer" : "VerificationAnnotation",
+          "regenerability" : "unknown",
+          "regenerabilityConfidence" : "UNKNOWN",
+          "relationshipTypes" : [
+
+          ],
+          "sourceOfTruth" : "unknown",
+          "sourceOfTruthConfidence" : "UNKNOWN",
+          "verifiedRelationshipCount" : 0
+        },
+        {
+          "claimSurvived" : false,
+          "layer" : "EntitySafetySnapshot",
+          "regenerability" : "unknown",
+          "regenerabilityConfidence" : "UNKNOWN",
+          "relationshipTypes" : [
+
+          ],
+          "sourceOfTruth" : "unknown",
+          "sourceOfTruthConfidence" : "UNKNOWN",
+          "verifiedRelationshipCount" : 0
+        },
+        {
+          "claimSurvived" : false,
+          "layer" : "ResolverDirect",
+          "regenerability" : "unknown",
+          "regenerabilityConfidence" : "UNKNOWN",
+          "relationshipTypes" : [
+
+          ],
+          "sourceOfTruth" : "unknown",
+          "sourceOfTruthConfidence" : "UNKNOWN",
+          "verifiedRelationshipCount" : 0
+        }
+      ],
+      "entityID" : "xcode.derived_data",
+      "evidenceCompleteness" : "COMPLETE",
+      "evidenceConflicts" : false,
+      "evidenceFreshness" : "RESOLVED",
+      "firstRegenBlocker" : "REGEN_BLOCKED_BY_SOT",
+      "firstSOTBlocker" : "SOT_PROOF_INCOMPLETE",
+      "firstUnsatisfiedRequirement" : "generated_by_xcode_verified",
+      "generatedBy" : "DerivedData",
+      "isConcreteChild" : false,
+      "isRootEntity" : true,
+      "isSkipChild" : false,
+      "moveToTrashEligible" : false,
+      "moveToTrashSafety" : "UNKNOWN",
+      "mutationReadiness" : "BLOCKED",
+      "openFileConfidence" : "VERIFIED",
+      "openFileState" : "false",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData",
+      "preflightAllowed" : false,
+      "primaryRootCause" : "REAL_EVIDENCE_INCOMPLETE",
+      "recommendation" : "KEEP",
+      "recommendationDisposition" : "keep",
+      "regenBlockedBySOT" : true,
+      "regenResolverOutput" : "unknown",
+      "regenResolverReasonCode" : "SOURCE_RELATION_UNKNOWN",
+      "regenerability" : "unknown",
+      "regenerabilityConfidence" : "UNKNOWN",
+      "rootCauseExplanation" : "Aggregate DerivedData root lacks per-project workspace metadata — expected UNKNOWN at root.",
+      "sotResolverInputRelationshipCount" : 0,
+      "sotResolverInputVerifiedCount" : 0,
+      "sotResolverOutput" : "unknown",
+      "sotResolverReasonCode" : "UNKNOWN_SOURCE_OF_TRUTH",
+      "sourceOfTruth" : "unknown",
+      "sourceOfTruthConfidence" : "UNKNOWN",
+      "strictRequirements" : [
+        {
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "Detector",
+          "required" : true,
+          "requirement" : "entity_identity_verified",
+          "satisfied" : true,
+          "value" : "xcode.derived_data"
+        },
+        {
+          "blockingReason" : "GENERATED_BY_NOT_VERIFIED",
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "Detector\/Lifecycle",
+          "required" : true,
+          "requirement" : "generated_by_xcode_verified",
+          "satisfied" : false
+        },
+        {
+          "blockingReason" : "MISSING_EXPLICIT_WORKSPACE_RELATIONSHIP",
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "Detector metadata",
+          "required" : false,
+          "requirement" : "explicit_workspace_relationship_verified",
+          "satisfied" : false
+        },
+        {
+          "blockingReason" : "SOURCE_EXISTS_UNKNOWN",
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "Filesystem",
+          "required" : false,
+          "requirement" : "source_workspace_exists_verified",
+          "satisfied" : false
+        },
+        {
+          "blockingReason" : "SOT_PROOF_INCOMPLETE",
+          "completeness" : "COMPLETE",
+          "confidence" : "UNKNOWN",
+          "evidenceSource" : "SourceOfTruthResolver\/Snapshot",
+          "required" : false,
+          "requirement" : "sot_false_verified",
+          "satisfied" : false,
+          "value" : "unknown"
+        },
+        {
+          "blockingReason" : "REGEN_BLOCKED_BY_SOT",
+          "completeness" : "COMPLETE",
+          "confidence" : "UNKNOWN",
+          "evidenceSource" : "RegenerabilityResolver\/Snapshot",
+          "required" : false,
+          "requirement" : "regenerable_true_verified",
+          "satisfied" : false,
+          "value" : "unknown"
+        },
+        {
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "RuntimeObservationIndex",
+          "required" : false,
+          "requirement" : "runtime_xcode_inactive",
+          "satisfied" : true,
+          "value" : "inactive"
+        },
+        {
+          "completeness" : "COMPLETE",
+          "confidence" : "VERIFIED",
+          "evidenceSource" : "RuntimeObservationIndex",
+          "required" : false,
+          "requirement" : "open_file_safe_verified",
+          "satisfied" : true,
+          "value" : "false"
+        },
+        {
+          "completeness" : "COMPLETE",
+          "confidence" : "VERIFIED",
+          "evidenceSource" : "ActiveStateResolver",
+          "required" : false,
+          "requirement" : "source_inactive_verified",
+          "satisfied" : true,
+          "value" : "INACTIVE"
+        },
+        {
+          "blockingReason" : "SAFETY_CLASS_UNKNOWN",
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "ActionDecisionSet",
+          "required" : false,
+          "requirement" : "move_to_trash_safety_green",
+          "satisfied" : false,
+          "value" : "UNKNOWN"
+        }
+      ],
+      "workspacePathPresent" : false
+    },
+    {
+      "activeState" : "INACTIVE",
+      "activeStateConfidence" : "VERIFIED",
+      "causalBlockerChain" : [
+        "MISSING_EXPLICIT_WORKSPACE_RELATIONSHIP",
+        "SOT_PROOF_INCOMPLETE",
+        "REGEN_BLOCKED_BY_SOT",
+        "SAFETY_CLASS_UNKNOWN"
+      ],
+      "claimTransport" : [
+        {
+          "claimSurvived" : true,
+          "layer" : "DetectorMetadata",
+          "relationshipTypes" : [
+            "GENERATED_BY"
+          ],
+          "verifiedRelationshipCount" : 1
+        },
+        {
+          "claimSurvived" : false,
+          "layer" : "VerificationAnnotation",
+          "regenerability" : "unknown",
+          "regenerabilityConfidence" : "UNKNOWN",
+          "relationshipTypes" : [
+            "GENERATED_BY"
+          ],
+          "sourceOfTruth" : "unknown",
+          "sourceOfTruthConfidence" : "UNKNOWN",
+          "verifiedRelationshipCount" : 1
+        },
+        {
+          "claimSurvived" : false,
+          "layer" : "EntitySafetySnapshot",
+          "regenerability" : "unknown",
+          "regenerabilityConfidence" : "UNKNOWN",
+          "relationshipTypes" : [
+            "GENERATED_BY"
+          ],
+          "sourceOfTruth" : "unknown",
+          "sourceOfTruthConfidence" : "UNKNOWN",
+          "verifiedRelationshipCount" : 1
+        },
+        {
+          "claimSurvived" : false,
+          "layer" : "ResolverDirect",
+          "regenerability" : "unknown",
+          "regenerabilityConfidence" : "UNKNOWN",
+          "relationshipTypes" : [
+            "GENERATED_BY"
+          ],
+          "sourceOfTruth" : "unknown",
+          "sourceOfTruthConfidence" : "UNKNOWN",
+          "verifiedRelationshipCount" : 1
+        }
+      ],
+      "entityID" : "xcode.deriveddata.SDKStatCaches.noindex",
+      "evidenceCompleteness" : "COMPLETE",
+      "evidenceConflicts" : false,
+      "evidenceFreshness" : "RESOLVED",
+      "firstRegenBlocker" : "REGEN_BLOCKED_BY_SOT",
+      "firstSOTBlocker" : "SOT_PROOF_INCOMPLETE",
+      "firstUnsatisfiedRequirement" : "explicit_workspace_relationship_verified",
+      "generatedBy" : "Xcode",
+      "isConcreteChild" : true,
+      "isRootEntity" : false,
+      "isSkipChild" : false,
+      "moveToTrashEligible" : false,
+      "moveToTrashSafety" : "UNKNOWN",
+      "mutationReadiness" : "BLOCKED",
+      "openFileConfidence" : "VERIFIED",
+      "openFileState" : "false",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/SDKStatCaches.noindex",
+      "preflightAllowed" : false,
+      "primaryRootCause" : "CLAIM_TRANSPORT_BUG",
+      "recommendation" : "KEEP",
+      "recommendationDisposition" : "keep",
+      "regenBlockedBySOT" : true,
+      "regenResolverOutput" : "unknown",
+      "regenResolverReasonCode" : "SOURCE_RELATION_UNKNOWN",
+      "regenerability" : "unknown",
+      "regenerabilityConfidence" : "UNKNOWN",
+      "rootCauseExplanation" : "VERIFIED relationship or SOT\/regen claim lost between detector and snapshot.",
+      "sotResolverInputRelationshipCount" : 1,
+      "sotResolverInputVerifiedCount" : 1,
+      "sotResolverOutput" : "unknown",
+      "sotResolverReasonCode" : "UNKNOWN_SOURCE_OF_TRUTH",
+      "sourceOfTruth" : "unknown",
+      "sourceOfTruthConfidence" : "UNKNOWN",
+      "strictRequirements" : [
+        {
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "Detector",
+          "required" : true,
+          "requirement" : "entity_identity_verified",
+          "satisfied" : true,
+          "value" : "xcode.deriveddata.SDKStatCaches.noindex"
+        },
+        {
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "Detector\/Lifecycle",
+          "required" : true,
+          "requirement" : "generated_by_xcode_verified",
+          "satisfied" : true,
+          "value" : "XCODE_DERIVEDDATA_INSTANCE"
+        },
+        {
+          "blockingReason" : "MISSING_EXPLICIT_WORKSPACE_RELATIONSHIP",
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "Detector metadata",
+          "required" : true,
+          "requirement" : "explicit_workspace_relationship_verified",
+          "satisfied" : false
+        },
+        {
+          "blockingReason" : "SOURCE_EXISTS_UNKNOWN",
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "Filesystem",
+          "required" : false,
+          "requirement" : "source_workspace_exists_verified",
+          "satisfied" : false
+        },
+        {
+          "blockingReason" : "SOT_PROOF_INCOMPLETE",
+          "completeness" : "COMPLETE",
+          "confidence" : "UNKNOWN",
+          "evidenceSource" : "SourceOfTruthResolver\/Snapshot",
+          "required" : true,
+          "requirement" : "sot_false_verified",
+          "satisfied" : false,
+          "value" : "unknown"
+        },
+        {
+          "blockingReason" : "REGEN_BLOCKED_BY_SOT",
+          "completeness" : "COMPLETE",
+          "confidence" : "UNKNOWN",
+          "evidenceSource" : "RegenerabilityResolver\/Snapshot",
+          "required" : true,
+          "requirement" : "regenerable_true_verified",
+          "satisfied" : false,
+          "value" : "unknown"
+        },
+        {
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "RuntimeObservationIndex",
+          "required" : false,
+          "requirement" : "runtime_xcode_inactive",
+          "satisfied" : true,
+          "value" : "inactive"
+        },
+        {
+          "completeness" : "COMPLETE",
+          "confidence" : "VERIFIED",
+          "evidenceSource" : "RuntimeObservationIndex",
+          "required" : false,
+          "requirement" : "open_file_safe_verified",
+          "satisfied" : true,
+          "value" : "false"
+        },
+        {
+          "completeness" : "COMPLETE",
+          "confidence" : "VERIFIED",
+          "evidenceSource" : "ActiveStateResolver",
+          "required" : false,
+          "requirement" : "source_inactive_verified",
+          "satisfied" : true,
+          "value" : "INACTIVE"
+        },
+        {
+          "blockingReason" : "SAFETY_CLASS_UNKNOWN",
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "ActionDecisionSet",
+          "required" : true,
+          "requirement" : "move_to_trash_safety_green",
+          "satisfied" : false,
+          "value" : "UNKNOWN"
+        }
+      ],
+      "workspacePathPresent" : false
+    },
+    {
+      "activeState" : "INACTIVE",
+      "activeStateConfidence" : "VERIFIED",
+      "causalBlockerChain" : [
+        "GENERATED_BY_NOT_VERIFIED",
+        "MISSING_EXPLICIT_WORKSPACE_RELATIONSHIP",
+        "SOT_PROOF_INCOMPLETE",
+        "REGEN_BLOCKED_BY_SOT",
+        "SAFETY_CLASS_UNKNOWN"
+      ],
+      "claimTransport" : [
+        {
+          "claimSurvived" : false,
+          "layer" : "DetectorMetadata",
+          "relationshipTypes" : [
+
+          ],
+          "verifiedRelationshipCount" : 0
+        },
+        {
+          "claimSurvived" : false,
+          "layer" : "VerificationAnnotation",
+          "regenerability" : "unknown",
+          "regenerabilityConfidence" : "UNKNOWN",
+          "relationshipTypes" : [
+
+          ],
+          "sourceOfTruth" : "unknown",
+          "sourceOfTruthConfidence" : "UNKNOWN",
+          "verifiedRelationshipCount" : 0
+        },
+        {
+          "claimSurvived" : false,
+          "layer" : "EntitySafetySnapshot",
+          "regenerability" : "unknown",
+          "regenerabilityConfidence" : "UNKNOWN",
+          "relationshipTypes" : [
+
+          ],
+          "sourceOfTruth" : "unknown",
+          "sourceOfTruthConfidence" : "UNKNOWN",
+          "verifiedRelationshipCount" : 0
+        },
+        {
+          "claimSurvived" : false,
+          "layer" : "ResolverDirect",
+          "regenerability" : "unknown",
+          "regenerabilityConfidence" : "UNKNOWN",
+          "relationshipTypes" : [
+
+          ],
+          "sourceOfTruth" : "unknown",
+          "sourceOfTruthConfidence" : "UNKNOWN",
+          "verifiedRelationshipCount" : 0
+        }
+      ],
+      "entityID" : "xcode.module_cache",
+      "evidenceCompleteness" : "COMPLETE",
+      "evidenceConflicts" : false,
+      "evidenceFreshness" : "RESOLVED",
+      "firstRegenBlocker" : "REGEN_BLOCKED_BY_SOT",
+      "firstSOTBlocker" : "SOT_PROOF_INCOMPLETE",
+      "firstUnsatisfiedRequirement" : "generated_by_xcode_verified",
+      "generatedBy" : "ModuleCache",
+      "isConcreteChild" : false,
+      "isRootEntity" : false,
+      "isSkipChild" : true,
+      "moveToTrashEligible" : false,
+      "moveToTrashSafety" : "UNKNOWN",
+      "mutationReadiness" : "BLOCKED",
+      "openFileConfidence" : "VERIFIED",
+      "openFileState" : "false",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex",
+      "preflightAllowed" : false,
+      "primaryRootCause" : "REAL_EVIDENCE_INCOMPLETE",
+      "recommendation" : "KEEP",
+      "recommendationDisposition" : "keep",
+      "regenBlockedBySOT" : true,
+      "regenResolverOutput" : "unknown",
+      "regenResolverReasonCode" : "SOURCE_RELATION_UNKNOWN",
+      "regenerability" : "unknown",
+      "regenerabilityConfidence" : "UNKNOWN",
+      "rootCauseExplanation" : "Strict proof chain incomplete at: generated_by_xcode_verified — believe real evidence.",
+      "sotResolverInputRelationshipCount" : 0,
+      "sotResolverInputVerifiedCount" : 0,
+      "sotResolverOutput" : "unknown",
+      "sotResolverReasonCode" : "UNKNOWN_SOURCE_OF_TRUTH",
+      "sourceOfTruth" : "unknown",
+      "sourceOfTruthConfidence" : "UNKNOWN",
+      "strictRequirements" : [
+        {
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "Detector",
+          "required" : true,
+          "requirement" : "entity_identity_verified",
+          "satisfied" : true,
+          "value" : "xcode.module_cache"
+        },
+        {
+          "blockingReason" : "GENERATED_BY_NOT_VERIFIED",
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "Detector\/Lifecycle",
+          "required" : true,
+          "requirement" : "generated_by_xcode_verified",
+          "satisfied" : false
+        },
+        {
+          "blockingReason" : "MISSING_EXPLICIT_WORKSPACE_RELATIONSHIP",
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "Detector metadata",
+          "required" : true,
+          "requirement" : "explicit_workspace_relationship_verified",
+          "satisfied" : false
+        },
+        {
+          "blockingReason" : "SOURCE_EXISTS_UNKNOWN",
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "Filesystem",
+          "required" : false,
+          "requirement" : "source_workspace_exists_verified",
+          "satisfied" : false
+        },
+        {
+          "blockingReason" : "SOT_PROOF_INCOMPLETE",
+          "completeness" : "COMPLETE",
+          "confidence" : "UNKNOWN",
+          "evidenceSource" : "SourceOfTruthResolver\/Snapshot",
+          "required" : true,
+          "requirement" : "sot_false_verified",
+          "satisfied" : false,
+          "value" : "unknown"
+        },
+        {
+          "blockingReason" : "REGEN_BLOCKED_BY_SOT",
+          "completeness" : "COMPLETE",
+          "confidence" : "UNKNOWN",
+          "evidenceSource" : "RegenerabilityResolver\/Snapshot",
+          "required" : true,
+          "requirement" : "regenerable_true_verified",
+          "satisfied" : false,
+          "value" : "unknown"
+        },
+        {
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "RuntimeObservationIndex",
+          "required" : false,
+          "requirement" : "runtime_xcode_inactive",
+          "satisfied" : true,
+          "value" : "inactive"
+        },
+        {
+          "completeness" : "COMPLETE",
+          "confidence" : "VERIFIED",
+          "evidenceSource" : "RuntimeObservationIndex",
+          "required" : false,
+          "requirement" : "open_file_safe_verified",
+          "satisfied" : true,
+          "value" : "false"
+        },
+        {
+          "completeness" : "COMPLETE",
+          "confidence" : "VERIFIED",
+          "evidenceSource" : "ActiveStateResolver",
+          "required" : false,
+          "requirement" : "source_inactive_verified",
+          "satisfied" : true,
+          "value" : "INACTIVE"
+        },
+        {
+          "blockingReason" : "SAFETY_CLASS_UNKNOWN",
+          "completeness" : "COMPLETE",
+          "evidenceSource" : "ActionDecisionSet",
+          "required" : true,
+          "requirement" : "move_to_trash_safety_green",
+          "satisfied" : false,
+          "value" : "UNKNOWN"
+        }
+      ],
+      "workspacePathPresent" : false
+    }
+  ],
+  "exactRealChildEntityIDs" : [
+    "xcode.deriveddata.SDKStatCaches.noindex"
+  ],
+  "firstRealMutationGateStatus" : "NO_SAFE_REAL_MUTATION_CANDIDATE",
+  "phase" : "P2.0.5",
+  "primaryRootCauseCategory" : "REAL_EVIDENCE_INCOMPLETE",
+  "relationshipContractMismatchSuspected" : false,
+  "remainingExactBlocker" : "explicit_workspace_relationship_verified",
+  "reportingAggregationOnly" : false,
+  "rootChildContaminationSuspected" : false,
+  "rootDerivedDataEntities" : 1,
+  "rootRegenTrueVerified" : 0,
+  "rootSOTFalseVerified" : 0,
+  "rootWorkspaceRelationshipVerified" : 0,
+  "skipChildEntities" : 1
+}

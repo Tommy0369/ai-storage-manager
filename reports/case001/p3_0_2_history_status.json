@@ -1,0 +1,22 @@
+{
+  "generatedAt" : "2026-09-05T10:15:02Z",
+  "historySnapshotCount" : 19,
+  "historyStoreLocationType" : "applicationSupport",
+  "newestSnapshotAt" : "2026-09-05T10:14:58Z",
+  "oldestSnapshotAt" : "2026-09-03T05:30:08Z",
+  "privacyFieldsStored" : [
+    "stableIdentity",
+    "parentIdentity",
+    "displayName",
+    "size",
+    "semanticCategory",
+    "nodeKind",
+    "actionReadinessSummary",
+    "timestamp",
+    "comparisonFields"
+  ],
+  "retentionLimit" : 30,
+  "schemaVersion" : 1,
+  "secondCrawlerAdded" : false,
+  "snapshotWriteSuccess" : true
+}

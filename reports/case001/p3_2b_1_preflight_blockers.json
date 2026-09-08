@@ -1,0 +1,28 @@
+{
+  "target": "mlx-community/whisper-large-v3-mlx",
+  "revision": "49e6aa286ad60c14352c404340ded53710378a11",
+  "snapshotPresent": true,
+  "uniqueBytesCanonical": 3083520968,
+  "existingP3_2BStatus": "VERIFY_MORE",
+  "HFExecutableResolved": false,
+  "HFInstallRequired": true,
+  "dryRunPossible": false,
+  "runtimeStrictProofPossible": false,
+  "remoteRefreshPossible": true,
+  "remainingBlockers": [
+    "HF_EXECUTABLE_UNRESOLVED",
+    "HF_CLI_INSTALL_REQUIRED",
+    "HF_DRY_RUN_INCOMPLETE",
+    "REMOTE_PROOF_NEEDS_FRESH_REFRESH",
+    "RUNTIME_PRODUCT_PROOF_INCOMPLETE"
+  ],
+  "nextBoundary": "READY_FOR_HF_CLI_INSTALL_AUTHORIZATION",
+  "planTier": "VERIFY_MORE",
+  "planReason": "Hugging Face management tool required \u2014 Restore Hugging Face Management",
+  "hfCacheModified": false,
+  "hfCacheRmExecuted": false,
+  "hfCacheDryRunExecuted": false,
+  "installApprovalCreated": false,
+  "softwareInstalled": false,
+  "generatedAt": "2026-09-04T23:33:28Z"
+}

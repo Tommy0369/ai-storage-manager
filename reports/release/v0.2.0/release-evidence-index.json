@@ -1,0 +1,14 @@
+{
+  "releaseVersion": "0.2.0",
+  "build": "51",
+  "releaseStatus": "V0_2_EXTERNAL_DISTRIBUTION_READY",
+  "frozenAt": "2026-09-08T12:34:09Z",
+  "references": {
+    "releaseManifest": "dist-0.2/release-manifest.json",
+    "fingerprint": "reports/case001/v0_2_release_fingerprint.json",
+    "packageReport": "reports/case001/v0_2_package_release.json",
+    "comprehensive": "reports/case001/v0_2_総合レポート.md",
+    "finalZip": "/Users/tomitakatsuhiro/Workspace/10_進行中/ai-storage-manager/dist-0.2/AIStorageManager-0.2.0-rc51-arm64.zip",
+    "v01FrozenDist": "dist/"
+  }
+}

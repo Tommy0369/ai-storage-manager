@@ -1,0 +1,12 @@
+{
+  "goalBytes": 20000000000,
+  "verifiedRecoveredFromCompletedActions": 2497293931,
+  "currentCandidatePotential": 0,
+  "remainingGoal": 17502706069,
+  "currentEntryCount": 0,
+  "completedRecentActions": [
+    "qwen3:4b — 2.50 GB verified removed (VENDOR_NATIVE_CLEANUP)"
+  ],
+  "qwen3StillCandidate": false,
+  "generatedAt": "2026-09-04T15:32:29Z"
+}

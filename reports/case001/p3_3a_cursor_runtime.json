@@ -1,0 +1,31 @@
+{
+  "cursorRunning": true,
+  "runtimeSnapshotCompleteness": "PARTIAL_OPEN_FILE_BATCH",
+  "openGlobalStorageComponents": [
+    ".DS_Store",
+    "conversation-search.db",
+    "conversation-search.db-shm",
+    "conversation-search.db-wal",
+    "state.vscdb",
+    "state.vscdb-shm",
+    "state.vscdb-wal"
+  ],
+  "openDatabaseComponents": [
+    "conversation-search.db",
+    "state.vscdb",
+    "state.vscdb-shm",
+    "state.vscdb-wal"
+  ],
+  "unknownRuntimeComponents": [
+    "anysphere.cursor-agent-worker/agent-cli/.../versions",
+    "state.vscdb.backup",
+    "anysphere.cursor-agent-worker/(logs+meta)",
+    "anysphere.cursor-retrieval",
+    "storage.json",
+    "anysphere.cursor-commits",
+    "ms-dotnettools.vscode-dotnet-runtime"
+  ],
+  "observedAt": "2026-09-05T01:05:39Z",
+  "freshUntil": "2026-09-05T01:05:39Z",
+  "note": "One-shot lsof batch over process table; not per-entity spawn"
+}

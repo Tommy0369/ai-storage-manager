@@ -1,0 +1,91 @@
+{
+  "blockingReasons" : [
+    "ENTITY_GRANULARITY_TOO_BROAD",
+    "SOURCE_ACTIVE",
+    "SOURCE_OPEN"
+  ],
+  "entityGranularityBlocker" : "ENTITY_GRANULARITY_TOO_BROAD",
+  "entityID" : "user.downloads",
+  "isRootBucket" : true,
+  "mutationReadiness" : "BLOCKED",
+  "path" : "\/Users\/tomitakatsuhiro\/Downloads",
+  "steps" : [
+    {
+      "claim" : "user_owned_verified",
+      "satisfied" : true
+    },
+    {
+      "claim" : "canonical_path_verified",
+      "satisfied" : true
+    },
+    {
+      "claim" : "entity_identity_verified",
+      "satisfied" : true,
+      "value" : "user.downloads"
+    },
+    {
+      "claim" : "exact_bounded_entity",
+      "satisfied" : false
+    },
+    {
+      "claim" : "not_application_managed",
+      "satisfied" : true
+    },
+    {
+      "claim" : "not_git_block",
+      "satisfied" : true
+    },
+    {
+      "claim" : "relocation_contract",
+      "satisfied" : false
+    },
+    {
+      "claim" : "sot_true_allowed_for_preservation",
+      "satisfied" : true
+    },
+    {
+      "claim" : "icloud_available",
+      "satisfied" : true
+    },
+    {
+      "claim" : "destination_known",
+      "satisfied" : false,
+      "value" : "requires_fresh_preflight"
+    },
+    {
+      "claim" : "quota_known",
+      "satisfied" : false,
+      "value" : "requires_fresh_preflight"
+    },
+    {
+      "claim" : "conflict_state_known",
+      "satisfied" : false,
+      "value" : "requires_fresh_preflight"
+    },
+    {
+      "claim" : "copy_verification_contract",
+      "satisfied" : false
+    },
+    {
+      "claim" : "remote_persistence_contract",
+      "satisfied" : false
+    },
+    {
+      "claim" : "source_release_contract",
+      "satisfied" : false
+    },
+    {
+      "claim" : "post_verify_contract",
+      "satisfied" : false
+    },
+    {
+      "claim" : "audit_contract",
+      "satisfied" : false
+    },
+    {
+      "claim" : "fresh_preflight_required",
+      "satisfied" : true,
+      "value" : "required_at_execution"
+    }
+  ]
+}

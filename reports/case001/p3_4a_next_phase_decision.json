@@ -1,0 +1,12 @@
+{
+  "selectedNextCenterpin": "VOICE_MEMOS_SYNC_SEMANTICS_PROOF",
+  "selectedEntity": "macos.voicememos.group.com.apple.VoiceMemos.shared",
+  "selectedBytes": 14092847946,
+  "whyItBeatsAlternatives": "Highest preservation-first score; Cursor closed at actionable=0; Claude/Chrome need intelligence but lower preservation potential; Voice Memos has CloudKit+ZEVICTIONDATE hints worth proving before any offload",
+  "destructiveAction": false,
+  "preservationPotential": "APP_NATIVE_SYNC_OFFLOAD_CANDIDATE",
+  "expectedNextProof": "Prove remote residency, delete-propagation, and exact native local-only eviction (if any)",
+  "humanAuthorizationExpectedLater": true,
+  "mutationNextPhase": false,
+  "generatedAt": "2026-09-05T10:11:41Z"
+}

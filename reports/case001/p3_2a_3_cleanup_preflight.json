@@ -1,0 +1,23 @@
+{
+  "cleanupCapability" : "IMPLEMENTED",
+  "cleanupExecutionPermitCreated" : false,
+  "humanModelRemovalAuthorizationRequired" : true,
+  "manifestStatus" : "PRESENT_ON_DISK",
+  "modelRecognized" : true,
+  "modelRemovalApprovalCreated" : false,
+  "modelRemovalExecuted" : false,
+  "nativeInterface" : "RESOLVED_CLI",
+  "phaseOutcome" : "APPROVAL_REQUIRED",
+  "preflightStatus" : "APPROVAL_REQUIRED",
+  "referenceGraphStatus" : "VERIFIED",
+  "remainingBlockers" : [
+    "USER_APPROVAL"
+  ],
+  "remoteProofFresh" : true,
+  "remoteReacquisition" : "REACQUIRABLE_VERIFIED\/VERIFIED",
+  "runtimeFresh" : true,
+  "runtimeStatus" : "INACTIVE\/VERIFIED",
+  "supportsRM" : true,
+  "targetEntity" : "ai.ollama.model.library.qwen3:4b",
+  "targetModel" : "library\/qwen3:4b"
+}

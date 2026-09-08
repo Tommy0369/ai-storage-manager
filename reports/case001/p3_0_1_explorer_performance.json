@@ -1,0 +1,13 @@
+{
+  "fallbackAccountingUsed" : false,
+  "generatedAt" : "2026-09-05T10:14:58Z",
+  "largestFanout" : 28,
+  "maxDepth" : 3,
+  "physicalNodeCount" : 411,
+  "renderedNodeCount" : 411,
+  "rootMeasurementTimedOut" : false,
+  "timeToFirstHierarchyMs" : 37851,
+  "timeToFirstUsefulMapMs" : 805,
+  "timeToSafetyEnrichmentMs" : 149492,
+  "timeToSemanticEnrichmentMs" : 149492
+}

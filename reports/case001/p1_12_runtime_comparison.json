@@ -1,0 +1,14 @@
+{
+  "actionPredicateP112Ms" : 0,
+  "entityVerificationLoopP111Ms" : 31000,
+  "entityVerificationLoopP112Ms" : 43129,
+  "greenAuditorP112Ms" : 0,
+  "p111TotalSeconds" : 87.1,
+  "p112TotalSeconds" : 104.62006795406342,
+  "proofExecutionP112Ms" : 15862,
+  "reportGenerationP112Ms" : 0,
+  "resolverTimeP112Ms" : 0,
+  "safetyEvalP111Ms" : 25460,
+  "safetyEvalP112Ms" : 27120,
+  "snapshotFinalizationP112Ms" : 0
+}

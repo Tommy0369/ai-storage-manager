@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-09-07T15:49:13Z",
+  "phase": "P5.1",
+  "developerIDAvailable": true,
+  "identityCount": 1,
+  "identityLabel": "Developer ID Application: Katsuhiro Tomita (2MK7L9N4N7)",
+  "teamID": "2MK7L9N4N7",
+  "hardenedRuntime": true,
+  "codesignVerify": "valid on disk; satisfies Designated Requirement",
+  "entitlementSummary": [],
+  "signingIdentityType": "Developer ID Application",
+  "signedWithDeveloperID": true,
+  "notarizationCredentialsAvailable": true,
+  "notarizationStatus": "Accepted",
+  "submissionID": "6af1017a-bc67-425d-badc-59c20c95c30f",
+  "stapled": true,
+  "staplerValidate": true,
+  "spctlAccepted": true,
+  "gatekeeperAssessment": "accepted; source=Notarized Developer ID",
+  "externalDistributionReady": true,
+  "p5_1_status": "EXTERNAL_DISTRIBUTION_READY"
+}

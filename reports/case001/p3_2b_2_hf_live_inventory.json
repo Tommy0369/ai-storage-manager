@@ -1,0 +1,19 @@
+{
+  "cacheRoot": "/Users/tomitakatsuhiro/.cache/huggingface/hub",
+  "exclusiveBlobCount": 1,
+  "inventoryFingerprint": "26292c0758ede9827228468cf9cb4c30",
+  "observedAt": "2026-09-05T00:03:02Z",
+  "referenceGraphStatus": "VERIFIED",
+  "refs": {
+    "main": "49e6aa286ad60c14352c404340ded53710378a11"
+  },
+  "repo": "mlx-community/whisper-large-v3-mlx",
+  "repoType": "model",
+  "revision": "49e6aa286ad60c14352c404340ded53710378a11",
+  "revisionCount": 1,
+  "semanticOwnership": "VERIFIED_HF_HUB_CACHE",
+  "sharedBlobCount": 0,
+  "sharedBytes": 0,
+  "snapshotPresent": true,
+  "uniqueBytes": 3083520968
+}

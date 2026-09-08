@@ -1,0 +1,103 @@
+{
+  "diskCapacityTotalBytes": 494332366848,
+  "diskCapacityFreeBytes": 118141898752,
+  "diskCapacityUsedBytes": 376190468096,
+  "completedVerifiedRecoveryBytes": 5580814899,
+  "ollamaVerifiedRecovery": 2497293931,
+  "hfVerifiedRecovery": 3083520968,
+  "remaining20GBGoalBytes": 14419185101,
+  "top20UniqueEntities": [
+    {
+      "entityID": "ai.cursor.global_storage",
+      "uniqueBytes": 14421700608,
+      "note": "history+live Cursor remasure"
+    },
+    {
+      "entityID": "appsupport.Claude.cache",
+      "uniqueBytes": 814108672,
+      "note": "history+live Cursor remasure"
+    },
+    {
+      "entityID": "cursor.snapshots.rootref.cursor-b1863998",
+      "uniqueBytes": 645615616,
+      "note": "history+live Cursor remasure"
+    },
+    {
+      "entityID": "macos.application_support.child.Code",
+      "uniqueBytes": 435814400,
+      "note": "history+live Cursor remasure"
+    },
+    {
+      "entityID": "user.downloads",
+      "uniqueBytes": 426496000,
+      "note": "history+live Cursor remasure"
+    },
+    {
+      "entityID": "macos.user_caches.child.notion.id.ShipIt",
+      "uniqueBytes": 301215744,
+      "note": "history+live Cursor remasure"
+    },
+    {
+      "entityID": "xcode.simulator_devices",
+      "uniqueBytes": 201773056,
+      "note": "history+live Cursor remasure"
+    },
+    {
+      "entityID": "macos.application_support.child.Claude",
+      "uniqueBytes": 161021952,
+      "note": "history+live Cursor remasure"
+    },
+    {
+      "entityID": "claude.vm.bundle.claudevm.bundle.kernel",
+      "uniqueBytes": 59074952,
+      "note": "history+live Cursor remasure"
+    },
+    {
+      "entityID": "ai.cursor_logs",
+      "uniqueBytes": 58585088,
+      "note": "history+live Cursor remasure"
+    },
+    {
+      "entityID": "appsupport.Claude.local-agent-mode-sessions",
+      "uniqueBytes": 30154752,
+      "note": "history+live Cursor remasure"
+    },
+    {
+      "entityID": "macos.user_caches.child.com.apple.Music",
+      "uniqueBytes": 24965120,
+      "note": "history+live Cursor remasure"
+    },
+    {
+      "entityID": "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.staging",
+      "uniqueBytes": 19562496,
+      "note": "history+live Cursor remasure"
+    },
+    {
+      "entityID": "appsupport.Discord.logs",
+      "uniqueBytes": 12029952,
+      "note": "history+live Cursor remasure"
+    },
+    {
+      "entityID": "ai.cursor_app_support",
+      "uniqueBytes": 4034560,
+      "note": "history+live Cursor remasure"
+    }
+  ],
+  "ReadyNow": 0,
+  "ApprovalRequired": 0,
+  "VerifiedFuture": 0,
+  "VerifyMore": 14421700608,
+  "Protected": 14421700608,
+  "currentlyExecutableActions": [
+    "MOVE_TO_TRASH (when GREEN trash candidates exist)",
+    "OLLAMA MODEL VENDOR_NATIVE_CLEANUP (no present target)",
+    "HF SNAPSHOT VENDOR_NATIVE_CLEANUP (no present target)"
+  ],
+  "removedCompletedActionsExcluded": true,
+  "qwen3Absent": true,
+  "hfRemovedRevisionAbsent": true,
+  "cursorStillTopTarget": true,
+  "historySnapshotID": "733C0341-BF8E-411D-A18A-24F83CA9EE71.json",
+  "historySnapshotAt": "2026-09-04T14:06:27Z",
+  "generatedAt": "2026-09-05T01:05:39Z"
+}

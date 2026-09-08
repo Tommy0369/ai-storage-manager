@@ -1,0 +1,109 @@
+{
+  "entityID" : "ai.ollama.model.library.qwen3:4b",
+  "generatedAt" : "2026-09-04T11:06:37Z",
+  "installDoesNotAuthorizeCleanup" : true,
+  "postInstallRequiredChecks" : [
+    "ollama_app_or_cli_present",
+    "cli_contract_proven",
+    "supports_ps",
+    "supports_rm",
+    "exact_model_recognized",
+    "local_manifest_identity_matches",
+    "reference_graph_verified",
+    "runtime_snapshot_complete",
+    "target_inactive_verified",
+    "remote_proof_fresh",
+    "scoped_executor_capable"
+  ],
+  "steps" : [
+    {
+      "canMutateUserData" : false,
+      "order" : 1,
+      "readOnly" : false,
+      "requiresHumanAuthorization" : true,
+      "stepID" : "restore_vendor",
+      "title" : "Restore\/reinstall Ollama"
+    },
+    {
+      "canMutateUserData" : false,
+      "order" : 2,
+      "readOnly" : true,
+      "requiresHumanAuthorization" : false,
+      "stepID" : "reverify_interface",
+      "title" : "Reverify native CLI\/API interface"
+    },
+    {
+      "canMutateUserData" : false,
+      "order" : 3,
+      "readOnly" : true,
+      "requiresHumanAuthorization" : false,
+      "stepID" : "reverify_model_recognition",
+      "title" : "Confirm installed inventory recognizes exact model"
+    },
+    {
+      "canMutateUserData" : false,
+      "order" : 4,
+      "readOnly" : true,
+      "requiresHumanAuthorization" : false,
+      "stepID" : "reverify_manifest",
+      "title" : "Rebind local manifest fingerprint"
+    },
+    {
+      "canMutateUserData" : false,
+      "order" : 5,
+      "readOnly" : true,
+      "requiresHumanAuthorization" : false,
+      "stepID" : "reverify_reference_graph",
+      "title" : "Recompute reference graph"
+    },
+    {
+      "canMutateUserData" : false,
+      "order" : 6,
+      "readOnly" : true,
+      "requiresHumanAuthorization" : false,
+      "stepID" : "reverify_runtime",
+      "title" : "COMPLETE running-model snapshot; target INACTIVE VERIFIED"
+    },
+    {
+      "canMutateUserData" : false,
+      "order" : 7,
+      "readOnly" : true,
+      "requiresHumanAuthorization" : false,
+      "stepID" : "refresh_remote_proof",
+      "title" : "Refresh remote reacquisition if stale"
+    },
+    {
+      "canMutateUserData" : false,
+      "order" : 8,
+      "readOnly" : true,
+      "requiresHumanAuthorization" : false,
+      "stepID" : "cleanup_preflight",
+      "title" : "Fresh cleanup preflight"
+    },
+    {
+      "canMutateUserData" : false,
+      "order" : 9,
+      "readOnly" : false,
+      "requiresHumanAuthorization" : true,
+      "stepID" : "cleanup_human_approval",
+      "title" : "Separate human deletion approval"
+    },
+    {
+      "canMutateUserData" : true,
+      "order" : 10,
+      "readOnly" : false,
+      "requiresHumanAuthorization" : true,
+      "stepID" : "cleanup_execution",
+      "title" : "Vendor-native ollama rm"
+    },
+    {
+      "canMutateUserData" : false,
+      "order" : 11,
+      "readOnly" : true,
+      "requiresHumanAuthorization" : false,
+      "stepID" : "postverify",
+      "title" : "Post-mutation verification"
+    }
+  ],
+  "vendor" : "ollama"
+}

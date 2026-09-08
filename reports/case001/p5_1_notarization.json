@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-09-07T15:49:13Z",
+  "credentialsMethodClass": "notarytool_keychain_profile",
+  "credentialsAvailable": true,
+  "notaryProfile": "AIStorageManagerNotary",
+  "submissionPerformed": true,
+  "submissionID": "6af1017a-bc67-425d-badc-59c20c95c30f",
+  "submissionStatus": "Accepted",
+  "accepted": true,
+  "rejectionReason": null,
+  "staplePerformed": true,
+  "stapleValidated": true,
+  "gatekeeperAssessment": "accepted; source=Notarized Developer ID",
+  "credentialBoundary": "Secrets remain in Keychain profile AIStorageManagerNotary; not in repo"
+}

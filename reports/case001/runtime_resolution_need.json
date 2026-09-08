@@ -1,0 +1,4393 @@
+{
+  "entries" : [
+    {
+      "entityID" : "ai.claude.cache",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "ai.claude.projects",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "ai.claude_settings",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "ai.codex.config",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "ai.codex.sessions",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "ai.cursor.code_cache",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "ai.cursor.extensions",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "ai.cursor.global_storage",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "ai.cursor.history",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "ai.cursor.workspace_storage",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "ai.cursor_app_support",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "ai.cursor_logs",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "ai.hf.hub",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "ai.huggingface_cache",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "ai.ollama.blobs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "ai.ollama.logs",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "ai.ollama.manifests",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "ai.ollama_models",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Claude.Crashpad",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Claude.File_System",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Claude.Session_Storage",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Claude.Shared_Dictionary",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Claude.VideoDecodeStats",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Claude.WebStorage",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Claude.blob_storage",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Claude.cache",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Claude.claude-code",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Claude.claude-code-sessions",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Claude.claude-code-vm",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Claude.index",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Claude.local-agent-mode-sessions",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Code.Crashpad",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Code.Service_Worker",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Code.Session_Storage",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Code.Shared_Dictionary",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Code.VideoDecodeStats",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Code.WebStorage",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Code.blob_storage",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Code.cache",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Code.databases",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Code.logs",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Code.user_settings",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Cursor.AgentStores",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Cursor.Crashpad",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Cursor.Partitions",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Cursor.Session_Storage",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Cursor.Shared_Dictionary",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Cursor.WebStorage",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Cursor.blob_storage",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Cursor.cache",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Cursor.index",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Cursor.process-monitor",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Cursor.user_settings",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Discord.Crashpad",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Discord.Service_Worker",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Discord.Session_Storage",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Discord.Shared_Dictionary",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Discord.VideoDecodeStats",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Discord.WebStorage",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Discord.WidevineCdm",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Discord.blob_storage",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Discord.cache",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Discord.logs",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Discord.shared_proto_db",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Google.Chrome",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Google.Chrome-headless",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Google.ChromeForTesting",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Google.Chrome_for_Testing",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Google.GoogleUpdater",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Google.JapaneseInput",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "appsupport.Google.RLZ",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "chrome.profile.profile_10.cookies",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "chrome.profile.profile_10.extensions",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "chrome.profile.profile_10.history",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "chrome.profile.profile_10.indexeddb",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "chrome.profile.profile_10.local_storage",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "chrome.profile.profile_10.preferences",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "chrome.profile.profile_10.service_worker",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "chrome.profile.profile_10.session_storage",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "chrome.profile.profile_10.webstorage",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "claude.vm.bundle.claudevm.bundle",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "claude.vm.bundle.claudevm.bundle.kernel",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "claude.vm.bundle.claudevm.bundle.metadata",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "claude.vm.bundle.claudevm.bundle.runtime",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "claude.vm.bundle.claudevm.bundle.writable",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "claude.vm.root",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "claude.vm.warm",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cloud.fileprovider.root",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "cloud.icloud.mobile_documents",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.CloudPhotosConfiguration.app_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.CloudPhotosConfiguration.documents",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.CloudPhotosConfiguration.preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.CloudPhotosConfiguration.tmp",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.Mouse-Settings.extension.app_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.Mouse-Settings.extension.caches",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.Mouse-Settings.extension.documents",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.Mouse-Settings.extension.preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.Mouse-Settings.extension.tmp",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.Network-Settings.extension.app_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.Network-Settings.extension.caches",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.Network-Settings.extension.documents",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.Network-Settings.extension.preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.Network-Settings.extension.tmp",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.PressAndHold.app_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.PressAndHold.caches",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.PressAndHold.documents",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.PressAndHold.preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.PressAndHold.tmp",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.app_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.documents",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.tmp",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.SonicKit.diagnostics.app_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.SonicKit.diagnostics.caches",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.SonicKit.diagnostics.documents",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.SonicKit.diagnostics.preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.SonicKit.diagnostics.tmp",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.app_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.caches",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.documents",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.tmp",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.freeform.app_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.freeform.caches",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.freeform.documents",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.freeform.preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.freeform.tmp",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.app_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.caches",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.documents",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.tmp",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.iCal.CalendarNC.app_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.iCal.CalendarNC.documents",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.iCal.CalendarNC.preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.languageassetd.app_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.languageassetd.documents",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.languageassetd.preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.languageassetd.tmp",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.settings-intents.TransferResetIntents.app_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.settings-intents.TransferResetIntents.caches",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.settings-intents.TransferResetIntents.documents",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.settings-intents.TransferResetIntents.preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.settings-intents.TransferResetIntents.tmp",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.videoapps.RegisterProExtension.app_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.videoapps.RegisterProExtension.caches",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.videoapps.RegisterProExtension.documents",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.videoapps.RegisterProExtension.preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.apple.videoapps.RegisterProExtension.tmp",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.nektony.Boost-Memory.launcher.app_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.com.nektony.Boost-Memory.launcher.documents",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "container.com.nektony.Boost-Memory.launcher.preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.de.codenuts.HotKey.app_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.de.codenuts.HotKey.caches",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.de.codenuts.HotKey.documents",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "container.de.codenuts.HotKey.preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "container.de.codenuts.HotKey.tmp",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.codebases",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.database",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.11f9048f-5cff-4ab3-ad0a-97c0431abb85",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.11f9048f-5cff-4ab3-ad0a-97c0431abb85.objects",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.11f9048f-5cff-4ab3-ad0a-97c0431abb85.refs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.objects",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.refs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.staging",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.objects",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.refs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.staging",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.33939b83-2294-4195-8328-20f33013c166",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.33939b83-2294-4195-8328-20f33013c166.objects",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.33939b83-2294-4195-8328-20f33013c166.refs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.objects",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.refs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.staging",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.8217aef3-7fbd-4514-9e7a-4aeae6056a5e",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.8217aef3-7fbd-4514-9e7a-4aeae6056a5e.objects",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.8217aef3-7fbd-4514-9e7a-4aeae6056a5e.refs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.8a462aec-6903-47b4-b8fb-2a52b8d7481f",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.8a462aec-6903-47b4-b8fb-2a52b8d7481f.objects",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.8a462aec-6903-47b4-b8fb-2a52b8d7481f.refs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.90db91e9-83c1-4659-a56f-0ba61149fec5",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.90db91e9-83c1-4659-a56f-0ba61149fec5.objects",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.90db91e9-83c1-4659-a56f-0ba61149fec5.refs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.objects",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.refs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.staging",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.objects",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.refs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.staging",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.objects",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.refs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.staging",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.objects",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.refs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.staging",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.objects",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.refs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.staging",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.objects",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.refs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.staging",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.objects",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.refs",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.staging",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.root",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.rootref.ai-assessment-session-e2535413",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.rootref.ai-storage-manager-644107ef",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.rootref.cursor-b1863998",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.rootref.my-portfolio-59e3672d",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.roots",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.state",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49.objects",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53.objects",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.snapshots.stores",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.workspaceStorage.0aedbd575912a71ca589e7173fdb8451",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.workspaceStorage.1e35766421451537bc04f9978acd4065",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.workspaceStorage.38ea36f9",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.workspaceStorage.682dded78a349fd566ac1eee6c100612",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.workspaceStorage.7d8494cb71771bfa30d47b3f808a8ce3",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.workspaceStorage.8507c83b3036b875c649d9ebcab1fca0",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.workspaceStorage.9c26c191bf61ff9bea68275f86e9981a",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.workspaceStorage.cedd91a3de98d1a97796881a4c66966b",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "cursor.workspaceStorage.e0fc1104707bd07ae87361090d3c6aaf",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.workspaceStorage.f216a64957730028c62a2233c73dd5b4",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "cursor.workspaceStorage.f3d25ed098f27592cdeb4a1a5643a3d2",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "docker.dot_docker",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "docker.volumes",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "git.dot_git",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "git.objects",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "git.packfiles",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "git.working_tree",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.3BU773L7ZF.nektony.AppCleaner",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.HPY23A294X.ghostery.lite",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.UBF8T346G9.OfficeOsfWebHost",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.UBF8T346G9.com.microsoft.oneauth",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.VUTU7AKEUR.jp.naver.line.mac",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.com.apple.siri.ODDIPoirotMetricsExtension",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.group.com.apple.ArchiveUtility.PKSignedContainer",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.group.com.apple.FullKeyboardAccess",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.group.com.apple.ScreenTime",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.group.com.apple.coreservices.useractivityd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.group.com.apple.feedback",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.group.com.apple.photolibraryd.private",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.group.com.apple.siri.GMSSELFIngestor",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.group.com.apple.siri.inference",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.group.com.apple.stocks-news",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.group.com.apple.swtransparency",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.group.com.apple.telephonyutilities.callservicesd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.group.com.apple.uiunderstanding",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.group.com.readdle.CalendarsLite",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "groupcontainer.group.developer.apple.wwdc",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "homebrew.cache",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "homebrew.caskroom",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "homebrew.cellar",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "ios.backup.root",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "DEVICE_AWARE_MIGRATION_REQUIRED",
+        "RELOCATION_CONTRACT_MISSING"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Animoji",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.App_Store",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Astro_Gaming",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Atom",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.CallHistoryTransactions",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Claude",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Code",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Codex",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Compressor",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.ControlCenter",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.CoreParsec",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Digiarty",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.DiskImages",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Evernote",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Google",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Leawo_Blu-ray_Creator",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Microsoft",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.MobileSync",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Motion",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Music",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.NCH_Software",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.OpenClaw",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.ProApps",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Quick_Look",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Spotlight",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.SyncServices",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.VisualStudio",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Wondershare_Filmora_Mac",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Wondershare_Repairit",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.Xcode",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.accountsd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.appplaceholdersyncd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.chrome-devtools-mcp",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.clawdbot",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.clawdis",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.apple.MediaPlayer",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.apple.akd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.apple.ap.promotedcontentd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.apple.appleintelligencereporting.processing",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.apple.backgroundtaskmanagementagent",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.apple.callintelligenced",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.apple.control-center.tips",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.apple.dt.Xcode",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.apple.exchangesync",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.apple.kvs",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.apple.productdocuments",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.apple.replayd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.apple.sbd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.apple.spotlight",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.apple.touristd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.easeus.datarecoverywizard",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.google.GeminiMacOS",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.google.GeminiMacOS.launcher",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.leawo.bluraycreator",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.paragon-software.ntfs.fsapp",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.paragon-software.ntfs.notification-agent",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.vercel.cli",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.com.wondershare.Installer",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.discord",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.dmd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.firestore",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.google-heartbeat-storage",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.homeenergyd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.iMovie",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.icloudmailagent",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.identityservicesd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.jp.co.elecom.RakuchinPrint.V3",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.lisk-nano",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.locationaccessstored",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.mmhmm",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.moltbot",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.networkserviceproxy",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.ngrok",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.obs-studio",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.tipsd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.tldv",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.videosubscriptionsd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.application_support.child.zoom.us",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.AuthKit.AKDiagnosticExtension",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.CloudPhotosConfiguration",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.ControlCenter-Settings.extension",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.CoreDevice.remotepairingd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.DiagnosticExtensions.PICSDiagnosticExtension",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.FaceTime",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.FinalCut.SpeechHelper",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.LighthouseBitacoraFramework.BitacoraWorker",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.LinkPresentation.LinkSnapshotGeneratorService",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.Mouse-Settings.extension",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.Network-Settings.extension",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.Notes.LPPreviewGenerator",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.PDFImporter",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.PassKit.PaymentAuthorizationUIExtension",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.PressAndHold",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.QuickTimePlayerX",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.RAQLThumbnailExtension",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.ScreenSaver.Engine.legacyScreenSaver",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.ScreenTimeAgent",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.SonicKit.diagnostics",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.Stickers.UserGenerated.MessagesExtension",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.StorageManagementLauncher",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.VoiceMemos",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.archiveutility",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.ax.KonaTTSSupport.KonaSynthesizer",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.dt.AutomationModeUI",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.dt.Instruments.InstrumentsShareExtension",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.eventMetaDataExtractor.eventMetaDataExtractorPlugin",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.freeform",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.iCal",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.iCal.CalendarNC",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.iTunesStorageExtension",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.journal",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.languageassetd",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.mlhost.TelemetryWorker",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.mobileslideshow.photo-picker",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.photos.VideoConversionService",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.priml.PFLMLHostPlugins.SiriMASPFLCK",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.priml.PRIMLCKPreemptivePing",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.settings-intents.TransferResetIntents",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.settings-intents.WallpaperIntents",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.share.System.add-to-iphoto",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.share.System.set-account-picture",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.share.Video.upload-Youku",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.siri.SiriPrivateLearningAnalytics.SiriUserSegmentation",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.stocks.detailintents",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.tgondeviceinferenceproviderservice",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.videoapps.RegisterProExtension",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.wallpaper.extension.gradient",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.apple.wallpaper.extension.macintosh",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.evernote.Evernote.EvernoteQuickLook",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.ghostery.lite.contentBlocker",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.microsoft.OneDrive-mac.OneDriveFileHandler",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.com.nektony.Boost-Memory.launcher",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.de.codenuts.HotKey",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.maccatalyst.com.atebits.Tweetie2",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.containers.child.maccatalyst.com.atebits.Tweetie2.ShareExtension",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.L2SLZ5G368.group.com.katans.gTasks-Mac",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.V9WTTPBFK9.com.facebook.Messenger",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.com.apple.MailPersonaStorage",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.apple.accessibility.voicebanking",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.apple.appstoreagent",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.apple.chronod",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.apple.contacts",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.apple.icloud.fmfcore",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.apple.icloud.searchpartyuseragent",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.apple.poirot.MessagesAnalyticsWorker",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.apple.portrait.BackgroundReplacement",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.apple.private.translation",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.apple.secure-control-center-preferences",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.apple.siri.referenceResolution",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.apple.siri.sirisuggestions",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.apple.stocks",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.apple.usernoted",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.bountylabs.periscope",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.group_containers.child.group.com.facebook.msysstorage",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.keychain",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.logs",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.tmpdir",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.trash",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.Animoji",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.CloudKit",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.GeoServices",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.PassKit",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.TrickPlay",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.ai.openclaw.mac",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.claude-cli-nodejs",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.AvatarKit",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.FeatureAccessAgent",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.HomeKit",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.Music",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.Safari",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.SetupAssistant",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.SoftwareUpdateNotificationManager",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.akd",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.appleaccountd",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.callintelligenced",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.dt.Xcode",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.e5rt.e5bundlecache",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.finder",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.findmy.findmylocateagent",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.helpd",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.managedappdistributionagent",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.proactive.eventtracker",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.speech.localspeechrecognition",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.apple.storekitagent",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.cron.electron",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.github.atom.ShipIt",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.google.GeminiMacOS",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.google.GeminiMacOS.launcher",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.google.GoogleUpdater",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.hnc.Discord",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.hnc.Discord.ShipIt",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.moonshot.kimichat.ShipIt",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.com.openai.sky.CUAService.cli",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.cron-updater",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.familycircled",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.notion.id",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.notion.id.ShipIt",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "macos.user_caches.child.us.zoom.ZoomHybridConf",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "node.npm_cache",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "node.pnpm_store",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "python.pip_cache",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "tomylocal.child.FacebookMessenger",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "tomylocal.root",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "user.downloads",
+      "need" : "REQUIRED_FOR_POTENTIAL_ACTION",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_FOR_POTENTIAL_ACTION"
+      ]
+    },
+    {
+      "entityID" : "voicememos.library",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NO_RUNTIME_PREDICATE_IN_CANDIDATE_RULE"
+      ]
+    },
+    {
+      "entityID" : "voicememos.recordings",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NATIVE_SYNC_REQUIRED",
+        "RELOCATION_CONTRACT_MISSING"
+      ]
+    },
+    {
+      "entityID" : "voicememos.root",
+      "need" : "NOT_REQUIRED_FOR_CURRENT_DECISION",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "NATIVE_SYNC_REQUIRED",
+        "RELOCATION_CONTRACT_MISSING"
+      ]
+    },
+    {
+      "entityID" : "xcode.derived_data",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "xcode.deriveddata.SDKStatCaches.noindex",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "xcode.module_cache",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "xcode.preview_cache",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "xcode.simulator_devices",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : false,
+      "needsOpenFile" : false,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    },
+    {
+      "entityID" : "xcode.swiftpm_cache",
+      "need" : "REQUIRED_NOW",
+      "needsActive" : true,
+      "needsOpenFile" : true,
+      "reasons" : [
+        "REQUIRED_NOW"
+      ]
+    }
+  ],
+  "notRequiredForCurrentDecision" : 311,
+  "requiredForPotentialAction" : 87,
+  "requiredNow" : 89
+}

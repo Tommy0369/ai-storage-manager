@@ -1,0 +1,15 @@
+{
+  "activeStateP112Ms" : 11256,
+  "deferPlannerP113Ms" : 0,
+  "entitiesDeferredP113" : 351,
+  "entitiesRuntimeRequiredP113" : 176,
+  "p112TotalSeconds" : 81.6,
+  "p113TotalSeconds" : 110.89251291751862,
+  "runtimeBatchLookupP113Ms" : 4165,
+  "runtimeBatchP113Ms" : 4230,
+  "runtimeIndexBuildP113Ms" : 244,
+  "safetyEvalP112Ms" : 26152,
+  "safetyEvalP113Ms" : 27120,
+  "snapshotFinalizationP112Ms" : 17042,
+  "snapshotFinalizationP113Ms" : 0
+}

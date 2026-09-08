@@ -1,0 +1,84 @@
+{
+  "domain" : [
+    {
+      "domain" : "AI Tools",
+      "eligibleBytes" : 45385871360,
+      "provenanceVerifiedPercent" : 0.1731685338298196,
+      "regenerabilityKnownPercent" : 0,
+      "runtimeStateKnownPercent" : 49.70371917962445,
+      "sourceOfTruthKnownPercent" : 0
+    },
+    {
+      "domain" : "Cloud",
+      "eligibleBytes" : 0,
+      "provenanceVerifiedPercent" : 0,
+      "regenerabilityKnownPercent" : 0,
+      "runtimeStateKnownPercent" : 0,
+      "sourceOfTruthKnownPercent" : 0
+    },
+    {
+      "domain" : "Docker",
+      "eligibleBytes" : 8192,
+      "provenanceVerifiedPercent" : 0,
+      "regenerabilityKnownPercent" : 0,
+      "runtimeStateKnownPercent" : 100,
+      "sourceOfTruthKnownPercent" : 0
+    },
+    {
+      "domain" : "Git",
+      "eligibleBytes" : 9633792,
+      "provenanceVerifiedPercent" : 0,
+      "regenerabilityKnownPercent" : 100,
+      "runtimeStateKnownPercent" : 0,
+      "sourceOfTruthKnownPercent" : 100
+    },
+    {
+      "domain" : "Homebrew",
+      "eligibleBytes" : 2105200640,
+      "provenanceVerifiedPercent" : 0,
+      "regenerabilityKnownPercent" : 0,
+      "runtimeStateKnownPercent" : 0,
+      "sourceOfTruthKnownPercent" : 0
+    },
+    {
+      "domain" : "Node",
+      "eligibleBytes" : 684634112,
+      "provenanceVerifiedPercent" : 0,
+      "regenerabilityKnownPercent" : 0,
+      "runtimeStateKnownPercent" : 0,
+      "sourceOfTruthKnownPercent" : 0
+    },
+    {
+      "domain" : "Python",
+      "eligibleBytes" : 45056,
+      "provenanceVerifiedPercent" : 0,
+      "regenerabilityKnownPercent" : 0,
+      "runtimeStateKnownPercent" : 0,
+      "sourceOfTruthKnownPercent" : 0
+    },
+    {
+      "domain" : "Xcode",
+      "eligibleBytes" : 2348879872,
+      "provenanceVerifiedPercent" : 0,
+      "regenerabilityKnownPercent" : 0,
+      "runtimeStateKnownPercent" : 100,
+      "sourceOfTruthKnownPercent" : 0
+    },
+    {
+      "domain" : "macOS",
+      "eligibleBytes" : 49646149632,
+      "provenanceVerifiedPercent" : 28.390690856144417,
+      "regenerabilityKnownPercent" : 29.467334041894063,
+      "runtimeStateKnownPercent" : 4.802905654667467,
+      "sourceOfTruthKnownPercent" : 29.467334041894063
+    }
+  ],
+  "eligibleBytes" : 100180422656,
+  "provenanceInferredBytes" : 29966413824,
+  "provenanceUnknownBytes" : 56040529920,
+  "provenanceVerifiedBytes" : 14173478912,
+  "regenerabilityKnownBytes" : 14639030543,
+  "runtimeStateKnownBytes" : 27291811840,
+  "sourceOfTruthKnownBytes" : 14639030543,
+  "verifiedRelationshipBytes" : 7486783488
+}

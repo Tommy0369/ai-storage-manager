@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-09-05T09:09:36Z",
+  "entityID": "ai.cursor.globalStorage.state_vscdb_backup",
+  "canonicalPath": "/Users/tomitakatsuhiro/Library/Application Support/Cursor/User/globalStorage/state.vscdb.backup",
+  "bytes": 1278717952,
+  "uniqueBytes": 1278717952,
+  "mtime": "2026-05-10T00:59:15.658920+00:00",
+  "birth": "2026-04-03T04:14:34.448460+00:00",
+  "inode": 22534904,
+  "fileType": "RECOVERY_BACKUP",
+  "SQLiteState": {
+    "valid": true,
+    "pageSize": 4096,
+    "pageCount": 312187,
+    "schemaCookie": 2,
+    "userVersion": 1,
+    "freelistPageCount": 74,
+    "freelistBytes": 303104
+  },
+  "owner": "CURSOR_SQLITE_STORAGE_DATABASE",
+  "sourceDB": "/Users/tomitakatsuhiro/Library/Application Support/Cursor/User/globalStorage/state.vscdb",
+  "runtimeState": "CLOSED_NOT_OPEN",
+  "creationEvidence": "main.js SQLiteStorageDatabase.backup() \u2192 copy(path, path+\".backup\") on close when not disableBackup",
+  "confidence": "VERIFIED_CALL_PATH",
+  "siblings": {
+    "backup-wal": [
+      "state.vscdb",
+      "state.vscdb-shm",
+      "state.vscdb-wal",
+      "state.vscdb.backup",
+      "state.vscdb.backup-shm",
+      "state.vscdb.backup-wal"
+    ],
+    "note": "state.vscdb.backup-wal/shm exist (prior RO inspection artifacts or past open); backup file itself unchanged May 10"
+  }
+}

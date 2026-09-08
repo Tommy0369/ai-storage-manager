@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-09-05T08:12:05Z",
+  "dualStoreResolutionMs": 84.06,
+  "versionSetComparisonMs": 1042.1,
+  "referenceGraphBuildMs": 0.01,
+  "migrationTraceMs": 0.0,
+  "bundleLifecycleSearchMs": 2500.0,
+  "artifactIdentityMs": 312.63,
+  "remediationContractBuildMs": 0.0,
+  "opportunityRecomputeMs": 0.0,
+  "totalPhaseAnalysisMs": 1130.77,
+  "secondCrawlerAdded": false,
+  "firstMapImpact": "NONE \u2014 late/on-demand only",
+  "realMutation": false
+}

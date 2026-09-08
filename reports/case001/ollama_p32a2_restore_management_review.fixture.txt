@@ -1,0 +1,6 @@
+FIXTURE (not live authorization)
+Restore Ollama Management Review
+What this step does: Reinstall/restore Ollama
+What it does NOT do: Remove the model
+After install: re-verify then separate cleanup approval
+SOFTWARE INSTALL ≠ MODEL REMOVAL

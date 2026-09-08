@@ -1,0 +1,14 @@
+{
+  "actualMutationImplementations" : 1,
+  "auditPassed" : true,
+  "executorImplemented" : true,
+  "findings" : [
+    {
+      "category" : "FILE_MANAGER_TRASH",
+      "file" : "Sources\/SafetyCore\/Mutation\/FirstMutatingExecutor.swift",
+      "line" : 60,
+      "pattern" : "FileManager.default.trashItem"
+    }
+  ],
+  "scannedFiles" : 200
+}

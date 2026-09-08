@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-09-05T10:31:22Z",
+  "contractFound": false,
+  "vendor": "APPLE_VOICE_MEMOS",
+  "storageClass": "USER_ORIGINAL_RECORDINGS",
+  "actionClass": "REMOVE_LOCAL_DOWNLOAD",
+  "targetUnit": "NONE",
+  "requiredRemoteProof": "REMOTE_CURRENT_VERIFIED",
+  "requiredCurrentnessProof": "REQUIRED",
+  "requiredResidencyProof": "RESIDENT exact media",
+  "requiredDeletePropagationProof": "LOCAL_ONLY_VERIFIED",
+  "nativeOperation": "NONE_PROVEN",
+  "runtimeRequirements": "N/A",
+  "blastRadius": "N/A",
+  "postVerifyContract": "N/A",
+  "candidateCount": 0,
+  "candidateBytes": 0,
+  "currentExecutable": false,
+  "contractReady": false,
+  "resultClass": "REMOTE_SYNC_VERIFIED_BUT_NO_NATIVE_LOCAL_EVICTION_CONTRACT",
+  "remainingUnknowns": [
+    "recording-level remote audio proof",
+    "native local-only eviction API"
+  ]
+}

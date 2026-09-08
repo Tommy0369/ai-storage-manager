@@ -1,0 +1,7 @@
+FIXTURE_LABELED — P3.3C understanding UX, not deletion UI.
+cursor_p33c_agent_cli_overview.png = FIXTURE (agent-cli overview)
+cursor_p33c_versions.png = FIXTURE (version list)
+cursor_p33c_current_keep.png = FIXTURE (current KEEP)
+cursor_p33c_old_version_verify_more.png = FIXTURE (old versions VERIFY_MORE)
+cursor_p33c_native_cleanup_found.png = FIXTURE (native command found; GS contract unproven)
+Do NOT show Clean 2.69GB. No NATIVE_CLEANUP_CANDIDATE screenshot (none earned).

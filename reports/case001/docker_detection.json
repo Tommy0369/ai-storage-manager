@@ -1,0 +1,18 @@
+{
+  "detectedEntityIDs" : [
+
+  ],
+  "dfRaw" : "TYPE            TOTAL     ACTIVE    SIZE      RECLAIMABLE\nImages          14        12        8.247GB   78.16MB (0%)\nContainers      12        12        28.9MB    0B (0%)\nLocal Volumes   3         2         83.51MB   0B (0%)\nBuild Cache     0         0         0B        0B",
+  "dockerAppExists" : false,
+  "dockerCLIAvailable" : true,
+  "dockerContext" : "colima",
+  "dockerProcessDetected" : false,
+  "dockerRootDir" : "\/var\/lib\/docker",
+  "storageLocations" : [
+    "\/Users\/tomitakatsuhiro\/.docker"
+  ],
+  "totalLogicalBytes" : 0,
+  "unknowns" : [
+
+  ]
+}

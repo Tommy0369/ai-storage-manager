@@ -1,0 +1,22 @@
+{
+  "cursorDBPhysicalAccountingMs": 23843,
+  "cursorKVClassificationMs": 63597,
+  "cursorBundleSemanticSearchMs": 0,
+  "cursorRetentionTraceMs": 0,
+  "cursorBackupAnalysisMs": 2851,
+  "cursorGrowthAnalysisMs": 1,
+  "agentCLIInventoryMs": 404,
+  "nextCenterpinRankingMs": 0,
+  "secondCrawlerAdded": false,
+  "fullSuiteBefore": {
+    "tests": 616,
+    "failures": 0
+  },
+  "fullSuiteAfter": {
+    "tests": 629,
+    "failures": 0
+  },
+  "falseGREEN": 0,
+  "duplicateEvaluations": 0,
+  "generatedAt": "2026-09-05T02:20:00Z"
+}

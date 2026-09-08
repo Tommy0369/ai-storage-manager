@@ -1,0 +1,343 @@
+[
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.staging",
+    "lifecycleRole" : "TEMPORARY",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e108bc44-a2b6-41c2-8036-789ee82c6bf8\/staging",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 0,
+    "unknownReasons" : [
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.staging",
+    "lifecycleRole" : "TEMPORARY",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a9b007cc-cceb-4969-b48d-bf385deb5543\/staging",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 1073807360,
+    "unknownReasons" : [
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.staging",
+    "lifecycleRole" : "TEMPORARY",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/44fdfc36-64cb-4587-8315-384166a3d0e3\/staging",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 0,
+    "unknownReasons" : [
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "ACTIVE",
+    "activeStateConfidence" : "VERIFIED",
+    "entityID" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49",
+    "lifecycleRole" : "GENERATED_ARTIFACT",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/81a50d8e-b83d-8058-aa3b-3288b57a9e49",
+    "provenanceConfidence" : "UNKNOWN",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+      "BELONGS_TO_WORKSPACE:81a50d8e-b83d-8058-aa3b-3288b57a9e49:UNKNOWN",
+      "ASSOCIATED_WITH_CURSOR_STORE:81a50d8e-b83d-8058-aa3b-3288b57a9e49:VERIFIED",
+      "OBSERVED_IN_CURSOR_CONTEXT:\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/81a50d8e-b83d-8058-aa3b-3288b57a9e49:VERIFIED",
+      "OBSERVED_IN_CURSOR_CONTEXT:\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/81a50d8e-b83d-8058-aa3b-3288b57a9e49:INFERRED"
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 208896,
+    "unknownReasons" : [
+      "CURSOR_STORE_UUID_NOT_REFERENCED",
+      "CURSOR_STORE_UUID_NOT_REFERENCED",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "ACTIVE",
+    "activeStateConfidence" : "VERIFIED",
+    "entityID" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53.objects",
+    "lifecycleRole" : "GENERATED_ARTIFACT",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/d42eecea-ba9b-89e2-9fc1-793666b76c53\/objects",
+    "provenanceConfidence" : "UNKNOWN",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+      "BELONGS_TO_WORKSPACE:d42eecea-ba9b-89e2-9fc1-793666b76c53:UNKNOWN",
+      "ASSOCIATED_WITH_CURSOR_STORE:d42eecea-ba9b-89e2-9fc1-793666b76c53:VERIFIED",
+      "OBSERVED_IN_CURSOR_CONTEXT:\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/d42eecea-ba9b-89e2-9fc1-793666b76c53:VERIFIED",
+      "OBSERVED_IN_CURSOR_CONTEXT:\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/d42eecea-ba9b-89e2-9fc1-793666b76c53:INFERRED"
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 997199872,
+    "unknownReasons" : [
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.staging",
+    "lifecycleRole" : "TEMPORARY",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/2e5ac4eb-eb07-42b1-9952-10f0e9ed7842\/staging",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 0,
+    "unknownReasons" : [
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.staging",
+    "lifecycleRole" : "TEMPORARY",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/285a93aa-acdf-41cf-b776-03c747b5f916\/staging",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 0,
+    "unknownReasons" : [
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.staging",
+    "lifecycleRole" : "TEMPORARY",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e8d79678-1c39-4e37-9066-559b7d7a772b\/staging",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 664551424,
+    "unknownReasons" : [
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.staging",
+    "lifecycleRole" : "TEMPORARY",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a\/staging",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 0,
+    "unknownReasons" : [
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "ACTIVE",
+    "activeStateConfidence" : "VERIFIED",
+    "entityID" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53",
+    "lifecycleRole" : "GENERATED_ARTIFACT",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/d42eecea-ba9b-89e2-9fc1-793666b76c53",
+    "provenanceConfidence" : "UNKNOWN",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+      "BELONGS_TO_WORKSPACE:d42eecea-ba9b-89e2-9fc1-793666b76c53:UNKNOWN",
+      "ASSOCIATED_WITH_CURSOR_STORE:d42eecea-ba9b-89e2-9fc1-793666b76c53:VERIFIED",
+      "OBSERVED_IN_CURSOR_CONTEXT:\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/d42eecea-ba9b-89e2-9fc1-793666b76c53:VERIFIED",
+      "OBSERVED_IN_CURSOR_CONTEXT:\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/d42eecea-ba9b-89e2-9fc1-793666b76c53:INFERRED"
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 28672,
+    "unknownReasons" : [
+      "CURSOR_STORE_UUID_NOT_REFERENCED",
+      "CURSOR_STORE_UUID_NOT_REFERENCED",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.staging",
+    "lifecycleRole" : "TEMPORARY",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a1a77563-9e0c-4437-8539-7c85d164875b\/staging",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 0,
+    "unknownReasons" : [
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "ACTIVE",
+    "activeStateConfidence" : "VERIFIED",
+    "entityID" : "cursor.snapshots.stores",
+    "lifecycleRole" : "GENERATED_ARTIFACT",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 0,
+    "unknownReasons" : [
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.staging",
+    "lifecycleRole" : "TEMPORARY",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/fae47006-d5fa-4b5b-b77c-d1ce7043a7a3\/staging",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 0,
+    "unknownReasons" : [
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "ACTIVE",
+    "activeStateConfidence" : "VERIFIED",
+    "entityID" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49.objects",
+    "lifecycleRole" : "GENERATED_ARTIFACT",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/81a50d8e-b83d-8058-aa3b-3288b57a9e49\/objects",
+    "provenanceConfidence" : "UNKNOWN",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+      "BELONGS_TO_WORKSPACE:81a50d8e-b83d-8058-aa3b-3288b57a9e49:UNKNOWN",
+      "ASSOCIATED_WITH_CURSOR_STORE:81a50d8e-b83d-8058-aa3b-3288b57a9e49:VERIFIED",
+      "OBSERVED_IN_CURSOR_CONTEXT:\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/81a50d8e-b83d-8058-aa3b-3288b57a9e49:VERIFIED",
+      "OBSERVED_IN_CURSOR_CONTEXT:\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/81a50d8e-b83d-8058-aa3b-3288b57a9e49:INFERRED"
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 5593268224,
+    "unknownReasons" : [
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "UNKNOWN",
+    "entityID" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.staging",
+    "lifecycleRole" : "TEMPORARY",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/c7ec066e-f66e-4dc0-a274-03bed04c6b53\/staging",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 19562496,
+    "unknownReasons" : [
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  }
+]

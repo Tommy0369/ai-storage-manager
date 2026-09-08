@@ -1,0 +1,71 @@
+{
+  "FalseGREEN" : 0,
+  "HFExecutable" : false,
+  "action" : "VENDOR_NATIVE_CLEANUP",
+  "approvalIsOnlyRemainingGate" : true,
+  "canonicalModel" : "library\/qwen3:4b",
+  "cleanupExecutionPermitCreated" : false,
+  "cleanupExecutorInvoked" : false,
+  "conflictedStrictPredicates" : [
+
+  ],
+  "duplicateEvaluations" : 0,
+  "entityID" : "ai.ollama.model.library.qwen3:4b",
+  "generatedAt" : "2026-09-04T11:06:39Z",
+  "genericEntitySafetyClass" : "RED",
+  "immediateExpectedRecoveryBytes" : 0,
+  "keepRecommendation" : "KEEP",
+  "moveToTrashDecision" : "BLOCKED",
+  "mutationGateUsesExactActionDecision" : true,
+  "nativeInterfaceStatus" : "RESOLVED_CLI",
+  "ollamaRmExecuted" : false,
+  "permitRejectsStrictUnknown" : true,
+  "planPotentialBytes" : 2497293931,
+  "planTier" : "APPROVAL_REQUIRED",
+  "preflightStatus" : "APPROVAL_REQUIRED",
+  "rawDeleteBlocked" : true,
+  "reacquirabilityPredicateStatus" : "REACQUIRABLE_VERIFIED_FRESH",
+  "realApprovalCreated" : false,
+  "referenceGraphStatus" : "VERIFIED",
+  "regenerabilityPredicateStatus" : "UNKNOWN",
+  "remainingBlockers" : [
+    "USER_APPROVAL"
+  ],
+  "remoteCanonicalStatus" : "REACQUIRABLE_VERIFIED_FRESH",
+  "requiredStrictPredicates" : [
+    "ollama_model_identity_verified",
+    "reference_graph_verified",
+    "remote_reacquisition_fresh_verified",
+    "not_user_original_custom",
+    "exact_model_inactive_verified",
+    "ollama_native_cli_resolved",
+    "executor_capability_ollama_model",
+    "local_manifest_fingerprint_bound",
+    "transaction_contract",
+    "post_verify_contract",
+    "audit_contract"
+  ],
+  "runtimeStatus" : "INACTIVE\/VERIFIED",
+  "unknownStrictPredicates" : [
+
+  ],
+  "vendorNativeBlockers" : [
+
+  ],
+  "vendorNativeDecision" : "ELIGIBLE",
+  "vendorNativeSafetyClassOrState" : "UNKNOWN",
+  "verifiedRecoveredBytes" : 0,
+  "verifiedStrictPredicates" : [
+    "audit_contract",
+    "exact_model_inactive_verified",
+    "executor_capability_ollama_model",
+    "local_manifest_fingerprint_bound",
+    "not_user_original_custom",
+    "ollama_model_identity_verified",
+    "ollama_native_cli_resolved",
+    "post_verify_contract",
+    "reference_graph_verified",
+    "remote_reacquisition_fresh_verified",
+    "transaction_contract"
+  ]
+}

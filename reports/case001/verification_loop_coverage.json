@@ -1,0 +1,12 @@
+{
+  "entitiesWithAttemptedProof" : 119,
+  "entitiesWithVerifiedClaim" : 87,
+  "measurementCoveragePercent" : 100,
+  "provenanceVerifiedPercent" : 14.147952799788992,
+  "regenerabilityKnownPercent" : 14.612665982921206,
+  "runtimeStateKnownPercent" : 27.242659909426365,
+  "semanticL3PlusPercent" : 79.80368148627667,
+  "sourceOfTruthKnownPercent" : 14.612665982921206,
+  "verificationLoopCoveragePercent" : 22.58064516129032,
+  "verifiedRelationshipPercent" : 7.473299961718221
+}

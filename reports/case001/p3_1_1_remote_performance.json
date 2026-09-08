@@ -1,0 +1,12 @@
+{
+  "firstMapRegressionPercent" : -21.155729676787463,
+  "hfRemoteMs" : 0,
+  "networkOnFirstMapPath" : false,
+  "ollamaRemoteMs" : 0,
+  "remoteBytesReceived" : 0,
+  "remoteProofTotalMs" : 1,
+  "remoteRequestCount" : 0,
+  "safetyCompletionMs" : 149492,
+  "timeToFirstUsefulMapMs" : 805,
+  "timeouts" : 0
+}

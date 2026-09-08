@@ -1,0 +1,12 @@
+{
+  "approvalRequired" : 0,
+  "goal20GB" : 20000000000,
+  "hfCurrentTier" : "VERIFY_MORE",
+  "ollamaCurrentTier" : "APPROVAL_REQUIRED",
+  "ollamaPotentialBytes" : 2497293931,
+  "protectedBytes" : 183372093868,
+  "readyNow" : 0,
+  "requiresVendorRestoration" : 0,
+  "verifiedFuture" : 3190827976,
+  "verifyMore" : 110992703534
+}

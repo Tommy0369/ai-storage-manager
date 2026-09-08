@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-09-05T08:12:05Z",
+  "relationship": "SIBLING_STORE",
+  "architecture": {
+    "sameVersionManager": false,
+    "homeManager": "USER_HOME_AGENT_CLI (install-core / cleanup-install-versions)",
+    "gsManager": "GLOBALSTORAGE_WORKER_AGENT_CLI (cursor-agent-worker)",
+    "differentDistributionMechanisms": true,
+    "oldVsNewImplementation": false,
+    "systemLevelVsAppLevel": "app-level both; different install roots"
+  },
+  "HOME": {
+    "storeID": "cursor.agent_cli.store.home",
+    "canonicalRoot": "/Users/tomitakatsuhiro/.local/share/cursor-agent/versions",
+    "storageClass": "INSTALLED_VERSIONS",
+    "owner": "CURSOR_CLI_INSTALL_CORE",
+    "observedBytes": 233896754,
+    "uniqueBytes": 233896754,
+    "versionCount": 1,
+    "versions": [
+      "2026.08.11-e8db854"
+    ],
+    "selectedVersion": "2026.08.11-e8db854",
+    "selection": "HOME_BIN_SYMLINK",
+    "runtime": "NONE_OBSERVED",
+    "lifecycleState": "CURRENT_PRIMARY_STORE",
+    "cleanupContractAlignedForThisStore": true,
+    "creationPathFound": true,
+    "launchPathFound": true
+  },
+  "GS": {
+    "storeID": "cursor.agent_cli.store.gs_worker",
+    "canonicalRoot": "/Users/tomitakatsuhiro/Library/Application Support/Cursor/User/globalStorage/anysphere.cursor-agent-worker/agent-cli/.local/share/cursor-agent/versions",
+    "storageClass": "INSTALLED_VERSIONS",
+    "owner": "CURSOR_AGENT_WORKER",
+    "observedBytes": 2678732085,
+    "uniqueBytes": 2678732085,
+    "versionCount": 13,
+    "versions": [
+      "2026.06.24-00-45-58-9f61de7",
+      "2026.06.26-7079533",
+      "2026.06.29-2ad2186",
+      "2026.07.01-41b2de7",
+      "2026.07.09-a3815c0",
+      "2026.07.13-7fe37d2",
+      "2026.07.16-899851b",
+      "2026.07.20-8cc9c0b",
+      "2026.07.23-e383d2b",
+      "2026.08.04-aaa8809",
+      "2026.08.11-e8db854",
+      "2026.08.25-3e8eec8",
+      "2026.08.31-4057e58"
+    ],
+    "selectedVersion": "2026.08.31-4057e58",
+    "selection": "GS_BIN_SYMLINK + install marker",
+    "runtime": "NONE_OBSERVED",
+    "lifecycleState": "CURRENT_PRIMARY_STORE",
+    "LEGACY_STORE_VERIFIED": false,
+    "initialInvestigationLabel": "UNRESOLVED_SECONDARY_AGENT_CLI_STORE",
+    "creationPathFound": true,
+    "readPathFound": true,
+    "writePathFound": true,
+    "launchPathFound": true
+  },
+  "accounting": {
+    "versionOverlapCount": 1,
+    "exactDuplicateVersionBytes": 0,
+    "gsOnlyVersionBytes": 2444816011,
+    "sameLabelDifferentArtifactBytes": 233916074
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-09-05T12:17:32Z",
+  "entities": [
+    {
+      "title": "Xcode Build Data",
+      "whatItIs": "Build output Xcode can create again.",
+      "whyLarge": "These are build files Xcode can create again.",
+      "recommendation": "Move to Trash",
+      "recommendationReason": "Safe when inactive and proof-complete.",
+      "actionBlockReason": null,
+      "technicalEnumLeak": false,
+      "copyPass": true
+    },
+    {
+      "title": "Ollama model",
+      "whatItIs": "A downloaded AI model.",
+      "whyLarge": "This is a downloaded AI model.",
+      "recommendation": "Clean with Ollama",
+      "recommendationReason": "Can be downloaded again later.",
+      "actionBlockReason": null,
+      "technicalEnumLeak": false,
+      "copyPass": true
+    },
+    {
+      "title": "Hugging Face snapshot",
+      "whatItIs": "A local AI model snapshot.",
+      "whyLarge": "This is a local AI model snapshot.",
+      "recommendation": "Clean with Hugging Face",
+      "recommendationReason": "Exact revision can usually be downloaded again.",
+      "actionBlockReason": null,
+      "technicalEnumLeak": false,
+      "copyPass": true
+    },
+    {
+      "title": "Cursor AI & conversation state",
+      "whatItIs": "Cursor uses this to restore chats and agent work.",
+      "whyLarge": "Most of this space is Cursor's AI conversation and agent state.",
+      "recommendation": "Keep",
+      "recommendationReason": "Keep \u2014 Cursor is actively using this state.",
+      "actionBlockReason": "Cursor uses this to restore its state.",
+      "technicalEnumLeak": false,
+      "copyPass": true
+    },
+    {
+      "title": "Your recordings",
+      "whatItIs": "These are your original recordings.",
+      "whyLarge": "Most of this space is your original audio recordings.",
+      "recommendation": "Keep",
+      "recommendationReason": "Keep \u2014 these are your recordings.",
+      "actionBlockReason": "Apple does not provide a verified local-only removal action for these recordings.",
+      "technicalEnumLeak": false,
+      "copyPass": true
+    },
+    {
+      "title": "Chrome browser data",
+      "whatItIs": "Browser & website data \u2014 site state plus some verified cache.",
+      "whyLarge": "This contains website/app data plus some verified cache.",
+      "recommendation": "Keep",
+      "recommendationReason": "Protect website and app state.",
+      "actionBlockReason": "This contains website state, not just cache.",
+      "technicalEnumLeak": false,
+      "copyPass": true
+    },
+    {
+      "title": "Claude runtime",
+      "whatItIs": "Claude's base runtime and mutable session data.",
+      "whyLarge": "This includes Claude's base runtime and mutable session data.",
+      "recommendation": "Keep",
+      "recommendationReason": "Keep \u2014 Claude is currently using this runtime.",
+      "actionBlockReason": "Claude is currently using this.",
+      "technicalEnumLeak": false,
+      "copyPass": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "allEntityActionPairs" : 1988,
+  "dropReasons" : [
+    "UNKNOWN\/RED never enter Ready Now",
+    "unsupported executors never marked executable",
+    "overlapping paths counted once"
+  ],
+  "exactBounded" : 1176,
+  "executionSupported" : 527,
+  "nonOverlapping" : 0,
+  "preflightReady" : 0,
+  "safetyEligible" : 1,
+  "selectedInPlan" : 0,
+  "supportedActions" : 527
+}

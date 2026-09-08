@@ -1,0 +1,29 @@
+{
+  "entity": "ai.ollama.model.library.qwen3:4b",
+  "model": "library/qwen3:4b",
+  "action": "VENDOR_NATIVE_CLEANUP",
+  "approvalID": "human-approval-ollama-FF421CEE",
+  "permitID": "permit-ai.ollama.model.library.qwen3:4b-VENDOR_NATIVE_CLEANUP-61E62746",
+  "nativeExecutor": "OllamaNativeCleanupExecutor",
+  "logicalOutcome": "MODEL_REMOVED",
+  "recoveryOutcome": "ACTION_COMPLETED_RECOVERY_VERIFIED",
+  "potentialRecoveryBytes": 2497293931,
+  "verifiedRecoveredBytes": 2497293931,
+  "diskFreeDeltaObserved": 2497445888,
+  "regeneration": "NONE",
+  "currentModelPresent": false,
+  "attemptPhase": "POSTVERIFY_COMPLETED",
+  "userHeadline": "qwen3:4b was removed using Ollama.",
+  "userLines": [
+    "2.50 GB of model storage was verified as removed.",
+    "The model can be downloaded again if you need it."
+  ],
+  "checklist": [
+    "✓ Native Ollama action completed",
+    "✓ Model no longer installed",
+    "✓ 2.50 GB verified removed",
+    "✓ No regeneration detected"
+  ],
+  "groundedInP325": true,
+  "generatedAt": "2026-09-04T15:32:29Z"
+}

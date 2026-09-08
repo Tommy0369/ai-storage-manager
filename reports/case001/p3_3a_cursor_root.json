@@ -1,0 +1,21 @@
+{
+  "entity": "ai.cursor.global_storage",
+  "pathClass": "ApplicationSupport/Cursor/User/globalStorage",
+  "owner": "CURSOR",
+  "semanticRole": "GLOBAL_STORAGE",
+  "observedBytes": 14421700608,
+  "uniqueBytes": 14421700608,
+  "mappedChildBytes": 14421692416,
+  "unknownBytes": 8192,
+  "classificationCoverage": 99.9999,
+  "accountingValid": true,
+  "appInstalled": true,
+  "appVersion": "3.18.25",
+  "appBundleID": "com.todesktop.230313mzl4w4u92",
+  "appRunning": true,
+  "rootSafety": "PROTECTED",
+  "rootActionability": "KEEP",
+  "rootExecutable": false,
+  "privacyNote": "Metadata/sizes/key-class aggregates only. No prompt/message/source/credential/DB row contents.",
+  "generatedAt": "2026-09-05T01:05:39Z"
+}

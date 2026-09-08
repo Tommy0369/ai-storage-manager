@@ -1,0 +1,19 @@
+{
+  "after" : {
+    "protectedBytes" : 94745976832,
+    "readyNowBytes" : 0,
+    "verifiedFutureBytes" : 105398272,
+    "verifyMoreBytes" : 5434445824
+  },
+  "before" : {
+    "protectedBytes" : 0,
+    "readyNowBytes" : 0,
+    "verifiedFutureBytes" : 107000000,
+    "verifyMoreBytes" : 5600000000
+  },
+  "hfUnresolvedAfter" : 0,
+  "hfUnresolvedBefore" : 3100000000,
+  "note" : "Unresolved after means still lacking actionable eligibility; semantic proof may still be VERIFIED for identity\/refs.",
+  "ollamaUnresolvedAfter" : 0,
+  "ollamaUnresolvedBefore" : 2500000000
+}

@@ -1,0 +1,11 @@
+{
+  "detectorCatalogP18Ms" : 45432,
+  "detectorCatalogP19Ms" : 37073,
+  "duSpawnsP19" : 690,
+  "duTimeoutsP19" : 4,
+  "duplicateMeasurementCountP19" : 7,
+  "p18TotalSeconds" : 142.3,
+  "p19TotalSeconds" : 104.61994099617004,
+  "scannerFilesystemWalkP18Ms" : 47513,
+  "scannerFilesystemWalkP19Ms" : 16590
+}

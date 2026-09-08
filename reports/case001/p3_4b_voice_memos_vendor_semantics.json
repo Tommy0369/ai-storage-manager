@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-09-05T10:31:22Z",
+  "iCloudSyncSupported": true,
+  "recordingsAppearAcrossAppleDevices": true,
+  "permanentDeletePropagatesAcrossDevices": true,
+  "genericMacOptimizeStorageDoesNotByItselfProveVoiceMemosEviction": true,
+  "rawDeleteIsNotNativeEviction": true,
+  "evidenceMetadata": [
+    {
+      "type": "APP_LOCALIZABLE",
+      "signal": "iCloud for Voice Memos is off / iCloud Syncing / Delete Forever / Delete Recording"
+    },
+    {
+      "type": "LIVE_DB",
+      "signal": "NSCloudKitMirroring schema in CloudRecordings.db"
+    },
+    {
+      "type": "BINARY_LINK",
+      "signal": "CloudKit.framework linked; FileProvider not linked"
+    },
+    {
+      "type": "PRODUCT_RULE",
+      "signal": "Apple Account sync documentation baseline (cross-device; permanent delete propagates)"
+    }
+  ],
+  "longFormVendorTextCopied": false
+}

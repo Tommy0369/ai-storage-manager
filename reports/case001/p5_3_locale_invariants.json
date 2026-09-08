@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-09-07T23:34:41Z",
+  "representativeEntities": [
+    "Cursor",
+    "VoiceMemos",
+    "Chrome",
+    "Claude",
+    "DerivedData",
+    "Ollama",
+    "HF"
+  ],
+  "testedLocales": [
+    "en",
+    "ja",
+    "zh-Hans",
+    "de"
+  ],
+  "actionDecisionDifferences": 0,
+  "safetyClassDifferences": 0,
+  "candidateByteDifferences": 0,
+  "mutationReadinessDifferences": 0,
+  "verifiedRecoveryDifferences": 0,
+  "canonicalVerifiedRecovery": 5580814899,
+  "researchFrozen": true,
+  "executorsUnchanged": true
+}

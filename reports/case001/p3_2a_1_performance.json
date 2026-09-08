@@ -1,0 +1,10 @@
+{
+  "nativeDiscoveryOnFirstMapPath" : false,
+  "nativeInterfaceResolutionMs" : 0,
+  "networkOnFirstMapPath" : false,
+  "referenceGraphRefreshMs" : 0,
+  "remoteRefreshMs" : 1,
+  "runtimeObservationMs" : 0,
+  "runtimeObservationOnFirstMapPath" : false,
+  "timeToFirstUsefulMapMs" : 805
+}

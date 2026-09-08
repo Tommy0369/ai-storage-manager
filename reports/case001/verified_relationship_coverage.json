@@ -1,0 +1,12 @@
+{
+  "byType" : {
+    "ASSOCIATED_WITH_CURSOR_STORE" : 7,
+    "BELONGS_TO_WORKSPACE" : 8,
+    "GENERATED_BY" : 1,
+    "OBSERVED_IN_CURSOR_CONTEXT" : 4
+  },
+  "bytesWithVerifiedRelationship" : 7486783488,
+  "eligibleBytes" : 100180422656,
+  "entitiesWithVerifiedRelationship" : 16,
+  "entityCount" : 527
+}

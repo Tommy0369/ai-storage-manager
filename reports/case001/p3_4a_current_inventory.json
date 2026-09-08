@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-09-05T10:15:28Z",
+  "diskTotal": 494332366848,
+  "diskUsed": 363622551552,
+  "diskFree": 130709815296,
+  "observedBytes": 55057862597,
+  "completedVerifiedRecovery": 5580814899,
+  "remaining20GBGoal": 14419185101,
+  "top20UniqueEntities": [
+    {
+      "entity": "ai.cursor.global_storage",
+      "bytes": 14965690368,
+      "planStatus": "excluded_protected_or_verify"
+    },
+    {
+      "entity": "voicememos.recordings",
+      "bytes": 14094864384,
+      "planStatus": "excluded_protected_or_verify"
+    },
+    {
+      "entity": "appsupport.Google.Chrome",
+      "bytes": 10745818865,
+      "planStatus": "excluded_protected_or_verify"
+    },
+    {
+      "entity": "claude.vm.bundle.claudevm.bundle.runtime",
+      "bytes": 10737418240,
+      "planStatus": "excluded_protected_or_verify"
+    },
+    {
+      "entity": "macos.group_containers",
+      "bytes": 8145022976,
+      "planStatus": "excluded_protected_or_verify"
+    },
+    {
+      "entity": "tomylocal.child.FacebookMessenger",
+      "bytes": 7217315840,
+      "planStatus": "excluded_protected_or_verify"
+    },
+    {
+      "entity": "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49.objects",
+      "bytes": 5593268224,
+      "planStatus": "excluded_protected_or_verify"
+    },
+    {
+      "entity": "ai.codex.config",
+      "bytes": 2062807040,
+      "planStatus": "excluded_protected_or_verify"
+    },
+    {
+      "entity": "xcode.preview_cache",
+      "bytes": 2025504768,
+      "planStatus": "excluded_protected_or_verify"
+    },
+    {
+      "entity": "macos.application_support.child.zoom.us",
+      "bytes": 1823993856,
+      "planStatus": "excluded_protected_or_verify"
+    },
+    {
+      "entity": "ai.codex.sessions",
+      "bytes": 1751539712,
+      "planStatus": "excluded_protected_or_verify"
+    },
+    {
+      "entity": "homebrew.cache",
+      "bytes": 1644224512,
+      "planStatus": "excluded_protected_or_verify"
+    }
+  ],
+  "ReadyNow": 0,
+  "ApprovalRequired": 0,
+  "VerifiedFuture": 1,
+  "VerifyMore": 2,
+  "Protected": 905,
+  "PreservationCandidates": [
+    {
+      "entity": "macos.voicememos",
+      "bytes": 14092847946,
+      "class": "APP_NATIVE_SYNC_OFFLOAD_CANDIDATE",
+      "actionableNow": false
+    }
+  ],
+  "removedHistoricalCandidatesExcluded": true,
+  "qwen3Absent": true,
+  "hfRevisionAbsent": true,
+  "currentActionablePotentialBytes": 0,
+  "evidenceBasis": "Fresh storage-intel scan (2026-09-05) + path measurements + P3.3 closure",
+  "freshStorageIntelScanCompleted": true,
+  "scanRuntimeSeconds": 111.57,
+  "scannedBytesFromIntel": 32211922944,
+  "planAvailableNowPotentialBytes": 0,
+  "planVerifiedFuturePotentialBytes": 105398272,
+  "duplicateEvaluations": 0,
+  "falseGREEN": 0
+}

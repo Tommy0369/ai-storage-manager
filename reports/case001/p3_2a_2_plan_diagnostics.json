@@ -1,0 +1,11 @@
+{
+  "cleanupExecutable" : false,
+  "ollamaInstalledDuringPhase" : false,
+  "ollamaReadinessTier" : "PREFLIGHT_REQUIRED",
+  "rawDeleteAllowed" : false,
+  "readyForOllamaInstallAuthorization" : false,
+  "readyNowBytes" : 0,
+  "requiresVendorRestorationBytes" : 0,
+  "verifiedFutureBytes" : 3190827976,
+  "verifyMoreBytes" : 7628328960
+}

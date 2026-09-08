@@ -1,0 +1,16 @@
+{
+  "goalBytes": 20000000000,
+  "completedVerifiedRecoveryBytes": 5580814899,
+  "ollamaVerifiedRecovery": 2497293931,
+  "hfVerifiedRecovery": 3083520968,
+  "remainingGoalBytes": 14419185101,
+  "currentCandidatePotentialBytes": 0,
+  "currentEntries": 0,
+  "completedRecentActions": [
+    "OLLAMA library/qwen3:4b VENDOR_NATIVE_CLEANUP verified=2497293931",
+    "HF mlx-community/whisper-large-v3-mlx@49e6aa… VENDOR_NATIVE_CLEANUP verified=3083520968"
+  ],
+  "hfRemovedRevisionStillCandidate": false,
+  "qwen3StillCandidate": false,
+  "generatedAt": "2026-09-05T00:39:09Z"
+}

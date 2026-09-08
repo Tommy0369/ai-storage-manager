@@ -1,0 +1,15 @@
+{
+  "productName": "AI Storage Manager",
+  "version": "0.2.0",
+  "build": "51",
+  "bundleIdentifier": "com.tomystudio.aistoragemanager",
+  "architectureHost": "arm64",
+  "binaryFile": "/Users/tomitakatsuhiro/Workspace/10_\u9032\u884c\u4e2d/ai-storage-manager/dist-0.2/AI Storage Manager.app/Contents/MacOS/AI Storage Manager: Mach-O 64-bit executable arm64",
+  "appBundlePath": "/Users/tomitakatsuhiro/Workspace/10_進行中/ai-storage-manager/dist-0.2/AI Storage Manager.app",
+  "signState": "UNSIGNED_AWAITING_DEVELOPER_ID_SIGN",
+  "notarized": false,
+  "packaging": "APP_BUNDLE_ZIP_CANDIDATE",
+  "minimumMacOS": "13.0",
+  "debugFixturesBundled": false,
+  "reportsBundled": false
+}

@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-09-05T23:50:52Z",
+  "overallPass": true,
+  "claims": [
+    {
+      "claim": "Verified recovered 5,580,814,899 bytes",
+      "evidenceSourceClass": "canonical_receipts",
+      "pass": true
+    },
+    {
+      "claim": "Keep — these are your recordings",
+      "evidenceSourceClass": "voice_memos_preservation",
+      "pass": true
+    },
+    {
+      "claim": "Protect website and app state (Chrome)",
+      "evidenceSourceClass": "mixed_app_support_research",
+      "pass": true
+    },
+    {
+      "claim": "Cursor KEEP / STORE_MISMATCH blocks action",
+      "evidenceSourceClass": "vendor_cleanup_contract_gate",
+      "pass": true
+    },
+    {
+      "claim": "Goal labels Free 10/20 GB",
+      "evidenceSourceClass": "goal_request_not_guarantee",
+      "pass": true,
+      "note": "User goal request UI — not a promise of automatic free space"
+    },
+    {
+      "claim": "No always safe / automatic cleanup / 100% recoverable in product copy",
+      "evidenceSourceClass": "product_claim_audit",
+      "pass": true
+    },
+    {
+      "claim": "Does not clean your Mac automatically",
+      "evidenceSourceClass": "docs_safety_readme",
+      "pass": true
+    }
+  ]
+}

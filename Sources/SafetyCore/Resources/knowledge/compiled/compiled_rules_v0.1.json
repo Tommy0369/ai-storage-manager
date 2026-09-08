@@ -1,0 +1,6411 @@
+{
+  "version": "0.1.1",
+  "principle": "UNDERSTAND over DELETE. Class is gated. Score ranks inside class. UNKNOWN never becomes GREEN by guess.",
+  "rule_count": 178,
+  "bootstrap_count": 45,
+  "added_from_expansion": 133,
+  "rules": [
+    {
+      "id": "system.sip_root",
+      "entity": "SYSTEM_ROOT",
+      "category": "MACOS",
+      "subcategory": "SYSTEM",
+      "match": {
+        "path": "/System/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "HARD_BLOCK",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [
+        "always"
+      ],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "macOSのシステム領域です。整理対象にしません。",
+      "reason_codes": [
+        "HARD_BLOCK",
+        "SIP"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "system.usr",
+      "entity": "SYSTEM_USR",
+      "category": "MACOS",
+      "subcategory": "SYSTEM",
+      "match": {
+        "path": "/usr/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "HARD_BLOCK",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "システムのコマンド領域です。削除しません。",
+      "reason_codes": [
+        "HARD_BLOCK"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.keychain",
+      "entity": "KEYCHAIN",
+      "category": "MACOS",
+      "subcategory": "CREDENTIALS",
+      "match": {
+        "path": "~/Library/Keychains/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "HARD_BLOCK",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [
+        "credential_loss"
+      ],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "パスワードや証明書の保管場所です。整理候補に入れません。",
+      "reason_codes": [
+        "CREDENTIAL",
+        "HARD_BLOCK"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "user.documents",
+      "entity": "USER_DOCUMENTS",
+      "category": "USER",
+      "subcategory": "ORIGINALS",
+      "match": {
+        "path": "~/Documents/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [
+        "irreversible_user_data_loss"
+      ],
+      "verification": [],
+      "growth_causes": [
+        {
+          "code": "USER_ACCUMULATION",
+          "explanation_ja": "仕事や学習の原本が増えています。"
+        }
+      ],
+      "explanation_ja": "あなたが作った文書の原本です。自動整理しません。",
+      "reason_codes": [
+        "USER_ORIGINAL"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "user.desktop",
+      "entity": "USER_DESKTOP",
+      "category": "USER",
+      "subcategory": "ORIGINALS",
+      "match": {
+        "path": "~/Desktop/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [
+        {
+          "code": "INBOX_PILE",
+          "explanation_ja": "作業中のファイルが積まれています。"
+        }
+      ],
+      "explanation_ja": "デスクトップは作業中の原本です。削除候補の自動投入はしません。",
+      "reason_codes": [
+        "USER_ORIGINAL"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "user.photos_library",
+      "entity": "PHOTOS_ORIGINALS",
+      "category": "USER",
+      "subcategory": "PHOTOS",
+      "match": {
+        "path": "~/Pictures/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [
+        "photo_loss"
+      ],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "写真の原本です。絶対に自動整理しません。",
+      "reason_codes": [
+        "PHOTOS",
+        "USER_ORIGINAL"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.application_support",
+      "entity": "APPLICATION_SUPPORT",
+      "category": "MACOS",
+      "subcategory": "APP_DATA",
+      "match": {
+        "path": "~/Library/Application Support/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 10,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [
+        "app_settings_loss"
+      ],
+      "verification": [],
+      "growth_causes": [
+        {
+          "code": "APP_STATE_GROWTH",
+          "explanation_ja": "アプリの設定とデータが蓄積しています。"
+        }
+      ],
+      "explanation_ja": "アプリが覚えている設定やデータの本体です。フォルダごと消すのは危険です。",
+      "reason_codes": [
+        "APPLICATION_SUPPORT",
+        "SOURCE_OF_TRUTH"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.user_caches",
+      "entity": "USER_CACHES",
+      "category": "MACOS",
+      "subcategory": "CACHE",
+      "match": {
+        "path": "~/Library/Caches/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 70,
+      "evaluation_layer": "GENERIC_CACHE_TEMP",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "not_source_of_truth",
+        "regenerable",
+        "no_open_file_handle",
+        "owning_process_not_running",
+        "canonical_path",
+        "not_symlink"
+      ],
+      "demote_to_yellow_if": [
+        "unknown_bundle_owner"
+      ],
+      "demote_to_red_if": [
+        "active_file_handles"
+      ],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [
+        "next_launch_slower"
+      ],
+      "verification": [
+        "measure_reclaimed_bytes",
+        "app_still_launches"
+      ],
+      "growth_causes": [
+        {
+          "code": "CACHE_ACCRETION",
+          "explanation_ja": "アプリが作業用コピーを溜めています。"
+        }
+      ],
+      "explanation_ja": "アプリが速く動くために置く一時データです。本体ではありません。削除すると次回起動が遅くなることがありますが、必要なら作り直せます。",
+      "reason_codes": [
+        "GENERATED_DATA",
+        "REGENERABLE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.tmpdir",
+      "entity": "TMPDIR",
+      "category": "MACOS",
+      "subcategory": "TEMP",
+      "match": {
+        "path": "/var/folders/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 50,
+      "evaluation_layer": "GENERIC_CACHE_TEMP",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "no_open_file_handle"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [
+        "active_file_handles"
+      ],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [
+        "running_app_breakage"
+      ],
+      "verification": [],
+      "growth_causes": [
+        {
+          "code": "TEMP_LEAK",
+          "explanation_ja": "一時ファイルが残っています。"
+        }
+      ],
+      "explanation_ja": "一時作業領域です。実行中アプリが使っていることがあるので、確認なしでは消しません。",
+      "reason_codes": [
+        "TEMP"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.logs",
+      "entity": "USER_LOGS",
+      "category": "MACOS",
+      "subcategory": "LOGS",
+      "match": {
+        "path": "~/Library/Logs/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 60,
+      "evaluation_layer": "GENERIC_CACHE_TEMP",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "no_open_file_handle"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [
+        "debug_history_loss"
+      ],
+      "verification": [
+        "measure_reclaimed_bytes"
+      ],
+      "growth_causes": [
+        {
+          "code": "LOG_GROWTH",
+          "explanation_ja": "障害調査用の記録が増えています。"
+        }
+      ],
+      "explanation_ja": "動作記録です。消してもアプリ本体は残りますが、過去の不具合調査は難しくなります。",
+      "reason_codes": [
+        "LOGS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "user.downloads",
+      "entity": "DOWNLOADS",
+      "category": "USER",
+      "subcategory": "INBOX",
+      "match": {
+        "path": "~/Downloads/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 40,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [
+        "redownload_cost"
+      ],
+      "verification": [],
+      "growth_causes": [
+        {
+          "code": "DOWNLOAD_INBOX",
+          "explanation_ja": "保存したファイルが仕分けされず残っています。"
+        }
+      ],
+      "explanation_ja": "ダウンロードしたファイルです。再取得できるものも、唯一の原本の場合もあります。個別確認が必要です。",
+      "reason_codes": [
+        "USER_INBOX",
+        "YELLOW"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.trash",
+      "entity": "TRASH",
+      "category": "MACOS",
+      "subcategory": "TRASH",
+      "match": {
+        "path": "~/.Trash/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 80,
+      "evaluation_layer": "GENERIC_CACHE_TEMP",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "OS_API_ONLY",
+      "effects": [
+        "undo_window_closes"
+      ],
+      "verification": [
+        "measure_reclaimed_bytes"
+      ],
+      "growth_causes": [
+        {
+          "code": "TRASH_NOT_EMPTIED",
+          "explanation_ja": "ゴミ箱が空になっていません。"
+        }
+      ],
+      "explanation_ja": "すでに捨てる判断をしたファイルです。空にすると元に戻せません。",
+      "reason_codes": [
+        "TRASH"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "icloud.local_materialized",
+      "entity": "ICLOUD_LOCAL",
+      "category": "CLOUD",
+      "subcategory": "ICLOUD",
+      "match": {
+        "path": "~/Library/Mobile Documents/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 85,
+      "evaluation_layer": "SYNC_BLAST_RADIUS",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [
+        "icloud_evictable",
+        "sync_would_not_delete_remote",
+        "canonical_path"
+      ],
+      "demote_to_yellow_if": [
+        "sync_in_progress"
+      ],
+      "demote_to_red_if": [
+        "sync_would_delete_remote"
+      ],
+      "hard_block_if": [],
+      "action_mode": "CLOUD_EVICT_ONLY",
+      "effects": [
+        "next_open_redownloads"
+      ],
+      "verification": [
+        "cloud_copy_still_exists",
+        "measure_reclaimed_bytes"
+      ],
+      "growth_causes": [
+        {
+          "code": "PINNED_CLOUD_FILES",
+          "explanation_ja": "クラウド上のファイルの実体がMacに残っています。"
+        }
+      ],
+      "explanation_ja": "iCloud上に原本があるデータの、このMac上のダウンロード実体です。ダウンロード解除は容量を空けますが、ファイル自体を消す操作ではありません。",
+      "reason_codes": [
+        "CLOUD_EVICT",
+        "NOT_DELETE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.derived_data",
+      "entity": "XCODE_DERIVED_DATA",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/Xcode/DerivedData/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 98,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "owning_process_not_running",
+        "no_open_file_handle",
+        "canonical_path",
+        "regenerable",
+        "not_source_of_truth"
+      ],
+      "demote_to_yellow_if": [
+        "source_project_missing"
+      ],
+      "demote_to_red_if": [
+        "active_file_handles"
+      ],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [
+        "next_build_slower",
+        "reindex_required"
+      ],
+      "verification": [
+        "source_project_still_exists",
+        "measure_reclaimed_bytes"
+      ],
+      "growth_causes": [
+        {
+          "code": "BUILD_INDEX_GROWTH",
+          "explanation_ja": "複数プロジェクトのビルド作業データが残っています。"
+        }
+      ],
+      "explanation_ja": "Xcodeがアプリをビルドするときに作る作業用データです。プログラム本体ではありません。削除すると次回のビルドや検索に時間がかかりますが、必要ならXcodeが再生成します。",
+      "reason_codes": [
+        "GENERATED_DATA",
+        "REGENERABLE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.module_cache",
+      "entity": "XCODE_MODULE_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 97,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "owning_process_not_running",
+        "no_open_file_handle",
+        "regenerable"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [
+        "active_file_handles"
+      ],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [
+        "next_build_slower"
+      ],
+      "verification": [
+        "measure_reclaimed_bytes"
+      ],
+      "growth_causes": [],
+      "explanation_ja": "コンパイラの中間キャッシュです。ソースコードではありません。",
+      "reason_codes": [
+        "GENERATED_DATA"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.archives",
+      "entity": "XCODE_ARCHIVES",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/Xcode/Archives/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 40,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [
+        "cannot_resubmit_same_archive"
+      ],
+      "verification": [],
+      "growth_causes": [
+        {
+          "code": "OLD_ARCHIVES",
+          "explanation_ja": "提出用アーカイブが残っています。"
+        }
+      ],
+      "explanation_ja": "App Store提出用の完成品コピーです。ビルド作業データではありません。消すと再提出用のその版を失います。",
+      "reason_codes": [
+        "ARCHIVE",
+        "SOURCE_OF_TRUTH"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.simulator_devices",
+      "entity": "XCODE_SIMULATOR_DEVICES",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/CoreSimulator/Devices/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 55,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [
+        "simulator_booted"
+      ],
+      "hard_block_if": [],
+      "action_mode": "TOOL_CLI_ONLY",
+      "effects": [
+        "app_data_in_simulator_lost"
+      ],
+      "verification": [
+        "simctl_list_ok"
+      ],
+      "growth_causes": [
+        {
+          "code": "STALE_SIM_DEVICES",
+          "explanation_ja": "使っていないシミュレータ端末の状態が残っています。"
+        }
+      ],
+      "explanation_ja": "iPhoneシミュレータの中身です。アプリのテストデータが入ります。ランタイム本体とは別です。",
+      "reason_codes": [
+        "SIMULATOR_STATE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.simulator_runtimes",
+      "entity": "XCODE_SIMULATOR_RUNTIMES",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/CoreSimulator/Profiles/Runtimes/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 65,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "OS_API_ONLY",
+      "effects": [
+        "old_ios_sim_unavailable"
+      ],
+      "verification": [
+        "xcode_still_opens"
+      ],
+      "growth_causes": [
+        {
+          "code": "OLD_RUNTIMES",
+          "explanation_ja": "過去のXcode/iOS用ランタイムが残っています。"
+        }
+      ],
+      "explanation_ja": "古いiOSを動かすためのシミュレータ本体です。容量が大きいです。消すと再ダウンロードが必要です。",
+      "reason_codes": [
+        "SIMULATOR_RUNTIME"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.source_packages",
+      "entity": "XCODE_SOURCE_PACKAGES",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/Xcode/DerivedData/*/SourcePackages/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 70,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [
+        "offline_needed"
+      ],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [
+        "swiftpm_refetch"
+      ],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Swiftパッケージの取得キャッシュです。プロジェクトのソース本体ではありません。",
+      "reason_codes": [
+        "SWIFTPM"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.device_support",
+      "entity": "XCODE_DEVICE_SUPPORT",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/Xcode/iOS DeviceSupport/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 50,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [
+        "device_debug_symbols_refetch"
+      ],
+      "verification": [],
+      "growth_causes": [
+        {
+          "code": "OLD_DEVICE_SUPPORT",
+          "explanation_ja": "過去のiOS実機用シンボルが残っています。"
+        }
+      ],
+      "explanation_ja": "実機デバッグ用の補助データです。古いiOS版ほど溜まります。",
+      "reason_codes": [
+        "DEVICE_SUPPORT"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "node.npm_cache",
+      "entity": "NPM_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "NODE",
+      "match": {
+        "path": "~/.npm/_cacache/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 90,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path"
+      ],
+      "demote_to_yellow_if": [
+        "offline_needed"
+      ],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [
+        "reinstall_slower"
+      ],
+      "verification": [
+        "package_json_exists"
+      ],
+      "growth_causes": [
+        {
+          "code": "NPM_CACHE_GROWTH",
+          "explanation_ja": "npmがダウンロード済みパッケージを蓄積しています。"
+        }
+      ],
+      "explanation_ja": "npmが再利用するために置くダウンロードキャッシュです。プロジェクトのソースではありません。公式の cache clean を優先します。",
+      "reason_codes": [
+        "PACKAGE_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "node.node_modules",
+      "entity": "NODE_MODULES",
+      "category": "DEVELOPER",
+      "subcategory": "NODE",
+      "match": {
+        "path": "**/node_modules/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 45,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [
+        "manifest_exists",
+        "lockfile_exists"
+      ],
+      "demote_to_yellow_if": [
+        "private_dependency",
+        "local_patch",
+        "zero_install"
+      ],
+      "demote_to_red_if": [
+        "manifest_missing"
+      ],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [
+        "reinstall_required",
+        "private_dep_risk"
+      ],
+      "verification": [
+        "package_json_exists"
+      ],
+      "growth_causes": [
+        {
+          "code": "DEPENDENCY_TREE",
+          "explanation_ja": "依存パッケージの実体がプロジェクトごとに複製されています。"
+        }
+      ],
+      "explanation_ja": "ライブラリのインストール結果です。package.json が無い、私有パッケージがある、パッチがある場合は再構築できません。単純に安全とはみなしません。",
+      "reason_codes": [
+        "NODE_MODULES_NOT_AUTO_GREEN"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "node.pnpm_store",
+      "entity": "PNPM_STORE",
+      "category": "DEVELOPER",
+      "subcategory": "NODE",
+      "match": {
+        "path": "~/Library/pnpm/store/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 75,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [
+        "zero_install"
+      ],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [
+        "pnpm_refetch"
+      ],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "pnpmの共有ストアです。prune コマンドを優先します。",
+      "reason_codes": [
+        "PNPM_STORE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "node.yarn_cache",
+      "entity": "YARN_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "NODE",
+      "match": {
+        "path": "~/Library/Caches/Yarn/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 88,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path"
+      ],
+      "demote_to_yellow_if": [
+        "zero_install"
+      ],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [
+        "yarn_refetch"
+      ],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Yarnのダウンロードキャッシュです。Zero Install 環境では扱いを変えます。",
+      "reason_codes": [
+        "YARN_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "docker.build_cache",
+      "entity": "DOCKER_BUILD_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "DOCKER",
+      "match": {
+        "path": "~/Library/Containers/com.docker.docker/**/buildkit/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 70,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "TOOL_CLI_ONLY",
+      "effects": [
+        "rebuild_slower"
+      ],
+      "verification": [
+        "docker_info_ok"
+      ],
+      "growth_causes": [
+        {
+          "code": "BUILDKIT_CACHE",
+          "explanation_ja": "イメージ構築の中間層が残っています。"
+        }
+      ],
+      "explanation_ja": "Dockerのビルドキャッシュです。ボリューム（データベース本体）ではありません。公式 CLI で削ります。",
+      "reason_codes": [
+        "DOCKER_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "docker.images",
+      "entity": "DOCKER_IMAGES",
+      "category": "DEVELOPER",
+      "subcategory": "DOCKER",
+      "match": {
+        "path": "entity://docker/images/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 50,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [
+        "unpushed_local_image"
+      ],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "TOOL_CLI_ONLY",
+      "effects": [
+        "image_redownload"
+      ],
+      "verification": [],
+      "growth_causes": [
+        {
+          "code": "UNUSED_IMAGES",
+          "explanation_ja": "使っていないイメージタグが残っています。"
+        }
+      ],
+      "explanation_ja": "コンテナの設計図です。未使用でも、まだどこかで必要かもしれません。",
+      "reason_codes": [
+        "DOCKER_IMAGE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "docker.containers",
+      "entity": "DOCKER_CONTAINERS",
+      "category": "DEVELOPER",
+      "subcategory": "DOCKER",
+      "match": {
+        "path": "entity://docker/containers/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 40,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [
+        "container_running"
+      ],
+      "hard_block_if": [],
+      "action_mode": "TOOL_CLI_ONLY",
+      "effects": [
+        "writable_layer_loss"
+      ],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "停止中コンテナでも、中の変更が唯一のデータのことがあります。",
+      "reason_codes": [
+        "DOCKER_CONTAINER"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "docker.volumes",
+      "entity": "DOCKER_VOLUME",
+      "category": "DEVELOPER",
+      "subcategory": "DOCKER",
+      "match": {
+        "path": "entity://docker/volumes/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [
+        "database_loss"
+      ],
+      "verification": [],
+      "growth_causes": [
+        {
+          "code": "VOLUME_GROWTH",
+          "explanation_ja": "コンテナの永続データが増えています。"
+        }
+      ],
+      "explanation_ja": "Dockerボリュームはデータベースなど唯一のデータのことがあります。未使用でも不要ではありません。原則整理しません。",
+      "reason_codes": [
+        "DOCKER_VOLUME",
+        "SOURCE_OF_TRUTH"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "homebrew.cache",
+      "entity": "HOMEBREW_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "HOMEBREW",
+      "match": {
+        "path": "~/Library/Caches/Homebrew/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 92,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path"
+      ],
+      "demote_to_yellow_if": [
+        "offline_needed"
+      ],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [
+        "brew_redownload"
+      ],
+      "verification": [
+        "brew_doctor_optional"
+      ],
+      "growth_causes": [
+        {
+          "code": "BOTTLE_CACHE",
+          "explanation_ja": "Homebrewのダウンロード済みパッケージが残っています。"
+        }
+      ],
+      "explanation_ja": "Homebrewのダウンロードキャッシュです。インストール済みアプリ本体ではありません。brew cleanup を優先します。",
+      "reason_codes": [
+        "HOMEBREW_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "python.pip_cache",
+      "entity": "PIP_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "PYTHON",
+      "match": {
+        "path": "~/Library/Caches/pip/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 90,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [
+        "pip_redownload"
+      ],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "pipのダウンロードキャッシュです。仮想環境そのものではありません。",
+      "reason_codes": [
+        "PIP_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "python.venv",
+      "entity": "PYTHON_VENV",
+      "category": "DEVELOPER",
+      "subcategory": "PYTHON",
+      "match": {
+        "path": "**/.venv/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 40,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [
+        "manifest_exists"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [
+        "manifest_missing"
+      ],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [
+        "recreate_venv"
+      ],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Pythonの仮想環境です。キャッシュではありません。再作成手順がある場合のみ候補になります。",
+      "reason_codes": [
+        "VENV_NOT_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "git.dot_git",
+      "entity": "GIT_HISTORY",
+      "category": "DEVELOPER",
+      "subcategory": "GIT",
+      "match": {
+        "path": "**/.git/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [
+        "history_loss"
+      ],
+      "verification": [],
+      "growth_causes": [
+        {
+          "code": "GIT_OBJECTS",
+          "explanation_ja": "コミット履歴とオブジェクトが増えています。"
+        }
+      ],
+      "explanation_ja": "Gitの履歴本体です。整理候補にしません。内部クリーンは git コマンドに任せます。",
+      "reason_codes": [
+        "GIT_SOURCE",
+        "RED"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "git.worktree_metadata",
+      "entity": "GIT_WORKTREE_METADATA",
+      "category": "DEVELOPER",
+      "subcategory": "GIT",
+      "match": {
+        "path": "**/.git/worktrees/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 60,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [
+        "worktree_still_checked_out"
+      ],
+      "hard_block_if": [],
+      "action_mode": "TOOL_CLI_ONLY",
+      "effects": [],
+      "verification": [
+        "git_status_ok"
+      ],
+      "growth_causes": [
+        {
+          "code": "STALE_WORKTREES",
+          "explanation_ja": "使っていない worktree メタデータが残っています。"
+        }
+      ],
+      "explanation_ja": "古い worktree の管理情報です。履歴本体ではありません。git worktree prune を使います。",
+      "reason_codes": [
+        "GIT_NATIVE_CLEAN"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.cursor_logs",
+      "entity": "CURSOR_LOGS",
+      "category": "AI_DEV",
+      "subcategory": "CURSOR",
+      "match": {
+        "path": "~/Library/Application Support/Cursor/logs/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 80,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [
+        "debug_log_loss"
+      ],
+      "verification": [
+        "cursor_still_opens"
+      ],
+      "growth_causes": [
+        {
+          "code": "EDITOR_LOGS",
+          "explanation_ja": "エディタの診断ログが増えています。"
+        }
+      ],
+      "explanation_ja": "Cursorの動作ログです。設定やプロジェクト本体ではありません。",
+      "reason_codes": [
+        "CURSOR_LOGS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.cursor_app_support",
+      "entity": "CURSOR_APP_SUPPORT",
+      "category": "AI_DEV",
+      "subcategory": "CURSOR",
+      "match": {
+        "path": "~/Library/Application Support/Cursor/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [
+        "editor_state_loss"
+      ],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。",
+      "reason_codes": [
+        "CURSOR_STATE",
+        "RED"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.claude_settings",
+      "entity": "CLAUDE_CODE_SETTINGS",
+      "category": "AI_DEV",
+      "subcategory": "CLAUDE",
+      "match": {
+        "path": "~/.claude/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [
+        "agent_memory_loss"
+      ],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Claude Codeの設定です。削除候補にしません。",
+      "reason_codes": [
+        "CLAUDE_SETTINGS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.claude_md",
+      "entity": "CLAUDE_MD",
+      "category": "AI_DEV",
+      "subcategory": "CLAUDE",
+      "match": {
+        "path": "**/CLAUDE.md",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [
+        "project_instruction_loss"
+      ],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "プロジェクトの作業指示ファイルです。原本です。",
+      "reason_codes": [
+        "CLAUDE_MD"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.claude_sessions",
+      "entity": "CLAUDE_SESSIONS",
+      "category": "AI_DEV",
+      "subcategory": "CLAUDE",
+      "match": {
+        "path": "~/.claude/projects/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 35,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [
+        "chat_history_loss"
+      ],
+      "verification": [],
+      "growth_causes": [
+        {
+          "code": "SESSION_HISTORY",
+          "explanation_ja": "会話履歴が増えています。"
+        }
+      ],
+      "explanation_ja": "Claude Codeの会話履歴です。設定本体よりは軽いですが、消すと文脈が戻らないことがあります。",
+      "reason_codes": [
+        "CLAUDE_HISTORY"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.ollama_models",
+      "entity": "OLLAMA_MODELS",
+      "category": "AI_DEV",
+      "subcategory": "OLLAMA",
+      "match": {
+        "path": "~/.ollama/models/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 50,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [
+        "model_in_use"
+      ],
+      "hard_block_if": [],
+      "action_mode": "APP_API_ONLY",
+      "effects": [
+        "large_redownload"
+      ],
+      "verification": [],
+      "growth_causes": [
+        {
+          "code": "LOCAL_LLM",
+          "explanation_ja": "ローカルLLMのモデルファイルが載っています。"
+        }
+      ],
+      "explanation_ja": "ローカルで動かすAIモデルです。再ダウンロードは大きいです。使っていないことは不要を意味しません。",
+      "reason_codes": [
+        "OLLAMA"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.huggingface_cache",
+      "entity": "HF_CACHE",
+      "category": "AI_DEV",
+      "subcategory": "HUGGINGFACE",
+      "match": {
+        "path": "~/.cache/huggingface/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 75,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path"
+      ],
+      "demote_to_yellow_if": [
+        "model_in_use"
+      ],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [
+        "model_redownload"
+      ],
+      "verification": [],
+      "growth_causes": [
+        {
+          "code": "HF_CACHE",
+          "explanation_ja": "Hugging Faceのモデルキャッシュが増えています。"
+        }
+      ],
+      "explanation_ja": "ダウンロード済みモデルのキャッシュです。学習データの原本ではありません。",
+      "reason_codes": [
+        "HF_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.lm_studio",
+      "entity": "LM_STUDIO_MODELS",
+      "category": "AI_DEV",
+      "subcategory": "LM_STUDIO",
+      "match": {
+        "path": "~/.cache/lm-studio/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 50,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [
+        "large_redownload"
+      ],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "LM Studioのモデルキャッシュです。容量が大きく、再取得コストが高いです。",
+      "reason_codes": [
+        "LM_STUDIO"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.unknown_embeddings",
+      "entity": "UNKNOWN_VECTOR_INDEX",
+      "category": "AI_DEV",
+      "subcategory": "VECTOR",
+      "match": {
+        "path": "**/*embeddings*",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "UNKNOWN",
+      "base_score": 0,
+      "evaluation_layer": "UNKNOWN_FALLBACK",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [
+        "active_vector_db"
+      ],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [
+        "index_loss"
+      ],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "埋め込みや索引の可能性がありますが、証拠が足りません。UNKNOWN のまま表示します。",
+      "reason_codes": [
+        "UNKNOWN_EMBEDDINGS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "media.final_cut_generated",
+      "entity": "FCP_GENERATED",
+      "category": "MEDIA",
+      "subcategory": "FINAL_CUT",
+      "match": {
+        "path": "**/*.fcpbundle/Render Files/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 70,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "APP_API_ONLY",
+      "effects": [
+        "re_render"
+      ],
+      "verification": [
+        "library_opens"
+      ],
+      "growth_causes": [
+        {
+          "code": "RENDER_FILES",
+          "explanation_ja": "書き出し用の生成ファイルが増えています。"
+        }
+      ],
+      "explanation_ja": "Final Cut が作った生成ファイルです。ライブラリ原本ではありません。アプリ内の削除を優先します。",
+      "reason_codes": [
+        "FCP_GENERATED"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "backup.ios",
+      "entity": "IOS_BACKUP",
+      "category": "BACKUP",
+      "subcategory": "MOBILE",
+      "match": {
+        "path": "~/Library/Application Support/MobileSync/Backup/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 30,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [
+        "device_restore_loss"
+      ],
+      "verification": [],
+      "growth_causes": [
+        {
+          "code": "IOS_BACKUP",
+          "explanation_ja": "iPhone/iPadのバックアップが残っています。"
+        }
+      ],
+      "explanation_ja": "iOS機器のバックアップです。空き容量の代わりに復元手段を失います。",
+      "reason_codes": [
+        "IOS_BACKUP"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "backup.time_machine_local",
+      "entity": "TM_LOCAL_SNAPSHOTS",
+      "category": "BACKUP",
+      "subcategory": "TIMEMACHINE",
+      "match": {
+        "path": "/.MobileBackups/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 40,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "OS_API_ONLY",
+      "effects": [
+        "local_restore_window_shrinks"
+      ],
+      "verification": [
+        "tmutil_ok"
+      ],
+      "growth_causes": [
+        {
+          "code": "LOCAL_SNAPSHOTS",
+          "explanation_ja": "Time Machineのローカルスナップショットが容量を押しています。"
+        }
+      ],
+      "explanation_ja": "Time Machineのローカルスナップショットです。Finder削除ではなく OS の仕組みで扱います。",
+      "reason_codes": [
+        "TM_SNAPSHOT"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "system.bin",
+      "entity": "SYSTEM_BIN",
+      "category": "MACOS",
+      "subcategory": "SYSTEM",
+      "match": {
+        "path": "/bin/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "HARD_BLOCK",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "システムの実行ファイルです。",
+      "reason_codes": [
+        "HARD_BLOCK"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "system.sbin",
+      "entity": "SYSTEM_SBIN",
+      "category": "MACOS",
+      "subcategory": "SYSTEM",
+      "match": {
+        "path": "/sbin/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "HARD_BLOCK",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "システムの管理コマンドです。",
+      "reason_codes": [
+        "HARD_BLOCK"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "system.private_var_db",
+      "entity": "SYSTEM_VAR_DB",
+      "category": "MACOS",
+      "subcategory": "SYSTEM",
+      "match": {
+        "path": "/private/var/db/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "HARD_BLOCK",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "システムの構成データベースです。",
+      "reason_codes": [
+        "HARD_BLOCK"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "system.private_etc",
+      "entity": "SYSTEM_ETC",
+      "category": "MACOS",
+      "subcategory": "SYSTEM",
+      "match": {
+        "path": "/private/etc/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "HARD_BLOCK",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "システムの設定です。",
+      "reason_codes": [
+        "HARD_BLOCK"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "system.preboot",
+      "entity": "SYSTEM_PREBOOT",
+      "category": "MACOS",
+      "subcategory": "SYSTEM",
+      "match": {
+        "path": "/System/Volumes/Preboot/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "HARD_BLOCK",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "起動用ボリュームです。",
+      "reason_codes": [
+        "HARD_BLOCK"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "system.vm_swap",
+      "entity": "SYSTEM_VM",
+      "category": "MACOS",
+      "subcategory": "SYSTEM",
+      "match": {
+        "path": "/private/var/vm/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "HARD_BLOCK",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "仮想メモリ関連です。",
+      "reason_codes": [
+        "HARD_BLOCK"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "system.library_keychains",
+      "entity": "SYSTEM_KEYCHAINS",
+      "category": "MACOS",
+      "subcategory": "SYSTEM",
+      "match": {
+        "path": "/Library/Keychains/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "HARD_BLOCK",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "システムの証明書保管です。",
+      "reason_codes": [
+        "HARD_BLOCK"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.system_caches",
+      "entity": "SYSTEM_CACHES",
+      "category": "MACOS",
+      "subcategory": "CACHE",
+      "match": {
+        "path": "/Library/Caches/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 40,
+      "evaluation_layer": "GENERIC_CACHE_TEMP",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "no_open_file_handle"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "システムの共有キャッシュです。ユーザーキャッシュより慎重に扱います。",
+      "reason_codes": [
+        "SYSTEM_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.containers",
+      "entity": "APP_CONTAINERS",
+      "category": "MACOS",
+      "subcategory": "SANDBOX",
+      "match": {
+        "path": "~/Library/Containers/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 5,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "サンドボックスアプリのデータ本体です。丸ごと消しません。",
+      "reason_codes": [
+        "CONTAINERS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.group_containers",
+      "entity": "GROUP_CONTAINERS",
+      "category": "MACOS",
+      "subcategory": "SANDBOX",
+      "match": {
+        "path": "~/Library/Group Containers/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "アプリ間共有データの本体です。",
+      "reason_codes": [
+        "GROUP_CONTAINERS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.preferences",
+      "entity": "PREFERENCES",
+      "category": "MACOS",
+      "subcategory": "SETTINGS",
+      "match": {
+        "path": "~/Library/Preferences/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "アプリ設定です。設定の原本です。",
+      "reason_codes": [
+        "PREFERENCES"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.saved_state",
+      "entity": "SAVED_STATE",
+      "category": "MACOS",
+      "subcategory": "SETTINGS",
+      "match": {
+        "path": "~/Library/Saved Application State/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 55,
+      "evaluation_layer": "GENERIC_CACHE_TEMP",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "ウィンドウ状態です。設定本体より軽いですが、作業中復元に影響します。",
+      "reason_codes": [
+        "SAVED_STATE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.cookies",
+      "entity": "COOKIES",
+      "category": "MACOS",
+      "subcategory": "SETTINGS",
+      "match": {
+        "path": "~/Library/Cookies/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "サイトのログイン状態を含みます。",
+      "reason_codes": [
+        "COOKIES"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.fonts_user",
+      "entity": "USER_FONTS",
+      "category": "MACOS",
+      "subcategory": "FONTS",
+      "match": {
+        "path": "~/Library/Fonts/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "インストールしたフォントです。再取得できないことがあります。",
+      "reason_codes": [
+        "FONTS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.mail",
+      "entity": "MAIL_DATA",
+      "category": "MACOS",
+      "subcategory": "MAIL",
+      "match": {
+        "path": "~/Library/Mail/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "メールの原本です。",
+      "reason_codes": [
+        "MAIL"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.messages",
+      "entity": "MESSAGES",
+      "category": "MACOS",
+      "subcategory": "MESSAGES",
+      "match": {
+        "path": "~/Library/Messages/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "メッセージの原本です。",
+      "reason_codes": [
+        "MESSAGES"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.safari",
+      "entity": "SAFARI_DATA",
+      "category": "MACOS",
+      "subcategory": "BROWSER",
+      "match": {
+        "path": "~/Library/Safari/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Safariの履歴とデータの本体です。キャッシュとは別です。",
+      "reason_codes": [
+        "SAFARI"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.chrome_cache",
+      "entity": "CHROME_CACHE",
+      "category": "MACOS",
+      "subcategory": "BROWSER",
+      "match": {
+        "path": "~/Library/Caches/Google/Chrome/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 82,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Chromeのキャッシュです。ブックマーク本体ではありません。",
+      "reason_codes": [
+        "BROWSER_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.chrome_profile",
+      "entity": "CHROME_PROFILE",
+      "category": "MACOS",
+      "subcategory": "BROWSER",
+      "match": {
+        "path": "~/Library/Application Support/Google/Chrome/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Chromeのプロファイル本体です。",
+      "reason_codes": [
+        "BROWSER_PROFILE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.softwareupdate",
+      "entity": "SOFTWAREUPDATE",
+      "category": "MACOS",
+      "subcategory": "UPDATES",
+      "match": {
+        "path": "/Library/Updates/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 45,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "OS_API_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "macOSアップデートの作業ファイルです。OSの仕組みで扱います。",
+      "reason_codes": [
+        "SOFTWAREUPDATE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.spotlight",
+      "entity": "SPOTLIGHT",
+      "category": "MACOS",
+      "subcategory": "INDEX",
+      "match": {
+        "path": "/.Spotlight-V100/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 35,
+      "evaluation_layer": "GENERIC_CACHE_TEMP",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "OS_API_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Spotlightの索引です。消すと再構築されます。",
+      "reason_codes": [
+        "SPOTLIGHT"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.cores",
+      "entity": "CORE_DUMPS",
+      "category": "MACOS",
+      "subcategory": "LOGS",
+      "match": {
+        "path": "/cores/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 60,
+      "evaluation_layer": "GENERIC_CACHE_TEMP",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "クラッシュダンプです。本体データではありません。",
+      "reason_codes": [
+        "CORES"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.crashreporter",
+      "entity": "CRASH_REPORTS",
+      "category": "MACOS",
+      "subcategory": "LOGS",
+      "match": {
+        "path": "~/Library/Logs/DiagnosticReports/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 65,
+      "evaluation_layer": "GENERIC_CACHE_TEMP",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "no_open_file_handle"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "診断レポートです。",
+      "reason_codes": [
+        "CRASH_REPORTS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.autosave",
+      "entity": "AUTOSAVE",
+      "category": "MACOS",
+      "subcategory": "DOCUMENTS",
+      "match": {
+        "path": "~/Library/Autosave Information/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 20,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "未保存文書の自動保存です。原本扱いします。",
+      "reason_codes": [
+        "AUTOSAVE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "user.movies",
+      "entity": "USER_MOVIES",
+      "category": "USER",
+      "subcategory": "ORIGINALS",
+      "match": {
+        "path": "~/Movies/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "動画の原本です。",
+      "reason_codes": [
+        "USER_ORIGINAL"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "user.music",
+      "entity": "USER_MUSIC",
+      "category": "USER",
+      "subcategory": "ORIGINALS",
+      "match": {
+        "path": "~/Music/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "音楽ライブラリの原本です。",
+      "reason_codes": [
+        "USER_ORIGINAL"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "cloud.dropbox",
+      "entity": "DROPBOX",
+      "category": "CLOUD",
+      "subcategory": "DROPBOX",
+      "match": {
+        "path": "~/Library/CloudStorage/Dropbox-**/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SYNC_BLAST_RADIUS",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": true,
+      "required_predicates": [
+        "icloud_evictable"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "CLOUD_EVICT_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Dropboxの同期データです。削除は他端末へ波及します。ダウンロード解除だけが候補です。",
+      "reason_codes": [
+        "CLOUD_SYNC"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "cloud.onedrive",
+      "entity": "ONEDRIVE",
+      "category": "CLOUD",
+      "subcategory": "ONEDRIVE",
+      "match": {
+        "path": "~/Library/CloudStorage/OneDrive-**/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SYNC_BLAST_RADIUS",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "OneDriveの同期データです。削除semanticsが未確認なら削除しません。",
+      "reason_codes": [
+        "CLOUD_SYNC"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "cloud.google_drive",
+      "entity": "GOOGLE_DRIVE",
+      "category": "CLOUD",
+      "subcategory": "GOOGLE",
+      "match": {
+        "path": "~/Library/CloudStorage/GoogleDrive-**/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SYNC_BLAST_RADIUS",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Google Driveの同期データです。",
+      "reason_codes": [
+        "CLOUD_SYNC"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "cloud.fileprovider_generic",
+      "entity": "FILE_PROVIDER",
+      "category": "CLOUD",
+      "subcategory": "FILEPROVIDER",
+      "match": {
+        "path": "~/Library/CloudStorage/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "UNKNOWN",
+      "base_score": 0,
+      "evaluation_layer": "UNKNOWN_FALLBACK",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "File Provider領域です。プロバイダ固有ルールが無い場合はUNKNOWNです。",
+      "reason_codes": [
+        "FILE_PROVIDER",
+        "UNKNOWN"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "cloud.icloud_photos",
+      "entity": "ICLOUD_PHOTOS",
+      "category": "CLOUD",
+      "subcategory": "ICLOUD",
+      "match": {
+        "path": "~/Library/Mobile Documents/com~apple~cloudte~**/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "iCloud写真の同期領域です。",
+      "reason_codes": [
+        "ICLOUD_PHOTOS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.preview_cache",
+      "entity": "XCODE_PREVIEW_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/Xcode/UserData/Previews/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 90,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "SwiftUI Previewの作業キャッシュです。プロジェクト本体ではありません。",
+      "reason_codes": [
+        "PREVIEW_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.swiftpm_cache",
+      "entity": "SWIFTPM_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Caches/org.swift.swiftpm/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 88,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "SwiftPMのグローバルキャッシュです。",
+      "reason_codes": [
+        "SWIFTPM_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.documentation_cache",
+      "entity": "XCODE_DOCS_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/Xcode/DocumentationCache/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 85,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Xcodeのドキュメントキャッシュです。",
+      "reason_codes": [
+        "DOCS_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.ios_device_logs",
+      "entity": "XCODE_DEVICE_LOGS",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/Xcode/iOS Device Logs/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 55,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "実機のログです。",
+      "reason_codes": [
+        "DEVICE_LOGS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.watchos_device_support",
+      "entity": "WATCHOS_DEVICE_SUPPORT",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/Xcode/watchOS DeviceSupport/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 50,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "watchOS実機用サポートファイルです。",
+      "reason_codes": [
+        "DEVICE_SUPPORT"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.tvos_device_support",
+      "entity": "TVOS_DEVICE_SUPPORT",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/Xcode/tvOS DeviceSupport/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 50,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "tvOS実機用サポートファイルです。",
+      "reason_codes": [
+        "DEVICE_SUPPORT"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.user_data",
+      "entity": "XCODE_USERDATA",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/Xcode/UserData/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Xcodeのキーバインドやテーマなどユーザー設定です。",
+      "reason_codes": [
+        "XCODE_USERDATA"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.provisioning",
+      "entity": "XCODE_PROVISIONING",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/MobileDevice/Provisioning Profiles/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "署名プロファイルです。",
+      "reason_codes": [
+        "PROVISIONING"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "node.yarn_berry_cache",
+      "entity": "YARN_BERRY_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "NODE",
+      "match": {
+        "path": "**/.yarn/cache/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 60,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [
+        "zero_install"
+      ],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Yarn Berryのキャッシュです。Zero Installの場合は再構築できません。",
+      "reason_codes": [
+        "YARN_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "yarn cache clean",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "node.corepack",
+      "entity": "COREPACK",
+      "category": "DEVELOPER",
+      "subcategory": "NODE",
+      "match": {
+        "path": "~/Library/Caches/node/corepack/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 70,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Corepackのツールキャッシュです。",
+      "reason_codes": [
+        "COREPACK"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "corepack cache clean",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "node.npm_logs",
+      "entity": "NPM_LOGS",
+      "category": "DEVELOPER",
+      "subcategory": "NODE",
+      "match": {
+        "path": "~/.npm/_logs/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 85,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "npmのログです。",
+      "reason_codes": [
+        "NPM_LOGS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "node.nvm_versions",
+      "entity": "NVM_VERSIONS",
+      "category": "DEVELOPER",
+      "subcategory": "NODE",
+      "match": {
+        "path": "~/.nvm/versions/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 25,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "nvmのNode本体です。キャッシュではありません。",
+      "reason_codes": [
+        "NVM"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "node.bun_cache",
+      "entity": "BUN_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "NODE",
+      "match": {
+        "path": "~/.bun/install/cache/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 86,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Bunのインストールキャッシュです。",
+      "reason_codes": [
+        "BUN_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "bun pm cache rm",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "node.pnpm_home",
+      "entity": "PNPM_HOME",
+      "category": "DEVELOPER",
+      "subcategory": "NODE",
+      "match": {
+        "path": "~/Library/pnpm/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 55,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "pnpmのホームです。store以外も含みます。",
+      "reason_codes": [
+        "PNPM"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "pnpm store prune",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "docker.networks",
+      "entity": "DOCKER_NETWORKS",
+      "category": "DEVELOPER",
+      "subcategory": "DOCKER",
+      "match": {
+        "path": "entity://docker/networks/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 40,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "TOOL_CLI_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Dockerネットワーク定義です。データ本体ではありません。",
+      "reason_codes": [
+        "DOCKER_NETWORK"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "docker network prune",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "docker.bind_mounts",
+      "entity": "DOCKER_BIND_MOUNT",
+      "category": "DEVELOPER",
+      "subcategory": "DOCKER",
+      "match": {
+        "path": "entity://docker/bind-mounts/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "ホスト側のバインドマウントです。プロジェクト原本のことがあります。",
+      "reason_codes": [
+        "BIND_MOUNT"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "docker.desktop_vm",
+      "entity": "DOCKER_DESKTOP_VM",
+      "category": "DEVELOPER",
+      "subcategory": "DOCKER",
+      "match": {
+        "path": "~/Library/Containers/com.docker.docker/Data/vms/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 20,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "APP_API_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Docker Desktopの仮想ディスクです。中にvolumeが載ることがあります。",
+      "reason_codes": [
+        "DOCKER_VM"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "Docker Desktop settings",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "docker.overlay",
+      "entity": "DOCKER_OVERLAY",
+      "category": "DEVELOPER",
+      "subcategory": "DOCKER",
+      "match": {
+        "path": "entity://docker/overlay2/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 50,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "TOOL_CLI_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "イメージ層です。volumeではありません。",
+      "reason_codes": [
+        "DOCKER_OVERLAY"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "docker system prune",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "homebrew.cellar",
+      "entity": "HOMEBREW_CELLAR",
+      "category": "DEVELOPER",
+      "subcategory": "HOMEBREW",
+      "match": {
+        "path": "/opt/homebrew/Cellar/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 15,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "インストール済みformulaです。キャッシュではありません。",
+      "reason_codes": [
+        "CELLAR"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "brew uninstall",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "homebrew.caskroom",
+      "entity": "HOMEBREW_CASKROOM",
+      "category": "DEVELOPER",
+      "subcategory": "HOMEBREW",
+      "match": {
+        "path": "/opt/homebrew/Caskroom/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 15,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Caskの展開済み実体です。",
+      "reason_codes": [
+        "CASKROOM"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "homebrew.old_versions",
+      "entity": "HOMEBREW_OLD_VERSIONS",
+      "category": "DEVELOPER",
+      "subcategory": "HOMEBREW",
+      "match": {
+        "path": "/opt/homebrew/Cellar/**/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 70,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "古いformula版が残っていることがあります。brew cleanup対象です。",
+      "reason_codes": [
+        "OLD_FORMULA"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "brew cleanup",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "python.poetry_cache",
+      "entity": "POETRY_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "PYTHON",
+      "match": {
+        "path": "~/Library/Caches/pypoetry/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 88,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Poetryのキャッシュです。仮想環境本体ではありません。",
+      "reason_codes": [
+        "POETRY_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "poetry cache clear --all",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "python.uv_cache",
+      "entity": "UV_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "PYTHON",
+      "match": {
+        "path": "~/Library/Caches/uv/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 90,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "uvのキャッシュです。",
+      "reason_codes": [
+        "UV_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "uv cache clean",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "python.conda_pkgs",
+      "entity": "CONDA_PKGS",
+      "category": "DEVELOPER",
+      "subcategory": "PYTHON",
+      "match": {
+        "path": "~/anaconda3/pkgs/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 75,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Condaのパッケージキャッシュです。環境本体ではありません。",
+      "reason_codes": [
+        "CONDA_PKGS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "conda clean -a",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "python.conda_envs",
+      "entity": "CONDA_ENVS",
+      "category": "DEVELOPER",
+      "subcategory": "PYTHON",
+      "match": {
+        "path": "~/anaconda3/envs/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 20,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Conda環境です。キャッシュではありません。",
+      "reason_codes": [
+        "CONDA_ENV"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "python.pycache",
+      "entity": "PYCACHE",
+      "category": "DEVELOPER",
+      "subcategory": "PYTHON",
+      "match": {
+        "path": "**/__pycache__/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 70,
+      "evaluation_layer": "GENERIC_CACHE_TEMP",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Pythonのバイトコードです。ソース本体ではありません。",
+      "reason_codes": [
+        "PYCACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "python.venv_named",
+      "entity": "PYTHON_VENV_NAMED",
+      "category": "DEVELOPER",
+      "subcategory": "PYTHON",
+      "match": {
+        "path": "**/venv/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 40,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [
+        "manifest_exists"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [
+        "manifest_missing"
+      ],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "名前付きvenvです。キャッシュではありません。",
+      "reason_codes": [
+        "VENV_NOT_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "git.lfs",
+      "entity": "GIT_LFS",
+      "category": "DEVELOPER",
+      "subcategory": "GIT",
+      "match": {
+        "path": "**/.git/lfs/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 30,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "TOOL_CLI_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Git LFSのローカルオブジェクトです。履歴と結びつきます。",
+      "reason_codes": [
+        "GIT_LFS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "git lfs prune",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "git.objects",
+      "entity": "GIT_OBJECTS",
+      "category": "DEVELOPER",
+      "subcategory": "GIT",
+      "match": {
+        "path": "**/.git/objects/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Gitオブジェクトです。履歴本体です。",
+      "reason_codes": [
+        "GIT_HISTORY"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "git.packfiles",
+      "entity": "GIT_PACK",
+      "category": "DEVELOPER",
+      "subcategory": "GIT",
+      "match": {
+        "path": "**/.git/objects/pack/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "packされた履歴です。",
+      "reason_codes": [
+        "GIT_HISTORY"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "git.working_tree",
+      "entity": "GIT_WORKING_TREE",
+      "category": "DEVELOPER",
+      "subcategory": "GIT",
+      "match": {
+        "path": "**/.git",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "リポジトリの管理領域です。",
+      "reason_codes": [
+        "GIT_SOURCE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.vscode_logs",
+      "entity": "VSCODE_LOGS",
+      "category": "AI_DEV",
+      "subcategory": "VSCODE",
+      "match": {
+        "path": "~/Library/Application Support/Code/logs/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 80,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "VS Codeのログです。設定本体ではありません。",
+      "reason_codes": [
+        "VSCODE_LOGS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.vscode_app_support",
+      "entity": "VSCODE_APP_SUPPORT",
+      "category": "AI_DEV",
+      "subcategory": "VSCODE",
+      "match": {
+        "path": "~/Library/Application Support/Code/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "VS Codeの設定と拡張の本体です。",
+      "reason_codes": [
+        "VSCODE_STATE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.codex",
+      "entity": "CODEX_STATE",
+      "category": "AI_DEV",
+      "subcategory": "CODEX",
+      "match": {
+        "path": "~/.codex/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Codexの設定と履歴です。",
+      "reason_codes": [
+        "CODEX"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.cursor_cache",
+      "entity": "CURSOR_CACHE",
+      "category": "AI_DEV",
+      "subcategory": "CURSOR",
+      "match": {
+        "path": "~/Library/Caches/Cursor/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 84,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Cursorのキャッシュです。Application Support本体ではありません。",
+      "reason_codes": [
+        "CURSOR_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.claude_desktop",
+      "entity": "CLAUDE_DESKTOP",
+      "category": "AI_DEV",
+      "subcategory": "CLAUDE",
+      "match": {
+        "path": "~/Library/Application Support/Claude/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Claude Desktopの状態です。",
+      "reason_codes": [
+        "CLAUDE_DESKTOP"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.chroma",
+      "entity": "CHROMA_DB",
+      "category": "AI_DEV",
+      "subcategory": "VECTOR",
+      "match": {
+        "path": "**/.chroma/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [
+        "active_vector_db"
+      ],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "ベクトルDBの可能性があります。未使用でも不要ではありません。",
+      "reason_codes": [
+        "VECTOR_DB"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.lancedb",
+      "entity": "LANCEDB",
+      "category": "AI_DEV",
+      "subcategory": "VECTOR",
+      "match": {
+        "path": "**/*.lancedb/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "LanceDBです。索引の原本です。",
+      "reason_codes": [
+        "VECTOR_DB"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.qdrant",
+      "entity": "QDRANT",
+      "category": "AI_DEV",
+      "subcategory": "VECTOR",
+      "match": {
+        "path": "**/.qdrant/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Qdrantストレージです。",
+      "reason_codes": [
+        "VECTOR_DB"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.ollama_blobs",
+      "entity": "OLLAMA_BLOBS",
+      "category": "AI_DEV",
+      "subcategory": "OLLAMA",
+      "match": {
+        "path": "~/.ollama/models/blobs/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 45,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [
+        "model_in_use"
+      ],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "APP_API_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Ollamaモデル実体です。再ダウンロードが大きいです。",
+      "reason_codes": [
+        "OLLAMA"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.hf_datasets",
+      "entity": "HF_DATASETS",
+      "category": "AI_DEV",
+      "subcategory": "HUGGINGFACE",
+      "match": {
+        "path": "~/.cache/huggingface/datasets/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 55,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Hugging Faceデータセットキャッシュです。学習データの再取得コストがあります。",
+      "reason_codes": [
+        "HF_DATASETS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "media.photoslibrary",
+      "entity": "PHOTOS_LIBRARY",
+      "category": "USER",
+      "subcategory": "PHOTOS",
+      "match": {
+        "path": "**/*.photoslibrary/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "写真ライブラリ本体です。",
+      "reason_codes": [
+        "PHOTOS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "media.fcp_library",
+      "entity": "FCP_LIBRARY",
+      "category": "MEDIA",
+      "subcategory": "FINAL_CUT",
+      "match": {
+        "path": "**/*.fcpbundle/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Final Cutライブラリ本体です。生成ファイルとは別です。",
+      "reason_codes": [
+        "FCP_LIBRARY"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "media.logic",
+      "entity": "LOGIC_PROJECTS",
+      "category": "MEDIA",
+      "subcategory": "LOGIC",
+      "match": {
+        "path": "**/*.logicx/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Logicプロジェクトです。",
+      "reason_codes": [
+        "LOGIC"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "backup.itunes_mobile",
+      "entity": "ITUNES_BACKUP",
+      "category": "BACKUP",
+      "subcategory": "MOBILE",
+      "match": {
+        "path": "~/Library/Application Support/MobileSync/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 25,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "モバイル同期関連です。",
+      "reason_codes": [
+        "IOS_BACKUP"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "cocoapods.cache",
+      "entity": "COCOAPODS_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "COCOAPODS",
+      "match": {
+        "path": "~/Library/Caches/CocoaPods/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 87,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "CocoaPodsのキャッシュです。",
+      "reason_codes": [
+        "PODS_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "pod cache clean --all",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "cargo.cache",
+      "entity": "CARGO_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "RUST",
+      "match": {
+        "path": "~/Library/Caches/cargo/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 70,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Cargo関連キャッシュです。targetとは別に扱います。",
+      "reason_codes": [
+        "CARGO"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "cargo cache",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "cargo.target",
+      "entity": "CARGO_TARGET",
+      "category": "DEVELOPER",
+      "subcategory": "RUST",
+      "match": {
+        "path": "**/target/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 75,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "TOOL_CLI_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Rustのビルド成果です。ソースではありません。",
+      "reason_codes": [
+        "CARGO_TARGET"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "cargo clean",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "go.build_cache",
+      "entity": "GO_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "GO",
+      "match": {
+        "path": "~/Library/Caches/go-build/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 90,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Goのビルドキャッシュです。",
+      "reason_codes": [
+        "GO_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "go clean -cache",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "go.modcache",
+      "entity": "GO_MODCACHE",
+      "category": "DEVELOPER",
+      "subcategory": "GO",
+      "match": {
+        "path": "~/go/pkg/mod/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 72,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Go module cacheです。",
+      "reason_codes": [
+        "GO_MOD"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "go clean -modcache",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "gradle.caches",
+      "entity": "GRADLE_CACHES",
+      "category": "DEVELOPER",
+      "subcategory": "ANDROID",
+      "match": {
+        "path": "~/.gradle/caches/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 70,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Gradleキャッシュです。",
+      "reason_codes": [
+        "GRADLE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "android.avd",
+      "entity": "ANDROID_AVD",
+      "category": "DEVELOPER",
+      "subcategory": "ANDROID",
+      "match": {
+        "path": "~/.android/avd/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 40,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Androidエミュレータの状態です。",
+      "reason_codes": [
+        "AVD"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "maven.repo",
+      "entity": "MAVEN_REPO",
+      "category": "DEVELOPER",
+      "subcategory": "JAVA",
+      "match": {
+        "path": "~/.m2/repository/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 60,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Mavenのローカルリポジトリです。",
+      "reason_codes": [
+        "MAVEN"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "system.library_apple",
+      "entity": "APPLE_INTERNAL",
+      "category": "MACOS",
+      "subcategory": "SYSTEM",
+      "match": {
+        "path": "/Library/Apple/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "HARD_BLOCK",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Apple内部コンポーネントです。",
+      "reason_codes": [
+        "HARD_BLOCK"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "system.usr_standalone",
+      "entity": "USR_STANDALONE",
+      "category": "MACOS",
+      "subcategory": "SYSTEM",
+      "match": {
+        "path": "/usr/standalone/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "HARD_BLOCK",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "起動関連のスタンドアロン領域です。",
+      "reason_codes": [
+        "HARD_BLOCK"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.launchagents_user",
+      "entity": "LAUNCH_AGENTS",
+      "category": "MACOS",
+      "subcategory": "SETTINGS",
+      "match": {
+        "path": "~/Library/LaunchAgents/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "ユーザーの自動起動設定です。",
+      "reason_codes": [
+        "LAUNCH_AGENTS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.application_support_system",
+      "entity": "SYSTEM_APP_SUPPORT",
+      "category": "MACOS",
+      "subcategory": "APP_DATA",
+      "match": {
+        "path": "/Library/Application Support/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "システムの Application Support です。",
+      "reason_codes": [
+        "APP_SUPPORT"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.logs_system",
+      "entity": "SYSTEM_LOGS",
+      "category": "MACOS",
+      "subcategory": "LOGS",
+      "match": {
+        "path": "/var/log/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 40,
+      "evaluation_layer": "GENERIC_CACHE_TEMP",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "OS_API_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "システムログです。",
+      "reason_codes": [
+        "SYSTEM_LOGS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.tmpdir_var",
+      "entity": "VAR_TMP",
+      "category": "MACOS",
+      "subcategory": "TEMP",
+      "match": {
+        "path": "/var/tmp/**",
+        "owner": "root",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 45,
+      "evaluation_layer": "GENERIC_CACHE_TEMP",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [
+        "no_open_file_handle"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "共有一時領域です。",
+      "reason_codes": [
+        "TEMP"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "user.library_root",
+      "entity": "USER_LIBRARY",
+      "category": "USER",
+      "subcategory": "LIBRARY",
+      "match": {
+        "path": "~/Library/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "UNKNOWN",
+      "base_score": 0,
+      "evaluation_layer": "UNKNOWN_FALLBACK",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "ユーザーLibraryの包括マッチです。より具体的なvendor ruleが無い場合のみUNKNOWN。",
+      "reason_codes": [
+        "GENERIC_LIBRARY"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.derived_data_root",
+      "entity": "XCODE_DERIVED_DATA_ROOT",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/Xcode/DerivedData",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 98,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "DerivedDataルートです。",
+      "reason_codes": [
+        "GENERATED_DATA"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.simulator_root",
+      "entity": "CORE_SIMULATOR_ROOT",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/CoreSimulator/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 50,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "シミュレータ配下の包括です。DevicesとRuntimesは個別rule優先。",
+      "reason_codes": [
+        "SIMULATOR"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "node.package_json",
+      "entity": "PACKAGE_JSON",
+      "category": "DEVELOPER",
+      "subcategory": "NODE",
+      "match": {
+        "path": "**/package.json",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Nodeプロジェクトのマニフェストです。",
+      "reason_codes": [
+        "MANIFEST"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "node.package_lock",
+      "entity": "PACKAGE_LOCK",
+      "category": "DEVELOPER",
+      "subcategory": "NODE",
+      "match": {
+        "path": "**/package-lock.json",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "npm lockfileです。",
+      "reason_codes": [
+        "LOCKFILE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "node.pnpm_lock",
+      "entity": "PNPM_LOCK",
+      "category": "DEVELOPER",
+      "subcategory": "NODE",
+      "match": {
+        "path": "**/pnpm-lock.yaml",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "pnpm lockfileです。",
+      "reason_codes": [
+        "LOCKFILE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "node.yarn_lock",
+      "entity": "YARN_LOCK",
+      "category": "DEVELOPER",
+      "subcategory": "NODE",
+      "match": {
+        "path": "**/yarn.lock",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Yarn lockfileです。",
+      "reason_codes": [
+        "LOCKFILE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "docker.desktop_data",
+      "entity": "DOCKER_DESKTOP_DATA",
+      "category": "DEVELOPER",
+      "subcategory": "DOCKER",
+      "match": {
+        "path": "~/Library/Containers/com.docker.docker/Data/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 25,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "APP_API_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Docker Desktopデータです。volumeを含みうるので丸ごとGREENにしない。",
+      "reason_codes": [
+        "DOCKER_DESKTOP"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "homebrew.downloads",
+      "entity": "HOMEBREW_DOWNLOADS",
+      "category": "DEVELOPER",
+      "subcategory": "HOMEBREW",
+      "match": {
+        "path": "~/Library/Caches/Homebrew/downloads/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 93,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Homebrewのダウンロード実体です。",
+      "reason_codes": [
+        "HOMEBREW_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "brew cleanup",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "python.pip_http",
+      "entity": "PIP_HTTP_CACHE",
+      "category": "DEVELOPER",
+      "subcategory": "PYTHON",
+      "match": {
+        "path": "~/Library/Caches/pip/http/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 91,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "pip HTTPキャッシュです。",
+      "reason_codes": [
+        "PIP_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "pip cache purge",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "python.miniconda_pkgs",
+      "entity": "MINICONDA_PKGS",
+      "category": "DEVELOPER",
+      "subcategory": "PYTHON",
+      "match": {
+        "path": "~/miniconda3/pkgs/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 75,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Minicondaのパッケージキャッシュです。",
+      "reason_codes": [
+        "CONDA_PKGS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "conda clean -a",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "python.miniconda_envs",
+      "entity": "MINICONDA_ENVS",
+      "category": "DEVELOPER",
+      "subcategory": "PYTHON",
+      "match": {
+        "path": "~/miniconda3/envs/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 20,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Miniconda環境です。",
+      "reason_codes": [
+        "CONDA_ENV"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "git.hooks",
+      "entity": "GIT_HOOKS",
+      "category": "DEVELOPER",
+      "subcategory": "GIT",
+      "match": {
+        "path": "**/.git/hooks/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Git hooksです。",
+      "reason_codes": [
+        "GIT_HOOKS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.continue",
+      "entity": "CONTINUE_DEV",
+      "category": "AI_DEV",
+      "subcategory": "CONTINUE",
+      "match": {
+        "path": "~/.continue/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Continueの設定です。",
+      "reason_codes": [
+        "CONTINUE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.cursor_global_storage",
+      "entity": "CURSOR_GLOBAL_STORAGE",
+      "category": "AI_DEV",
+      "subcategory": "CURSOR",
+      "match": {
+        "path": "~/Library/Application Support/Cursor/User/globalStorage/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Cursor拡張の永続データです。",
+      "reason_codes": [
+        "CURSOR_STATE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.ollama_manifests",
+      "entity": "OLLAMA_MANIFESTS",
+      "category": "AI_DEV",
+      "subcategory": "OLLAMA",
+      "match": {
+        "path": "~/.ollama/models/manifests/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 40,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "APP_API_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Ollamaのマニフェストです。",
+      "reason_codes": [
+        "OLLAMA"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.lmstudio_models",
+      "entity": "LMSTUDIO_MODELS",
+      "category": "AI_DEV",
+      "subcategory": "LM_STUDIO",
+      "match": {
+        "path": "~/.cache/lm-studio/models/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 48,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "LM Studioモデルです。",
+      "reason_codes": [
+        "LM_STUDIO"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "backup.tm_snapshots_alt",
+      "entity": "TM_SNAPSHOTS",
+      "category": "BACKUP",
+      "subcategory": "TIMEMACHINE",
+      "match": {
+        "path": "/Volumes/com.apple.TimeMachine.localsnapshots/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 40,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "OS_API_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Time Machineローカルスナップショットです。",
+      "reason_codes": [
+        "TM_SNAPSHOT"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "tmutil",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "cloud.icloud_drive_docs",
+      "entity": "ICLOUD_DRIVE",
+      "category": "CLOUD",
+      "subcategory": "ICLOUD",
+      "match": {
+        "path": "~/Library/Mobile Documents/com~apple~CloudDocs/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 85,
+      "evaluation_layer": "SYNC_BLAST_RADIUS",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running",
+        "icloud_evictable",
+        "sync_would_not_delete_remote"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "CLOUD_EVICT_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "iCloud Driveのローカル実体です。削除はRED。ダウンロード解除だけがGREEN候補。",
+      "reason_codes": [
+        "ICLOUD"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.mobile_documents",
+      "entity": "MOBILE_DOCUMENTS",
+      "category": "CLOUD",
+      "subcategory": "ICLOUD",
+      "match": {
+        "path": "~/Library/Mobile Documents/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "UNKNOWN",
+      "base_score": 0,
+      "evaluation_layer": "SYNC_BLAST_RADIUS",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Mobile Documents包括です。具体cloud ruleが無いとUNKNOWN。",
+      "reason_codes": [
+        "ICLOUD"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "user.desktop_root",
+      "entity": "DESKTOP_ROOT",
+      "category": "USER",
+      "subcategory": "ORIGINALS",
+      "match": {
+        "path": "~/Desktop",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "デスクトップ直下です。",
+      "reason_codes": [
+        "USER_ORIGINAL"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "user.documents_root",
+      "entity": "DOCUMENTS_ROOT",
+      "category": "USER",
+      "subcategory": "ORIGINALS",
+      "match": {
+        "path": "~/Documents",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "書類フォルダです。",
+      "reason_codes": [
+        "USER_ORIGINAL"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "user.downloads_root",
+      "entity": "DOWNLOADS_ROOT",
+      "category": "USER",
+      "subcategory": "INBOX",
+      "match": {
+        "path": "~/Downloads",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 40,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "ダウンロードフォルダです。",
+      "reason_codes": [
+        "USER_INBOX"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.caches_root",
+      "entity": "USER_CACHES_ROOT",
+      "category": "MACOS",
+      "subcategory": "CACHE",
+      "match": {
+        "path": "~/Library/Caches",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 70,
+      "evaluation_layer": "GENERIC_CACHE_TEMP",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "ユーザーCachesルートです。中身はvendor rule優先。",
+      "reason_codes": [
+        "CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.logs_root",
+      "entity": "USER_LOGS_ROOT",
+      "category": "MACOS",
+      "subcategory": "LOGS",
+      "match": {
+        "path": "~/Library/Logs",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 60,
+      "evaluation_layer": "GENERIC_CACHE_TEMP",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [
+        "no_open_file_handle"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "ユーザーLogsルートです。",
+      "reason_codes": [
+        "LOGS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.developer_root",
+      "entity": "DEVELOPER_ROOT",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "UNKNOWN",
+      "base_score": 0,
+      "evaluation_layer": "UNKNOWN_FALLBACK",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Developer配下の包括です。一括Junk禁止。未識別はUNKNOWN。",
+      "reason_codes": [
+        "DEVELOPER_GENERIC"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.embeddings_dir",
+      "entity": "EMBEDDINGS_DIR",
+      "category": "AI_DEV",
+      "subcategory": "VECTOR",
+      "match": {
+        "path": "**/embeddings/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "UNKNOWN",
+      "base_score": 0,
+      "evaluation_layer": "UNKNOWN_FALLBACK",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "embeddingsディレクトリです。証拠不足はUNKNOWN。",
+      "reason_codes": [
+        "UNKNOWN_EMBEDDINGS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.index_dir",
+      "entity": "INDEX_DIR",
+      "category": "AI_DEV",
+      "subcategory": "VECTOR",
+      "match": {
+        "path": "**/vector-index/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "UNKNOWN",
+      "base_score": 0,
+      "evaluation_layer": "UNKNOWN_FALLBACK",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "vector-indexです。UNKNOWNのまま表示します。",
+      "reason_codes": [
+        "UNKNOWN_INDEX"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "docker.raw_disk",
+      "entity": "DOCKER_RAW_DISK",
+      "category": "DEVELOPER",
+      "subcategory": "DOCKER",
+      "match": {
+        "path": "~/Library/Containers/com.docker.docker/Data/vms/0/data/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 20,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "APP_API_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Dockerの仮想ディスクイメージです。",
+      "reason_codes": [
+        "DOCKER_VM"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "node.npm_root",
+      "entity": "NPM_ROOT",
+      "category": "DEVELOPER",
+      "subcategory": "NODE",
+      "match": {
+        "path": "~/.npm/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 60,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "PACKAGE_MANAGER_COMMAND",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "npmホームです。cache以外も含みます。",
+      "reason_codes": [
+        "NPM"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "npm cache clean --force",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "python.uv_data",
+      "entity": "UV_DATA",
+      "category": "DEVELOPER",
+      "subcategory": "PYTHON",
+      "match": {
+        "path": "~/.local/share/uv/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 50,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "uvの共有データです。",
+      "reason_codes": [
+        "UV"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "git.lfs_tmp",
+      "entity": "GIT_LFS_TMP",
+      "category": "DEVELOPER",
+      "subcategory": "GIT",
+      "match": {
+        "path": "**/.git/lfs/tmp/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 65,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "TOOL_CLI_ONLY",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Git LFS一時ファイルです。",
+      "reason_codes": [
+        "GIT_LFS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": "git lfs prune",
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.fileprovider_support",
+      "entity": "FILEPROVIDER_SUPPORT",
+      "category": "CLOUD",
+      "subcategory": "FILEPROVIDER",
+      "match": {
+        "path": "~/Library/Application Support/FileProvider/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "UNKNOWN",
+      "base_score": 0,
+      "evaluation_layer": "SYNC_BLAST_RADIUS",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "File Providerサポート領域です。sync未確認はUNKNOWN。",
+      "reason_codes": [
+        "FILE_PROVIDER"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "backup.device_backups",
+      "entity": "DEVICE_BACKUPS",
+      "category": "BACKUP",
+      "subcategory": "MOBILE",
+      "match": {
+        "path": "~/Library/Application Support/MobileSync/Backup",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 30,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "iOSバックアップルートです。",
+      "reason_codes": [
+        "IOS_BACKUP"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.modulecache_alt",
+      "entity": "MODULECACHE_ALT",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/Xcode/DerivedData/ModuleCache/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 97,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "ModuleCacheです。",
+      "reason_codes": [
+        "MODULE_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "xcode.sourcepackages_root",
+      "entity": "SOURCEPACKAGES_ROOT",
+      "category": "DEVELOPER",
+      "subcategory": "XCODE",
+      "match": {
+        "path": "~/Library/Developer/Xcode/DerivedData/SourcePackages/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 70,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": true,
+      "required_predicates": [],
+      "demote_to_yellow_if": [
+        "offline_needed"
+      ],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "SourcePackagesです。オフライン開発に影響します。",
+      "reason_codes": [
+        "SWIFTPM"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.vscode_cache",
+      "entity": "VSCODE_CACHE",
+      "category": "AI_DEV",
+      "subcategory": "VSCODE",
+      "match": {
+        "path": "~/Library/Caches/com.microsoft.VSCode/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 82,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "VS Codeキャッシュです。",
+      "reason_codes": [
+        "VSCODE_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "media.imovie_library",
+      "entity": "IMOVIE_LIBRARY",
+      "category": "MEDIA",
+      "subcategory": "IMOVIE",
+      "match": {
+        "path": "**/*.imovielibrary/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "iMovieライブラリです。",
+      "reason_codes": [
+        "IMOVIE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "user.pictures_root",
+      "entity": "PICTURES_ROOT",
+      "category": "USER",
+      "subcategory": "PHOTOS",
+      "match": {
+        "path": "~/Pictures",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "USER_PROTECTION",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "HARD_BLOCK",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "ピクチャフォルダです。",
+      "reason_codes": [
+        "PHOTOS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.group_containers_root",
+      "entity": "GROUP_CONTAINERS_ROOT",
+      "category": "MACOS",
+      "subcategory": "SANDBOX",
+      "match": {
+        "path": "~/Library/Group Containers",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Group Containersルートです。",
+      "reason_codes": [
+        "GROUP_CONTAINERS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "macos.containers_root",
+      "entity": "CONTAINERS_ROOT",
+      "category": "MACOS",
+      "subcategory": "SANDBOX",
+      "match": {
+        "path": "~/Library/Containers",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "RED",
+      "base_score": 0,
+      "evaluation_layer": "SOURCE_OF_TRUTH",
+      "source_of_truth": true,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "NO_ACTION",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Containersルートです。",
+      "reason_codes": [
+        "CONTAINERS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "ai.claude_code_cache",
+      "entity": "CLAUDE_CACHE",
+      "category": "AI_DEV",
+      "subcategory": "CLAUDE",
+      "match": {
+        "path": "~/.claude/cache/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "YELLOW",
+      "base_score": 50,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": false,
+      "network_required": false,
+      "required_predicates": [],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "USER_REVIEW",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Claude Codeのキャッシュ相当です。settings本体ではありません。",
+      "reason_codes": [
+        "CLAUDE_CACHE"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    },
+    {
+      "id": "homebrew.logs",
+      "entity": "HOMEBREW_LOGS",
+      "category": "DEVELOPER",
+      "subcategory": "HOMEBREW",
+      "match": {
+        "path": "~/Library/Logs/Homebrew/**",
+        "owner": "current_user",
+        "follow_symlinks": false
+      },
+      "default_class": "GREEN",
+      "base_score": 80,
+      "evaluation_layer": "EXACT_VENDOR_RULE",
+      "source_of_truth": false,
+      "regenerable": true,
+      "network_required": false,
+      "required_predicates": [
+        "regenerable",
+        "not_source_of_truth",
+        "canonical_path",
+        "no_open_file_handle",
+        "owning_process_not_running"
+      ],
+      "demote_to_yellow_if": [],
+      "demote_to_red_if": [],
+      "hard_block_if": [],
+      "action_mode": "MOVE_TO_TRASH",
+      "effects": [],
+      "verification": [],
+      "growth_causes": [],
+      "explanation_ja": "Homebrewのログです。Cellar本体ではありません。",
+      "reason_codes": [
+        "HOMEBREW_LOGS"
+      ],
+      "rule_version": "0.1",
+      "native_cleanup": null,
+      "root_cause_signals": [],
+      "recovery_estimate_hint": null
+    }
+  ]
+}

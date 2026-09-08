@@ -1,0 +1,3 @@
+P4.1 screenshots
+LIVE presentation frames (p41_*_live.png): rendered from case001 explorer demo + disk summary; map geometry is demo, not a fresh full-disk walk.
+FIXTURE frames (p41_*_fixture.png): historical/verified action UX. Not current live disk truth.

@@ -1,0 +1,16 @@
+{
+  "authFailure": false,
+  "checksumMismatchCount": 0,
+  "completed": true,
+  "exactRepo": "mlx-community/whisper-large-v3-mlx",
+  "exactRevision": "49e6aa286ad60c14352c404340ded53710378a11",
+  "executed": true,
+  "exitCode": 0,
+  "filesVerified": null,
+  "localStructureIntact": true,
+  "networkFailure": false,
+  "observedAt": "2026-09-05T00:03:04Z",
+  "result": "OK",
+  "stdoutDigest": "50ecf8c5cf6332625d8c0f5e711b1f3a",
+  "warnings": []
+}

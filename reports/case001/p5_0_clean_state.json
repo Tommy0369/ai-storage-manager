@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-09-05T23:50:52Z",
+  "firstLaunchPass": true,
+  "emptyHistoryPass": true,
+  "defaultSettingsPass": true,
+  "noReportsDependency": true,
+  "noFixtureDependency": true,
+  "vendorsAbsentPass": true,
+  "freshScanPass": true,
+  "restartPass": true,
+  "interruptRecoveryPass": true,
+  "freshUserAccountValidated": false,
+  "limitations": [
+    "Interactive fresh-user OS account not created (P5.1/manual)",
+    "Performance ms partially null — instrumented launch deferred",
+    "Ad-hoc signing only on this host"
+  ],
+  "emptyHistoryCopy": "No previous scan yet.",
+  "releaseDefaultsToLive": true
+}

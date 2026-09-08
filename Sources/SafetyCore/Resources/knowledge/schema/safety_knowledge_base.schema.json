@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reconstructed Safety Knowledge Base",
+  "type": "object",
+  "required": [
+    "knowledge_base",
+    "rules"
+  ],
+  "properties": {
+    "knowledge_base": {
+      "type": "object",
+      "required": [
+        "original_source_artifact_available",
+        "canonical_status",
+        "record_count"
+      ]
+    },
+    "rules": {
+      "type": "array",
+      "minItems": 178,
+      "maxItems": 178
+    }
+  }
+}

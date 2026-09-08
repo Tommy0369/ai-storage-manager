@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-09-05T23:50:52Z",
+  "permissionDenied": "SAFE — partial map; UNKNOWN preserved",
+  "offline": "SAFE — local map/intelligence works; remote proofs UNKNOWN/stale; no false GREEN",
+  "vendorAbsent": "SAFE — scan continues; vendor actions Verify/blocked",
+  "vendorTimeout": "SAFE — bounded process; block/Verify More",
+  "fileDisappeared": "SAFE — partial/unknown entity; no stale action",
+  "volumeUnavailable": "SAFE — fail closed; no stale executable action",
+  "historyCorrupt": "SAFE — atomic write + schemaVersion; skip unsupported/corrupt",
+  "settingsCorrupt": "SAFE — defaults fallback; cannot bypass Safety",
+  "preflightChanged": "SAFE — Review Again; no permit",
+  "postVerifyUnknown": "SAFE — UNKNOWN_RESULT / Needs attention; not success",
+  "interruptedActionFixture": "SAFE — UNKNOWN_RESULT on restart; no auto-retry",
+  "unknownResult": "SAFE — presented as needs attention",
+  "symlinkCycle": "SAFE — scanner does not follow loops",
+  "hardlinkAccounting": "SAFE — unique-byte accounting; no inflated recovery",
+  "specialFiles": "SAFE — no content reads for sockets/pipes/devices",
+  "safeOutcome": true
+}

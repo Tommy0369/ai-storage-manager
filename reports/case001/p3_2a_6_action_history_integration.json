@@ -1,0 +1,12 @@
+{
+  "actionEventID": "permit-ai.ollama.model.library.qwen3:4b-VENDOR_NATIVE_CLEANUP-61E62746",
+  "entityID": "ai.ollama.model.library.qwen3:4b",
+  "action": "VENDOR_NATIVE_CLEANUP",
+  "permitID": "permit-ai.ollama.model.library.qwen3:4b-VENDOR_NATIVE_CLEANUP-61E62746",
+  "logicalOutcome": "MODEL_REMOVED",
+  "recoveryOutcome": "ACTION_COMPLETED_RECOVERY_VERIFIED",
+  "verifiedRecoveredBytes": 2497293931,
+  "eligibleForFutureSnapshotCorrelation": true,
+  "timestampOnlyCorrelationAllowed": false,
+  "generatedAt": "2026-09-04T15:32:29Z"
+}

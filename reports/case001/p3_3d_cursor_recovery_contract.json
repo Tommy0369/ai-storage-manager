@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-09-05T09:09:36Z",
+  "contractFound": true,
+  "creationTrigger": "STORAGE_CLOSE_SNAPSHOT",
+  "backupKind": "RECOVERY_BACKUP",
+  "restorePathFound": true,
+  "restoreTrigger": "SQLiteStorageDatabase.connect/open failure (after non-BUSY open error)",
+  "restoreReachable": true,
+  "restoreOperation": "rename(main \u2192 .corrupted.<ts>); rename(.backup \u2192 main); doConnect",
+  "rollbackRole": "IMPLICIT_LAST_GOOD_CLOSE_SNAPSHOT",
+  "migrationRole": "NOT_SPECIFIC",
+  "retentionCount": 1,
+  "replacementSemantics": "single overwrite copy(path, path.backup) when backup enabled",
+  "cleanupSemantics": "NONE_FOUND",
+  "disableBackupStorageKey": "cursor.storage.disableSqliteStorageBackup",
+  "disableBackupCurrentlyTrue": true,
+  "implication": "New close-time backups currently skipped; existing .backup remains sole recovery copy; restore path still uses it",
+  "confidence": "VERIFIED_CALL_PATH",
+  "unknowns": [
+    "Whether user/product intentionally set disableSqliteStorageBackup=true",
+    "Whether future Cursor builds add cleanup of stale .backup when disabled"
+  ],
+  "sourceEvidence": "Cursor.app/.../out/main.js SQLiteStorageDatabase backup/toBackupPath/connect"
+}

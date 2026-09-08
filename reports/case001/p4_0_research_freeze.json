@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-09-05T11:35:58Z",
+  "foundationResearchComplete": true,
+  "researchFrozen": true,
+  "completedAt": "2026-09-05",
+  "reopenConditions": [
+    "GENUINELY_NEW_STORAGE_ARCHETYPE",
+    "GENUINELY_NEW_ACTION_SEMANTIC",
+    "DEMONSTRATED_SAFETY_INVARIANT_FAILURE",
+    "NEW_CLOUD_LOCAL_PROPAGATION_MODEL",
+    "NEW_MUTATION_PRIMITIVE_NOT_REPRESENTABLE"
+  ],
+  "vendorSpecificUnknownsAllowed": true,
+  "nextWorkIsProductization": true,
+  "doNotReopenFor": [
+    "another large folder",
+    "another browser",
+    "another IDE",
+    "vendor table unknown"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "budgetExceededCount" : 1,
+  "proofOverheadPercent" : 0,
+  "slowestOperations" : [
+    "entity_verification_loop:43129ms",
+    "detector_catalog:37073ms",
+    "entity_verification_safety_eval:27120ms",
+    "scanner_filesystem_walk:16590ms",
+    "entity_verification_proof_execution:15862ms",
+    "byte_accounting:5888ms",
+    "runtime_snapshots:1827ms",
+    "entity_verification_candidate_build:102ms",
+    "remote_reacquisition_proof:1ms",
+    "directory_measurement_cache:0ms"
+  ],
+  "slowestStage" : "entity_verification_loop",
+  "stages" : [
+    {
+      "budgetExceeded" : false,
+      "cacheHits" : 0,
+      "durationMs" : 1827,
+      "entityCount" : 0,
+      "processSpawnCount" : 4,
+      "stage" : "runtime_snapshots",
+      "timeoutCount" : 0
+    },
+    {
+      "budgetExceeded" : false,
+      "cacheHits" : 0,
+      "durationMs" : 16590,
+      "entityCount" : 0,
+      "processSpawnCount" : 0,
+      "stage" : "scanner_filesystem_walk",
+      "timeoutCount" : 0
+    },
+    {
+      "budgetExceeded" : false,
+      "cacheHits" : 0,
+      "durationMs" : 37073,
+      "entityCount" : 0,
+      "processSpawnCount" : 0,
+      "stage" : "detector_catalog",
+      "timeoutCount" : 0
+    },
+    {
+      "budgetExceeded" : false,
+      "cacheHits" : 0,
+      "durationMs" : 0,
+      "entityCount" : 527,
+      "note" : "du cache across lightweight detectors",
+      "processSpawnCount" : 0,
+      "stage" : "directory_measurement_cache",
+      "timeoutCount" : 0
+    },
+    {
+      "budgetExceeded" : true,
+      "cacheHits" : 0,
+      "durationMs" : 0,
+      "entityCount" : 15,
+      "note" : "sources=3",
+      "processSpawnCount" : 0,
+      "stage" : "cursor_metadata_proof",
+      "timeoutCount" : 0
+    },
+    {
+      "budgetExceeded" : false,
+      "cacheHits" : 0,
+      "durationMs" : 43129,
+      "entityCount" : 527,
+      "processSpawnCount" : 0,
+      "stage" : "entity_verification_loop",
+      "timeoutCount" : 0
+    },
+    {
+      "budgetExceeded" : false,
+      "cacheHits" : 0,
+      "durationMs" : 1,
+      "entityCount" : 2,
+      "processSpawnCount" : 0,
+      "stage" : "remote_reacquisition_proof",
+      "timeoutCount" : 0
+    },
+    {
+      "budgetExceeded" : false,
+      "cacheHits" : 0,
+      "durationMs" : 102,
+      "entityCount" : 524,
+      "processSpawnCount" : 0,
+      "stage" : "entity_verification_candidate_build",
+      "timeoutCount" : 0
+    },
+    {
+      "budgetExceeded" : false,
+      "cacheHits" : 0,
+      "durationMs" : 15862,
+      "entityCount" : 119,
+      "note" : "yield=0.28",
+      "processSpawnCount" : 0,
+      "stage" : "entity_verification_proof_execution",
+      "timeoutCount" : 0
+    },
+    {
+      "budgetExceeded" : false,
+      "cacheHits" : 0,
+      "durationMs" : 27120,
+      "entityCount" : 527,
+      "processSpawnCount" : 0,
+      "stage" : "entity_verification_safety_eval",
+      "timeoutCount" : 0
+    },
+    {
+      "budgetExceeded" : false,
+      "cacheHits" : 0,
+      "durationMs" : 5888,
+      "entityCount" : 0,
+      "processSpawnCount" : 0,
+      "stage" : "byte_accounting",
+      "timeoutCount" : 0
+    }
+  ],
+  "timeoutsCount" : 0,
+  "totalMs" : 104606
+}

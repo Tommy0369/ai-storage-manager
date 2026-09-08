@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-09-05T23:50:52Z",
+  "contentReadClasses": [
+    "filesystem metadata (names, sizes, kinds)",
+    "vendor identity / residency evidence summaries",
+    "batched runtime observation where required"
+  ],
+  "contentExplicitlyNotRead": [
+    "Voice Memo audio/speech",
+    "browser page contents / cookie values / passwords",
+    "chat/prompt bodies",
+    "source code contents for cleanup decisions",
+    "credentials / tokens / keychains"
+  ],
+  "sensitiveLogAudit": "PASS — no product path that logs recordings/URLs/prompts/credentials by design",
+  "diagnosticExportAudit": "Prefer semantic class, opaque ID, sizes, states, proof summaries",
+  "networkReasons": [
+    "optional remote reacquisition proof for supported vendor artifacts"
+  ],
+  "unexpectedNetworkCalls": false,
+  "basicSeeRequiresNetwork": false,
+  "secretScanSummary": "No Apple credentials / API keys / FAL keys shipped in app bundle; fixture personal paths demoted to /Users/demo",
+  "secretsShipped": false,
+  "privacyReleaseConcern": false,
+  "telemetry": "none in v0.1",
+  "crashReportingThirdParty": false
+}

@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-09-05T10:31:22Z",
+  "voiceMemosICloudEnabled": "ENABLED_INFERRED",
+  "voiceMemosICloudEnabledConfidence": "CloudKit private DB + NSCloudKitMirroringDelegateCheckedCKIdentity + ZCLOUDRECORDING>0; System Settings toggle not independently verified",
+  "syncArchitecture": "CLOUDKIT_COREDATA_MIRRORING",
+  "vendorDocumentationSyncSupported": true,
+  "vendorDocumentationDeletePropagates": true,
+  "recordingLevelRemoteIdentityAvailable": false,
+  "remotePresentVerifiedCount": 0,
+  "remotePresentVerifiedBytes": 0,
+  "remoteCurrentVerifiedBytes": 0,
+  "localOnlyVerifiedBytes": 0,
+  "remoteUnknownBytes": 14021960498,
+  "syncPendingBytes": 0,
+  "conflictedBytes": 0,
+  "cloudKit": {
+    "linked": true,
+    "ZCLOUDRECORDING": 125,
+    "ANSCKRECORDMETADATA": {
+      "count": 128,
+      "needsCloudDelete": 0,
+      "needsLocalDelete": 0,
+      "needsUpload": 0
+    },
+    "ANSCKEVENT": 1536,
+    "ZEVICTIONDATE_nonnull": 7,
+    "zone": "com.apple.coredata.cloudkit.zone",
+    "databaseScope": "Private"
+  },
+  "fileProvider": false,
+  "evidence": [
+    "otool: CloudKit + VoiceMemos.framework; no FileProvider",
+    "CloudRecordings.db ANSCK* mirroring tables",
+    "Localizable: iCloud Syncing / Delete Forever strings"
+  ],
+  "unknowns": [
+    "Per-recording remote audio byte identity",
+    "Whether CKAsset holds full media for each row",
+    "Exact System Settings Voice Memos iCloud toggle state"
+  ]
+}

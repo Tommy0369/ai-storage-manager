@@ -1,0 +1,11 @@
+{
+  "failureReason": null,
+  "freshUntil": "2026-09-05T00:08:05Z",
+  "observationSource": "OpenFileSnapshot.capture_equivalent_lsof_-nP_-Fn",
+  "observedAt": "2026-09-05T00:03:05Z",
+  "openPathSampleCount": 18125,
+  "runtimeState": "INACTIVE_VERIFIED",
+  "snapshotCompleteness": "COMPLETE",
+  "targetHandleCount": 0,
+  "targetOpenFileState": "NO_TARGET_HANDLES"
+}

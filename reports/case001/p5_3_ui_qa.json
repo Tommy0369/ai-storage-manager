@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-09-07T23:34:41Z",
+  "localesTested": [
+    "en",
+    "ja",
+    "zh-Hans",
+    "zh-Hant",
+    "ko",
+    "es",
+    "fr",
+    "de",
+    "pt-BR"
+  ],
+  "priorityScreenshotLocales": [
+    "en",
+    "ja",
+    "zh-Hans",
+    "de"
+  ],
+  "truncationIssuesFound": 0,
+  "truncationIssuesFixed": 0,
+  "layoutIssuesFound": 0,
+  "layoutIssuesFixed": 0,
+  "missingGlyphIssues": 0,
+  "rawKeyIssues": 0,
+  "overflowBlockers": [],
+  "screenshots": [],
+  "note": "Programmatic 9-locale smoke + German length check via tests. Full visual screenshot matrix deferred to P5.4_LOCALIZATION_RELEASE_QA (OverviewScreenshot language hook).",
+  "smokePass": true
+}

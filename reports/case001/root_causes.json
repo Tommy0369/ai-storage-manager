@@ -1,0 +1,4218 @@
+[
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.Network-Settings.extension.app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.Network-Settings.extension.app_support",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.dot_git",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.dot_git",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Cursor.process-monitor",
+    "ifYouDo" : "editor_state_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Cursor.process-monitor",
+    "why" : "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.dot_git",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.dot_git",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.freeform",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.freeform",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.AuthKit.AKDiagnosticExtension",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.AuthKit.AKDiagnosticExtension",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Cursor.cache",
+    "ifYouDo" : "editor_state_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Cursor.cache",
+    "why" : "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Wondershare_Repairit",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Wondershare_Repairit",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.discord",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.discord",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.notion.id",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.notion.id",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.MobileSync",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.MobileSync",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Claude.cache",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Claude.cache",
+    "why" : "Claude Desktopの状態です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.preferences",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.ScreenSaver.Engine.legacyScreenSaver",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.ScreenSaver.Engine.legacyScreenSaver",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.github.atom.ShipIt",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.github.atom.ShipIt",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.keychain",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.keychain",
+    "why" : "システム保護領域です。整理候補に入れません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.Mouse-Settings.extension",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.Mouse-Settings.extension",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.cache",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.cache",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Cursor.cache",
+    "ifYouDo" : "editor_state_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Cursor.cache",
+    "why" : "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.nektony.Boost-Memory.launcher.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.nektony.Boost-Memory.launcher.preferences",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.paragon-software.ntfs.fsapp",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.paragon-software.ntfs.fsapp",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.UBF8T346G9.com.microsoft.oneauth",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.UBF8T346G9.com.microsoft.oneauth",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.ollama.manifests",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.ollama.manifests",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.objects",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Google.ChromeForTesting",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Google.ChromeForTesting",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.90db91e9-83c1-4659-a56f-0ba61149fec5.refs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.90db91e9-83c1-4659-a56f-0ba61149fec5.refs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.documents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.Mouse-Settings.extension.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.Mouse-Settings.extension.preferences",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.objects",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.packfiles",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.packfiles",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Microsoft",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Microsoft",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "chrome.profile.profile_10.session_storage",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "chrome.profile.profile_10.session_storage",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.storekitagent",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.storekitagent",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Atom",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Atom",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Animoji",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Animoji",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.staging",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.staging",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.openai.sky.CUAService.cli",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.openai.sky.CUAService.cli",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.logs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.logs",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.11f9048f-5cff-4ab3-ad0a-97c0431abb85.refs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.11f9048f-5cff-4ab3-ad0a-97c0431abb85.refs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Cursor.AgentStores",
+    "ifYouDo" : "editor_state_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Cursor.AgentStores",
+    "why" : "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.apple.siri.referenceResolution",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.apple.siri.referenceResolution",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.iTunesStorageExtension",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.iTunesStorageExtension",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.refs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.refs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.iMovie",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.iMovie",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Cursor.WebStorage",
+    "ifYouDo" : "editor_state_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Cursor.WebStorage",
+    "why" : "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.blob_storage",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.blob_storage",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.tmp",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.tmp",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.packfiles",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.packfiles",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.group.com.apple.siri.inference",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.group.com.apple.siri.inference",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.refs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.refs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.group.com.readdle.CalendarsLite",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.group.com.readdle.CalendarsLite",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.identityservicesd",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.identityservicesd",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "python.pip_cache",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "python.pip_cache",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.dot_git",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.dot_git",
+    "why" : "保護ルール「Documents」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.group.com.apple.FullKeyboardAccess",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.group.com.apple.FullKeyboardAccess",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.Crashpad",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.Crashpad",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.freeform.documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.freeform.documents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.obs-studio",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.obs-studio",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.SonicKit.diagnostics.app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.SonicKit.diagnostics.app_support",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.apple.icloud.fmfcore",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.apple.icloud.fmfcore",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.hnc.Discord.ShipIt",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.hnc.Discord.ShipIt",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.workspaceStorage.f3d25ed098f27592cdeb4a1a5643a3d2",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.workspaceStorage.f3d25ed098f27592cdeb4a1a5643a3d2",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.findmy.findmylocateagent",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.findmy.findmylocateagent",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.cache",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.cache",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.workspaceStorage.0aedbd575912a71ca589e7173fdb8451",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.workspaceStorage.0aedbd575912a71ca589e7173fdb8451",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.AvatarKit",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.AvatarKit",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.app_support",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.ollama.logs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.ollama.logs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "claude.vm.warm",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "claude.vm.warm",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.SonicKit.diagnostics.documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.SonicKit.diagnostics.documents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.ControlCenter-Settings.extension",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.ControlCenter-Settings.extension",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.cursor.history",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.cursor.history",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.iCal.CalendarNC.app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.iCal.CalendarNC.app_support",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.Crashpad",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.Crashpad",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.ollama.blobs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.ollama.blobs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.refs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.refs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.apple.spotlight",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.apple.spotlight",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.PressAndHold.caches",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.PressAndHold.caches",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.Shared_Dictionary",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.Shared_Dictionary",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.FeatureAccessAgent",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.FeatureAccessAgent",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.group.com.apple.ScreenTime",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.group.com.apple.ScreenTime",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.tmp",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.tmp",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.PressAndHold",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.PressAndHold",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.WebStorage",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.WebStorage",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.e5rt.e5bundlecache",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.e5rt.e5bundlecache",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.CoreDevice.remotepairingd",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.CoreDevice.remotepairingd",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.apple.kvs",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.apple.kvs",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.rootref.ai-storage-manager-644107ef",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.rootref.ai-storage-manager-644107ef",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.moonshot.kimichat.ShipIt",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.moonshot.kimichat.ShipIt",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.NCH_Software",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.NCH_Software",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "chrome.profile.profile_10.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "chrome.profile.profile_10.preferences",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.VideoDecodeStats",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.VideoDecodeStats",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.CloudPhotosConfiguration.documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.CloudPhotosConfiguration.documents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.staging",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.staging",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.google.GeminiMacOS.launcher",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.google.GeminiMacOS.launcher",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Google.RLZ",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Google.RLZ",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "tomylocal.root",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "tomylocal.root",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.FinalCut.SpeechHelper",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.FinalCut.SpeechHelper",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.codex.config",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.codex.config",
+    "why" : "信頼できるルールや証拠がありません。UNKNOWN のまま表示します。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "xcode.swiftpm_cache",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "xcode.swiftpm_cache",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.FaceTime",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.FaceTime",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.nektony.Boost-Memory.launcher.documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.nektony.Boost-Memory.launcher.documents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.microsoft.OneDrive-mac.OneDriveFileHandler",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.microsoft.OneDrive-mac.OneDriveFileHandler",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "voicememos.library",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "voicememos.library",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.hf.hub",
+    "ifYouDo" : "model_redownload",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.hf.hub",
+    "why" : "Hugging Faceのモデルキャッシュが増えています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.cursor_app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.cursor_app_support",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Code",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Code",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.icloudmailagent",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.icloudmailagent",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.apple.callintelligenced",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.apple.callintelligenced",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.SonicKit.diagnostics.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.SonicKit.diagnostics.preferences",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.staging",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.staging",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Cursor.Partitions",
+    "ifYouDo" : "editor_state_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Cursor.Partitions",
+    "why" : "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.Network-Settings.extension.caches",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.Network-Settings.extension.caches",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.proactive.eventtracker",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.proactive.eventtracker",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.SonicKit.diagnostics.tmp",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.SonicKit.diagnostics.tmp",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.ghostery.lite.contentBlocker",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.ghostery.lite.contentBlocker",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "chrome.profile.profile_10.extensions",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "chrome.profile.profile_10.extensions",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.languageassetd",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.languageassetd",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.logs",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.logs",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.apple.contacts",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.apple.contacts",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.maccatalyst.com.atebits.Tweetie2.ShareExtension",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.maccatalyst.com.atebits.Tweetie2.ShareExtension",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.workspaceStorage.682dded78a349fd566ac1eee6c100612",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.workspaceStorage.682dded78a349fd566ac1eee6c100612",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.tldv",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.tldv",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.com.apple.MailPersonaStorage",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.com.apple.MailPersonaStorage",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.apple.akd",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.apple.akd",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.PressAndHold.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.PressAndHold.preferences",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.ax.KonaTTSSupport.KonaSynthesizer",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.ax.KonaTTSSupport.KonaSynthesizer",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.chrome-devtools-mcp",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.chrome-devtools-mcp",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.refs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.refs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.familycircled",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.familycircled",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.database",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.database",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Google",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Google",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.videoapps.RegisterProExtension.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.videoapps.RegisterProExtension.preferences",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.CloudKit",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.CloudKit",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.freeform.tmp",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.freeform.tmp",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.mlhost.TelemetryWorker",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.mlhost.TelemetryWorker",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.8217aef3-7fbd-4514-9e7a-4aeae6056a5e.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.8217aef3-7fbd-4514-9e7a-4aeae6056a5e.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "user.downloads",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "user.downloads",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Digiarty",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Digiarty",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.PressAndHold.tmp",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.PressAndHold.tmp",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.videoapps.RegisterProExtension.app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.videoapps.RegisterProExtension.app_support",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.StorageManagementLauncher",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.StorageManagementLauncher",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Google.GoogleUpdater",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Google.GoogleUpdater",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.8a462aec-6903-47b4-b8fb-2a52b8d7481f.refs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.8a462aec-6903-47b4-b8fb-2a52b8d7481f.refs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.apple.ap.promotedcontentd",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.apple.ap.promotedcontentd",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.Session_Storage",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.Session_Storage",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.de.codenuts.HotKey.documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.de.codenuts.HotKey.documents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.wallpaper.extension.gradient",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.wallpaper.extension.gradient",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.cursor.code_cache",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.cursor.code_cache",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.objects",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.workspaceStorage.7d8494cb71771bfa30d47b3f808a8ce3",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.workspaceStorage.7d8494cb71771bfa30d47b3f808a8ce3",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.workspaceStorage.e0fc1104707bd07ae87361090d3c6aaf",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.workspaceStorage.e0fc1104707bd07ae87361090d3c6aaf",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.google.GeminiMacOS",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.google.GeminiMacOS",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.90db91e9-83c1-4659-a56f-0ba61149fec5.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.90db91e9-83c1-4659-a56f-0ba61149fec5.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.appplaceholdersyncd",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.appplaceholdersyncd",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.blob_storage",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.blob_storage",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Claude.claude-code-sessions",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Claude.claude-code-sessions",
+    "why" : "Claude Desktopの状態です。"
+  },
+  {
+    "canReduce" : true,
+    "entityID" : "xcode.simulator_devices",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 201773056,
+    "what" : "xcode.simulator_devices",
+    "why" : "シミュレータ配下の包括です。DevicesとRuntimesは個別rule優先。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.tmp",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.tmp",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.CoreParsec",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.CoreParsec",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.clawdbot",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.clawdbot",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "homebrew.cache",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "homebrew.cache",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.rootref.cursor-b1863998",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.rootref.cursor-b1863998",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.cache",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.cache",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.Network-Settings.extension.tmp",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.Network-Settings.extension.tmp",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : true,
+    "entityID" : "node.npm_cache",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 684625920,
+    "what" : "node.npm_cache",
+    "why" : "npmホームです。cache以外も含みます。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.staging",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.staging",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.PressAndHold.app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.PressAndHold.app_support",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.packfiles",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.packfiles",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.de.codenuts.HotKey",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.de.codenuts.HotKey",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.app_support",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "chrome.profile.profile_10.service_worker",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "chrome.profile.profile_10.service_worker",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.workspaceStorage.8507c83b3036b875c649d9ebcab1fca0",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.workspaceStorage.8507c83b3036b875c649d9ebcab1fca0",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.apple.touristd",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.apple.touristd",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.staging",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.staging",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.iCal",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.iCal",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.Safari",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.Safari",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.languageassetd.app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.languageassetd.app_support",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.de.codenuts.HotKey.app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.de.codenuts.HotKey.app_support",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.VUTU7AKEUR.jp.naver.line.mac",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.VUTU7AKEUR.jp.naver.line.mac",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.archiveutility",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.archiveutility",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.leawo.bluraycreator",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.leawo.bluraycreator",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.rootref.ai-assessment-session-e2535413",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.rootref.ai-assessment-session-e2535413",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.Shared_Dictionary",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.Shared_Dictionary",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.settings-intents.TransferResetIntents.tmp",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.settings-intents.TransferResetIntents.tmp",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.videoapps.RegisterProExtension",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.videoapps.RegisterProExtension",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.apple.poirot.MessagesAnalyticsWorker",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.apple.poirot.MessagesAnalyticsWorker",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.refs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.refs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.ProApps",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.ProApps",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Claude.index",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Claude.index",
+    "why" : "Claude Desktopの状態です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.databases",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.databases",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Claude.Shared_Dictionary",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Claude.Shared_Dictionary",
+    "why" : "Claude Desktopの状態です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "docker.dot_docker",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "docker.dot_docker",
+    "why" : "信頼できるルールや証拠がありません。UNKNOWN のまま表示します。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.staging",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.staging",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.group.com.apple.telephonyutilities.callservicesd",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.group.com.apple.telephonyutilities.callservicesd",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.codebases",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.codebases",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.accountsd",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.accountsd",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.priml.PRIMLCKPreemptivePing",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.priml.PRIMLCKPreemptivePing",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Claude.Crashpad",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Claude.Crashpad",
+    "why" : "Claude Desktopの状態です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.Mouse-Settings.extension.documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.Mouse-Settings.extension.documents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.HomeKit",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.HomeKit",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.cache",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.cache",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.SyncServices",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.SyncServices",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.languageassetd.documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.languageassetd.documents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Google.Chrome",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Google.Chrome",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.App_Store",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.App_Store",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.nektony.Boost-Memory.launcher",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.nektony.Boost-Memory.launcher",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Claude.File_System",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Claude.File_System",
+    "why" : "Claude Desktopの状態です。"
+  },
+  {
+    "canReduce" : true,
+    "entityID" : "node.pnpm_store",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 8192,
+    "what" : "node.pnpm_store",
+    "why" : "pnpmのホームです。store以外も含みます。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "xcode.module_cache",
+    "ifYouDo" : "next_build_slower, reindex_required",
+    "potentialRecoveryBytes" : 0,
+    "what" : "xcode.module_cache",
+    "why" : "複数プロジェクトのビルド作業データが残っています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.claude-cli-nodejs",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.claude-cli-nodejs",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.Service_Worker",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.Service_Worker",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.claude.projects",
+    "ifYouDo" : "agent_memory_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.claude.projects",
+    "why" : "Claude Codeの設定です。削除候補にしません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.apple.portrait.BackgroundReplacement",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.apple.portrait.BackgroundReplacement",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.group.com.apple.ArchiveUtility.PKSignedContainer",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.group.com.apple.ArchiveUtility.PKSignedContainer",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "chrome.profile.profile_10.indexeddb",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "chrome.profile.profile_10.indexeddb",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.Mouse-Settings.extension.caches",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.Mouse-Settings.extension.caches",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.huggingface_cache",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.huggingface_cache",
+    "why" : "信頼できるルールや証拠がありません。UNKNOWN のまま表示します。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.Music",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.Music",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.speech.localspeechrecognition",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.speech.localspeechrecognition",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.dot_git",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.dot_git",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Claude.VideoDecodeStats",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Claude.VideoDecodeStats",
+    "why" : "Claude Desktopの状態です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.CallHistoryTransactions",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.CallHistoryTransactions",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.VoiceMemos",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.VoiceMemos",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "homebrew.cellar",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "homebrew.cellar",
+    "why" : "信頼できるルールや証拠がありません。UNKNOWN のまま表示します。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "xcode.derived_data",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "xcode.derived_data",
+    "why" : "必要な確認が足りないため UNKNOWN です。推測で安全判定しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "claude.vm.bundle.claudevm.bundle.writable",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "claude.vm.bundle.claudevm.bundle.writable",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.apple.backgroundtaskmanagementagent",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.apple.backgroundtaskmanagementagent",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.workspaceStorage.9c26c191bf61ff9bea68275f86e9981a",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.workspaceStorage.9c26c191bf61ff9bea68275f86e9981a",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers",
+    "why" : "Containersルートです。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "claude.vm.root",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "claude.vm.root",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Evernote",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Evernote",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.apple.stocks",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.apple.stocks",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.root",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.root",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Cursor.Shared_Dictionary",
+    "ifYouDo" : "editor_state_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Cursor.Shared_Dictionary",
+    "why" : "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.tipsd",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.tipsd",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.3BU773L7ZF.nektony.AppCleaner",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.3BU773L7ZF.nektony.AppCleaner",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "xcode.preview_cache",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "xcode.preview_cache",
+    "why" : "Xcodeのキーバインドやテーマなどユーザー設定です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.caches",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.caches",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.settings-intents.TransferResetIntents.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.settings-intents.TransferResetIntents.preferences",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.cursor.global_storage",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.cursor.global_storage",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "voicememos.recordings",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "voicememos.recordings",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.de.codenuts.HotKey.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.de.codenuts.HotKey.preferences",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.firestore",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.firestore",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.cron-updater",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.cron-updater",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support",
+    "why" : "ユーザーLibraryの包括マッチです。より具体的なvendor ruleが無い場合のみUNKNOWN。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.cache",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.cache",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.group.com.apple.uiunderstanding",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.group.com.apple.uiunderstanding",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.easeus.datarecoverywizard",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.easeus.datarecoverywizard",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.cache",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.cache",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.cache",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.cache",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.working_tree",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "working tree",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.VisualStudio",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.VisualStudio",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.group.developer.apple.wwdc",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.group.developer.apple.wwdc",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.SonicKit.diagnostics",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.SonicKit.diagnostics",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.cron.electron",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.cron.electron",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.lisk-nano",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.lisk-nano",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.staging",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.staging",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.appleaccountd",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.appleaccountd",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Cursor.blob_storage",
+    "ifYouDo" : "editor_state_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Cursor.blob_storage",
+    "why" : "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Motion",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Motion",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.us.zoom.ZoomHybridConf",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.us.zoom.ZoomHybridConf",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Codex",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Codex",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.shared_proto_db",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.shared_proto_db",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.app_support",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "claude.vm.bundle.claudevm.bundle.runtime",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "claude.vm.bundle.claudevm.bundle.runtime",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.dt.Instruments.InstrumentsShareExtension",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.dt.Instruments.InstrumentsShareExtension",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.tgondeviceinferenceproviderservice",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.tgondeviceinferenceproviderservice",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.mmhmm",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.mmhmm",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.evernote.Evernote.EvernoteQuickLook",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.evernote.Evernote.EvernoteQuickLook",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.PassKit",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.PassKit",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.group.com.apple.stocks-news",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.group.com.apple.stocks-news",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.ollama_models",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.ollama_models",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.dot_git",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.dot_git",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.workspaceStorage.1e35766421451537bc04f9978acd4065",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.workspaceStorage.1e35766421451537bc04f9978acd4065",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.QuickTimePlayerX",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.QuickTimePlayerX",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.iCal.CalendarNC.documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.iCal.CalendarNC.documents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Cursor.cache",
+    "ifYouDo" : "editor_state_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Cursor.cache",
+    "why" : "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.SoftwareUpdateNotificationManager",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.SoftwareUpdateNotificationManager",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Claude.local-agent-mode-sessions",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Claude.local-agent-mode-sessions",
+    "why" : "Claude Desktopの状態です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.cache",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.cache",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.working_tree",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "working tree",
+    "why" : "保護ルール「Documents」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.journal",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.journal",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.working_tree",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "working tree",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.documents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.cache",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.cache",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.caches",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.caches",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.stocks.detailintents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.stocks.detailintents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.videoapps.RegisterProExtension.tmp",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.videoapps.RegisterProExtension.tmp",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.iCal.CalendarNC",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.iCal.CalendarNC",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.settings-intents.TransferResetIntents.documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.settings-intents.TransferResetIntents.documents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.refs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.refs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.claude.cache",
+    "ifYouDo" : "agent_memory_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.claude.cache",
+    "why" : "Claude Codeの設定です。削除候補にしません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.PressAndHold.documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.PressAndHold.documents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.HPY23A294X.ghostery.lite",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.HPY23A294X.ghostery.lite",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.com.apple.siri.ODDIPoirotMetricsExtension",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.com.apple.siri.ODDIPoirotMetricsExtension",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.freeform.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.freeform.preferences",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "claude.vm.bundle.claudevm.bundle",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "claude.vm.bundle.claudevm.bundle",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Cursor.index",
+    "ifYouDo" : "editor_state_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Cursor.index",
+    "why" : "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.Notes.LPPreviewGenerator",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.Notes.LPPreviewGenerator",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.CloudPhotosConfiguration",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.CloudPhotosConfiguration",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "docker.volumes",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "Docker Volumes",
+    "why" : "信頼できるルールや証拠がありません。UNKNOWN のまま表示します。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.Animoji",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.Animoji",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.workspaceStorage.f216a64957730028c62a2233c73dd5b4",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.workspaceStorage.f216a64957730028c62a2233c73dd5b4",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.working_tree",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "working tree",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.90db91e9-83c1-4659-a56f-0ba61149fec5",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.90db91e9-83c1-4659-a56f-0ba61149fec5",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Cursor.Session_Storage",
+    "ifYouDo" : "editor_state_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Cursor.Session_Storage",
+    "why" : "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Claude.claude-code-vm",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Claude.claude-code-vm",
+    "why" : "Claude Desktopの状態です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.ControlCenter",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.ControlCenter",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.group.com.apple.coreservices.useractivityd",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.group.com.apple.coreservices.useractivityd",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.helpd",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.helpd",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.user_settings",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.user_settings",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.PDFImporter",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.PDFImporter",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.apple.exchangesync",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.apple.exchangesync",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "chrome.profile.profile_10.history",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "chrome.profile.profile_10.history",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cloud.icloud.mobile_documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cloud.icloud.mobile_documents",
+    "why" : "ユーザーLibraryの包括マッチです。より具体的なvendor ruleが無い場合のみUNKNOWN。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.staging",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.staging",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Claude.cache",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Claude.cache",
+    "why" : "Claude Desktopの状態です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.VideoDecodeStats",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.VideoDecodeStats",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.LighthouseBitacoraFramework.BitacoraWorker",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.LighthouseBitacoraFramework.BitacoraWorker",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.moltbot",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.moltbot",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.apple.control-center.tips",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.apple.control-center.tips",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.TrickPlay",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.TrickPlay",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.callintelligenced",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.callintelligenced",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.videosubscriptionsd",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.videosubscriptionsd",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.dt.AutomationModeUI",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.dt.AutomationModeUI",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Google.Chrome-headless",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Google.Chrome-headless",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.apple.MediaPlayer",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.apple.MediaPlayer",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.packfiles",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.packfiles",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.apple.usernoted",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.apple.usernoted",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.working_tree",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "working tree",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.apple.private.translation",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.apple.private.translation",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.apple.productdocuments",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.apple.productdocuments",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Cursor.user_settings",
+    "ifYouDo" : "editor_state_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Cursor.user_settings",
+    "why" : "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.cache",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.cache",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.SonicKit.diagnostics.caches",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.SonicKit.diagnostics.caches",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.ngrok",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.ngrok",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.paragon-software.ntfs.notification-agent",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.paragon-software.ntfs.notification-agent",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Cursor.cache",
+    "ifYouDo" : "editor_state_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Cursor.cache",
+    "why" : "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.mobileslideshow.photo-picker",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.mobileslideshow.photo-picker",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.33939b83-2294-4195-8328-20f33013c166",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.33939b83-2294-4195-8328-20f33013c166",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.locationaccessstored",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.locationaccessstored",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.languageassetd.tmp",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.languageassetd.tmp",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "chrome.profile.profile_10.webstorage",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "chrome.profile.profile_10.webstorage",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "claude.vm.bundle.claudevm.bundle.kernel",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "claude.vm.bundle.claudevm.bundle.kernel",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "claude.vm.bundle.claudevm.bundle.metadata",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "claude.vm.bundle.claudevm.bundle.metadata",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.de.codenuts.HotKey.caches",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.de.codenuts.HotKey.caches",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Music",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Music",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.working_tree",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "working tree",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.group.com.apple.siri.GMSSELFIngestor",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.group.com.apple.siri.GMSSELFIngestor",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.roots",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.roots",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.bountylabs.periscope",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.bountylabs.periscope",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.apple.secure-control-center-preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.apple.secure-control-center-preferences",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "chrome.profile.profile_10.local_storage",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "chrome.profile.profile_10.local_storage",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.dt.Xcode",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.dt.Xcode",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.languageassetd.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.languageassetd.preferences",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "homebrew.caskroom",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "homebrew.caskroom",
+    "why" : "信頼できるルールや証拠がありません。UNKNOWN のまま表示します。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.CloudPhotosConfiguration.tmp",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.CloudPhotosConfiguration.tmp",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.apple.icloud.searchpartyuseragent",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.apple.icloud.searchpartyuseragent",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.dmd",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.dmd",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.packfiles",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.packfiles",
+    "why" : "保護ルール「Documents」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.google.GeminiMacOS",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.google.GeminiMacOS",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.packfiles",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.packfiles",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.apple.siri.sirisuggestions",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.apple.siri.sirisuggestions",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.objects",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.settings-intents.TransferResetIntents.app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.settings-intents.TransferResetIntents.app_support",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.11f9048f-5cff-4ab3-ad0a-97c0431abb85",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.11f9048f-5cff-4ab3-ad0a-97c0431abb85",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.apple.sbd",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.apple.sbd",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.de.codenuts.HotKey.tmp",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.de.codenuts.HotKey.tmp",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.DiskImages",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.DiskImages",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.Stickers.UserGenerated.MessagesExtension",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.Stickers.UserGenerated.MessagesExtension",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.share.System.set-account-picture",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.share.System.set-account-picture",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.preferences",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.objects",
+    "why" : "保護ルール「Documents」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.workspaceStorage.cedd91a3de98d1a97796881a4c66966b",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.workspaceStorage.cedd91a3de98d1a97796881a4c66966b",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.LinkPresentation.LinkSnapshotGeneratorService",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.LinkPresentation.LinkSnapshotGeneratorService",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.WebStorage",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.WebStorage",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.WidevineCdm",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.WidevineCdm",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.documents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.cursor_logs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.cursor_logs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.freeform.caches",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.freeform.caches",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.OpenClaw",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.OpenClaw",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Claude.claude-code",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Claude.claude-code",
+    "why" : "Claude Desktopの状態です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.preferences",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.share.Video.upload-Youku",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.share.Video.upload-Youku",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.wallpaper.extension.macintosh",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.wallpaper.extension.macintosh",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.Network-Settings.extension.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.Network-Settings.extension.preferences",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.working_tree",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "working tree",
+    "why" : "保護ルール「Documents」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.apple.accessibility.voicebanking",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.apple.accessibility.voicebanking",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.SetupAssistant",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.SetupAssistant",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.ai.openclaw.mac",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.ai.openclaw.mac",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Claude.blob_storage",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Claude.blob_storage",
+    "why" : "Claude Desktopの状態です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.nektony.Boost-Memory.launcher.app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.nektony.Boost-Memory.launcher.app_support",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Cursor.cache",
+    "ifYouDo" : "editor_state_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Cursor.cache",
+    "why" : "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Leawo_Blu-ray_Creator",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Leawo_Blu-ray_Creator",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.stores",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.stores",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.Network-Settings.extension",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.Network-Settings.extension",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.homeenergyd",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.homeenergyd",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Google.Chrome_for_Testing",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Google.Chrome_for_Testing",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.settings-intents.WallpaperIntents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.settings-intents.WallpaperIntents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.claude_settings",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.claude_settings",
+    "why" : "信頼できるルールや証拠がありません。UNKNOWN のまま表示します。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.iCal.CalendarNC.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.iCal.CalendarNC.preferences",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.L2SLZ5G368.group.com.katans.gTasks-Mac",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.L2SLZ5G368.group.com.katans.gTasks-Mac",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.DiagnosticExtensions.PICSDiagnosticExtension",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.DiagnosticExtensions.PICSDiagnosticExtension",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.rootref.my-portfolio-59e3672d",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.rootref.my-portfolio-59e3672d",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.apple.appleintelligencereporting.processing",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.apple.appleintelligencereporting.processing",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.settings-intents.TransferResetIntents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.settings-intents.TransferResetIntents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.Mouse-Settings.extension.app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.Mouse-Settings.extension.app_support",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.apple.replayd",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.apple.replayd",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.objects",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.CloudPhotosConfiguration.app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.CloudPhotosConfiguration.app_support",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.clawdis",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.clawdis",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.packfiles",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.packfiles",
+    "why" : "保護ルール「Documents」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.refs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.refs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.cache",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.cache",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers",
+    "why" : "Group Containersルートです。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.8a462aec-6903-47b4-b8fb-2a52b8d7481f",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.8a462aec-6903-47b4-b8fb-2a52b8d7481f",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.Mouse-Settings.extension.tmp",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.Mouse-Settings.extension.tmp",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.jp.co.elecom.RakuchinPrint.V3",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.jp.co.elecom.RakuchinPrint.V3",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.photos.VideoConversionService",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.photos.VideoConversionService",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Wondershare_Filmora_Mac",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Wondershare_Filmora_Mac",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.Session_Storage",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.Session_Storage",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.vercel.cli",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.vercel.cli",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.8a462aec-6903-47b4-b8fb-2a52b8d7481f.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.8a462aec-6903-47b4-b8fb-2a52b8d7481f.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.codex.sessions",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.codex.sessions",
+    "why" : "Codexの設定と履歴です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.group.com.apple.swtransparency",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.group.com.apple.swtransparency",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.google.GoogleUpdater",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.google.GoogleUpdater",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.akd",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.akd",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Claude.WebStorage",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Claude.WebStorage",
+    "why" : "Claude Desktopの状態です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.8217aef3-7fbd-4514-9e7a-4aeae6056a5e",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.8217aef3-7fbd-4514-9e7a-4aeae6056a5e",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "chrome.profile.profile_10.cookies",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "chrome.profile.profile_10.cookies",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.hnc.Discord",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.hnc.Discord",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.freeform.app_support",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.freeform.app_support",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.33939b83-2294-4195-8328-20f33013c166.refs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.33939b83-2294-4195-8328-20f33013c166.refs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.wondershare.Installer",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.wondershare.Installer",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.dot_git",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.dot_git",
+    "why" : "保護ルール「Projects」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.PassKit.PaymentAuthorizationUIExtension",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.PassKit.PaymentAuthorizationUIExtension",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.UBF8T346G9.OfficeOsfWebHost",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.UBF8T346G9.OfficeOsfWebHost",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cloud.fileprovider.root",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cloud.fileprovider.root",
+    "why" : "ユーザーLibraryの包括マッチです。より具体的なvendor ruleが無い場合のみUNKNOWN。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.facebook.msysstorage",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.facebook.msysstorage",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Discord.Service_Worker",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Discord.Service_Worker",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Compressor",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Compressor",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.V9WTTPBFK9.com.facebook.Messenger",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.V9WTTPBFK9.com.facebook.Messenger",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.finder",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.finder",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.google.GeminiMacOS.launcher",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.google.GeminiMacOS.launcher",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.tmpdir",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.tmpdir",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.trash",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.trash",
+    "why" : "信頼できるルールや証拠がありません。UNKNOWN のまま表示します。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.refs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.refs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.Network-Settings.extension.documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.Network-Settings.extension.documents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Google.JapaneseInput",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Google.JapaneseInput",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.cursor.workspace_storage",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.cursor.workspace_storage",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.logs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.logs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.group.com.apple.photolibraryd.private",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.group.com.apple.photolibraryd.private",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Claude.cache",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Claude.cache",
+    "why" : "Claude Desktopの状態です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.staging",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.staging",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "xcode.deriveddata.SDKStatCaches.noindex",
+    "ifYouDo" : "next_build_slower, reindex_required",
+    "potentialRecoveryBytes" : 0,
+    "what" : "xcode.deriveddata.SDKStatCaches.noindex",
+    "why" : "複数プロジェクトのビルド作業データが残っています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ai.cursor.extensions",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ai.cursor.extensions",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.eventMetaDataExtractor.eventMetaDataExtractorPlugin",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.eventMetaDataExtractor.eventMetaDataExtractorPlugin",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.state",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.state",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.ScreenTimeAgent",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.ScreenTimeAgent",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Spotlight",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Spotlight",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "ios.backup.root",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "ios.backup.root",
+    "why" : "iOSバックアップルートです。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Cursor.Crashpad",
+    "ifYouDo" : "editor_state_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Cursor.Crashpad",
+    "why" : "Cursorの設定と状態の本体フォルダです。丸ごと削除しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.networkserviceproxy",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.networkserviceproxy",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.maccatalyst.com.atebits.Tweetie2",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.maccatalyst.com.atebits.Tweetie2",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Claude.Session_Storage",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Claude.Session_Storage",
+    "why" : "Claude Desktopの状態です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.priml.PFLMLHostPlugins.SiriMASPFLCK",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.priml.PFLMLHostPlugins.SiriMASPFLCK",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.notion.id.ShipIt",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.notion.id.ShipIt",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.videoapps.RegisterProExtension.caches",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.videoapps.RegisterProExtension.caches",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.RAQLThumbnailExtension",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.RAQLThumbnailExtension",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.google-heartbeat-storage",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.google-heartbeat-storage",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.refs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.refs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.siri.SiriPrivateLearningAnalytics.SiriUserSegmentation",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.siri.SiriPrivateLearningAnalytics.SiriUserSegmentation",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "appsupport.Code.cache",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "appsupport.Code.cache",
+    "why" : "VS Codeの設定と拡張の本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "tomylocal.child.FacebookMessenger",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "tomylocal.child.FacebookMessenger",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.containers.child.com.apple.share.System.add-to-iphoto",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.containers.child.com.apple.share.System.add-to-iphoto",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.zoom.us",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.zoom.us",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.33939b83-2294-4195-8328-20f33013c166.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.33939b83-2294-4195-8328-20f33013c166.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.apple.chronod",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.apple.chronod",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.staging",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.staging",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.11f9048f-5cff-4ab3-ad0a-97c0431abb85.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.11f9048f-5cff-4ab3-ad0a-97c0431abb85.objects",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.com.apple.dt.Xcode",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.com.apple.dt.Xcode",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.objects",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.objects",
+    "why" : "保護ルール「Documents」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.refs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.refs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.GeoServices",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.GeoServices",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Astro_Gaming",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Astro_Gaming",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.settings-intents.TransferResetIntents.caches",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.settings-intents.TransferResetIntents.caches",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "groupcontainer.group.com.apple.feedback",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "groupcontainer.group.com.apple.feedback",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.workspaceStorage.38ea36f9",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.workspaceStorage.38ea36f9",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.CloudPhotosConfiguration.preferences",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.CloudPhotosConfiguration.preferences",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Xcode",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Xcode",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "git.dot_git",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "git.dot_git",
+    "why" : "保護ルール「Documents」により整理しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.user_caches.child.com.apple.managedappdistributionagent",
+    "ifYouDo" : "next_launch_slower",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.user_caches.child.com.apple.managedappdistributionagent",
+    "why" : "アプリが作業用コピーを溜めています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Claude",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Claude",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.group_containers.child.group.com.apple.appstoreagent",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.group_containers.child.group.com.apple.appstoreagent",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "cursor.snapshots.instance.8217aef3-7fbd-4514-9e7a-4aeae6056a5e.refs",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "cursor.snapshots.instance.8217aef3-7fbd-4514-9e7a-4aeae6056a5e.refs",
+    "why" : "いま使われている可能性があるため、整理を止めます。古いことは安全を意味しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "container.com.apple.videoapps.RegisterProExtension.documents",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "container.com.apple.videoapps.RegisterProExtension.documents",
+    "why" : "サンドボックスアプリのデータ本体です。丸ごと消しません。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "voicememos.root",
+    "ifYouDo" : "",
+    "potentialRecoveryBytes" : 0,
+    "what" : "voicememos.root",
+    "why" : "アプリ間共有データの本体です。"
+  },
+  {
+    "canReduce" : false,
+    "entityID" : "macos.application_support.child.Quick_Look",
+    "ifYouDo" : "app_settings_loss",
+    "potentialRecoveryBytes" : 0,
+    "what" : "macos.application_support.child.Quick_Look",
+    "why" : "アプリの設定とデータが蓄積しています。"
+  }
+]

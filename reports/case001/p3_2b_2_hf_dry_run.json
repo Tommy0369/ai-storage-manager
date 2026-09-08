@@ -1,0 +1,27 @@
+{
+  "afterInventoryFingerprint": "26292c0758ede9827228468cf9cb4c30",
+  "beforeInventoryFingerprint": "26292c0758ede9827228468cf9cb4c30",
+  "blastRadiusBound": true,
+  "dryRun": true,
+  "dryRunMutationDetected": false,
+  "exclusiveBlobCount": 1,
+  "executed": true,
+  "exitCode": 0,
+  "observedAt": "2026-09-05T00:03:04Z",
+  "otherRevisionsRetained": 0,
+  "previewComplete": true,
+  "previewFingerprint": "dc5dab67c868bde749804ed8dc1657e2",
+  "refsAffected": [
+    "main"
+  ],
+  "repo": "mlx-community/whisper-large-v3-mlx",
+  "repoDirectoryRemovalExpected": true,
+  "revision": "49e6aa286ad60c14352c404340ded53710378a11",
+  "revisionCount": 1,
+  "semanticExpectedFreedBytes": 3083520968,
+  "sharedBlobCount": 0,
+  "sizeAgreement": "AGREES_WITH_FORMATTING_DIFFERENCE",
+  "targetedRevisionCount": 1,
+  "vendorExpectedFreedBytes": 3100000000,
+  "vendorPreviewText": "About to delete 1 repo(s) totalling 3.1G.\n  - model/mlx-community/whisper-large-v3-mlx (entire repo)\ndry_run=True repos=1 revisions=1 size=3.1G"
+}

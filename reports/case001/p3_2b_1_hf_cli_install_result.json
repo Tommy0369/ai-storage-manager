@@ -1,0 +1,81 @@
+{
+  "verdict": "HF_CLI_INSTALLED_CONTRACT_PROVEN",
+  "authorizationScope": "HUGGING_FACE_CLI_INSTALLATION_ONLY",
+  "authorizedAction": "brew install hf",
+  "firstAttempt": {
+    "brewExecutable": "/usr/local/bin/brew",
+    "prefix": "/usr/local",
+    "outcome": "FAILED",
+    "exitCode": 1,
+    "failureReason": "Intel/x86 Homebrew path on arm64 Mac; openssl@3 source build failed (-march=westmere). Homebrew no longer supports Intel x86_64.",
+    "partialMutations": [
+      "upgraded pkgconf (usr/local)",
+      "upgraded ca-certificates (usr/local)",
+      "attempted openssl@3 3.6.4 build (failed)"
+    ],
+    "hfInstalled": false
+  },
+  "successfulAttempt": {
+    "brewExecutable": "/opt/homebrew/bin/brew",
+    "prefix": "/opt/homebrew",
+    "outcome": "SUCCESS",
+    "exitCode": 0,
+    "packageIdentity": "hf",
+    "installedVersion": "1.29.0",
+    "executableURL": "/opt/homebrew/bin/hf",
+    "realpath": "/opt/homebrew/Cellar/hf/1.29.0/libexec/bin/hf",
+    "binaryFingerprint": "path=/opt/homebrew/Cellar/hf/1.29.0/libexec/bin/hf;size=202;mtime=1788565428",
+    "dependenciesPoured": [
+      "ca-certificates",
+      "certifi",
+      "git-lfs",
+      "libyaml",
+      "mpdecimal",
+      "openssl@3",
+      "readline",
+      "sqlite",
+      "xz",
+      "lz4",
+      "zstd",
+      "python@3.14"
+    ]
+  },
+  "cliContract": {
+    "supportsCacheLS": true,
+    "supportsCacheVerify": true,
+    "supportsCacheRM": true,
+    "supportsDryRun": true,
+    "supportsCacheDir": true,
+    "supportsYes": true
+  },
+  "dryRunReadOnly": {
+    "executed": true,
+    "argv": [
+      "cache",
+      "rm",
+      "49e6aa286ad60c14352c404340ded53710378a11",
+      "--dry-run",
+      "--cache-dir",
+      "/Users/tomitakatsuhiro/.cache/huggingface/hub"
+    ],
+    "preview": "About to delete 1 repo(s) totalling 3.1G \u2014 entire repo (sole revision)",
+    "mutationDetected": false
+  },
+  "prohibitedActions": {
+    "hfCacheRmWithoutDryRun": false,
+    "hubRemoteDelete": false,
+    "cleanupExecutionPermit": false,
+    "hfSkillsAdd": false,
+    "hfUpdate": false
+  },
+  "cacheState": {
+    "revision": "49e6aa286ad60c14352c404340ded53710378a11",
+    "snapshotPresent": true,
+    "uniqueBytesCanonical": 3083520968,
+    "inventoryFingerprintBefore": "76f310382467a41d6a5718b7a720396c",
+    "inventoryFingerprintAfter": "76f310382467a41d6a5718b7a720396c",
+    "unchanged": true
+  },
+  "pathExpectationNote": "P3.2B.1 expected /usr/local/bin/hf; this arm64 Mac required /opt/homebrew/bin/hf via native Homebrew.",
+  "generatedAt": "2026-09-04T23:44:27Z"
+}

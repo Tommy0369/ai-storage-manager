@@ -1,0 +1,14 @@
+{
+  "artifactBuiltAfterLocalizationFix": true,
+  "signedWithDeveloperID": true,
+  "signingIdentity": "Developer ID Application: Katsuhiro Tomita (2MK7L9N4N7)",
+  "teamID": "2MK7L9N4N7",
+  "hardenedRuntime": true,
+  "codesignStrictPass": true,
+  "entitlements": {},
+  "unexpectedEntitlements": false,
+  "signedAppLaunchPass": true,
+  "postSignBundleModified": false,
+  "bundleFrozenBeforeSigning": true,
+  "generatedAt": "2026-09-08T00:51:18Z"
+}

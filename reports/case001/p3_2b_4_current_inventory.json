@@ -1,0 +1,37 @@
+{
+  "OllamaRemovedTargetPresent": false,
+  "HFRemovedTargetPresent": false,
+  "ReadyNow": 0,
+  "ApprovalRequired": 0,
+  "VerifiedFuture": 0,
+  "VerifyMore": 0,
+  "Protected": 0,
+  "topRemainingEntities": [
+    "ai.cursor.global_storage ~14.1 GB (largest semantic; Verify More / proof maturity TBD)",
+    "appsupport.Claude.cache ~0.81 GB",
+    "cursor.snapshots.rootref ~0.65 GB",
+    "macos.application_support.Code ~0.44 GB",
+    "macos.downloads ~0.43 GB",
+    "notion ShipIt cache ~0.30 GB",
+    "xcode.simulator_devices ~0.20 GB",
+    "appsupport.Claude ~0.16 GB"
+  ],
+  "topRemainingOpportunities": [
+    "Cursor global_storage: largest unique bytes — need proof class before any action",
+    "Claude cache: vendor/app-managed — Verify More vs protected",
+    "Downloads: REMOVE_LOCAL_DOWNLOAD candidate class (not implemented)",
+    "Preservation/offload (MOVE_TO_ICLOUD) only after inventory ranks + Safety",
+    "No next HF/Ollama cleanup until new local AI cache appears"
+  ],
+  "currentExecutableActionCount": 1,
+  "remoteCreatesLocalCandidate": false,
+  "falseGREEN": 0,
+  "duplicateEvaluations": 0,
+  "generatedAt": "2026-09-05T00:39:56Z",
+  "repoCacheDirectoryPresent": false,
+  "hfRevisionCandidatePresent": false,
+  "hfPlanEntryPresent": false,
+  "evidenceBasis": "RO local path checks + P3.2B.3 authoritative recovery; tier bytes zeroed for removed targets (no stale phantom)",
+  "historySnapshotID": "733C0341-BF8E-411D-A18A-24F83CA9EE71",
+  "historySnapshotNote": "Ranked from latest cached explorer history excluding removed HF/qwen3; NOT a second crawler"
+}

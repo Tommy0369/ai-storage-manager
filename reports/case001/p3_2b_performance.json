@@ -1,0 +1,11 @@
+{
+  "hfInterfaceResolutionMs": 5,
+  "hfCacheInventoryMs": 50,
+  "hfCacheVerifyMs": 0,
+  "hfDryRunMs": 0,
+  "hfRuntimeProofMs": 476,
+  "freshPreflightMs": null,
+  "planRefreshMs": 1,
+  "networkOnFirstMapPath": false,
+  "hfCLIOnFirstMapPath": false
+}

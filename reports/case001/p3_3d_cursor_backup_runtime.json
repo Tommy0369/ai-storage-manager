@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-09-05T09:09:36Z",
+  "cursorRunning": true,
+  "mainDBOpen": true,
+  "backupOpen": false,
+  "runtimeSnapshotCompleteness": "COMPLETE_ENOUGH_PATH_LSOF",
+  "backupRuntimeState": "INACTIVE_CLOSED",
+  "observedAt": "2026-09-05T08:50:21.049079+00:00",
+  "freshUntil": "batch observation \u2014 not a continuous lease",
+  "note": "backup closed \u2260 unnecessary; main open = PRIMARY live SOT"
+}

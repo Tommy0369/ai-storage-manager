@@ -1,0 +1,15 @@
+{
+  "blockedBeforeGate" : 527,
+  "derivedDataDiscovered" : 3,
+  "derivedDataEvaluatedForTrash" : 3,
+  "entitiesEnteringMutationGate" : 0,
+  "entitiesReachingPreflight" : 2108,
+  "entitiesReachingReadiness" : 0,
+  "entitiesRecommendedNonKeep" : 0,
+  "entitiesScanned" : 527,
+  "entitiesWithActionDecision" : 487,
+  "entitiesWithNonKeepPotential" : 527,
+  "reasonDistribution" : {
+
+  }
+}

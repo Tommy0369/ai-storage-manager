@@ -1,0 +1,187 @@
+{
+  "ambiguousMappings" : 2,
+  "budgetExceeded" : 1,
+  "dbsFound" : [
+    "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/globalStorage\/state.vscdb",
+    "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/682dded78a349fd566ac1eee6c100612\/state.vscdb",
+    "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/38ea36f9\/state.vscdb",
+    "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/e0fc1104707bd07ae87361090d3c6aaf\/state.vscdb"
+  ],
+  "dbsQueried" : [
+    "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/globalStorage\/state.vscdb",
+    "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/682dded78a349fd566ac1eee6c100612\/state.vscdb",
+    "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/38ea36f9\/state.vscdb",
+    "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/e0fc1104707bd07ae87361090d3c6aaf\/state.vscdb"
+  ],
+  "explicitURIMappings" : 83,
+  "inferredMappings" : 3,
+  "metadataSourcesFound" : [
+    "workspaceStorage\/workspace.json",
+    "globalStorage\/storage.json",
+    "globalStorage\/state.vscdb"
+  ],
+  "queryBudgets" : {
+    "db_timeout_ms" : 800,
+    "max_dbs" : 4,
+    "max_key_rows" : 80,
+    "max_value_bytes" : 64000
+  },
+  "rowsScanned" : 66,
+  "sanitizedMappings" : [
+    {
+      "confidence" : "VERIFIED",
+      "evidenceSource" : "WORKSPACE_JSON",
+      "keyID" : "682dded78a349fd566ac1eee6c100612",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/Library\/Mobile Documents\/com~apple~CloudDocs\/99_システム\/AI共有OS\/AI活動OS\/資料の部屋\/inbox\/jungle-biz"
+    },
+    {
+      "confidence" : "VERIFIED",
+      "evidenceSource" : "WORKSPACE_JSON",
+      "keyID" : "e0fc1104707bd07ae87361090d3c6aaf",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/AIGIG\/my-portfolio"
+    },
+    {
+      "confidence" : "VERIFIED",
+      "evidenceSource" : "WORKSPACE_JSON",
+      "keyID" : "cedd91a3de98d1a97796881a4c66966b",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/voice-memo-transcribe"
+    },
+    {
+      "confidence" : "VERIFIED",
+      "evidenceSource" : "WORKSPACE_JSON",
+      "keyID" : "f216a64957730028c62a2233c73dd5b4",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-assessment-session"
+    },
+    {
+      "confidence" : "VERIFIED",
+      "evidenceSource" : "WORKSPACE_JSON",
+      "keyID" : "0aedbd575912a71ca589e7173fdb8451",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-opportunity-finder"
+    },
+    {
+      "confidence" : "UNKNOWN",
+      "evidenceSource" : "WORKSPACE_JSON",
+      "keyID" : "1e35766421451537bc04f9978acd4065",
+      "reasonCode" : "CURSOR_WORKSPACE_TARGET_NOT_FOUND",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/VC"
+    },
+    {
+      "confidence" : "VERIFIED",
+      "evidenceSource" : "WORKSPACE_JSON",
+      "keyID" : "9c26c191bf61ff9bea68275f86e9981a",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-storage-manager"
+    },
+    {
+      "confidence" : "VERIFIED",
+      "evidenceSource" : "WORKSPACE_JSON",
+      "keyID" : "7d8494cb71771bfa30d47b3f808a8ce3",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/Library\/Mobile Documents\/com~apple~CloudDocs\/10_進行中\/和牛の刀"
+    },
+    {
+      "confidence" : "UNKNOWN",
+      "evidenceSource" : "WORKSPACE_JSON",
+      "keyID" : "8507c83b3036b875c649d9ebcab1fca0",
+      "reasonCode" : "CURSOR_WORKSPACE_TARGET_NOT_FOUND",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/Desktop\/h_Lesson"
+    },
+    {
+      "confidence" : "VERIFIED",
+      "evidenceSource" : "WORKSPACE_JSON",
+      "keyID" : "f3d25ed098f27592cdeb4a1a5643a3d2",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/AIGIG"
+    },
+    {
+      "confidence" : "INFERRED",
+      "evidenceSource" : "STORAGE_JSON_PROFILE",
+      "keyID" : "storage.json:ai-storage-manager",
+      "reasonCode" : "SOURCE_RELATION_UNKNOWN",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-storage-manager"
+    },
+    {
+      "confidence" : "INFERRED",
+      "evidenceSource" : "STORAGE_JSON_PROFILE",
+      "keyID" : "storage.json:AIGIG",
+      "reasonCode" : "SOURCE_RELATION_UNKNOWN",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/AIGIG"
+    },
+    {
+      "confidence" : "INFERRED",
+      "evidenceSource" : "STORAGE_JSON_PROFILE",
+      "keyID" : "storage.json:my-portfolio",
+      "reasonCode" : "SOURCE_RELATION_UNKNOWN",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/AIGIG\/my-portfolio"
+    },
+    {
+      "confidence" : "VERIFIED",
+      "evidenceSource" : "WORKSPACE_METADATA_ENTRIES",
+      "keyID" : "e0fc1104707bd07ae87361090d3c6aaf",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/AIGIG\/my-portfolio"
+    },
+    {
+      "confidence" : "VERIFIED",
+      "evidenceSource" : "WORKSPACE_METADATA_ENTRIES",
+      "keyID" : "cedd91a3de98d1a97796881a4c66966b",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/voice-memo-transcribe"
+    },
+    {
+      "confidence" : "VERIFIED",
+      "evidenceSource" : "WORKSPACE_METADATA_ENTRIES",
+      "keyID" : "682dded78a349fd566ac1eee6c100612",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/Library\/Mobile Documents\/com~apple~CloudDocs\/99_システム\/AI共有OS\/AI活動OS\/資料の部屋\/inbox\/jungle-biz"
+    },
+    {
+      "confidence" : "VERIFIED",
+      "evidenceSource" : "WORKSPACE_METADATA_ENTRIES",
+      "keyID" : "0aedbd575912a71ca589e7173fdb8451",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-opportunity-finder"
+    },
+    {
+      "confidence" : "VERIFIED",
+      "evidenceSource" : "WORKSPACE_METADATA_ENTRIES",
+      "keyID" : "7d8494cb71771bfa30d47b3f808a8ce3",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/Library\/Mobile Documents\/com~apple~CloudDocs\/10_進行中\/和牛の刀"
+    },
+    {
+      "confidence" : "VERIFIED",
+      "evidenceSource" : "WORKSPACE_METADATA_ENTRIES",
+      "keyID" : "f216a64957730028c62a2233c73dd5b4",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-assessment-session"
+    },
+    {
+      "confidence" : "VERIFIED",
+      "evidenceSource" : "WORKSPACE_METADATA_ENTRIES",
+      "keyID" : "9c26c191bf61ff9bea68275f86e9981a",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-storage-manager"
+    },
+    {
+      "confidence" : "UNKNOWN",
+      "evidenceSource" : "DEBUG_SELECTEDROOT",
+      "keyID" : "682dded78a349fd566ac1eee6c100612",
+      "reasonCode" : "CURSOR_RELATIONSHIP_AMBIGUOUS",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/Library\/Mobile Documents\/com~apple~CloudDocs\/99_システム\/AI共有OS\/AI活動OS\/資料の部屋\/inbox\/jungle-biz\/.vscode\/launch.json"
+    },
+    {
+      "confidence" : "UNKNOWN",
+      "evidenceSource" : "DEBUG_SELECTEDROOT",
+      "keyID" : "e0fc1104707bd07ae87361090d3c6aaf",
+      "reasonCode" : "CURSOR_RELATIONSHIP_AMBIGUOUS",
+      "workspacePath" : "\/Users\/tomitakatsuhiro\/AIGIG\/my-portfolio\/.vscode\/launch.json"
+    }
+  ],
+  "tablesInspected" : [
+    "38ea36f9:ItemTable",
+    "38ea36f9:composerHeaders",
+    "38ea36f9:cursorDiskKV",
+    "682dded78a349fd566ac1eee6c100612:ItemTable",
+    "682dded78a349fd566ac1eee6c100612:composerHeaders",
+    "682dded78a349fd566ac1eee6c100612:cursorDiskKV",
+    "ItemTable",
+    "e0fc1104707bd07ae87361090d3c6aaf:ItemTable",
+    "e0fc1104707bd07ae87361090d3c6aaf:composerHeaders",
+    "e0fc1104707bd07ae87361090d3c6aaf:cursorDiskKV"
+  ],
+  "timeouts" : 0,
+  "unknownMappings" : 4,
+  "uuidsDiscovered" : 10,
+  "verifiedMappings" : 15
+}

@@ -1,0 +1,64 @@
+{
+  "opportunities": [
+    {
+      "candidateID": "opp.cursor.gs.agent_cli_versions",
+      "component": "anysphere.cursor-agent-worker/agent-cli/.../versions",
+      "uniqueBytes": 2688192512,
+      "currentSafety": "PROTECTED",
+      "potentialAction": "NATIVE_CLEANUP_CANDIDATE",
+      "proofFeasibility": "MEDIUM",
+      "requiredEvidence": [
+        "version pin",
+        "regeneration contract"
+      ],
+      "expectedValue": "2.69 GB",
+      "risk": "MEDIUM",
+      "nativeContractAvailability": "UNKNOWN_DOCUMENTED_NATIVE",
+      "preservationPotential": "LOW",
+      "currentExecutable": false,
+      "rankingScore": 35.75,
+      "rankingExplanation": "Stale toolchain versions may be future native cleanup candidates"
+    },
+    {
+      "candidateID": "opp.cursor.gs.state_vscdb",
+      "component": "state.vscdb",
+      "uniqueBytes": 10372714496,
+      "currentSafety": "PROTECTED",
+      "potentialAction": "KEEP",
+      "proofFeasibility": "HARD",
+      "requiredEvidence": [
+        "vendor retention/cleanup",
+        "inactive COMPLETE runtime",
+        "user consent"
+      ],
+      "expectedValue": "10.37 GB",
+      "risk": "CRITICAL",
+      "nativeContractAvailability": "NONE_PROVEN",
+      "preservationPotential": "HIGH",
+      "currentExecutable": false,
+      "rankingScore": 25,
+      "rankingExplanation": "Understand growth before any action"
+    },
+    {
+      "candidateID": "opp.cursor.gs.state_vscdb_backup",
+      "component": "state.vscdb.backup",
+      "uniqueBytes": 1278717952,
+      "currentSafety": "PROTECTED",
+      "potentialAction": "VERIFY_MORE",
+      "proofFeasibility": "MEDIUM",
+      "requiredEvidence": [
+        "version pin",
+        "regeneration contract"
+      ],
+      "expectedValue": "1.28 GB",
+      "risk": "CRITICAL",
+      "nativeContractAvailability": "UNKNOWN_DOCUMENTED_NATIVE",
+      "preservationPotential": "HIGH",
+      "currentExecutable": false,
+      "rankingScore": 10.11,
+      "rankingExplanation": "Stale toolchain versions may be future native cleanup candidates"
+    }
+  ],
+  "anyCurrentExecutable": false,
+  "generatedAt": "2026-09-05T01:05:39Z"
+}

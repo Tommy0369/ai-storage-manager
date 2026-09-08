@@ -1,0 +1,28 @@
+{
+  "rootBytes": 2678732085,
+  "coveredInactiveBytes": 0,
+  "protectedCurrentBytes": 234186013,
+  "protectedFallbackBytes": 468040816,
+  "notCoveredBytes": 2678732085,
+  "unknownCoverageBytes": 0,
+  "potentialRecoveryBytes": 0,
+  "homeStoreNativePotentialBytes": 0,
+  "homeStoreBytes": 233896754,
+  "fullRootStillPotential": false,
+  "futureActionUnit": "NONE",
+  "futureVendorAction": "NO_NATIVE_CLEANUP_FOR_CURRENT_AGENT_CLI_STORE",
+  "nativeContractReady": false,
+  "currentExecutable": false,
+  "remainingProof": [
+    "Worker-managed cleanup for GS versionsDir OR path unification",
+    "COMPLETE runtime inactive VERIFIED if eviction considered",
+    "Exact historical artifact reacquisition if irreversible removal"
+  ],
+  "uxMessage": "Cursor has cleanup logic, but it manages a different store (HOME ~/.local/share/cursor-agent/versions), not the 2.68GB worker globalStorage store.",
+  "generatedAt": "2026-09-05T05:50:04Z",
+  "fullRootPotential": false,
+  "currentPlanTier": [
+    "VERIFY_MORE"
+  ],
+  "whyCantCleanYet": "Cursor has a cleanup mechanism, but it currently appears to target a different storage root. AI Storage Manager won't apply one cleanup contract to another store."
+}

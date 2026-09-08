@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-09-05T10:11:41Z",
+  "stateDB": {
+    "bytes": 10487975936,
+    "decision": "KEEP",
+    "reason": "LIVE_USER_AGENT_STATE_DOMINANT; bubbleId/agentKv protected"
+  },
+  "agentCLI": {
+    "bytes": 2678732268,
+    "decision": "KEEP",
+    "reason": "current route still uses GS store (CURRENT_PRIMARY worker)"
+  },
+  "backup": {
+    "bytes": 1278717952,
+    "decision": "KEEP",
+    "reason": "verified recovery path; CURRENT_RECOVERY_BACKUP; no cleanup contract",
+    "lifecycle": "CURRENT_RECOVERY_BACKUP",
+    "restorePathVerified": true
+  },
+  "cursorActionableBytes": 0,
+  "cursorInvestigationClosed": true,
+  "broadScanReplacedByBoundedSearch": true,
+  "boundedSearchPrinciple": "BROAD_BUNDLE_SEARCH_IS_NOT_DEFAULT"
+}

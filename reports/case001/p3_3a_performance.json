@@ -1,0 +1,22 @@
+{
+  "currentInventoryRefreshMs": 225,
+  "cursorRootResolutionMs": 401,
+  "cursorComponentClassificationMs": 351,
+  "extensionOwnershipMappingMs": 0,
+  "runtimeRelationshipBuildMs": 544,
+  "historyGrowthAnalysisMs": 98313,
+  "opportunityRankingMs": 2,
+  "secondCrawlerAdded": false,
+  "kvNamespaceSummaryIncluded": true,
+  "generatedAt": "2026-09-05T01:05:39Z",
+  "fullSuiteBefore": {
+    "tests": 597,
+    "failures": 0
+  },
+  "fullSuiteAfter": {
+    "tests": 616,
+    "failures": 0
+  },
+  "falseGREEN": 0,
+  "duplicateEvaluations": 0
+}

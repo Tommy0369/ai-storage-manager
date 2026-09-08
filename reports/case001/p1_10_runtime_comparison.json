@@ -1,0 +1,8 @@
+{
+  "detectorCatalogP110Ms" : 37073,
+  "entityVerificationLoopP110Ms" : 43129,
+  "entityVerificationLoopP19Ms" : 40146,
+  "p110TotalSeconds" : 104.62011098861694,
+  "p19TotalSeconds" : 100.8,
+  "scannerFilesystemWalkP110Ms" : 16590
+}

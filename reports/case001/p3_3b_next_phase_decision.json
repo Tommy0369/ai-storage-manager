@@ -1,0 +1,26 @@
+{
+  "selectedNextCenterpin": "AGENT_CLI_VERSION_CLEANUP_PROOF",
+  "selectedBytes": 2452963328,
+  "selectedEntity": "anysphere.cursor-agent-worker/agent-cli/versions",
+  "why": "state.vscdb ~10.4GB is LIVE_USER_AGENT_STATE_DOMINANT (bubbleId messages + agentKv blobs). Freelist ~3.7MB (not significant). No vendor retention/delete/compaction contract for cursorDiskKV. Chasing the 10GB DB would destroy user/agent history without a proven native path. Inactive agent-cli versions (~2.45GB) are a clearer next proof target.",
+  "evidence": [
+    "dbstat: cursorDiskKV owns ~10.40GB pages",
+    "KV logical ~10.07GB across bubbleId+agentKv+checkpoints",
+    "Cursor storageSizeScan labels messages/agent blobs as conversation state",
+    "NO DELETE FROM cursorDiskKV / NO TTL found",
+    "agent-cli versions=13 active=2026.08.31-4057e58 inactiveBytes=2452963328"
+  ],
+  "risk": "MEDIUM",
+  "expectedContract": "Prove vendor-safe removal of inactive agent-cli version directories only",
+  "mutationInNextPhase": false,
+  "humanAuthorizationExpected": true,
+  "rejectedAlternatives": [
+    "CURSOR_HISTORY_RETENTION_PROOF \u2014 high value but no command blast radius yet",
+    "CURSOR_DB_COMPACTION_PROOF \u2014 freelist negligible",
+    "CURSOR_BACKUP_RETENTION_PROOF \u2014 secondary; vendor lifecycle unknown",
+    "CURSOR_CHECKPOINT_RETENTION_PROOF \u2014 subset of history state",
+    "DIFFERENT_ENTITY \u2014 Cursor still top, but DB action not safe",
+    "NO_SAFE_HIGH_VALUE_ACTION \u2014 agent-cli remains a bounded proof path"
+  ],
+  "generatedAt": "2026-09-05T02:13:45Z"
+}

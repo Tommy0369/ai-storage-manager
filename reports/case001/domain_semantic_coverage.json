@@ -1,0 +1,56 @@
+[
+  {
+    "domain" : "AI Tools",
+    "l3PlusPercent" : 100,
+    "l4PlusPercent" : 89.02897739143462,
+    "uniqueBytes" : 45385871360
+  },
+  {
+    "domain" : "Cloud",
+    "l3PlusPercent" : 0,
+    "l4PlusPercent" : 0,
+    "uniqueBytes" : 0
+  },
+  {
+    "domain" : "Docker",
+    "l3PlusPercent" : 100,
+    "l4PlusPercent" : 0,
+    "uniqueBytes" : 8192
+  },
+  {
+    "domain" : "Git",
+    "l3PlusPercent" : 100,
+    "l4PlusPercent" : 0,
+    "uniqueBytes" : 9633792
+  },
+  {
+    "domain" : "Homebrew",
+    "l3PlusPercent" : 100,
+    "l4PlusPercent" : 78.10298366620295,
+    "uniqueBytes" : 2105200640
+  },
+  {
+    "domain" : "Node",
+    "l3PlusPercent" : 100,
+    "l4PlusPercent" : 99.99880344846154,
+    "uniqueBytes" : 684634112
+  },
+  {
+    "domain" : "Python",
+    "l3PlusPercent" : 100,
+    "l4PlusPercent" : 100,
+    "uniqueBytes" : 45056
+  },
+  {
+    "domain" : "Xcode",
+    "l3PlusPercent" : 100,
+    "l4PlusPercent" : 99.91943598212247,
+    "uniqueBytes" : 2348879872
+  },
+  {
+    "domain" : "macOS",
+    "l3PlusPercent" : 59.246069638885466,
+    "l4PlusPercent" : 32.08368885214256,
+    "uniqueBytes" : 49646149632
+  }
+]

@@ -1,0 +1,7 @@
+P3.2A.1 read-only preflight: library/qwen3:4b → APPROVAL_REQUIRED (mutation=false)
+P3.2A.4: vendorNative=ELIGIBLE unknown=0 approvalOnly=true (no approval/permit/rm)
+P3.2A.3: outcome=APPROVAL_REQUIRED approvalCreated=false permit=false rm=false
+P3.2A.3: STOP — READY_FOR_MODEL_REMOVAL_AUTHORIZATION (MODEL REMOVAL NOT EXECUTED)
+Post-action verification:
+  (no prior actions to verify)
+wrote /Users/tomitakatsuhiro/Workspace/10_進行中/ai-storage-manager/reports/case001 (read-only, executable=false, proof=derived-data)

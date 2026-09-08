@@ -1,0 +1,42 @@
+[
+  {
+    "authRequired" : 0,
+    "credentialsLogged" : false,
+    "credentialsPersisted" : false,
+    "entitiesAttempted" : 0,
+    "entitiesConflicted" : 0,
+    "entitiesUnknown" : 0,
+    "entitiesVerified" : 0,
+    "fullModelDownloads" : false,
+    "identityMismatches" : 0,
+    "proofFreshnessSeconds" : 900,
+    "rateLimited" : 0,
+    "remoteCacheHits" : 0,
+    "remoteCoalescedRequests" : 0,
+    "remoteRequests" : 0,
+    "timeouts" : 0,
+    "unknownUniqueBytes" : 0,
+    "vendor" : "ollama",
+    "verifiedUniqueBytes" : 0
+  },
+  {
+    "authRequired" : 0,
+    "credentialsLogged" : false,
+    "credentialsPersisted" : false,
+    "entitiesAttempted" : 0,
+    "entitiesConflicted" : 0,
+    "entitiesUnknown" : 0,
+    "entitiesVerified" : 0,
+    "fullModelDownloads" : false,
+    "identityMismatches" : 0,
+    "proofFreshnessSeconds" : 900,
+    "rateLimited" : 0,
+    "remoteCacheHits" : 0,
+    "remoteCoalescedRequests" : 0,
+    "remoteRequests" : 0,
+    "timeouts" : 0,
+    "unknownUniqueBytes" : 0,
+    "vendor" : "huggingFace",
+    "verifiedUniqueBytes" : 0
+  }
+]

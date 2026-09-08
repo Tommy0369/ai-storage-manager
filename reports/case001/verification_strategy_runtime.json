@@ -1,0 +1,64 @@
+{
+  "strategies" : [
+    {
+      "attempts" : 115,
+      "budgetFailures" : 0,
+      "conflictResults" : 0,
+      "medianRuntimeMs" : 68,
+      "strategyID" : "ActiveStateResolver",
+      "totalRuntimeMs" : 6682,
+      "unknownResults" : 0,
+      "verifiedResults" : 37
+    },
+    {
+      "attempts" : 7,
+      "budgetFailures" : 0,
+      "conflictResults" : 0,
+      "medianRuntimeMs" : 139,
+      "strategyID" : "ClaudeVMActiveProofStrategy",
+      "totalRuntimeMs" : 1191,
+      "unknownResults" : 0,
+      "verifiedResults" : 0
+    },
+    {
+      "attempts" : 3,
+      "budgetFailures" : 0,
+      "conflictResults" : 0,
+      "medianRuntimeMs" : 0,
+      "strategyID" : "SourceOfTruthResolver",
+      "totalRuntimeMs" : 0,
+      "unknownResults" : 3,
+      "verifiedResults" : 0
+    },
+    {
+      "attempts" : 3,
+      "budgetFailures" : 0,
+      "conflictResults" : 0,
+      "medianRuntimeMs" : 0,
+      "strategyID" : "OllamaStorageProofStrategy",
+      "totalRuntimeMs" : 0,
+      "unknownResults" : 3,
+      "verifiedResults" : 0
+    },
+    {
+      "attempts" : 2,
+      "budgetFailures" : 0,
+      "conflictResults" : 0,
+      "medianRuntimeMs" : 0,
+      "strategyID" : "HuggingFaceStorageProofStrategy",
+      "totalRuntimeMs" : 0,
+      "unknownResults" : 2,
+      "verifiedResults" : 0
+    },
+    {
+      "attempts" : 2,
+      "budgetFailures" : 0,
+      "conflictResults" : 0,
+      "medianRuntimeMs" : 0,
+      "strategyID" : "FileProviderProofStrategy",
+      "totalRuntimeMs" : 0,
+      "unknownResults" : 1,
+      "verifiedResults" : 0
+    }
+  ]
+}

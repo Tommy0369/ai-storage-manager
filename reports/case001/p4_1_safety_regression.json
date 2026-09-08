@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-09-05T12:17:32Z",
+  "FalseGREEN": 0,
+  "duplicateEvaluations": 0,
+  "secondCrawlerAdded": false,
+  "UNKNOWNAuthorizationCount": 0,
+  "contractGateBypassCount": 0,
+  "approvalBypassCount": 0,
+  "unverifiedRecoveryPresentationCount": 0,
+  "fakeRecoverableByteCount": 0,
+  "executorSet": [
+    "MOVE_TO_TRASH",
+    "OLLAMA_MODEL_VENDOR_NATIVE_CLEANUP",
+    "HF_SNAPSHOT_VENDOR_NATIVE_CLEANUP"
+  ],
+  "newExecutors": false,
+  "realMutations": false,
+  "researchFrozen": true
+}

@@ -1,0 +1,11 @@
+{
+  "accountingCompletenessPercent" : 39.13327834459433,
+  "boundedBytes" : 0,
+  "byteMeasurementCoveragePercent" : 100,
+  "denominatorBytes" : 100180422656,
+  "exactBytes" : 100180422656,
+  "partialBytes" : 0,
+  "totalKnownUniqueBytes" : 100180422656,
+  "unknownMeasurementBytesEstimate" : 0,
+  "unknownMeasurementEntities" : 12
+}

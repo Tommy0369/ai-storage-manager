@@ -1,0 +1,7 @@
+FIXTURE_LABELED — P3.3A understanding UX, not deletion UI.
+cursor_p33a_overview.png = FIXTURE (Cursor ~14GB protected overview)
+cursor_p33a_why_large.png = FIXTURE (component breakdown: state.vscdb / agent-cli / backup)
+cursor_p33a_component_detail.png = FIXTURE (component detail KEEP)
+cursor_p33a_protected_user_state.png = FIXTURE (conversation/agent state protected)
+cursor_p33a_opportunity.png = FIXTURE (NATIVE_CLEANUP_CANDIDATE agent-cli versions — not executable)
+Do NOT show "Clean 14 GB". Live: no mutation.

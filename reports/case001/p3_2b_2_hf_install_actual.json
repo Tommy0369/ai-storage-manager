@@ -1,0 +1,16 @@
+{
+  "brewExecutable": "/opt/homebrew/bin/brew",
+  "brewPrefix": "/opt/homebrew",
+  "cacheCleanupAuthorized": false,
+  "credentialChanges": false,
+  "hfBinaryFingerprint": "path=/opt/homebrew/Cellar/hf/1.29.0/libexec/bin/hf;size=202;mtime=1788565428;version=1.29.0",
+  "hfExecutable": "/opt/homebrew/bin/hf",
+  "hfFormula": "hf",
+  "installationHistorical": true,
+  "installedVersion": "1.29.0",
+  "observedAt": "2026-09-05T00:03:02Z",
+  "oldExpectedExecutable": "/usr/local/bin/hf",
+  "oldProposalStale": true,
+  "skillsInstalled": false,
+  "successfulInstallMethod": "HOMEBREW"
+}

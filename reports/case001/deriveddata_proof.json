@@ -1,0 +1,44 @@
+[
+  {
+    "activeState" : "INACTIVE",
+    "bytes" : 107364352,
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "unknownReasons" : [
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "SOURCE_RELATION_UNKNOWN"
+    ]
+  },
+  {
+    "activeState" : "INACTIVE",
+    "bytes" : 12345344,
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "unknownReasons" : [
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "SOURCE_RELATION_UNKNOWN"
+    ]
+  },
+  {
+    "activeState" : "INACTIVE",
+    "bytes" : 1544192,
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/SDKStatCaches.noindex",
+    "proofBudget" : "PROOF_BUDGET_FILES=0\/4",
+    "proofRuntime" : "PROOF_RUNTIME_MS=0",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "unknownReasons" : [
+      "SOURCE_RELATION_UNKNOWN",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "SOURCE_RELATION_UNKNOWN"
+    ]
+  }
+]

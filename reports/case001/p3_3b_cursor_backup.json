@@ -1,0 +1,17 @@
+{
+  "backupBytes": 1278717952,
+  "format": "SQLite 3.x database (same family as state.vscdb)",
+  "relationshipToMainDB": "OLDER_SMALLER_SNAPSHOT_SAME_TABLES_PARTIAL",
+  "mainKVCount": 291167,
+  "backupKVCount": 49254,
+  "mainKVLogicalBytes": 10067778580,
+  "backupKVLogicalBytes": 1212693763,
+  "modifiedAt": "2026-05-10T00:59:15Z",
+  "vendorGeneratedEvidence": "UNKNOWN \u2014 no state.vscdb.backup literal in inspected Cursor.app bundle",
+  "restoreSemantics": "UNKNOWN",
+  "retentionSemantics": "UNKNOWN \u2014 single backup file observed; no multi-generation policy proven",
+  "sourceOfTruthRisk": "HIGH \u2014 may be sole recovery copy of older state",
+  "futureActionCandidate": "CURSOR_BACKUP_RETENTION_PROOF",
+  "currentActionable": false,
+  "generatedAt": "2026-09-05T02:13:45Z"
+}

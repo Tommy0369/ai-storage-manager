@@ -1,0 +1,16 @@
+{
+  "action" : "VENDOR_NATIVE_CLEANUP",
+  "authorizationReceived" : true,
+  "authorizationText" : "mlx-community\/whisper-large-v3-mlx の revision 49e6aa286ad60c14352c404340ded53710378a11 を VENDOR_NATIVE_CLEANUP でローカルから削除することを承認する。Hub削除・prune・他revision・他repo・raw deleteは承認しない。",
+  "authorizationTextFingerprint" : "44cd250873344042",
+  "doesNotAuthorizeHubRemoteDeletion" : true,
+  "doesNotAuthorizeOtherRepos" : true,
+  "doesNotAuthorizeOtherRevisions" : true,
+  "doesNotAuthorizePrune" : true,
+  "doesNotAuthorizeRawDelete" : true,
+  "entityID" : "ai.hf.snapshot.mlx-community.whisper-large-v3-mlx.49e6aa286ad6",
+  "observedAt" : "2026-09-05T00:22:46Z",
+  "repoID" : "mlx-community\/whisper-large-v3-mlx",
+  "revision" : "49e6aa286ad60c14352c404340ded53710378a11",
+  "scope" : "LOCAL_HF_HUB_CACHE_REVISION_ONLY"
+}

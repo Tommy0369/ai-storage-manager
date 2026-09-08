@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-09-05T11:35:58Z",
+  "researchFrozen": true,
+  "primaryProductLoop": [
+    "SEE",
+    "UNDERSTAND",
+    "DECIDE",
+    "ACT",
+    "VERIFY"
+  ],
+  "screensImplemented": [
+    "Storage overview (Sunburst hero)",
+    "Plan",
+    "History",
+    "Settings (debug gated)",
+    "Entity inspector",
+    "Action review / approval sheet",
+    "Verified recovery summary"
+  ],
+  "lensesImplemented": [
+    "STRUCTURE",
+    "MEANING",
+    "DECISION"
+  ],
+  "decisionSourceCanonical": true,
+  "actionFlowWired": true,
+  "verificationFlowWired": true,
+  "historyIntegrated": true,
+  "goalPlanIntegrated": true,
+  "debugUISeparated": true,
+  "newMutationCapabilities": false,
+  "realMutations": false,
+  "humanNav": [
+    "Storage",
+    "Plan",
+    "History",
+    "Settings"
+  ],
+  "verifiedCompletedRecoveryBytes": 5580814899
+}

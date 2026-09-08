@@ -1,0 +1,14 @@
+{
+  "Approval_Required": 3083520968,
+  "HF_potential_bytes": 3083520968,
+  "HF_tier_after": "APPROVAL_REQUIRED",
+  "HF_tier_before": "VERIFY_MORE",
+  "Ollama_bytes": 0,
+  "Ready_Now": 0,
+  "Verified_Future": 0,
+  "Verify_More": 0,
+  "moveToTrashUnchanged": true,
+  "observedAt": "2026-09-05T00:03:05Z",
+  "qwen3StillAbsent": true,
+  "rawBlobStillNotSupported": true
+}

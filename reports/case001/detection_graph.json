@@ -1,0 +1,51 @@
+{
+  "detectorWins" : {
+    "appsupport.lifecycle" : 69,
+    "chrome.appsupport" : 9,
+    "claude.vm" : 7,
+    "cloud.resolve" : 2,
+    "container.lifecycle" : 68,
+    "cursor.snapshot" : 65,
+    "cursor.stores.verify" : 4,
+    "cursor.workspaceStorage" : 11,
+    "groupcontainer.lifecycle" : 20,
+    "ios.backup" : 1,
+    "tomylocal.inspect" : 2,
+    "voicememos" : 3,
+    "xcode.deriveddata.proof" : 1
+  },
+  "lifecycleRoles" : {
+    "APPLICATION_STATE" : 3,
+    "BACKUP" : 1,
+    "CACHE" : 32,
+    "DATABASE" : 5,
+    "EXTENSION" : 1,
+    "GENERATED_ARTIFACT" : 21,
+    "HISTORY" : 1,
+    "INDEX" : 17,
+    "LOG" : 2,
+    "MIXED" : 41,
+    "MODEL" : 4,
+    "RUNTIME" : 4,
+    "SESSION" : 7,
+    "SNAPSHOT" : 17,
+    "TEMPORARY" : 23,
+    "UNKNOWN" : 34,
+    "USER_CONFIGURATION" : 17,
+    "USER_CONTENT" : 16,
+    "WORKSPACE_STATE" : 16
+  },
+  "provenanceConfidence" : {
+    "INFERRED" : 151,
+    "UNKNOWN" : 99,
+    "VERIFIED" : 12
+  },
+  "relationshipTypes" : {
+    "ASSOCIATED_WITH_CURSOR_STORE" : 8,
+    "BELONGS_TO_VERSION" : 5,
+    "BELONGS_TO_WORKSPACE" : 18,
+    "GENERATED_BY" : 1,
+    "OBSERVED_IN_CURSOR_CONTEXT" : 8,
+    "POSSIBLE_WORKSPACE_CONTEXT" : 3
+  }
+}

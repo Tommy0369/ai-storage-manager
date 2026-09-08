@@ -1,0 +1,44 @@
+{
+  "entities" : [
+    {
+      "actionDecisions" : [
+        "VENDOR_NATIVE_CLEANUP"
+      ],
+      "displayIdentity" : "Hugging Face Hub Cache",
+      "entityType" : "HUB_ROOT",
+      "logicalBytes" : 0,
+      "originRevisionState" : "huggingface",
+      "reacquisitionState" : "REMOTE_AVAILABILITY_UNKNOWN\/UNKNOWN",
+      "runtimeState" : "UNKNOWN\/UNKNOWN",
+      "sharedBytes" : 0,
+      "topBlockers" : [
+        "ROOT_SCOPE_NOT_AUTO_CLEANABLE",
+        "REACQUISITION_REMOTE_UNKNOWN",
+        "VENDOR_NATIVE_CLEANUP_PREFERRED"
+      ],
+      "uniqueBytes" : 0,
+      "vendor" : "huggingFace"
+    },
+    {
+      "actionDecisions" : [
+        "VENDOR_NATIVE_CLEANUP"
+      ],
+      "displayIdentity" : "Ollama Models",
+      "entityType" : "MODELS_ROOT",
+      "logicalBytes" : 0,
+      "originRevisionState" : "ollama",
+      "reacquisitionState" : "REMOTE_AVAILABILITY_UNKNOWN\/UNKNOWN",
+      "runtimeState" : "UNKNOWN\/INFERRED",
+      "sharedBytes" : 0,
+      "topBlockers" : [
+        "ROOT_SCOPE_NOT_AUTO_CLEANABLE",
+        "REACQUISITION_REMOTE_UNKNOWN",
+        "VENDOR_NATIVE_CLEANUP_PREFERRED"
+      ],
+      "uniqueBytes" : 0,
+      "vendor" : "ollama"
+    }
+  ],
+  "generatedAt" : "2026-09-05T10:15:03Z",
+  "privacyNote" : "No secrets\/tokens included. Display identities only."
+}

@@ -1,0 +1,29 @@
+{
+  "totalAgentCLIBytes": 2678732268,
+  "protectedCurrentBytes": 234186013,
+  "rollbackProtectedBytes": 468040816,
+  "inactiveVerifiedBytes": 0,
+  "reacquirableVerifiedBytes": 0,
+  "nativeCleanupCandidateBytes": 0,
+  "unknownBytes": 1976505256,
+  "selectedNextCenterpin": "CURSOR_AGENT_CLI_NATIVE_CLEANUP_CONTRACT",
+  "selectedVersions": [
+    "2026.08.04-aaa8809",
+    "2026.07.23-e383d2b",
+    "2026.07.20-8cc9c0b",
+    "2026.07.16-899851b",
+    "2026.07.13-7fe37d2",
+    "2026.07.09-a3815c0",
+    "2026.07.01-41b2de7",
+    "2026.06.29-2ad2186",
+    "2026.06.26-7079533",
+    "2026.06.24-00-45-58-9f61de7"
+  ],
+  "selectedBytes": 1976505256,
+  "whySelected": "Vendor native cleanup command and keep-current+2 algorithm are VERIFIED for HOME store, but the material ~2678732268 bytes live in the worker globalStorage store. Next proof must bind that contract (or worker-managed equivalent) to the GS versions tree before any version becomes NATIVE_CLEANUP_CANDIDATE / executable.",
+  "whyNotDatabase": "P3.3B: state.vscdb is LIVE_USER_AGENT_STATE_DOMINANT \u2014 KEEP",
+  "whyNotBackup": "Secondary; vendor lifecycle still UNKNOWN; smaller than agent-cli opportunity after contract proof",
+  "mutationNextPhase": false,
+  "humanAuthorizationExpected": true,
+  "generatedAt": "2026-09-05T03:02:51Z"
+}

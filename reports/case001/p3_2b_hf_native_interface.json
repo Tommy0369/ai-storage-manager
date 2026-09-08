@@ -1,0 +1,22 @@
+{
+  "cliResolved": false,
+  "cliVersion": null,
+  "supportsCacheLS": false,
+  "supportsCacheVerify": false,
+  "supportsCacheRM": false,
+  "supportsDryRun": false,
+  "supportsCacheDir": false,
+  "supportsYes": false,
+  "binaryFingerprint": null,
+  "resolutionMethod": "FIXED_CANDIDATE",
+  "failureReason": "HF_CLI_UNRESOLVED",
+  "candidatesProbed": [
+    "/opt/homebrew/bin/hf",
+    "/usr/local/bin/hf",
+    "/Users/tomitakatsuhiro/.local/bin/hf",
+    "/usr/bin/hf",
+    "/Users/tomitakatsuhiro/.pyenv/shims/hf"
+  ],
+  "status": "UNRESOLVED",
+  "resolvedAt": "2026-09-04T15:53:22Z"
+}

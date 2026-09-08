@@ -1,0 +1,48 @@
+[
+  {
+    "actionDecisionCounts" : {
+      "NO_ACTION" : 4,
+      "USER_REVIEW" : 2
+    },
+    "claimsAttempted" : 0,
+    "claimsConflicted" : 0,
+    "claimsUnknown" : 0,
+    "claimsVerified" : 0,
+    "duplicateEvaluations" : 0,
+    "entityCount" : 1,
+    "exactEntities" : 0,
+    "falseGREEN" : 0,
+    "reacquirabilityVerifiedCount" : 0,
+    "readyNowPotentialBytes" : 0,
+    "referenceGraphVerifiedCount" : 0,
+    "runtimeVerifiedCount" : 0,
+    "sharedByteKnownCount" : 1,
+    "sourceIdentityVerifiedCount" : 1,
+    "totalBytesObserved" : 0,
+    "vendor" : "huggingFace",
+    "verifiedFuturePotentialBytes" : 105398272
+  },
+  {
+    "actionDecisionCounts" : {
+      "NO_ACTION" : 4,
+      "USER_REVIEW" : 2
+    },
+    "claimsAttempted" : 0,
+    "claimsConflicted" : 0,
+    "claimsUnknown" : 0,
+    "claimsVerified" : 0,
+    "duplicateEvaluations" : 0,
+    "entityCount" : 1,
+    "exactEntities" : 0,
+    "falseGREEN" : 0,
+    "reacquirabilityVerifiedCount" : 0,
+    "readyNowPotentialBytes" : 0,
+    "referenceGraphVerifiedCount" : 0,
+    "runtimeVerifiedCount" : 0,
+    "sharedByteKnownCount" : 1,
+    "sourceIdentityVerifiedCount" : 1,
+    "totalBytesObserved" : 0,
+    "vendor" : "ollama",
+    "verifiedFuturePotentialBytes" : 105398272
+  }
+]

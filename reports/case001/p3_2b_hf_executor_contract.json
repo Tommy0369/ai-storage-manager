@@ -1,0 +1,24 @@
+{
+  "capabilityKey": "VENDOR_NATIVE_CLEANUP|HUGGING_FACE|SNAPSHOT",
+  "entityKind": "SNAPSHOT",
+  "nativeExecutableContract": "hf cache rm <FULL_REVISION> --yes --cache-dir <BOUND_CACHE_ROOT>",
+  "dryRunContract": "hf cache rm <FULL_REVISION> --dry-run --cache-dir <BOUND_CACHE_ROOT>",
+  "executionArgvContract": [
+    "cache",
+    "rm",
+    "49e6aa286ad60c14352c404340ded53710378a11",
+    "--yes",
+    "--cache-dir",
+    "<exact-bound-cache-root>"
+  ],
+  "repoWideTargetAllowed": false,
+  "revisionOnly": true,
+  "rawDeleteFallback": false,
+  "pruneAllowed": false,
+  "shellAllowed": false,
+  "permitRequired": true,
+  "approvalRequired": true,
+  "postVerifyRequired": true,
+  "contractVersion": "HF_SNAPSHOT_NATIVE_CLEANUP_v0.1",
+  "generatedAt": "2026-09-04T15:53:22Z"
+}

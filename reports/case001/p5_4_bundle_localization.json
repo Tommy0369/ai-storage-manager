@@ -1,0 +1,17 @@
+{
+  "releaseBuildSuccess": true,
+  "packagedLocales": ["en", "ja", "zh-Hans", "zh-Hant", "ko", "es", "fr", "de", "pt-BR"],
+  "expectedLocales": ["en", "ja", "zh-Hans", "zh-Hant", "ko", "es", "fr", "de", "pt-BR"],
+  "missingPackagedLocales": [],
+  "unexpectedLocaleResources": [],
+  "offlineLocalizationPass": true,
+  "fixtureDefaultFalse": true,
+  "catalogEmbeddedInAppServicesResources": true,
+  "siblingBundleCopiedBesideExecutable": true,
+  "resourcesLocalizationCatalogPresent": true,
+  "packagingFix": "scripts/package-release-app.sh now copies AIStorageManager_AppServices.bundle + Resources/Localization/LocalizationCatalog.json",
+  "note": "Without sibling bundle / Resources catalog, offline L10n would fail in shipped .app. Fixed in P5.4. Re-run notarize-release.sh before external redistribute — package script left UNSIGNED when Developer ID present.",
+  "existingDistAppPresent": true,
+  "signStateAfterP54Repackage": "UNSIGNED_AWAITING_DEVELOPER_ID_SIGN",
+  "generatedAt": "2026-09-08T00:30:00Z"
+}

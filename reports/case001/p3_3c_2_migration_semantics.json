@@ -1,0 +1,25 @@
+{
+  "migrationEvidenceFound": false,
+  "sourceStore": null,
+  "destinationStore": null,
+  "trigger": null,
+  "completionSemantics": "UNKNOWN_NO_MIGRATION_PATH",
+  "sourceRetentionSemantics": "N/A",
+  "rollbackSemantics": "UNKNOWN",
+  "sourceCleanupSemantics": "NONE_FOUND",
+  "currentCallPathReachable": false,
+  "confidence": "VERIFIED_ABSENCE_BOUNDED_SEARCH",
+  "unknowns": [
+    "Whether historical product ever intended GS\u2192HOME migration",
+    "Whether future Cursor builds will add GS eviction"
+  ],
+  "searched": [
+    "cursor-agent-worker/dist/main.js migrate/legacy/agent-cli",
+    "workbench.desktop.main.js agent-cli migrate/legacy"
+  ],
+  "temporalSupportingSignal": {
+    "note": "GS continues to receive newer builds (2026.08.31) after HOME version 2026.08.11 \u2014 SUPPORTS dual-active managers, NOT migration completion",
+    "provesMigration": false
+  },
+  "generatedAt": "2026-09-05T08:12:05Z"
+}

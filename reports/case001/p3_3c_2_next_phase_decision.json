@@ -1,0 +1,19 @@
+{
+  "selectedNextCenterpin": "NO_SAFE_CURSOR_AGENT_CLI_ACTION",
+  "selectedStore": "cursor.agent_cli.store.gs_worker",
+  "selectedVersions": [],
+  "selectedBytes": 0,
+  "futureActionUnit": "NONE",
+  "why": "GS is CURRENT_PRIMARY_STORE for cursor-agent-worker (selector + install marker + create/read/write/launch call paths). Not LEGACY. No GS remediation contract. HOME cleanup remains sibling-only. potentialRecoveryBytes=0. Agent-cli path has no safe actionable contract for the material store.",
+  "remainingProof": [
+    "Whether future Cursor releases add GS eviction",
+    "Worker fallback/rollback metadata if any appears"
+  ],
+  "expectedMutation": false,
+  "humanAuthorizationExpectedLater": false,
+  "recommendedFollowOnPivot": "CURSOR_BACKUP_RETENTION_PROOF",
+  "whyNotLegacyRemediationExecutor": "GS is not LEGACY_STORE_VERIFIED",
+  "whyNotMigrationFinalization": "No migration evidence GS\u2192HOME",
+  "whyNotHomeCleanupOpportunity": "HOME has 1 version; vendor keep current+2 yields empty stale set; material bytes are GS",
+  "generatedAt": "2026-09-05T08:12:05Z"
+}

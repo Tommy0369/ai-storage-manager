@@ -1,0 +1,136 @@
+{
+  "action" : "MOVE_TO_ICLOUD",
+  "bindingValid" : true,
+  "causalBlockerChain" : [
+    "ACTIVE_STATE",
+    "ICLOUD_AVAILABLE",
+    "OPEN_FILE_STATE",
+    "SOURCE_ACTIVE",
+    "SOURCE_OPEN"
+  ],
+  "conflictedClaims" : [
+    "ACTIVE_STATE"
+  ],
+  "destructiveActionsExecuted" : false,
+  "dynamicClaimsRefreshed" : [
+    "active_state",
+    "open_file_state",
+    "process_snapshot",
+    "runtime_observation_index",
+    "source_exists"
+  ],
+  "entityID" : "macos.keychain",
+  "executionPermitGenerated" : false,
+  "executorImplemented" : false,
+  "explanation" : "Fresh preflight blocked by real evidence: SOURCE_ACTIVE",
+  "firstBlocker" : "SOURCE_ACTIVE",
+  "firstRealMutationGateStatus" : "BLOCKED_BY_REAL_EVIDENCE",
+  "handleCompleteness" : "COMPLETE",
+  "humanApprovalRequired" : false,
+  "missingClaims" : [
+    "ICLOUD_AVAILABLE",
+    "ACTIVE_STATE",
+    "OPEN_FILE_STATE"
+  ],
+  "mutationGateReadiness" : "BLOCKED",
+  "mutationReadinessAfterPreflight" : "BLOCKED",
+  "outcome" : "BLOCKED_BY_REAL_EVIDENCE",
+  "path" : "\/Users\/tomitakatsuhiro\/Library\/Keychains",
+  "phase" : "P2.0.6",
+  "preflightReceipt" : {
+    "action" : "MOVE_TO_ICLOUD",
+    "bindingFingerprint" : {
+      "action" : "MOVE_TO_ICLOUD",
+      "canonicalPath" : "\/Users\/tomitakatsuhiro\/Library\/Keychains",
+      "entityID" : "macos.keychain",
+      "evidenceGeneration" : -8063155166213642426,
+      "ruleVersion" : "0.1.1",
+      "runtimeGeneration" : 1669289844533074962,
+      "semanticBindingDigest" : "",
+      "transactionContractVersion" : "MOVE_TO_ICLOUD_v0.1",
+      "verificationGeneration" : -7048227354854316166
+    },
+    "conflictedClaims" : [
+      "ACTIVE_STATE"
+    ],
+    "entityID" : "macos.keychain",
+    "evidenceGeneration" : -8063155166213642426,
+    "freshnessValidity" : [
+      "RUNTIME_FRESH"
+    ],
+    "missingClaims" : [
+      "ICLOUD_AVAILABLE",
+      "ACTIVE_STATE",
+      "OPEN_FILE_STATE"
+    ],
+    "observedAt" : "2026-09-05T10:14:57Z",
+    "receiptID" : "fresh-preflight-macos.keychain-MOVE_TO_ICLOUD-8B8C8D53",
+    "requiredClaims" : [
+      "USER_OWNED",
+      "CANONICAL_PATH",
+      "PRESERVATION_CONTRACT",
+      "ICLOUD_AVAILABLE"
+    ],
+    "result" : "CONFLICTED",
+    "runtimeGeneration" : 1669289844533074962,
+    "satisfiedClaims" : [
+      "USER_OWNED",
+      "CANONICAL_PATH",
+      "PRESERVATION_CONTRACT"
+    ],
+    "staleClaims" : [
+
+    ],
+    "verificationGeneration" : -7048227354854316166
+  },
+  "preflightReceiptResult" : "CONFLICTED",
+  "preflightSession" : {
+    "action" : "MOVE_TO_ICLOUD",
+    "claimEvaluationMs" : 0,
+    "completedAt" : "2026-09-05T10:14:57Z",
+    "entityID" : "macos.keychain",
+    "freshRuntimeGeneration" : 1669289844533074962,
+    "gateEvalMs" : 0,
+    "originalBindingFingerprint" : {
+      "action" : "MOVE_TO_ICLOUD",
+      "canonicalPath" : "\/Users\/tomitakatsuhiro\/Library\/Keychains",
+      "entityID" : "macos.keychain",
+      "evidenceGeneration" : -8063155166213642426,
+      "ruleVersion" : "0.1.1",
+      "runtimeGeneration" : 1374046261383287141,
+      "semanticBindingDigest" : "",
+      "transactionContractVersion" : "MOVE_TO_ICLOUD_v0.1",
+      "verificationGeneration" : -7048227354854316166
+    },
+    "preflightSessionID" : "p206-macos.keychain-MOVE_TO_ICLOUD-1788603297",
+    "runtimeObservationMs" : 250,
+    "safetyReEvalMs" : 0,
+    "startedAt" : "2026-09-05T10:14:57Z",
+    "totalMs" : 251
+  },
+  "previewExecutable" : false,
+  "previousMutationReadiness" : "PREFLIGHT_REQUIRED",
+  "processCompleteness" : "COMPLETE",
+  "safetyClassAfter" : "YELLOW",
+  "safetyClassBefore" : "GREEN",
+  "satisfiedClaims" : [
+    "USER_OWNED",
+    "CANONICAL_PATH",
+    "PRESERVATION_CONTRACT"
+  ],
+  "selectedAction" : "MOVE_TO_ICLOUD",
+  "selectedCandidate" : "macos.keychain",
+  "sourceUnchanged" : true,
+  "staleClaims" : [
+
+  ],
+  "staticClaimsReused" : [
+    "audit_contract",
+    "canonical_path",
+    "canonical_path_verified",
+    "entity_identity",
+    "post_verify_contract",
+    "transaction_contract"
+  ],
+  "userActionApprovalGenerated" : false
+}

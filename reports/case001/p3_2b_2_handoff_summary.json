@@ -1,0 +1,13 @@
+{
+  "approvalIsOnlyRemainingGate": true,
+  "generatedAt": "2026-09-05T00:03:05Z",
+  "hfExecutable": "/opt/homebrew/bin/hf",
+  "hfVersion": "1.29.0",
+  "hostArchitecture": "arm64",
+  "realMutationExecuted": false,
+  "remoteFresh": true,
+  "revisionCount": 1,
+  "runtimeState": "INACTIVE_VERIFIED",
+  "selectedBrew": "/opt/homebrew/bin/brew",
+  "verdict": "READY_FOR_HF_REMOVAL_AUTHORIZATION"
+}

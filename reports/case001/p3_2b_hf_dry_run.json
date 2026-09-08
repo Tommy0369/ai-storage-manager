@@ -1,0 +1,23 @@
+{
+  "targetRevision": "49e6aa286ad60c14352c404340ded53710378a11",
+  "previewComplete": false,
+  "revisionFound": true,
+  "targetedRevisionCount": 1,
+  "otherRevisionsRetained": false,
+  "refsAffected": [
+    "main"
+  ],
+  "repoDirectoryRemovalExpected": true,
+  "exclusiveBlobCount": 1,
+  "sharedBlobCount": 0,
+  "vendorExpectedFreedBytes": null,
+  "semanticGraphExpectedFreedBytes": 3083520968,
+  "previewAgreement": "INCOMPLETE_NO_VENDOR_DRY_RUN",
+  "beforeInventoryFingerprint": "76f310382467a41d6a5718b7a720396c",
+  "afterInventoryFingerprint": "76f310382467a41d6a5718b7a720396c",
+  "dryRunMutationDetected": false,
+  "dryRunExecuted": false,
+  "durationMs": 0,
+  "failureReason": "HF_CLI_UNRESOLVED",
+  "note": "Vendor dry-run not executed because hf CLI unresolved. Inventory unchanged by design."
+}

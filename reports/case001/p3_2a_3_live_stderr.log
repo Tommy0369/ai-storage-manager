@@ -1,0 +1,6 @@
+P3.2A.3: install authorization present; source=OFFICIAL_APP_INSTALL/OFFICIAL_REMOTE_DISTRIBUTION
+P3.2A.3: installSucceeded=true method=OFFICIAL_APP_INSTALL cleanup=false rm=false
+P3.2A.3: outcome=VERIFY_MORE approvalCreated=false permit=false rm=false
+Post-action verification:
+  (no prior actions to verify)
+wrote /Users/tomitakatsuhiro/Workspace/10_進行中/ai-storage-manager/reports/case001 (read-only, executable=false, proof=derived-data)

@@ -1,0 +1,48 @@
+{
+  "action" : "VENDOR_NATIVE_CLEANUP",
+  "approvalBinding" : "MATCH",
+  "binaryFingerprint" : "path=\/Applications\/Ollama.app\/Contents\/Resources\/ollama;size=68353744;mtime=1788509181",
+  "canonicalActionDecision" : "ELIGIBLE",
+  "canonicalModel" : "library\/qwen3:4b",
+  "conflictedStrictPredicates" : [
+
+  ],
+  "entityID" : "ai.ollama.model.library.qwen3:4b",
+  "executionAllowed" : true,
+  "generatedAt" : "2026-09-04T14:03:19Z",
+  "nativeInterface" : "RESOLVED_CLI",
+  "preflightStatus" : "APPROVAL_REQUIRED",
+  "remainingBlockers" : [
+
+  ],
+  "strictRequiredPredicates" : [
+    "ollama_model_identity_verified",
+    "reference_graph_verified",
+    "remote_reacquisition_fresh_verified",
+    "not_user_original_custom",
+    "exact_model_inactive_verified",
+    "ollama_native_cli_resolved",
+    "executor_capability_ollama_model",
+    "local_manifest_fingerprint_bound",
+    "transaction_contract",
+    "post_verify_contract",
+    "audit_contract"
+  ],
+  "supportsRM" : true,
+  "unknownStrictPredicates" : [
+
+  ],
+  "verifiedStrictPredicates" : [
+    "ollama_model_identity_verified",
+    "reference_graph_verified",
+    "remote_reacquisition_fresh_verified",
+    "not_user_original_custom",
+    "exact_model_inactive_verified",
+    "ollama_native_cli_resolved",
+    "executor_capability_ollama_model",
+    "local_manifest_fingerprint_bound",
+    "transaction_contract",
+    "post_verify_contract",
+    "audit_contract"
+  ]
+}

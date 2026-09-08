@@ -1,0 +1,57 @@
+{
+  "concreteSemanticEntityCount" : 1,
+  "derivedDataRoot" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData",
+  "detectorMatchedCount" : 1,
+  "entityEmittedCount" : 1,
+  "entries" : [
+    {
+      "childName" : "SDKStatCaches.noindex",
+      "detectorCandidate" : true,
+      "detectorMatched" : true,
+      "entityDeduplicated" : false,
+      "entityEmitted" : true,
+      "filesystemObserved" : true,
+      "finalEntityID" : "xcode.deriveddata.SDKStatCaches.noindex",
+      "infoPlistPresent" : false,
+      "measurementKnown" : true,
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/SDKStatCaches.noindex",
+      "proofAttempted" : true,
+      "proofCandidate" : true,
+      "proofResult" : "VERIFIED",
+      "reportSurfaced" : true,
+      "scannerObserved" : true,
+      "workspacePathPresent" : false
+    }
+  ],
+  "enumerationBounded" : true,
+  "enumerationMaxChildren" : 64,
+  "enumerationRuntimeMs" : 0,
+  "filesystemChildCount" : 1,
+  "historicalChecks" : [
+    {
+      "classification" : "NO_LONGER_EXISTS",
+      "entityIDHint" : "xcode.deriveddata.Runner-ecnbmvkdltyrtnevcspalufxjhdq",
+      "exists" : false,
+      "infoPlistPresent" : false,
+      "isDirectory" : false,
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/Runner-ecnbmvkdltyrtnevcspalufxjhdq",
+      "workspacePathPresent" : false
+    },
+    {
+      "classification" : "NO_LONGER_EXISTS",
+      "entityIDHint" : "xcode.deriveddata.Runner-ckovnoskqurramhgydmrtirfscgd",
+      "exists" : false,
+      "infoPlistPresent" : false,
+      "isDirectory" : false,
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/Runner-ckovnoskqurramhgydmrtirfscgd",
+      "workspacePathPresent" : false
+    }
+  ],
+  "proofAttemptedCount" : 1,
+  "proofCandidateCount" : 1,
+  "reportSurfacedCount" : 1,
+  "rootEntityID" : "xcode.derived_data",
+  "rootEntitySurfaced" : true,
+  "rootExists" : true,
+  "scannerObservedChildCount" : 1
+}

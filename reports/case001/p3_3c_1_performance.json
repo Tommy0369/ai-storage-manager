@@ -1,0 +1,20 @@
+{
+  "secondCrawlerAdded": false,
+  "vendorContractBuildMs": 0,
+  "cursorStoreResolutionMs": 0,
+  "cleanupTraceMs": 0,
+  "pathAlignmentMs": 0,
+  "versionCoverageMs": 0,
+  "planRecomputeMs": 0,
+  "fullSuiteBefore": {
+    "tests": 659,
+    "failures": 0
+  },
+  "fullSuiteAfter": {
+    "tests": 676,
+    "failures": 0
+  },
+  "falseGREEN": 0,
+  "duplicateEvaluations": 0,
+  "generatedAt": "2026-09-05T05:53:30Z"
+}

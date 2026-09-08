@@ -1,0 +1,15 @@
+{
+  "cliEntryPoint": "storage-intel execute-hf",
+  "confirmFlagMeaning": "ACKNOWLEDGE_EXPLICIT_HUMAN_AUTHORIZATION_THROUGH_CLI_FLOW",
+  "canonicalApprovalRequired": true,
+  "freshPreflightRequired": true,
+  "strictUnknownCanBeOverridden": false,
+  "exactRevisionRequired": true,
+  "repoWideAllowed": false,
+  "pruneAllowed": false,
+  "hubDeleteAllowed": false,
+  "permitRequired": true,
+  "executorDirectBypassPossible": false,
+  "approvalOriginModel": "CLI_EXPLICIT_HUMAN_CONFIRMATION",
+  "generatedAt": "2026-09-05T00:39:09Z"
+}

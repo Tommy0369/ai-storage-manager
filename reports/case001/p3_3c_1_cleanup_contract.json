@@ -1,0 +1,21 @@
+{
+  "contractFound": true,
+  "contractID": "cursor.agent_cli.cleanup_install_versions.home",
+  "sourceLocationClass": "agent-cli install-core-posix (bundled)",
+  "trigger": "post-install detached spawn; manual: agent cleanup-install-versions <currentVersion>",
+  "callPathConfidence": "VERIFIED_CALL_PATH",
+  "declaredTargetExpression": "join(homedir(), \".local\", \"share\", \"cursor-agent\", \"versions\")",
+  "resolvedTargetPath": "/Users/tomitakatsuhiro/.local/share/cursor-agent/versions",
+  "targetStorageClass": "INSTALLED_VERSIONS",
+  "targetSelector": "non-current, non-dev, non-dot, not active-bin target; keep 2 newest by mtime; skip in-use",
+  "currentExclusion": true,
+  "fallbackExclusion": true,
+  "dryRunAvailable": false,
+  "blastRadius": "HOME ~/.local/share/cursor-agent/versions/<version> recursive rm only",
+  "reachability": "LIVE",
+  "confidence": "VERIFIED",
+  "homeStoreBytes": 233896754,
+  "homeStoreVersionCount": 1,
+  "homeSelectedVersion": "2026.08.11-e8db854",
+  "generatedAt": "2026-09-05T03:39:05Z"
+}

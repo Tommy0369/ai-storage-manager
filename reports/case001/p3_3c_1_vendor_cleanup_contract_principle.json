@@ -1,0 +1,25 @@
+{
+  "principleVersion": "1.0",
+  "invariant": "NO_VENDOR_CLEANUP_ACTION_WITHOUT_ALIGNED_CONTRACT",
+  "requiredDimensions": [
+    "vendor",
+    "store",
+    "exactTarget",
+    "blastRadius",
+    "state"
+  ],
+  "capabilityIsPermission": false,
+  "cleanupCommandIsContract": false,
+  "unknownBehavior": "VERIFY_MORE / mayReachApprovalBoundary=false; approval cannot override",
+  "mismatchBehavior": "STORE_MISMATCH|TARGET_MISMATCH|SEMANTIC_CLASS_MISMATCH|BLOCKED",
+  "unboundedBehavior": "BLAST_RADIUS_UNBOUNDED / VERIFY_MORE",
+  "approvalCannotOverrideUnknown": true,
+  "approvalCannotOverrideMismatch": true,
+  "gatePlacement": "ActionDecision \u2192 VendorCleanupContractGate \u2192 Fresh Preflight \u2192 Approval \u2192 Permit \u2192 Executor",
+  "assignsSafetyClass": false,
+  "supportedExistingExamples": [
+    "Ollama",
+    "HuggingFace"
+  ],
+  "generatedAt": "2026-09-05T05:50:04Z"
+}

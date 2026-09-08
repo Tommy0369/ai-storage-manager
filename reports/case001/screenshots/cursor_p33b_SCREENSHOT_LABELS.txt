@@ -1,0 +1,8 @@
+FIXTURE_LABELED — P3.3B understanding UX, not deletion UI.
+cursor_p33b_database_breakdown.png = FIXTURE (physical DB / WAL / freelist / cursorDiskKV)
+cursor_p33b_kv_classes.png = FIXTURE (privacy-safe key-class sizes)
+cursor_p33b_not_cache.png = FIXTURE (user/agent state, not cache)
+cursor_p33b_internal_free_space.png = FIXTURE (freelist is reusable pages, not deletable GB)
+cursor_p33b_backup.png = FIXTURE (state.vscdb.backup PROTECTED)
+cursor_p33b_next_opportunity.png = FIXTURE (agent-cli versions next — not executable)
+Do NOT show "Clean 10 GB". Live: no DB mutation.

@@ -1,0 +1,141 @@
+{
+  "versions": [
+    {
+      "version": "2026.06.24-00-45-58-9f61de7",
+      "artifactIdentity": "2026.06.24-00-45-58-9f61de7",
+      "remoteSourceKnown": true,
+      "exactVersionAvailable": null,
+      "checksumKnown": false,
+      "reacquisitionStatus": "UNKNOWN",
+      "verifiedAt": "2026-09-05T03:02:51Z",
+      "freshUntil": null,
+      "failureReason": "GetCliDownloadUrl proves latest channel only; exact historical build not proven downloadable"
+    },
+    {
+      "version": "2026.06.26-7079533",
+      "artifactIdentity": "2026.06.26-7079533",
+      "remoteSourceKnown": true,
+      "exactVersionAvailable": null,
+      "checksumKnown": false,
+      "reacquisitionStatus": "UNKNOWN",
+      "verifiedAt": "2026-09-05T03:02:51Z",
+      "freshUntil": null,
+      "failureReason": "GetCliDownloadUrl proves latest channel only; exact historical build not proven downloadable"
+    },
+    {
+      "version": "2026.06.29-2ad2186",
+      "artifactIdentity": "2026.06.29-2ad2186",
+      "remoteSourceKnown": true,
+      "exactVersionAvailable": null,
+      "checksumKnown": false,
+      "reacquisitionStatus": "UNKNOWN",
+      "verifiedAt": "2026-09-05T03:02:51Z",
+      "freshUntil": null,
+      "failureReason": "GetCliDownloadUrl proves latest channel only; exact historical build not proven downloadable"
+    },
+    {
+      "version": "2026.07.01-41b2de7",
+      "artifactIdentity": "2026.07.01-41b2de7",
+      "remoteSourceKnown": true,
+      "exactVersionAvailable": null,
+      "checksumKnown": false,
+      "reacquisitionStatus": "UNKNOWN",
+      "verifiedAt": "2026-09-05T03:02:51Z",
+      "freshUntil": null,
+      "failureReason": "GetCliDownloadUrl proves latest channel only; exact historical build not proven downloadable"
+    },
+    {
+      "version": "2026.07.09-a3815c0",
+      "artifactIdentity": "2026.07.09-a3815c0",
+      "remoteSourceKnown": true,
+      "exactVersionAvailable": null,
+      "checksumKnown": false,
+      "reacquisitionStatus": "UNKNOWN",
+      "verifiedAt": "2026-09-05T03:02:51Z",
+      "freshUntil": null,
+      "failureReason": "GetCliDownloadUrl proves latest channel only; exact historical build not proven downloadable"
+    },
+    {
+      "version": "2026.07.13-7fe37d2",
+      "artifactIdentity": "2026.07.13-7fe37d2",
+      "remoteSourceKnown": true,
+      "exactVersionAvailable": null,
+      "checksumKnown": false,
+      "reacquisitionStatus": "UNKNOWN",
+      "verifiedAt": "2026-09-05T03:02:51Z",
+      "freshUntil": null,
+      "failureReason": "GetCliDownloadUrl proves latest channel only; exact historical build not proven downloadable"
+    },
+    {
+      "version": "2026.07.16-899851b",
+      "artifactIdentity": "2026.07.16-899851b",
+      "remoteSourceKnown": true,
+      "exactVersionAvailable": null,
+      "checksumKnown": false,
+      "reacquisitionStatus": "UNKNOWN",
+      "verifiedAt": "2026-09-05T03:02:51Z",
+      "freshUntil": null,
+      "failureReason": "GetCliDownloadUrl proves latest channel only; exact historical build not proven downloadable"
+    },
+    {
+      "version": "2026.07.20-8cc9c0b",
+      "artifactIdentity": "2026.07.20-8cc9c0b",
+      "remoteSourceKnown": true,
+      "exactVersionAvailable": null,
+      "checksumKnown": false,
+      "reacquisitionStatus": "UNKNOWN",
+      "verifiedAt": "2026-09-05T03:02:51Z",
+      "freshUntil": null,
+      "failureReason": "GetCliDownloadUrl proves latest channel only; exact historical build not proven downloadable"
+    },
+    {
+      "version": "2026.07.23-e383d2b",
+      "artifactIdentity": "2026.07.23-e383d2b",
+      "remoteSourceKnown": true,
+      "exactVersionAvailable": null,
+      "checksumKnown": false,
+      "reacquisitionStatus": "UNKNOWN",
+      "verifiedAt": "2026-09-05T03:02:51Z",
+      "freshUntil": null,
+      "failureReason": "GetCliDownloadUrl proves latest channel only; exact historical build not proven downloadable"
+    },
+    {
+      "version": "2026.08.04-aaa8809",
+      "artifactIdentity": "2026.08.04-aaa8809",
+      "remoteSourceKnown": true,
+      "exactVersionAvailable": null,
+      "checksumKnown": false,
+      "reacquisitionStatus": "UNKNOWN",
+      "verifiedAt": "2026-09-05T03:02:51Z",
+      "freshUntil": null,
+      "failureReason": "GetCliDownloadUrl proves latest channel only; exact historical build not proven downloadable"
+    },
+    {
+      "version": "2026.08.11-e8db854",
+      "artifactIdentity": "2026.08.11-e8db854",
+      "remoteSourceKnown": true,
+      "exactVersionAvailable": null,
+      "checksumKnown": false,
+      "reacquisitionStatus": "UNKNOWN",
+      "verifiedAt": "2026-09-05T03:02:51Z",
+      "freshUntil": null,
+      "failureReason": "GetCliDownloadUrl proves latest channel only; exact historical build not proven downloadable"
+    },
+    {
+      "version": "2026.08.25-3e8eec8",
+      "artifactIdentity": "2026.08.25-3e8eec8",
+      "remoteSourceKnown": true,
+      "exactVersionAvailable": null,
+      "checksumKnown": false,
+      "reacquisitionStatus": "UNKNOWN",
+      "verifiedAt": "2026-09-05T03:02:51Z",
+      "freshUntil": null,
+      "failureReason": "GetCliDownloadUrl proves latest channel only; exact historical build not proven downloadable"
+    }
+  ],
+  "reacquirableVerifiedCount": 0,
+  "reacquirableVerifiedBytes": 0,
+  "unknownBytes": 2444546072,
+  "softwareUpdateNeExactOldArtifact": true,
+  "generatedAt": "2026-09-05T03:02:51Z"
+}

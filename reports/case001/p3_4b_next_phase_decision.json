@@ -1,0 +1,18 @@
+{
+  "selectedNextCenterpin": "VOICE_MEMOS_NO_NATIVE_LOCAL_EVICTION",
+  "selectedBytes": 0,
+  "selectedEntity": "voicememos.recordings",
+  "why": "Bounded evidence shows CloudKit sync + destructive delete semantics, but no reachable REMOVE_LOCAL_DOWNLOAD / local-only eviction contract. Remote copy alone cannot create actionability. Recordings remain KEEP; potentialRecoveryBytes=0.",
+  "contractState": "NOT_FOUND",
+  "remainingProof": [
+    "Optional: deeper remote CKAsset identity (still would not unlock eviction without API)"
+  ],
+  "mutationNextPhase": false,
+  "humanAuthorizationExpectedLater": false,
+  "recommendedFollowOnPivot": "DIFFERENT_CURRENT_ENTITY",
+  "followOnCandidates": [
+    "CHROME_APP_SUPPORT_INTELLIGENCE",
+    "CLAUDE_VM_STORAGE_INTELLIGENCE"
+  ],
+  "generatedAt": "2026-09-05T10:31:22Z"
+}

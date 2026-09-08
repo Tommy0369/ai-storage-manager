@@ -1,0 +1,26 @@
+[
+  {
+    "budgetMs" : 3000,
+    "elapsedMs" : 3002,
+    "event" : "DU_TIMEOUT",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches"
+  },
+  {
+    "budgetMs" : 3000,
+    "elapsedMs" : 3007,
+    "event" : "DU_TIMEOUT",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support"
+  },
+  {
+    "budgetMs" : 3000,
+    "elapsedMs" : 3041,
+    "event" : "DU_TIMEOUT",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers"
+  },
+  {
+    "budgetMs" : 3000,
+    "elapsedMs" : 3001,
+    "event" : "DU_TIMEOUT",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Mobile Documents"
+  }
+]

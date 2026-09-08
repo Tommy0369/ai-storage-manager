@@ -1,0 +1,67 @@
+[
+  {
+    "blocking" : false,
+    "budgetExhausted" : false,
+    "cacheHits" : 0,
+    "cacheMisses" : 0,
+    "durationMs" : 37843,
+    "endMs" : 37883,
+    "ioType" : "du",
+    "name" : "root_measurement",
+    "nodeCount" : 0,
+    "startMs" : 40,
+    "timeoutCount" : 0
+  },
+  {
+    "blocking" : true,
+    "budgetExhausted" : false,
+    "cacheHits" : 0,
+    "cacheMisses" : 0,
+    "durationMs" : 10364,
+    "endMs" : 11204,
+    "ioType" : "du",
+    "name" : "deep_hierarchy",
+    "nodeCount" : 400,
+    "startMs" : 840,
+    "timeoutCount" : 0
+  },
+  {
+    "blocking" : true,
+    "budgetExhausted" : false,
+    "cacheHits" : 32,
+    "cacheMisses" : 65,
+    "durationMs" : 797,
+    "endMs" : 837,
+    "ioType" : "du",
+    "name" : "child_measurement",
+    "nodeCount" : 7,
+    "startMs" : 40,
+    "timeoutCount" : 0
+  },
+  {
+    "blocking" : true,
+    "budgetExhausted" : false,
+    "cacheHits" : 0,
+    "cacheMisses" : 0,
+    "durationMs" : 8,
+    "endMs" : 40,
+    "ioType" : "directory_enumeration",
+    "name" : "root_direct_child_enumeration",
+    "nodeCount" : 122,
+    "startMs" : 32,
+    "timeoutCount" : 0
+  },
+  {
+    "blocking" : false,
+    "budgetExhausted" : false,
+    "cacheHits" : 0,
+    "cacheMisses" : 0,
+    "durationMs" : 0,
+    "endMs" : 32,
+    "ioType" : "none",
+    "name" : "session_setup",
+    "nodeCount" : 0,
+    "startMs" : 32,
+    "timeoutCount" : 0
+  }
+]

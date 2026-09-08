@@ -1,0 +1,924 @@
+{
+  "generatedAt": "2026-09-07T23:34:41Z",
+  "locales": [
+    {
+      "locale": "en",
+      "items": [
+        {
+          "concept": "KEEP",
+          "localizationKey": "decision.keep.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "PROTECTED",
+          "localizationKey": "decision.protected.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFY_MORE",
+          "localizationKey": "decision.verifyMore.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "MOVE_TO_TRASH",
+          "localizationKey": "action.moveToTrash.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFIED_RECOVERED",
+          "localizationKey": "verification.recovered.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "RECOVERY_PENDING",
+          "localizationKey": "verification.recoveryPending.trash",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_ORIGINAL",
+          "localizationKey": "entity.voiceMemos.what",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_NO_LOCAL_ONLY",
+          "localizationKey": "entity.voiceMemos.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CURSOR_KEEP",
+          "localizationKey": "entity.cursorState.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CHROME_NOT_JUST_CACHE",
+          "localizationKey": "entity.chrome.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CLAUDE_KEEP",
+          "localizationKey": "entity.claude.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "TRASH_STILL_OCCUPIES",
+          "localizationKey": "verification.trashStillOccupies",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "locale": "ja",
+      "items": [
+        {
+          "concept": "KEEP",
+          "localizationKey": "decision.keep.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "PROTECTED",
+          "localizationKey": "decision.protected.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFY_MORE",
+          "localizationKey": "decision.verifyMore.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "MOVE_TO_TRASH",
+          "localizationKey": "action.moveToTrash.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFIED_RECOVERED",
+          "localizationKey": "verification.recovered.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "RECOVERY_PENDING",
+          "localizationKey": "verification.recoveryPending.trash",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_ORIGINAL",
+          "localizationKey": "entity.voiceMemos.what",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_NO_LOCAL_ONLY",
+          "localizationKey": "entity.voiceMemos.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CURSOR_KEEP",
+          "localizationKey": "entity.cursorState.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CHROME_NOT_JUST_CACHE",
+          "localizationKey": "entity.chrome.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CLAUDE_KEEP",
+          "localizationKey": "entity.claude.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "TRASH_STILL_OCCUPIES",
+          "localizationKey": "verification.trashStillOccupies",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "locale": "zh-Hans",
+      "items": [
+        {
+          "concept": "KEEP",
+          "localizationKey": "decision.keep.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "PROTECTED",
+          "localizationKey": "decision.protected.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFY_MORE",
+          "localizationKey": "decision.verifyMore.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "MOVE_TO_TRASH",
+          "localizationKey": "action.moveToTrash.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFIED_RECOVERED",
+          "localizationKey": "verification.recovered.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "RECOVERY_PENDING",
+          "localizationKey": "verification.recoveryPending.trash",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_ORIGINAL",
+          "localizationKey": "entity.voiceMemos.what",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_NO_LOCAL_ONLY",
+          "localizationKey": "entity.voiceMemos.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CURSOR_KEEP",
+          "localizationKey": "entity.cursorState.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CHROME_NOT_JUST_CACHE",
+          "localizationKey": "entity.chrome.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CLAUDE_KEEP",
+          "localizationKey": "entity.claude.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "TRASH_STILL_OCCUPIES",
+          "localizationKey": "verification.trashStillOccupies",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "locale": "zh-Hant",
+      "items": [
+        {
+          "concept": "KEEP",
+          "localizationKey": "decision.keep.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "PROTECTED",
+          "localizationKey": "decision.protected.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFY_MORE",
+          "localizationKey": "decision.verifyMore.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "MOVE_TO_TRASH",
+          "localizationKey": "action.moveToTrash.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFIED_RECOVERED",
+          "localizationKey": "verification.recovered.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "RECOVERY_PENDING",
+          "localizationKey": "verification.recoveryPending.trash",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_ORIGINAL",
+          "localizationKey": "entity.voiceMemos.what",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_NO_LOCAL_ONLY",
+          "localizationKey": "entity.voiceMemos.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CURSOR_KEEP",
+          "localizationKey": "entity.cursorState.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CHROME_NOT_JUST_CACHE",
+          "localizationKey": "entity.chrome.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CLAUDE_KEEP",
+          "localizationKey": "entity.claude.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "TRASH_STILL_OCCUPIES",
+          "localizationKey": "verification.trashStillOccupies",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "locale": "ko",
+      "items": [
+        {
+          "concept": "KEEP",
+          "localizationKey": "decision.keep.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "PROTECTED",
+          "localizationKey": "decision.protected.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFY_MORE",
+          "localizationKey": "decision.verifyMore.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "MOVE_TO_TRASH",
+          "localizationKey": "action.moveToTrash.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFIED_RECOVERED",
+          "localizationKey": "verification.recovered.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "RECOVERY_PENDING",
+          "localizationKey": "verification.recoveryPending.trash",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_ORIGINAL",
+          "localizationKey": "entity.voiceMemos.what",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_NO_LOCAL_ONLY",
+          "localizationKey": "entity.voiceMemos.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CURSOR_KEEP",
+          "localizationKey": "entity.cursorState.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CHROME_NOT_JUST_CACHE",
+          "localizationKey": "entity.chrome.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CLAUDE_KEEP",
+          "localizationKey": "entity.claude.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "TRASH_STILL_OCCUPIES",
+          "localizationKey": "verification.trashStillOccupies",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "locale": "es",
+      "items": [
+        {
+          "concept": "KEEP",
+          "localizationKey": "decision.keep.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "PROTECTED",
+          "localizationKey": "decision.protected.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFY_MORE",
+          "localizationKey": "decision.verifyMore.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "MOVE_TO_TRASH",
+          "localizationKey": "action.moveToTrash.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFIED_RECOVERED",
+          "localizationKey": "verification.recovered.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "RECOVERY_PENDING",
+          "localizationKey": "verification.recoveryPending.trash",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_ORIGINAL",
+          "localizationKey": "entity.voiceMemos.what",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_NO_LOCAL_ONLY",
+          "localizationKey": "entity.voiceMemos.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CURSOR_KEEP",
+          "localizationKey": "entity.cursorState.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CHROME_NOT_JUST_CACHE",
+          "localizationKey": "entity.chrome.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CLAUDE_KEEP",
+          "localizationKey": "entity.claude.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "TRASH_STILL_OCCUPIES",
+          "localizationKey": "verification.trashStillOccupies",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "locale": "fr",
+      "items": [
+        {
+          "concept": "KEEP",
+          "localizationKey": "decision.keep.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "PROTECTED",
+          "localizationKey": "decision.protected.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFY_MORE",
+          "localizationKey": "decision.verifyMore.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "MOVE_TO_TRASH",
+          "localizationKey": "action.moveToTrash.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFIED_RECOVERED",
+          "localizationKey": "verification.recovered.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "RECOVERY_PENDING",
+          "localizationKey": "verification.recoveryPending.trash",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_ORIGINAL",
+          "localizationKey": "entity.voiceMemos.what",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_NO_LOCAL_ONLY",
+          "localizationKey": "entity.voiceMemos.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CURSOR_KEEP",
+          "localizationKey": "entity.cursorState.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CHROME_NOT_JUST_CACHE",
+          "localizationKey": "entity.chrome.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CLAUDE_KEEP",
+          "localizationKey": "entity.claude.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "TRASH_STILL_OCCUPIES",
+          "localizationKey": "verification.trashStillOccupies",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "locale": "de",
+      "items": [
+        {
+          "concept": "KEEP",
+          "localizationKey": "decision.keep.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "PROTECTED",
+          "localizationKey": "decision.protected.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFY_MORE",
+          "localizationKey": "decision.verifyMore.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "MOVE_TO_TRASH",
+          "localizationKey": "action.moveToTrash.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFIED_RECOVERED",
+          "localizationKey": "verification.recovered.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "RECOVERY_PENDING",
+          "localizationKey": "verification.recoveryPending.trash",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_ORIGINAL",
+          "localizationKey": "entity.voiceMemos.what",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_NO_LOCAL_ONLY",
+          "localizationKey": "entity.voiceMemos.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CURSOR_KEEP",
+          "localizationKey": "entity.cursorState.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CHROME_NOT_JUST_CACHE",
+          "localizationKey": "entity.chrome.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CLAUDE_KEEP",
+          "localizationKey": "entity.claude.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "TRASH_STILL_OCCUPIES",
+          "localizationKey": "verification.trashStillOccupies",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "locale": "pt-BR",
+      "items": [
+        {
+          "concept": "KEEP",
+          "localizationKey": "decision.keep.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "PROTECTED",
+          "localizationKey": "decision.protected.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFY_MORE",
+          "localizationKey": "decision.verifyMore.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "MOVE_TO_TRASH",
+          "localizationKey": "action.moveToTrash.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VERIFIED_RECOVERED",
+          "localizationKey": "verification.recovered.title",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "RECOVERY_PENDING",
+          "localizationKey": "verification.recoveryPending.trash",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_ORIGINAL",
+          "localizationKey": "entity.voiceMemos.what",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "VOICE_MEMOS_NO_LOCAL_ONLY",
+          "localizationKey": "entity.voiceMemos.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CURSOR_KEEP",
+          "localizationKey": "entity.cursorState.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CHROME_NOT_JUST_CACHE",
+          "localizationKey": "entity.chrome.block",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "CLAUDE_KEEP",
+          "localizationKey": "entity.claude.keepReason",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        },
+        {
+          "concept": "TRASH_STILL_OCCUPIES",
+          "localizationKey": "verification.trashStillOccupies",
+          "translationPresent": true,
+          "semanticIntentPreserved": true,
+          "dangerousClaimDrift": false,
+          "pass": true
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "overallPass": true
+}

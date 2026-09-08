@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-09-05T23:50:52Z",
+  "executorSet": [
+    "MOVE_TO_TRASH",
+    "OLLAMA_MODEL_VENDOR_NATIVE_CLEANUP",
+    "HF_SNAPSHOT_VENDOR_NATIVE_CLEANUP"
+  ],
+  "newExecutors": false,
+  "freshPreflightRequired": true,
+  "approvalBindingPass": true,
+  "singleUsePermitPass": true,
+  "storeMismatchBlocks": true,
+  "targetMismatchBlocks": true,
+  "unknownBlastRadiusBlocks": true,
+  "activeTargetBlocks": true,
+  "unknownAuthorizationCount": 0,
+  "contractBypassCount": 0,
+  "approvalBypassCount": 0,
+  "unverifiedRecoveryPresentationCount": 0,
+  "fakeRecoverableByteCount": 0,
+  "postVerifyRequired": true,
+  "mutationAutoRetry": false,
+  "mutationAutoRetryCount": 0,
+  "approvalSurvivesRestart": false,
+  "realMutationPerformed": false,
+  "canonicalVerifiedRecoveryTotal": 5580814899,
+  "ollamaVerifiedBytes": 2497293931,
+  "hfVerifiedBytes": 3083520968,
+  "diskFreeDeltaSeparate": true,
+  "trashRecoveryPendingUntilEmpty": true,
+  "liveMutationValidationRequired": false,
+  "liveMutationReason": "Historical Ollama/HF already proved Preflight→PostVerify; P5 packaging did not change executor semantics"
+}

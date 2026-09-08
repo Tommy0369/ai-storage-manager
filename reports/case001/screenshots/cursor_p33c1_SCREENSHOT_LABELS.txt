@@ -1,0 +1,11 @@
+FIXTURE — P3.3C.1 path alignment UX.
+cursor_p33c1_store_vs_cleanup.png = actual vs cleanup roots
+cursor_p33c1_path_mismatch.png = CLEANUP_CONTRACT_PATH_MISMATCH
+cursor_p33c1_version_coverage.png = all GS NOT_COVERED
+cursor_p33c1_potential_bytes.png = potential=0 for actual root
+No contract_corrected.png — alignment NOT proven.
+
+GATE ADDENDUM:
+cursor_p33c1_contract_alignment.png
+cursor_p33c1_potential_recovery.png
+vendor_cleanup_contract_gate.png

@@ -1,0 +1,35 @@
+{
+  "README": true,
+  "INSTALL": true,
+  "SAFETY": true,
+  "PRIVACY": true,
+  "KNOWN_LIMITATIONS": true,
+  "RELEASE_NOTES": true,
+  "storeMetadataLocales": [
+    "en",
+    "ja",
+    "zh-Hans",
+    "zh-Hant",
+    "ko",
+    "es",
+    "fr",
+    "de",
+    "pt-BR"
+  ],
+  "unsupportedClaimCount": 0,
+  "staleLocalBetaClaimCount": 0,
+  "architectureClaimCorrect": true,
+  "localeClaimCorrect": true,
+  "signingClaimCorrect": true,
+  "notes": {
+    "affirmativeUnsupportedClaims": [],
+    "negationHitsIgnored": [
+      "SAFETY: Regenerable ≠ always safe to remove",
+      "KNOWN_LIMITATIONS: not universal / not Intel",
+      "store/en.md: No “always safe to delete” / Does not claim cloud backup / Do not claim section"
+    ],
+    "safetyLoopWording": "review, preflight, approve, execute, verify (product-truth equivalent of Fresh Preflight→Approval→Permit→Executor→PostVerify)",
+    "installGatekeeper": "instructs NOT to bypass Gatekeeper; no unsigned-beta workarounds in final-release section"
+  },
+  "generatedAt": "2026-09-08T01:14:20Z"
+}

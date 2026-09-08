@@ -1,0 +1,4745 @@
+[
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.Network-Settings.extension.app_support",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Network-Settings.extension\/Data\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "110592",
+    "id" : "git.dot_git",
+    "inclusive" : "1253376",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Projects\/ai-orchestra\/.git"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "3117056",
+    "id" : "appsupport.Cursor.process-monitor",
+    "inclusive" : "3117056",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/process-monitor"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "2211840",
+    "id" : "git.dot_git",
+    "inclusive" : "3457024",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-opportunity-finder\/.git"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "442368",
+    "id" : "macos.containers.child.com.apple.freeform",
+    "inclusive" : "4288512",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.freeform"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "126976",
+    "id" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b",
+    "inclusive" : "664752128",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e8d79678-1c39-4e37-9066-559b7d7a772b"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.AuthKit.AKDiagnosticExtension",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.AuthKit.AKDiagnosticExtension"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "986841088",
+    "id" : "appsupport.Cursor.cache",
+    "inclusive" : "986841088",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/CachedData"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "45056",
+    "id" : "macos.application_support.child.Wondershare_Repairit",
+    "inclusive" : "45056",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Wondershare Repairit"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1011929088",
+    "id" : "macos.application_support.child.discord",
+    "inclusive" : "1011929088",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/discord"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "81920",
+    "id" : "macos.user_caches.child.notion.id",
+    "inclusive" : "81920",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/notion.id"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.MobileSync",
+    "inclusive" : "8192",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/MobileSync"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "561152",
+    "id" : "appsupport.Claude.cache",
+    "inclusive" : "561152",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/DawnGraphiteCache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.preferences",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB\/Data\/Library\/Preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "36864",
+    "id" : "macos.containers.child.com.apple.ScreenSaver.Engine.legacyScreenSaver",
+    "inclusive" : "36864",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.ScreenSaver.Engine.legacyScreenSaver"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.user_caches.child.com.github.atom.ShipIt",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.github.atom.ShipIt"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "105398272",
+    "id" : "macos.keychain",
+    "inclusive" : "105398272",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Keychains"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.Mouse-Settings.extension",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Mouse-Settings.extension"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "561152",
+    "id" : "appsupport.Discord.cache",
+    "inclusive" : "561152",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/DawnGraphiteCache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "28708864",
+    "id" : "appsupport.Cursor.cache",
+    "inclusive" : "28708864",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/Cache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.nektony.Boost-Memory.launcher.preferences",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.nektony.Boost-Memory.launcher\/Data\/Library\/Preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.application_support.child.com.paragon-software.ntfs.fsapp",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.paragon-software.ntfs.fsapp"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "8192",
+    "id" : "groupcontainer.UBF8T346G9.com.microsoft.oneauth",
+    "inclusive" : "8192",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/UBF8T346G9.com.microsoft.oneauth"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "ai.ollama.manifests",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/.ollama\/models\/manifests"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.objects",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-assessment-session\/.git\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "appsupport.Google.ChromeForTesting",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/ChromeForTesting"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "4096",
+    "id" : "cursor.snapshots.instance.90db91e9-83c1-4659-a56f-0ba61149fec5.refs",
+    "inclusive" : "4096",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/90db91e9-83c1-4659-a56f-0ba61149fec5\/refs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.ScreenSaver.Engine.legacyScreenSaver\/Data\/Documents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.Mouse-Settings.extension.preferences",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Mouse-Settings.extension\/Data\/Library\/Preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.objects",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-storage-manager\/.git\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.packfiles",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-opportunity-finder\/.git\/objects\/pack"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "15134720",
+    "id" : "macos.application_support.child.Microsoft",
+    "inclusive" : "15134720",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Microsoft"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "16384",
+    "id" : "chrome.profile.profile_10.session_storage",
+    "inclusive" : "16384",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Session Storage"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "2666496",
+    "id" : "macos.user_caches.child.com.apple.storekitagent",
+    "inclusive" : "2666496",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.storekitagent"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1585152",
+    "id" : "macos.application_support.child.Atom",
+    "inclusive" : "1585152",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Atom"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "3788800",
+    "id" : "macos.application_support.child.Animoji",
+    "inclusive" : "3788800",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Animoji"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.staging",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e108bc44-a2b6-41c2-8036-789ee82c6bf8\/staging"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "81920",
+    "id" : "macos.user_caches.child.com.openai.sky.CUAService.cli",
+    "inclusive" : "81920",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.openai.sky.CUAService.cli"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "430080",
+    "id" : "appsupport.Code.logs",
+    "inclusive" : "430080",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/logs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "4096",
+    "id" : "cursor.snapshots.instance.11f9048f-5cff-4ab3-ad0a-97c0431abb85.refs",
+    "inclusive" : "4096",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/11f9048f-5cff-4ab3-ad0a-97c0431abb85\/refs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "appsupport.Cursor.AgentStores",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/AgentStores"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "172032",
+    "id" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543",
+    "inclusive" : "1074061312",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a9b007cc-cceb-4969-b48d-bf385deb5543"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "69632",
+    "id" : "macos.group_containers.child.group.com.apple.siri.referenceResolution",
+    "inclusive" : "69632",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.siri.referenceResolution"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "65536",
+    "id" : "macos.containers.child.com.apple.iTunesStorageExtension",
+    "inclusive" : "65536",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.iTunesStorageExtension"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "8192",
+    "id" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.refs",
+    "inclusive" : "8192",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/2e5ac4eb-eb07-42b1-9952-10f0e9ed7842\/refs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.application_support.child.iMovie",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/iMovie"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "40960",
+    "id" : "appsupport.Cursor.WebStorage",
+    "inclusive" : "40960",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/WebStorage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "appsupport.Discord.blob_storage",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/blob_storage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.tmp",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB\/Data\/tmp"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.packfiles",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-storage-manager\/.git\/objects\/pack"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "49152",
+    "id" : "groupcontainer.group.com.apple.siri.inference",
+    "inclusive" : "49152",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.siri.inference"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "8192",
+    "id" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.refs",
+    "inclusive" : "8192",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a\/refs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "3239936",
+    "id" : "groupcontainer.group.com.readdle.CalendarsLite",
+    "inclusive" : "3239936",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.readdle.CalendarsLite"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.identityservicesd",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/identityservicesd"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "Python",
+    "exclusive" : "45056",
+    "id" : "python.pip_cache",
+    "inclusive" : "45056",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/pip"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "40960",
+    "id" : "git.dot_git",
+    "inclusive" : "102400",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Documents\/non\/.git"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "86016",
+    "id" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b",
+    "inclusive" : "770048",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a1a77563-9e0c-4437-8539-7c85d164875b"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "8192",
+    "id" : "groupcontainer.group.com.apple.FullKeyboardAccess",
+    "inclusive" : "8192",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.FullKeyboardAccess"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "4096",
+    "id" : "appsupport.Code.Crashpad",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/Crashpad"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.freeform.documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.freeform\/Data\/Documents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "59895808",
+    "id" : "macos.application_support.child.obs-studio",
+    "inclusive" : "59895808",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/obs-studio"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.SonicKit.diagnostics.app_support",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.SonicKit.diagnostics\/Data\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.group_containers.child.group.com.apple.icloud.fmfcore",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.icloud.fmfcore"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "16384",
+    "id" : "macos.user_caches.child.com.hnc.Discord.ShipIt",
+    "inclusive" : "16384",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.hnc.Discord.ShipIt"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "131072",
+    "id" : "cursor.workspaceStorage.f3d25ed098f27592cdeb4a1a5643a3d2",
+    "inclusive" : "131072",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/f3d25ed098f27592cdeb4a1a5643a3d2"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.user_caches.child.com.apple.findmy.findmylocateagent",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.findmy.findmylocateagent"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "561152",
+    "id" : "appsupport.Discord.cache",
+    "inclusive" : "561152",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/DawnWebGPUCache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "94208",
+    "id" : "cursor.workspaceStorage.0aedbd575912a71ca589e7173fdb8451",
+    "inclusive" : "94208",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/0aedbd575912a71ca589e7173fdb8451"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.user_caches.child.com.apple.AvatarKit",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.AvatarKit"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.app_support",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension\/Data\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "1040384",
+    "id" : "ai.ollama.logs",
+    "inclusive" : "1040384",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/.ollama\/logs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "claude.vm.warm",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/warm"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.SonicKit.diagnostics.documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.SonicKit.diagnostics\/Data\/Documents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.ControlCenter-Settings.extension",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.ControlCenter-Settings.extension"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "81072128",
+    "id" : "ai.cursor.history",
+    "inclusive" : "81072128",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/History"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "167936",
+    "id" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8",
+    "inclusive" : "307200",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e108bc44-a2b6-41c2-8036-789ee82c6bf8"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.iCal.CalendarNC.app_support",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.iCal.CalendarNC\/Data\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "appsupport.Discord.Crashpad",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/Crashpad"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "ai.ollama.blobs",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/.ollama\/models\/blobs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "8192",
+    "id" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.refs",
+    "inclusive" : "8192",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e108bc44-a2b6-41c2-8036-789ee82c6bf8\/refs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "61440",
+    "id" : "macos.application_support.child.com.apple.spotlight",
+    "inclusive" : "61440",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.apple.spotlight"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.PressAndHold.caches",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.PressAndHold\/Data\/Library\/Caches"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "53248",
+    "id" : "appsupport.Discord.Shared_Dictionary",
+    "inclusive" : "53248",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/Shared Dictionary"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "2297856",
+    "id" : "macos.user_caches.child.com.apple.FeatureAccessAgent",
+    "inclusive" : "2297856",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.FeatureAccessAgent"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "groupcontainer.group.com.apple.ScreenTime",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.ScreenTime"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.tmp",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.ScreenSaver.Engine.legacyScreenSaver\/Data\/tmp"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.PressAndHold",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.PressAndHold"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "40960",
+    "id" : "appsupport.Discord.WebStorage",
+    "inclusive" : "40960",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/WebStorage"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "28815360",
+    "id" : "macos.user_caches.child.com.apple.e5rt.e5bundlecache",
+    "inclusive" : "28815360",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.e5rt.e5bundlecache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "36864",
+    "id" : "macos.containers.child.com.apple.CoreDevice.remotepairingd",
+    "inclusive" : "36864",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.CoreDevice.remotepairingd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.application_support.child.com.apple.kvs",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.apple.kvs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "31244288",
+    "id" : "cursor.snapshots.rootref.ai-storage-manager-644107ef",
+    "inclusive" : "31244288",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/roots\/ai-storage-manager-644107ef"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "16384",
+    "id" : "macos.user_caches.child.com.moonshot.kimichat.ShipIt",
+    "inclusive" : "16384",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.moonshot.kimichat.ShipIt"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.NCH_Software",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/NCH Software"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "33039",
+    "id" : "chrome.profile.profile_10.preferences",
+    "inclusive" : "33039",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "appsupport.Discord.VideoDecodeStats",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/VideoDecodeStats"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.CloudPhotosConfiguration.documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.CloudPhotosConfiguration\/Data\/Documents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "1073807360",
+    "id" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.staging",
+    "inclusive" : "1073807360",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a9b007cc-cceb-4969-b48d-bf385deb5543\/staging"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.application_support.child.com.google.GeminiMacOS.launcher",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.google.GeminiMacOS.launcher"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "appsupport.Google.RLZ",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/RLZ"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "8192",
+    "id" : "tomylocal.root",
+    "inclusive" : "7217324032",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/TomyLocal"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "32768",
+    "id" : "macos.containers.child.com.apple.FinalCut.SpeechHelper",
+    "inclusive" : "32768",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.FinalCut.SpeechHelper"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "AI Tools",
+    "exclusive" : "2062807040",
+    "id" : "ai.codex.config",
+    "inclusive" : "3814346752",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/.codex"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "Xcode",
+    "exclusive" : "348160",
+    "id" : "xcode.swiftpm_cache",
+    "inclusive" : "348160",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/org.swift.swiftpm"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "118784",
+    "id" : "macos.containers.child.com.apple.FaceTime",
+    "inclusive" : "118784",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.FaceTime"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.nektony.Boost-Memory.launcher.documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.nektony.Boost-Memory.launcher\/Data\/Documents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "32768",
+    "id" : "macos.containers.child.com.microsoft.OneDrive-mac.OneDriveFileHandler",
+    "inclusive" : "32768",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.microsoft.OneDrive-mac.OneDriveFileHandler"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "voicememos.library",
+    "inclusive" : "4096",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.VoiceMemos.shared\/Library"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "AI Tools",
+    "exclusive" : "4096",
+    "id" : "ai.hf.hub",
+    "inclusive" : "4096",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/.cache\/huggingface\/hub"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "4165632",
+    "id" : "ai.cursor_app_support",
+    "inclusive" : "27779940352",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "435814400",
+    "id" : "macos.application_support.child.Code",
+    "inclusive" : "591151104",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.icloudmailagent",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/icloudmailagent"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "606208",
+    "id" : "macos.application_support.child.com.apple.callintelligenced",
+    "inclusive" : "606208",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.apple.callintelligenced"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.SonicKit.diagnostics.preferences",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.SonicKit.diagnostics\/Data\/Library\/Preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.staging",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/44fdfc36-64cb-4587-8315-384166a3d0e3\/staging"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "1188261888",
+    "id" : "appsupport.Cursor.Partitions",
+    "inclusive" : "1188261888",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/Partitions"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.Network-Settings.extension.caches",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Network-Settings.extension\/Data\/Library\/Caches"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "319488",
+    "id" : "macos.user_caches.child.com.apple.proactive.eventtracker",
+    "inclusive" : "319488",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.proactive.eventtracker"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.SonicKit.diagnostics.tmp",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.SonicKit.diagnostics\/Data\/tmp"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "28672",
+    "id" : "macos.containers.child.com.ghostery.lite.contentBlocker",
+    "inclusive" : "28672",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.ghostery.lite.contentBlocker"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1757184",
+    "id" : "chrome.profile.profile_10.extensions",
+    "inclusive" : "1757184",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Extensions"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "53248",
+    "id" : "macos.containers.child.com.apple.languageassetd",
+    "inclusive" : "53248",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.languageassetd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "12029952",
+    "id" : "appsupport.Discord.logs",
+    "inclusive" : "12029952",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/logs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "10199040",
+    "id" : "macos.group_containers.child.group.com.apple.contacts",
+    "inclusive" : "10199040",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.contacts"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.maccatalyst.com.atebits.Tweetie2.ShareExtension",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/maccatalyst.com.atebits.Tweetie2.ShareExtension"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "1908736",
+    "id" : "cursor.workspaceStorage.682dded78a349fd566ac1eee6c100612",
+    "inclusive" : "1908736",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/682dded78a349fd566ac1eee6c100612"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "286720",
+    "id" : "macos.application_support.child.tldv",
+    "inclusive" : "286720",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/tldv"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.group_containers.child.com.apple.MailPersonaStorage",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/com.apple.MailPersonaStorage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension",
+    "inclusive" : "4096",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "221184",
+    "id" : "macos.application_support.child.com.apple.akd",
+    "inclusive" : "221184",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.apple.akd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.PressAndHold.preferences",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.PressAndHold\/Data\/Library\/Preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "32768",
+    "id" : "macos.containers.child.com.apple.ax.KonaTTSSupport.KonaSynthesizer",
+    "inclusive" : "32768",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.ax.KonaTTSSupport.KonaSynthesizer"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.application_support.child.chrome-devtools-mcp",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/chrome-devtools-mcp"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "8192",
+    "id" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.refs",
+    "inclusive" : "8192",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/44fdfc36-64cb-4587-8315-384166a3d0e3\/refs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4288512",
+    "id" : "macos.user_caches.child.familycircled",
+    "inclusive" : "4288512",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/familycircled"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "32768",
+    "id" : "cursor.snapshots.database",
+    "inclusive" : "32768",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/state\/state.db"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "278528",
+    "id" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.objects",
+    "inclusive" : "278528",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/44fdfc36-64cb-4587-8315-384166a3d0e3\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.Google",
+    "inclusive" : "11710021632",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.videoapps.RegisterProExtension.preferences",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.videoapps.RegisterProExtension\/Data\/Library\/Preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "447815680",
+    "id" : "macos.user_caches.child.CloudKit",
+    "inclusive" : "447815680",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/CloudKit"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.freeform.tmp",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.freeform\/Data\/tmp"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "32768",
+    "id" : "macos.containers.child.com.apple.mlhost.TelemetryWorker",
+    "inclusive" : "32768",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.mlhost.TelemetryWorker"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "16384",
+    "id" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a",
+    "inclusive" : "45056",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "77824",
+    "id" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.objects",
+    "inclusive" : "77824",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a9b007cc-cceb-4969-b48d-bf385deb5543\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "118784",
+    "id" : "cursor.snapshots.instance.8217aef3-7fbd-4514-9e7a-4aeae6056a5e.objects",
+    "inclusive" : "118784",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/8217aef3-7fbd-4514-9e7a-4aeae6056a5e\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "429068288",
+    "id" : "user.downloads",
+    "inclusive" : "429068288",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Downloads"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1753088",
+    "id" : "macos.application_support.child.Digiarty",
+    "inclusive" : "1753088",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Digiarty"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.PressAndHold.tmp",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.PressAndHold\/Data\/tmp"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.videoapps.RegisterProExtension.app_support",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.videoapps.RegisterProExtension\/Data\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "24576",
+    "id" : "macos.containers.child.com.apple.StorageManagementLauncher",
+    "inclusive" : "24576",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.StorageManagementLauncher"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "915226624",
+    "id" : "appsupport.Google.GoogleUpdater",
+    "inclusive" : "915226624",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/GoogleUpdater"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "4096",
+    "id" : "cursor.snapshots.instance.8a462aec-6903-47b4-b8fb-2a52b8d7481f.refs",
+    "inclusive" : "4096",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/8a462aec-6903-47b4-b8fb-2a52b8d7481f\/refs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1146880",
+    "id" : "macos.application_support.child.com.apple.ap.promotedcontentd",
+    "inclusive" : "1146880",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.apple.ap.promotedcontentd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "20480",
+    "id" : "appsupport.Code.Session_Storage",
+    "inclusive" : "20480",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/Session Storage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.de.codenuts.HotKey.documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/de.codenuts.HotKey\/Data\/Documents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "32768",
+    "id" : "macos.containers.child.com.apple.wallpaper.extension.gradient",
+    "inclusive" : "32768",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.wallpaper.extension.gradient"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "16384",
+    "id" : "ai.cursor.code_cache",
+    "inclusive" : "16384",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/Code Cache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "208896",
+    "id" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49",
+    "inclusive" : "5593477120",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/81a50d8e-b83d-8058-aa3b-3288b57a9e49"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "1245184",
+    "id" : "git.objects",
+    "inclusive" : "1245184",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-opportunity-finder\/.git\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "102400",
+    "id" : "cursor.workspaceStorage.7d8494cb71771bfa30d47b3f808a8ce3",
+    "inclusive" : "102400",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/7d8494cb71771bfa30d47b3f808a8ce3"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "69558272",
+    "id" : "cursor.workspaceStorage.e0fc1104707bd07ae87361090d3c6aaf",
+    "inclusive" : "69558272",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/e0fc1104707bd07ae87361090d3c6aaf"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1327104",
+    "id" : "macos.application_support.child.com.google.GeminiMacOS",
+    "inclusive" : "1327104",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.google.GeminiMacOS"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "94208",
+    "id" : "cursor.snapshots.instance.90db91e9-83c1-4659-a56f-0ba61149fec5.objects",
+    "inclusive" : "94208",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/90db91e9-83c1-4659-a56f-0ba61149fec5\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.appplaceholdersyncd",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/appplaceholdersyncd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "997199872",
+    "id" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53.objects",
+    "inclusive" : "997199872",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/d42eecea-ba9b-89e2-9fc1-793666b76c53\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "appsupport.Code.blob_storage",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/blob_storage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "4222976",
+    "id" : "appsupport.Claude.claude-code-sessions",
+    "inclusive" : "4222976",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/claude-code-sessions"
+  },
+  {
+    "class" : "YELLOW",
+    "domain" : "Xcode",
+    "exclusive" : "201773056",
+    "id" : "xcode.simulator_devices",
+    "inclusive" : "201773056",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/CoreSimulator\/Devices"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.tmp",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension\/Data\/tmp"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.CoreParsec",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/CoreParsec"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.clawdbot",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/clawdbot"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "Homebrew",
+    "exclusive" : "1644224512",
+    "id" : "homebrew.cache",
+    "inclusive" : "1644224512",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/Homebrew"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "728363008",
+    "id" : "cursor.snapshots.rootref.cursor-b1863998",
+    "inclusive" : "728363008",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/roots\/cursor-b1863998"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "652279808",
+    "id" : "appsupport.Discord.cache",
+    "inclusive" : "652279808",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/Cache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.Network-Settings.extension.tmp",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Network-Settings.extension\/Data\/tmp"
+  },
+  {
+    "class" : "YELLOW",
+    "domain" : "Node",
+    "exclusive" : "684625920",
+    "id" : "node.npm_cache",
+    "inclusive" : "684625920",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/.npm\/_cacache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.staging",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/2e5ac4eb-eb07-42b1-9952-10f0e9ed7842\/staging"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.PressAndHold.app_support",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.PressAndHold\/Data\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.packfiles",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/4k-breakers-osaka\/.git\/objects\/pack"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "28672",
+    "id" : "macos.containers.child.de.codenuts.HotKey",
+    "inclusive" : "94208",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/de.codenuts.HotKey"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.app_support",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.ScreenSaver.Engine.legacyScreenSaver\/Data\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "46379008",
+    "id" : "chrome.profile.profile_10.service_worker",
+    "inclusive" : "46379008",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Service Worker"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "61440",
+    "id" : "cursor.workspaceStorage.8507c83b3036b875c649d9ebcab1fca0",
+    "inclusive" : "61440",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/8507c83b3036b875c649d9ebcab1fca0"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1363968",
+    "id" : "macos.application_support.child.com.apple.touristd",
+    "inclusive" : "1363968",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.apple.touristd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "28672",
+    "id" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916",
+    "inclusive" : "262144",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/285a93aa-acdf-41cf-b776-03c747b5f916"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.staging",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/285a93aa-acdf-41cf-b776-03c747b5f916\/staging"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "81920",
+    "id" : "macos.containers.child.com.apple.iCal",
+    "inclusive" : "81920",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.iCal"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "659456",
+    "id" : "macos.user_caches.child.com.apple.Safari",
+    "inclusive" : "659456",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.Safari"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.languageassetd.app_support",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.languageassetd\/Data\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "61440",
+    "id" : "container.de.codenuts.HotKey.app_support",
+    "inclusive" : "61440",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/de.codenuts.HotKey\/Data\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "711114752",
+    "id" : "groupcontainer.VUTU7AKEUR.jp.naver.line.mac",
+    "inclusive" : "711114752",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/VUTU7AKEUR.jp.naver.line.mac"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "61440",
+    "id" : "macos.containers.child.com.apple.archiveutility",
+    "inclusive" : "61440",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.archiveutility"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "36864",
+    "id" : "macos.application_support.child.com.leawo.bluraycreator",
+    "inclusive" : "36864",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.leawo.bluraycreator"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "6815744",
+    "id" : "cursor.snapshots.rootref.ai-assessment-session-e2535413",
+    "inclusive" : "6815744",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/roots\/ai-assessment-session-e2535413"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "53248",
+    "id" : "appsupport.Code.Shared_Dictionary",
+    "inclusive" : "53248",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/Shared Dictionary"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.settings-intents.TransferResetIntents.tmp",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.settings-intents.TransferResetIntents\/Data\/tmp"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "57344",
+    "id" : "macos.containers.child.com.apple.videoapps.RegisterProExtension",
+    "inclusive" : "57344",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.videoapps.RegisterProExtension"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "8192",
+    "id" : "macos.group_containers.child.group.com.apple.poirot.MessagesAnalyticsWorker",
+    "inclusive" : "8192",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.poirot.MessagesAnalyticsWorker"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "8192",
+    "id" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.refs",
+    "inclusive" : "8192",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/c7ec066e-f66e-4dc0-a274-03bed04c6b53\/refs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.ProApps",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/ProApps"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "1409024",
+    "id" : "appsupport.Claude.index",
+    "inclusive" : "1409024",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/IndexedDB"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "28672",
+    "id" : "appsupport.Code.databases",
+    "inclusive" : "28672",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/databases"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "53248",
+    "id" : "appsupport.Claude.Shared_Dictionary",
+    "inclusive" : "53248",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/Shared Dictionary"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "Docker",
+    "exclusive" : "8192",
+    "id" : "docker.dot_docker",
+    "inclusive" : "8192",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/.docker"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "664551424",
+    "id" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.staging",
+    "inclusive" : "664551424",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e8d79678-1c39-4e37-9066-559b7d7a772b\/staging"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.user_caches",
+    "inclusive" : "0",
+    "level" : "1",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1413120",
+    "id" : "groupcontainer.group.com.apple.telephonyutilities.callservicesd",
+    "inclusive" : "1413120",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.telephonyutilities.callservicesd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "cursor.snapshots.codebases",
+    "inclusive" : "1762537472",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.accountsd",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/accountsd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.priml.PRIMLCKPreemptivePing",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.priml.PRIMLCKPreemptivePing"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "4096",
+    "id" : "appsupport.Claude.Crashpad",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/Crashpad"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.Mouse-Settings.extension.documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Mouse-Settings.extension\/Data\/Documents"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "122880",
+    "id" : "macos.user_caches.child.com.apple.HomeKit",
+    "inclusive" : "122880",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.HomeKit"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "1368064",
+    "id" : "appsupport.Code.cache",
+    "inclusive" : "1368064",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/CachedProfilesData"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "479232",
+    "id" : "macos.application_support.child.SyncServices",
+    "inclusive" : "479232",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/SyncServices"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.languageassetd.documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.languageassetd\/Data\/Documents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "10745818865",
+    "id" : "appsupport.Google.Chrome",
+    "inclusive" : "10794512384",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "659456",
+    "id" : "macos.application_support.child.App_Store",
+    "inclusive" : "659456",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/App Store"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "57344",
+    "id" : "macos.containers.child.com.nektony.Boost-Memory.launcher",
+    "inclusive" : "57344",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.nektony.Boost-Memory.launcher"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "40960",
+    "id" : "appsupport.Claude.File_System",
+    "inclusive" : "40960",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/File System"
+  },
+  {
+    "class" : "YELLOW",
+    "domain" : "Node",
+    "exclusive" : "8192",
+    "id" : "node.pnpm_store",
+    "inclusive" : "8192",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/pnpm\/store"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "Xcode",
+    "exclusive" : "107364352",
+    "id" : "xcode.module_cache",
+    "inclusive" : "107364352",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "AI Tools",
+    "exclusive" : "3293184",
+    "id" : "macos.user_caches.child.claude-cli-nodejs",
+    "inclusive" : "3293184",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/claude-cli-nodejs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "614400",
+    "id" : "appsupport.Code.Service_Worker",
+    "inclusive" : "614400",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/Service Worker"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "275238912",
+    "id" : "ai.claude.projects",
+    "inclusive" : "275238912",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/.claude\/projects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.group_containers.child.group.com.apple.portrait.BackgroundReplacement",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.portrait.BackgroundReplacement"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "groupcontainer.group.com.apple.ArchiveUtility.PKSignedContainer",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.ArchiveUtility.PKSignedContainer"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "151552",
+    "id" : "chrome.profile.profile_10.indexeddb",
+    "inclusive" : "151552",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/IndexedDB"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.Mouse-Settings.extension.caches",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Mouse-Settings.extension\/Data\/Library\/Caches"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "AI Tools",
+    "exclusive" : "2600960",
+    "id" : "ai.huggingface_cache",
+    "inclusive" : "2605056",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/.cache\/huggingface"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "24965120",
+    "id" : "macos.user_caches.child.com.apple.Music",
+    "inclusive" : "24965120",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.Music"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.user_caches.child.com.apple.speech.localspeechrecognition",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.speech.localspeechrecognition"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "131072",
+    "id" : "git.dot_git",
+    "inclusive" : "4628480",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/4k-breakers-osaka\/.git"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "appsupport.Claude.VideoDecodeStats",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/VideoDecodeStats"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "73728",
+    "id" : "macos.application_support.child.CallHistoryTransactions",
+    "inclusive" : "73728",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/CallHistoryTransactions"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "303104",
+    "id" : "macos.containers.child.com.apple.VoiceMemos",
+    "inclusive" : "303104",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.VoiceMemos"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "Homebrew",
+    "exclusive" : "460976128",
+    "id" : "homebrew.cellar",
+    "inclusive" : "460976128",
+    "level" : "3",
+    "path" : "\/opt\/homebrew\/Cellar"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "Xcode",
+    "exclusive" : "12345344",
+    "id" : "xcode.derived_data",
+    "inclusive" : "121253888",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "105234432",
+    "id" : "claude.vm.bundle.claudevm.bundle.writable",
+    "inclusive" : "105234432",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/sessiondata.img"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "8192",
+    "id" : "macos.application_support.child.com.apple.backgroundtaskmanagementagent",
+    "inclusive" : "8192",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.apple.backgroundtaskmanagementagent"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "6418432",
+    "id" : "cursor.workspaceStorage.9c26c191bf61ff9bea68275f86e9981a",
+    "inclusive" : "6418432",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/9c26c191bf61ff9bea68275f86e9981a"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.containers",
+    "inclusive" : "0",
+    "level" : "1",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "claude.vm.root",
+    "inclusive" : "10910224384",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "583823360",
+    "id" : "macos.application_support.child.Evernote",
+    "inclusive" : "583823360",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Evernote"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "102400",
+    "id" : "macos.group_containers.child.group.com.apple.stocks",
+    "inclusive" : "102400",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.stocks"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "cursor.snapshots.root",
+    "inclusive" : "9897619456",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "53248",
+    "id" : "appsupport.Cursor.Shared_Dictionary",
+    "inclusive" : "53248",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/Shared Dictionary"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.tipsd",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/tipsd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "groupcontainer.3BU773L7ZF.nektony.AppCleaner",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/3BU773L7ZF.nektony.AppCleaner"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Xcode",
+    "exclusive" : "2025504768",
+    "id" : "xcode.preview_cache",
+    "inclusive" : "2025504768",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/UserData\/Previews"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.caches",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB\/Data\/Library\/Caches"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.settings-intents.TransferResetIntents.preferences",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.settings-intents.TransferResetIntents\/Data\/Library\/Preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "14965690368",
+    "id" : "ai.cursor.global_storage",
+    "inclusive" : "14965690368",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/globalStorage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "14094864384",
+    "id" : "voicememos.recordings",
+    "inclusive" : "14094864384",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.VoiceMemos.shared\/Recordings"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "container.de.codenuts.HotKey.preferences",
+    "inclusive" : "4096",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/de.codenuts.HotKey\/Data\/Library\/Preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "6365184",
+    "id" : "macos.application_support.child.firestore",
+    "inclusive" : "6365184",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/firestore"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "124960768",
+    "id" : "macos.user_caches.child.cron-updater",
+    "inclusive" : "124960768",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/cron-updater"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support",
+    "inclusive" : "0",
+    "level" : "1",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "131592192",
+    "id" : "appsupport.Code.cache",
+    "inclusive" : "131592192",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/Cache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "groupcontainer.group.com.apple.uiunderstanding",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.uiunderstanding"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.application_support.child.com.easeus.datarecoverywizard",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.easeus.datarecoverywizard"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1646592",
+    "id" : "appsupport.Discord.cache",
+    "inclusive" : "1646592",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/GPUCache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "20467712",
+    "id" : "appsupport.Code.cache",
+    "inclusive" : "20467712",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/CachedData"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.working_tree",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Projects\/ai-orchestra"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1101824",
+    "id" : "macos.application_support.child.VisualStudio",
+    "inclusive" : "1101824",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/VisualStudio"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "8192",
+    "id" : "groupcontainer.group.developer.apple.wwdc",
+    "inclusive" : "8192",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.developer.apple.wwdc"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.SonicKit.diagnostics",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.SonicKit.diagnostics"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "81920",
+    "id" : "macos.user_caches.child.com.cron.electron",
+    "inclusive" : "81920",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.cron.electron"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "53248",
+    "id" : "macos.application_support.child.lisk-nano",
+    "inclusive" : "53248",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/lisk-nano"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.staging",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a\/staging"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "499712",
+    "id" : "macos.user_caches.child.com.apple.appleaccountd",
+    "inclusive" : "499712",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.appleaccountd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "102088704",
+    "id" : "appsupport.Cursor.blob_storage",
+    "inclusive" : "102088704",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/blob_storage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "122880",
+    "id" : "macos.application_support.child.Motion",
+    "inclusive" : "122880",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Motion"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "28672",
+    "id" : "macos.user_caches.child.us.zoom.ZoomHybridConf",
+    "inclusive" : "28672",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/us.zoom.ZoomHybridConf"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "236437504",
+    "id" : "macos.application_support.child.Codex",
+    "inclusive" : "236437504",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Codex"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "40960",
+    "id" : "appsupport.Discord.shared_proto_db",
+    "inclusive" : "40960",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/shared_proto_db"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.app_support",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB\/Data\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "10737418240",
+    "id" : "claude.vm.bundle.claudevm.bundle.runtime",
+    "inclusive" : "10737418240",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/rootfs.img"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.dt.Instruments.InstrumentsShareExtension",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.dt.Instruments.InstrumentsShareExtension"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.tgondeviceinferenceproviderservice",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.tgondeviceinferenceproviderservice"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "56000512",
+    "id" : "macos.application_support.child.mmhmm",
+    "inclusive" : "56000512",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/mmhmm"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "57344",
+    "id" : "macos.containers.child.com.evernote.Evernote.EvernoteQuickLook",
+    "inclusive" : "57344",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.evernote.Evernote.EvernoteQuickLook"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "2400256",
+    "id" : "macos.user_caches.child.PassKit",
+    "inclusive" : "2400256",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/PassKit"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "groupcontainer.group.com.apple.stocks-news",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.stocks-news"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "225280",
+    "id" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.objects",
+    "inclusive" : "225280",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/285a93aa-acdf-41cf-b776-03c747b5f916\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "8192",
+    "id" : "ai.ollama_models",
+    "inclusive" : "8192",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/.ollama\/models"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "81920",
+    "id" : "git.dot_git",
+    "inclusive" : "81920",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-assessment-session\/.git"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "53248",
+    "id" : "cursor.workspaceStorage.1e35766421451537bc04f9978acd4065",
+    "inclusive" : "53248",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/1e35766421451537bc04f9978acd4065"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "102400",
+    "id" : "macos.containers.child.com.apple.QuickTimePlayerX",
+    "inclusive" : "102400",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.QuickTimePlayerX"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.iCal.CalendarNC.documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.iCal.CalendarNC\/Data\/Documents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "5840896",
+    "id" : "appsupport.Cursor.cache",
+    "inclusive" : "5840896",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/GPUCache"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "217088",
+    "id" : "macos.user_caches.child.com.apple.SoftwareUpdateNotificationManager",
+    "inclusive" : "217088",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.SoftwareUpdateNotificationManager"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "30154752",
+    "id" : "appsupport.Claude.local-agent-mode-sessions",
+    "inclusive" : "30154752",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/local-agent-mode-sessions"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "2936832",
+    "id" : "appsupport.Discord.cache",
+    "inclusive" : "2936832",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/Code Cache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.working_tree",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Documents\/開発・ツール\/ファイル整理"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.journal",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.journal"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.working_tree",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-storage-manager"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension\/Data\/Documents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "4096",
+    "id" : "appsupport.Code.cache",
+    "inclusive" : "4096",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/CachedConfigurations"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.caches",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension\/Data\/Library\/Caches"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "184320",
+    "id" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842",
+    "inclusive" : "847872",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/2e5ac4eb-eb07-42b1-9952-10f0e9ed7842"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1024000",
+    "id" : "macos.containers.child.com.apple.stocks.detailintents",
+    "inclusive" : "1024000",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.stocks.detailintents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "196608",
+    "id" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3",
+    "inclusive" : "483328",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/44fdfc36-64cb-4587-8315-384166a3d0e3"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.videoapps.RegisterProExtension.tmp",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.videoapps.RegisterProExtension\/Data\/tmp"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "57344",
+    "id" : "macos.containers.child.com.apple.iCal.CalendarNC",
+    "inclusive" : "57344",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.iCal.CalendarNC"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "675840",
+    "id" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.objects",
+    "inclusive" : "675840",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a1a77563-9e0c-4437-8539-7c85d164875b\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.settings-intents.TransferResetIntents.documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.settings-intents.TransferResetIntents\/Data\/Documents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "8192",
+    "id" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.refs",
+    "inclusive" : "8192",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/fae47006-d5fa-4b5b-b77c-d1ce7043a7a3\/refs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "610304",
+    "id" : "ai.claude.cache",
+    "inclusive" : "610304",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/.claude\/cache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.PressAndHold.documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.PressAndHold\/Data\/Documents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "14573568",
+    "id" : "groupcontainer.HPY23A294X.ghostery.lite",
+    "inclusive" : "14573568",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/HPY23A294X.ghostery.lite"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "groupcontainer.com.apple.siri.ODDIPoirotMetricsExtension",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/com.apple.siri.ODDIPoirotMetricsExtension"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.freeform.preferences",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.freeform\/Data\/Library\/Preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "8496690",
+    "id" : "claude.vm.bundle.claudevm.bundle",
+    "inclusive" : "10910224384",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "2928640",
+    "id" : "appsupport.Cursor.index",
+    "inclusive" : "2928640",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/IndexedDB"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "32768",
+    "id" : "macos.containers.child.com.apple.Notes.LPPreviewGenerator",
+    "inclusive" : "32768",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Notes.LPPreviewGenerator"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "61440",
+    "id" : "macos.containers.child.com.apple.CloudPhotosConfiguration",
+    "inclusive" : "65536",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.CloudPhotosConfiguration"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "28672",
+    "id" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53",
+    "inclusive" : "997228544",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/d42eecea-ba9b-89e2-9fc1-793666b76c53"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "Docker",
+    "exclusive" : "0",
+    "id" : "docker.volumes",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "entity:\/\/docker\/volumes"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "819200",
+    "id" : "macos.user_caches.child.Animoji",
+    "inclusive" : "819200",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/Animoji"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "278528",
+    "id" : "cursor.workspaceStorage.f216a64957730028c62a2233c73dd5b4",
+    "inclusive" : "278528",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/f216a64957730028c62a2233c73dd5b4"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.working_tree",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-opportunity-finder"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "204800",
+    "id" : "cursor.snapshots.instance.90db91e9-83c1-4659-a56f-0ba61149fec5",
+    "inclusive" : "303104",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/90db91e9-83c1-4659-a56f-0ba61149fec5"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "36864",
+    "id" : "appsupport.Cursor.Session_Storage",
+    "inclusive" : "36864",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/Session Storage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "286187520",
+    "id" : "appsupport.Claude.claude-code-vm",
+    "inclusive" : "286187520",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/claude-code-vm"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.ControlCenter",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/ControlCenter"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "12288",
+    "id" : "groupcontainer.group.com.apple.coreservices.useractivityd",
+    "inclusive" : "12288",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.coreservices.useractivityd"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "38572032",
+    "id" : "macos.user_caches.child.com.apple.helpd",
+    "inclusive" : "38572032",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.helpd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "651264",
+    "id" : "appsupport.Code.user_settings",
+    "inclusive" : "651264",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/User"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.PDFImporter",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.PDFImporter"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.com.apple.exchangesync",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.apple.exchangesync"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "229376",
+    "id" : "chrome.profile.profile_10.history",
+    "inclusive" : "229376",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/History"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "Cloud",
+    "exclusive" : "0",
+    "id" : "cloud.icloud.mobile_documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Mobile Documents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.staging",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a1a77563-9e0c-4437-8539-7c85d164875b\/staging"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "825384960",
+    "id" : "appsupport.Claude.cache",
+    "inclusive" : "825384960",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/Cache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "appsupport.Code.VideoDecodeStats",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/VideoDecodeStats"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "40960",
+    "id" : "macos.containers.child.com.apple.LighthouseBitacoraFramework.BitacoraWorker",
+    "inclusive" : "40960",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.LighthouseBitacoraFramework.BitacoraWorker"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.moltbot",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/moltbot"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1507328",
+    "id" : "macos.application_support.child.com.apple.control-center.tips",
+    "inclusive" : "1507328",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.apple.control-center.tips"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.user_caches.child.TrickPlay",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/TrickPlay"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.user_caches.child.com.apple.callintelligenced",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.callintelligenced"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "77824",
+    "id" : "macos.application_support.child.videosubscriptionsd",
+    "inclusive" : "77824",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/videosubscriptionsd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "28672",
+    "id" : "macos.containers.child.com.apple.dt.AutomationModeUI",
+    "inclusive" : "28672",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.dt.AutomationModeUI"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "appsupport.Google.Chrome-headless",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome-headless"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "2170880",
+    "id" : "macos.application_support.child.com.apple.MediaPlayer",
+    "inclusive" : "2170880",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.apple.MediaPlayer"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.packfiles",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Projects\/ai-orchestra\/.git\/objects\/pack"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4431872",
+    "id" : "macos.group_containers.child.group.com.apple.usernoted",
+    "inclusive" : "4431872",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.usernoted"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "204800",
+    "id" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3",
+    "inclusive" : "380928",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/fae47006-d5fa-4b5b-b77c-d1ce7043a7a3"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.working_tree",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/4k-breakers-osaka"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "12288",
+    "id" : "macos.group_containers.child.group.com.apple.private.translation",
+    "inclusive" : "12288",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.private.translation"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.com.apple.productdocuments",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.apple.productdocuments"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "16384",
+    "id" : "appsupport.Cursor.user_settings",
+    "inclusive" : "15219187712",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "14344192",
+    "id" : "appsupport.Discord.cache",
+    "inclusive" : "14344192",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/component_crx_cache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.SonicKit.diagnostics.caches",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.SonicKit.diagnostics\/Data\/Library\/Caches"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.application_support.child.ngrok",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/ngrok"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "167936",
+    "id" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.objects",
+    "inclusive" : "167936",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/fae47006-d5fa-4b5b-b77c-d1ce7043a7a3\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.application_support.child.com.paragon-software.ntfs.notification-agent",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.paragon-software.ntfs.notification-agent"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "561152",
+    "id" : "appsupport.Cursor.cache",
+    "inclusive" : "561152",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/DawnGraphiteCache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "61440",
+    "id" : "macos.containers.child.com.apple.mobileslideshow.photo-picker",
+    "inclusive" : "61440",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.mobileslideshow.photo-picker"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "28672",
+    "id" : "cursor.snapshots.instance.33939b83-2294-4195-8328-20f33013c166",
+    "inclusive" : "57344",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/33939b83-2294-4195-8328-20f33013c166"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.locationaccessstored",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/locationaccessstored"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.languageassetd.tmp",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.languageassetd\/Data\/tmp"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "40960",
+    "id" : "chrome.profile.profile_10.webstorage",
+    "inclusive" : "40960",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/WebStorage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "59074952",
+    "id" : "claude.vm.bundle.claudevm.bundle.kernel",
+    "inclusive" : "59074952",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/vmlinuz"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "70",
+    "id" : "claude.vm.bundle.claudevm.bundle.metadata",
+    "inclusive" : "70",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/machineIdentifier"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.de.codenuts.HotKey.caches",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/de.codenuts.HotKey\/Data\/Library\/Caches"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "204800",
+    "id" : "macos.application_support.child.Music",
+    "inclusive" : "204800",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Music"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.working_tree",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-assessment-session"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "8192",
+    "id" : "groupcontainer.group.com.apple.siri.GMSSELFIngestor",
+    "inclusive" : "8192",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.siri.GMSSELFIngestor"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "655360",
+    "id" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.objects",
+    "inclusive" : "655360",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/2e5ac4eb-eb07-42b1-9952-10f0e9ed7842\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "cursor.snapshots.roots",
+    "inclusive" : "1544302592",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/roots"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.group_containers.child.group.com.bountylabs.periscope",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.bountylabs.periscope"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "81920",
+    "id" : "macos.group_containers.child.group.com.apple.secure-control-center-preferences",
+    "inclusive" : "81920",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.secure-control-center-preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "36864",
+    "id" : "chrome.profile.profile_10.local_storage",
+    "inclusive" : "36864",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Local Storage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "24576",
+    "id" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53",
+    "inclusive" : "19648512",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/c7ec066e-f66e-4dc0-a274-03bed04c6b53"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "AI Tools",
+    "exclusive" : "1335296",
+    "id" : "macos.user_caches.child.com.apple.dt.Xcode",
+    "inclusive" : "1335296",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.dt.Xcode"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.languageassetd.preferences",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.languageassetd\/Data\/Library\/Preferences"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "Homebrew",
+    "exclusive" : "0",
+    "id" : "homebrew.caskroom",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/opt\/homebrew\/Caskroom"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.CloudPhotosConfiguration.tmp",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.CloudPhotosConfiguration\/Data\/tmp"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "966656",
+    "id" : "macos.group_containers.child.group.com.apple.icloud.searchpartyuseragent",
+    "inclusive" : "966656",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.icloud.searchpartyuseragent"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.dmd",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/dmd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.packfiles",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Documents\/開発・ツール\/ファイル整理\/.git\/objects\/pack"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "158392320",
+    "id" : "macos.user_caches.child.com.google.GeminiMacOS",
+    "inclusive" : "158392320",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.google.GeminiMacOS"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.packfiles",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-assessment-session\/.git\/objects\/pack"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "3051520",
+    "id" : "macos.group_containers.child.group.com.apple.siri.sirisuggestions",
+    "inclusive" : "3051520",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.siri.sirisuggestions"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "4497408",
+    "id" : "git.objects",
+    "inclusive" : "4497408",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/4k-breakers-osaka\/.git\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.settings-intents.TransferResetIntents.app_support",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.settings-intents.TransferResetIntents\/Data\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "172032",
+    "id" : "cursor.snapshots.instance.11f9048f-5cff-4ab3-ad0a-97c0431abb85",
+    "inclusive" : "241664",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/11f9048f-5cff-4ab3-ad0a-97c0431abb85"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1212416",
+    "id" : "macos.application_support.child.com.apple.sbd",
+    "inclusive" : "1212416",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.apple.sbd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.de.codenuts.HotKey.tmp",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/de.codenuts.HotKey\/Data\/tmp"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.application_support.child.DiskImages",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/DiskImages"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.Stickers.UserGenerated.MessagesExtension",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Stickers.UserGenerated.MessagesExtension"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "53248",
+    "id" : "macos.containers.child.com.apple.share.System.set-account-picture",
+    "inclusive" : "53248",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.share.System.set-account-picture"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.ScreenSaver.Engine.legacyScreenSaver.preferences",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.ScreenSaver.Engine.legacyScreenSaver\/Data\/Library\/Preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "8192",
+    "id" : "git.objects",
+    "inclusive" : "8192",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Documents\/開発・ツール\/ファイル整理\/.git\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "102400",
+    "id" : "cursor.workspaceStorage.cedd91a3de98d1a97796881a4c66966b",
+    "inclusive" : "102400",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/cedd91a3de98d1a97796881a4c66966b"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "32768",
+    "id" : "macos.containers.child.com.apple.LinkPresentation.LinkSnapshotGeneratorService",
+    "inclusive" : "32768",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.LinkPresentation.LinkSnapshotGeneratorService"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "45056",
+    "id" : "appsupport.Code.WebStorage",
+    "inclusive" : "45056",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/WebStorage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "18026496",
+    "id" : "appsupport.Discord.WidevineCdm",
+    "inclusive" : "18026496",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/WidevineCdm"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB.documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.dp.PrivateFederatedLearning.DPMLRuntimePluginClassB\/Data\/Documents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "64897024",
+    "id" : "ai.cursor_logs",
+    "inclusive" : "64897024",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/logs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.freeform.caches",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.freeform\/Data\/Library\/Caches"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "12288",
+    "id" : "macos.application_support.child.OpenClaw",
+    "inclusive" : "12288",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/OpenClaw"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "432136192",
+    "id" : "appsupport.Claude.claude-code",
+    "inclusive" : "432136192",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/claude-code"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension.preferences",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension\/Data\/Library\/Preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "73728",
+    "id" : "macos.containers.child.com.apple.share.Video.upload-Youku",
+    "inclusive" : "73728",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.share.Video.upload-Youku"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "32768",
+    "id" : "macos.containers.child.com.apple.wallpaper.extension.macintosh",
+    "inclusive" : "32768",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.wallpaper.extension.macintosh"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.Network-Settings.extension.preferences",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Network-Settings.extension\/Data\/Library\/Preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.working_tree",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Documents\/non"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "5697536",
+    "id" : "macos.group_containers.child.group.com.apple.accessibility.voicebanking",
+    "inclusive" : "5697536",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.accessibility.voicebanking"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "143360",
+    "id" : "macos.user_caches.child.com.apple.SetupAssistant",
+    "inclusive" : "143360",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.SetupAssistant"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "2183168",
+    "id" : "macos.user_caches.child.ai.openclaw.mac",
+    "inclusive" : "2183168",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/ai.openclaw.mac"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "appsupport.Claude.blob_storage",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/blob_storage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.nektony.Boost-Memory.launcher.app_support",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.nektony.Boost-Memory.launcher\/Data\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "1089536",
+    "id" : "appsupport.Cursor.cache",
+    "inclusive" : "1089536",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/CachedProfilesData"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "86016",
+    "id" : "macos.application_support.child.Leawo_Blu-ray_Creator",
+    "inclusive" : "86016",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Leawo Blu-ray Creator"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "cursor.snapshots.stores",
+    "inclusive" : "6590705664",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.Network-Settings.extension",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Network-Settings.extension"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.homeenergyd",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/homeenergyd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "appsupport.Google.Chrome_for_Testing",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome for Testing"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.settings-intents.WallpaperIntents",
+    "inclusive" : "4096",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.settings-intents.WallpaperIntents"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "AI Tools",
+    "exclusive" : "17907712",
+    "id" : "ai.claude_settings",
+    "inclusive" : "293756928",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/.claude"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.iCal.CalendarNC.preferences",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.iCal.CalendarNC\/Data\/Library\/Preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "81920",
+    "id" : "macos.group_containers.child.L2SLZ5G368.group.com.katans.gTasks-Mac",
+    "inclusive" : "81920",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/L2SLZ5G368.group.com.katans.gTasks-Mac"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.DiagnosticExtensions.PICSDiagnosticExtension",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.DiagnosticExtensions.PICSDiagnosticExtension"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "777879552",
+    "id" : "cursor.snapshots.rootref.my-portfolio-59e3672d",
+    "inclusive" : "777879552",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/roots\/my-portfolio-59e3672d"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "8192",
+    "id" : "macos.application_support.child.com.apple.appleintelligencereporting.processing",
+    "inclusive" : "8192",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.apple.appleintelligencereporting.processing"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.settings-intents.TransferResetIntents",
+    "inclusive" : "4096",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.settings-intents.TransferResetIntents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.Mouse-Settings.extension.app_support",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Mouse-Settings.extension\/Data\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.com.apple.replayd",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.apple.replayd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "1142784",
+    "id" : "git.objects",
+    "inclusive" : "1142784",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Projects\/ai-orchestra\/.git\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.CloudPhotosConfiguration.app_support",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.CloudPhotosConfiguration\/Data\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.clawdis",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/clawdis"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "0",
+    "id" : "git.packfiles",
+    "inclusive" : "0",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Documents\/non\/.git\/objects\/pack"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "8192",
+    "id" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.refs",
+    "inclusive" : "8192",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a1a77563-9e0c-4437-8539-7c85d164875b\/refs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "28672",
+    "id" : "appsupport.Code.cache",
+    "inclusive" : "28672",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/DawnGraphiteCache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "8145022976",
+    "id" : "macos.group_containers",
+    "inclusive" : "23060566016",
+    "level" : "1",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "28672",
+    "id" : "cursor.snapshots.instance.8a462aec-6903-47b4-b8fb-2a52b8d7481f",
+    "inclusive" : "49152",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/8a462aec-6903-47b4-b8fb-2a52b8d7481f"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.Mouse-Settings.extension.tmp",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Mouse-Settings.extension\/Data\/tmp"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "15372288",
+    "id" : "macos.application_support.child.jp.co.elecom.RakuchinPrint.V3",
+    "inclusive" : "15372288",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/jp.co.elecom.RakuchinPrint.V3"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "57344",
+    "id" : "macos.containers.child.com.apple.photos.VideoConversionService",
+    "inclusive" : "57344",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.photos.VideoConversionService"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "564805632",
+    "id" : "macos.application_support.child.Wondershare_Filmora_Mac",
+    "inclusive" : "564805632",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Wondershare Filmora Mac"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "24576",
+    "id" : "appsupport.Discord.Session_Storage",
+    "inclusive" : "24576",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/Session Storage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "16384",
+    "id" : "macos.application_support.child.com.vercel.cli",
+    "inclusive" : "16384",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.vercel.cli"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "16384",
+    "id" : "cursor.snapshots.instance.8a462aec-6903-47b4-b8fb-2a52b8d7481f.objects",
+    "inclusive" : "16384",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/8a462aec-6903-47b4-b8fb-2a52b8d7481f\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "1751539712",
+    "id" : "ai.codex.sessions",
+    "inclusive" : "1751539712",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/.codex\/sessions"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "69632",
+    "id" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.objects",
+    "inclusive" : "69632",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e8d79678-1c39-4e37-9066-559b7d7a772b\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "786432",
+    "id" : "groupcontainer.group.com.apple.swtransparency",
+    "inclusive" : "786432",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.swtransparency"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "2183168",
+    "id" : "macos.user_caches.child.com.google.GoogleUpdater",
+    "inclusive" : "2183168",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.google.GoogleUpdater"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "2445312",
+    "id" : "macos.user_caches.child.com.apple.akd",
+    "inclusive" : "2445312",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.akd"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "86016",
+    "id" : "appsupport.Claude.WebStorage",
+    "inclusive" : "86016",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/WebStorage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "204800",
+    "id" : "cursor.snapshots.instance.8217aef3-7fbd-4514-9e7a-4aeae6056a5e",
+    "inclusive" : "327680",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/8217aef3-7fbd-4514-9e7a-4aeae6056a5e"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "49152",
+    "id" : "chrome.profile.profile_10.cookies",
+    "inclusive" : "49152",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Cookies"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "282624",
+    "id" : "macos.user_caches.child.com.hnc.Discord",
+    "inclusive" : "282624",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.hnc.Discord"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "3846144",
+    "id" : "container.com.apple.freeform.app_support",
+    "inclusive" : "3846144",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.freeform\/Data\/Library\/Application Support"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "4096",
+    "id" : "cursor.snapshots.instance.33939b83-2294-4195-8328-20f33013c166.refs",
+    "inclusive" : "4096",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/33939b83-2294-4195-8328-20f33013c166\/refs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "46575616",
+    "id" : "macos.application_support.child.com.wondershare.Installer",
+    "inclusive" : "46575616",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.wondershare.Installer"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "81920",
+    "id" : "git.dot_git",
+    "inclusive" : "81920",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Workspace\/10_進行中\/ai-storage-manager\/.git"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "77824",
+    "id" : "macos.containers.child.com.apple.PassKit.PaymentAuthorizationUIExtension",
+    "inclusive" : "77824",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.PassKit.PaymentAuthorizationUIExtension"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "groupcontainer.UBF8T346G9.OfficeOsfWebHost",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/UBF8T346G9.OfficeOsfWebHost"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "Cloud",
+    "exclusive" : "0",
+    "id" : "cloud.fileprovider.root",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/CloudStorage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "131072",
+    "id" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.objects",
+    "inclusive" : "131072",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e108bc44-a2b6-41c2-8036-789ee82c6bf8\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "20480",
+    "id" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.objects",
+    "inclusive" : "20480",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "8192",
+    "id" : "macos.group_containers.child.group.com.facebook.msysstorage",
+    "inclusive" : "8192",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.facebook.msysstorage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "368640",
+    "id" : "appsupport.Discord.Service_Worker",
+    "inclusive" : "368640",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Discord\/Service Worker"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "729088",
+    "id" : "macos.application_support.child.Compressor",
+    "inclusive" : "729088",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Compressor"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "45056",
+    "id" : "macos.group_containers.child.V9WTTPBFK9.com.facebook.Messenger",
+    "inclusive" : "45056",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/V9WTTPBFK9.com.facebook.Messenger"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "81920",
+    "id" : "macos.user_caches.child.com.apple.finder",
+    "inclusive" : "81920",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.finder"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "81920",
+    "id" : "macos.user_caches.child.com.google.GeminiMacOS.launcher",
+    "inclusive" : "81920",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.google.GeminiMacOS.launcher"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1142931456",
+    "id" : "macos.tmpdir",
+    "inclusive" : "1142931456",
+    "level" : "4",
+    "path" : "\/var\/folders\/gy\/qr_n085n1wq196lwrs42vcmw0000gn\/T"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.trash",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/.Trash"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "4096",
+    "id" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.refs",
+    "inclusive" : "4096",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a9b007cc-cceb-4969-b48d-bf385deb5543\/refs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.Network-Settings.extension.documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.Network-Settings.extension\/Data\/Documents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "278528",
+    "id" : "appsupport.Google.JapaneseInput",
+    "inclusive" : "278528",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/JapaneseInput"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "93425664",
+    "id" : "ai.cursor.workspace_storage",
+    "inclusive" : "172408832",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "123559936",
+    "id" : "macos.logs",
+    "inclusive" : "123559936",
+    "level" : "1",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Logs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "groupcontainer.group.com.apple.photolibraryd.private",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.photolibraryd.private"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "5840896",
+    "id" : "appsupport.Claude.cache",
+    "inclusive" : "5840896",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/GPUCache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "0",
+    "id" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.staging",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/fae47006-d5fa-4b5b-b77c-d1ce7043a7a3\/staging"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "Xcode",
+    "exclusive" : "1544192",
+    "id" : "xcode.deriveddata.SDKStatCaches.noindex",
+    "inclusive" : "1544192",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/SDKStatCaches.noindex"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "272449536",
+    "id" : "ai.cursor.extensions",
+    "inclusive" : "272449536",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/CachedExtensionVSIXs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.eventMetaDataExtractor.eventMetaDataExtractorPlugin",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.eventMetaDataExtractor.eventMetaDataExtractorPlugin"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "40960",
+    "id" : "cursor.snapshots.state",
+    "inclusive" : "73728",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/state"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1593344",
+    "id" : "macos.containers.child.com.apple.ScreenTimeAgent",
+    "inclusive" : "1593344",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.ScreenTimeAgent"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "macos.application_support.child.Spotlight",
+    "inclusive" : "0",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Spotlight"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "8192",
+    "id" : "ios.backup.root",
+    "inclusive" : "8192",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/MobileSync\/Backup"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "53248",
+    "id" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.objects",
+    "inclusive" : "53248",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/c7ec066e-f66e-4dc0-a274-03bed04c6b53\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "2035712",
+    "id" : "appsupport.Cursor.Crashpad",
+    "inclusive" : "2035712",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/Crashpad"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4362240",
+    "id" : "macos.application_support.child.networkserviceproxy",
+    "inclusive" : "4362240",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/networkserviceproxy"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "12021760",
+    "id" : "macos.containers.child.maccatalyst.com.atebits.Tweetie2",
+    "inclusive" : "12021760",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/maccatalyst.com.atebits.Tweetie2"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "106496",
+    "id" : "appsupport.Claude.Session_Storage",
+    "inclusive" : "106496",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/Session Storage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.containers.child.com.apple.priml.PFLMLHostPlugins.SiriMASPFLCK",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.priml.PFLMLHostPlugins.SiriMASPFLCK"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "61440",
+    "id" : "macos.user_caches.child.notion.id.ShipIt",
+    "inclusive" : "61440",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/notion.id.ShipIt"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.videoapps.RegisterProExtension.caches",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.videoapps.RegisterProExtension\/Data\/Library\/Caches"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "53248",
+    "id" : "macos.containers.child.com.apple.RAQLThumbnailExtension",
+    "inclusive" : "53248",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.RAQLThumbnailExtension"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "macos.application_support.child.google-heartbeat-storage",
+    "inclusive" : "4096",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/google-heartbeat-storage"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "8192",
+    "id" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.refs",
+    "inclusive" : "8192",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/285a93aa-acdf-41cf-b776-03c747b5f916\/refs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "40960",
+    "id" : "macos.containers.child.com.apple.siri.SiriPrivateLearningAnalytics.SiriUserSegmentation",
+    "inclusive" : "40960",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.siri.SiriPrivateLearningAnalytics.SiriUserSegmentation"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "28672",
+    "id" : "appsupport.Code.cache",
+    "inclusive" : "28672",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Code\/GPUCache"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "7217315840",
+    "id" : "tomylocal.child.FacebookMessenger",
+    "inclusive" : "7217315840",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/TomyLocal\/FacebookMessenger"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "65536",
+    "id" : "macos.containers.child.com.apple.share.System.add-to-iphoto",
+    "inclusive" : "65536",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.share.System.add-to-iphoto"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1823993856",
+    "id" : "macos.application_support.child.zoom.us",
+    "inclusive" : "1823993856",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/zoom.us"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "24576",
+    "id" : "cursor.snapshots.instance.33939b83-2294-4195-8328-20f33013c166.objects",
+    "inclusive" : "24576",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/33939b83-2294-4195-8328-20f33013c166\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "5593268224",
+    "id" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49.objects",
+    "inclusive" : "5593268224",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/81a50d8e-b83d-8058-aa3b-3288b57a9e49\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "61734912",
+    "id" : "macos.group_containers.child.group.com.apple.chronod",
+    "inclusive" : "61734912",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.chronod"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "19562496",
+    "id" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.staging",
+    "inclusive" : "19562496",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/c7ec066e-f66e-4dc0-a274-03bed04c6b53\/staging"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "65536",
+    "id" : "cursor.snapshots.instance.11f9048f-5cff-4ab3-ad0a-97c0431abb85.objects",
+    "inclusive" : "65536",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/11f9048f-5cff-4ab3-ad0a-97c0431abb85\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "2322432",
+    "id" : "macos.application_support.child.com.apple.dt.Xcode",
+    "inclusive" : "2322432",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/com.apple.dt.Xcode"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "61440",
+    "id" : "git.objects",
+    "inclusive" : "61440",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Documents\/non\/.git\/objects"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "4096",
+    "id" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.refs",
+    "inclusive" : "4096",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e8d79678-1c39-4e37-9066-559b7d7a772b\/refs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "75554816",
+    "id" : "macos.user_caches.child.GeoServices",
+    "inclusive" : "75554816",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/GeoServices"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "495616",
+    "id" : "macos.application_support.child.Astro_Gaming",
+    "inclusive" : "495616",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Astro Gaming"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.settings-intents.TransferResetIntents.caches",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.settings-intents.TransferResetIntents\/Data\/Library\/Caches"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "groupcontainer.group.com.apple.feedback",
+    "inclusive" : "4096",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.feedback"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "274432",
+    "id" : "cursor.workspaceStorage.38ea36f9",
+    "inclusive" : "274432",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/38ea36f9"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "4096",
+    "id" : "container.com.apple.CloudPhotosConfiguration.preferences",
+    "inclusive" : "4096",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.CloudPhotosConfiguration\/Data\/Library\/Preferences"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "40960",
+    "id" : "macos.application_support.child.Xcode",
+    "inclusive" : "40960",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Xcode"
+  },
+  {
+    "class" : "RED",
+    "domain" : "Git",
+    "exclusive" : "20480",
+    "id" : "git.dot_git",
+    "inclusive" : "28672",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Documents\/開発・ツール\/ファイル整理\/.git"
+  },
+  {
+    "class" : "UNKNOWN",
+    "domain" : "macOS",
+    "exclusive" : "991232",
+    "id" : "macos.user_caches.child.com.apple.managedappdistributionagent",
+    "inclusive" : "991232",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/com.apple.managedappdistributionagent"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "163151872",
+    "id" : "macos.application_support.child.Claude",
+    "inclusive" : "12659564544",
+    "level" : "3",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "2891776",
+    "id" : "macos.group_containers.child.group.com.apple.appstoreagent",
+    "inclusive" : "2891776",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.appstoreagent"
+  },
+  {
+    "class" : "RED",
+    "domain" : "AI Tools",
+    "exclusive" : "4096",
+    "id" : "cursor.snapshots.instance.8217aef3-7fbd-4514-9e7a-4aeae6056a5e.refs",
+    "inclusive" : "4096",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/8217aef3-7fbd-4514-9e7a-4aeae6056a5e\/refs"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "0",
+    "id" : "container.com.apple.videoapps.RegisterProExtension.documents",
+    "inclusive" : "0",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Containers\/com.apple.videoapps.RegisterProExtension\/Data\/Documents"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "16384",
+    "id" : "voicememos.root",
+    "inclusive" : "14094884864",
+    "level" : "4",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Group Containers\/group.com.apple.VoiceMemos.shared"
+  },
+  {
+    "class" : "RED",
+    "domain" : "macOS",
+    "exclusive" : "1568768",
+    "id" : "macos.application_support.child.Quick_Look",
+    "inclusive" : "1568768",
+    "level" : "2",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Quick Look"
+  }
+]

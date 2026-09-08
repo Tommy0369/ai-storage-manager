@@ -1,0 +1,25 @@
+{
+  "ExecutionPermitCreated" : false,
+  "entityID" : "unknown",
+  "exactCandidateReadyForHumanAuthorization" : false,
+  "executableResolved" : false,
+  "executionCapability" : "IMPLEMENTED",
+  "executorCapability" : "IMPLEMENTED",
+  "firstMapMs" : 805,
+  "humanAuthorizationRequired" : false,
+  "localManifestStatus" : "MISSING",
+  "modelIdentity" : "unknown",
+  "nativeInterfaceStatus" : "UNRESOLVED",
+  "note" : "P3.2A.1 read-only. No ollama rm \/ API DELETE \/ real mutation. No real approval\/permit.",
+  "observedBytes" : 0,
+  "preflightStatus" : "NO_OLLAMA_MODEL_ENTITY",
+  "realApprovalCreated" : false,
+  "realMutationExecuted" : false,
+  "referenceGraphStatus" : "UNKNOWN",
+  "remainingBlockers" : [
+
+  ],
+  "remoteProofStatus" : "UNKNOWN",
+  "remoteReacquisitionStatus" : "UNKNOWN",
+  "runtimeStatus" : "UNKNOWN"
+}

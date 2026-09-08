@@ -1,0 +1,162 @@
+[
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "INFERRED",
+    "entityID" : "claude.vm.warm",
+    "lifecycleRole" : "CACHE",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/warm",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 0,
+    "unknownReasons" : [
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "INFERRED",
+    "entityID" : "claude.vm.bundle.claudevm.bundle.writable",
+    "lifecycleRole" : "APPLICATION_STATE",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/sessiondata.img",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+      "BELONGS_TO_VERSION:1.44121.4:INFERRED"
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 105234432,
+    "unknownReasons" : [
+      "VERSION_RELATION_UNKNOWN",
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "INFERRED",
+    "entityID" : "claude.vm.root",
+    "lifecycleRole" : "RUNTIME",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 0,
+    "unknownReasons" : [
+      "LIFECYCLE_MIXED_CONTENT",
+      "UNKNOWN_ACTIVE_STATE",
+      "LIFECYCLE_DATABASE_UNKNOWN",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "INFERRED",
+    "entityID" : "claude.vm.bundle.claudevm.bundle.runtime",
+    "lifecycleRole" : "RUNTIME",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/rootfs.img",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+      "BELONGS_TO_VERSION:1.44121.4:INFERRED"
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 10737418240,
+    "unknownReasons" : [
+      "VERSION_RELATION_UNKNOWN",
+      "UNKNOWN_ACTIVE_STATE",
+      "LIFECYCLE_DATABASE_UNKNOWN",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "INFERRED",
+    "entityID" : "claude.vm.bundle.claudevm.bundle",
+    "lifecycleRole" : "RUNTIME",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+      "BELONGS_TO_VERSION:1.44121.4:INFERRED"
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 8496690,
+    "unknownReasons" : [
+      "VERSION_RELATION_UNKNOWN",
+      "UNKNOWN_ACTIVE_STATE",
+      "LIFECYCLE_DATABASE_UNKNOWN",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "INFERRED",
+    "entityID" : "claude.vm.bundle.claudevm.bundle.kernel",
+    "lifecycleRole" : "RUNTIME",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/vmlinuz",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+      "BELONGS_TO_VERSION:1.44121.4:INFERRED"
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 59074952,
+    "unknownReasons" : [
+      "VERSION_RELATION_UNKNOWN",
+      "UNKNOWN_ACTIVE_STATE",
+      "LIFECYCLE_DATABASE_UNKNOWN",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  },
+  {
+    "activeState" : "UNKNOWN",
+    "activeStateConfidence" : "INFERRED",
+    "entityID" : "claude.vm.bundle.claudevm.bundle.metadata",
+    "lifecycleRole" : "USER_CONFIGURATION",
+    "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/machineIdentifier",
+    "provenanceConfidence" : "INFERRED",
+    "regenerable" : "unknown",
+    "regenerableConfidence" : "UNKNOWN",
+    "relationships" : [
+      "BELONGS_TO_VERSION:1.44121.4:INFERRED"
+    ],
+    "safetyClass" : "RED",
+    "sourceOfTruth" : "unknown",
+    "sourceOfTruthConfidence" : "UNKNOWN",
+    "uniqueBytes" : 70,
+    "unknownReasons" : [
+      "VERSION_RELATION_UNKNOWN",
+      "UNKNOWN_ACTIVE_STATE",
+      "UNKNOWN_SOURCE_OF_TRUTH",
+      "UNKNOWN_REGENERABILITY"
+    ]
+  }
+]

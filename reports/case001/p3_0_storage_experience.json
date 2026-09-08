@@ -1,0 +1,98 @@
+{
+  "diskAvailableBytes" : 136983469661,
+  "diskTotalBytes" : 494332366848,
+  "diskUsedBytes" : 357348897187,
+  "generatedAt" : "2026-09-05T10:14:58Z",
+  "mapAccountingValid" : true,
+  "mapRootBytes" : 100180422656,
+  "needsReviewBytes" : 5434445824,
+  "needsReviewCount" : 54,
+  "observedBytes" : 32211922944,
+  "protectedBytes" : 94745976832,
+  "protectedCount" : 473,
+  "readyActionCount" : 0,
+  "readyPotentialBytes" : 0,
+  "recentActionCount" : 0,
+  "recoveryPendingBytes" : 0,
+  "technicalIDsHiddenByDefault" : true,
+  "topCategories" : [
+    {
+      "bytes" : "45385871360",
+      "category" : "AI_TOOLS",
+      "name" : "AI Tools"
+    },
+    {
+      "bytes" : "35549982720",
+      "category" : "MACOS_SYSTEM",
+      "name" : "macOS \/ System"
+    },
+    {
+      "bytes" : "14095187968",
+      "category" : "PERSONAL_FILES",
+      "name" : "Personal Files"
+    },
+    {
+      "bytes" : "2358513664",
+      "category" : "DEVELOPER",
+      "name" : "Developer"
+    },
+    {
+      "bytes" : "1644269568",
+      "category" : "GENERATED_DATA",
+      "name" : "Generated Data"
+    }
+  ],
+  "topEntities" : [
+    {
+      "bytes" : "14965690368",
+      "entityID" : "ai.cursor.global_storage",
+      "title" : "Cursor"
+    },
+    {
+      "bytes" : "14094864384",
+      "entityID" : "voicememos.recordings",
+      "title" : "Voice Memos"
+    },
+    {
+      "bytes" : "10745818865",
+      "entityID" : "appsupport.Google.Chrome",
+      "title" : "Google"
+    },
+    {
+      "bytes" : "10737418240",
+      "entityID" : "claude.vm.bundle.claudevm.bundle.runtime",
+      "title" : "Claude"
+    },
+    {
+      "bytes" : "8145022976",
+      "entityID" : "macos.group_containers",
+      "title" : "Group Containers"
+    },
+    {
+      "bytes" : "7217315840",
+      "entityID" : "tomylocal.child.FacebookMessenger",
+      "title" : "TomyLocal"
+    },
+    {
+      "bytes" : "5593268224",
+      "entityID" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49.objects",
+      "title" : "Cursor"
+    },
+    {
+      "bytes" : "2062807040",
+      "entityID" : "ai.codex.config",
+      "title" : "Codex"
+    },
+    {
+      "bytes" : "2025504768",
+      "entityID" : "xcode.preview_cache",
+      "title" : "Preview Cache"
+    },
+    {
+      "bytes" : "1823993856",
+      "entityID" : "macos.application_support.child.zoom.us",
+      "title" : "zoom.us"
+    }
+  ],
+  "unclassifiedBytes" : 0
+}

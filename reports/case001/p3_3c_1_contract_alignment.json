@@ -1,0 +1,22 @@
+{
+  "actualStore": "/Users/tomitakatsuhiro/Library/Application Support/Cursor/User/globalStorage/anysphere.cursor-agent-worker/agent-cli/.local/share/cursor-agent/versions",
+  "cleanupStore": "/Users/tomitakatsuhiro/.local/share/cursor-agent/versions",
+  "canonicalPathRelationship": "SIBLING_STORE",
+  "semanticStorageClassMatch": true,
+  "exactTargetMatch": false,
+  "selectorMatch": false,
+  "blastRadiusBound": true,
+  "currentProtected": true,
+  "activeProtected": true,
+  "fallbackProtected": true,
+  "contractReachable": true,
+  "alignmentStatus": "STORE_MISMATCH",
+  "remainingUnknowns": [
+    "Whether worker will ever call cleanupOldInstallVersions with GS versionsDir",
+    "Whether future Cursor unifies roots"
+  ],
+  "vendorMatches": true,
+  "mayReachApprovalBoundary": false,
+  "principle": "THIS cleanup mechanism does NOT manage THIS exact agent-cli version store",
+  "generatedAt": "2026-09-05T05:50:04Z"
+}

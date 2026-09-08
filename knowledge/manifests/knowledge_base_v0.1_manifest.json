@@ -1,0 +1,35 @@
+{
+  "original_deep_research_kb": {
+    "known_to_have_existed": true,
+    "available": false,
+    "record_count": 178,
+    "class_distribution": {
+      "GREEN": 47,
+      "YELLOW": 58,
+      "RED": 61,
+      "UNKNOWN": 12
+    },
+    "artifact_filename": "storage_safety_knowledge_base_v0.1.json"
+  },
+  "current_kb": {
+    "type": "RECONSTRUCTED",
+    "canonical_status": "PROVISIONAL",
+    "record_count": 178,
+    "class_distribution": {
+      "RED": 66,
+      "GREEN": 30,
+      "YELLOW": 74,
+      "UNKNOWN": 8
+    },
+    "path": "knowledge/source/storage_safety_knowledge_base_v0.1-reconstructed.json",
+    "compiled_path": "knowledge/compiled/compiled_rules_v0.1.json",
+    "bootstrap_rule_count": 45
+  },
+  "distribution_delta_vs_original_report": {
+    "GREEN": -17,
+    "YELLOW": 16,
+    "RED": 5,
+    "UNKNOWN": -4,
+    "note": "Reconstructed from compiled+spec expansion. Do not treat as original Deep Research JSON."
+  }
+}

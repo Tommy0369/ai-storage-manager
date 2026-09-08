@@ -1,0 +1,28 @@
+{
+  "ollama": {
+    "storeMatch": true,
+    "targetMatch": true,
+    "blastRadiusBound": true,
+    "alignmentStatus": "ALIGNED",
+    "fixtureOnly": true,
+    "liveModelPresent": false
+  },
+  "huggingFace": {
+    "storeMatch": true,
+    "targetMatch": true,
+    "blastRadiusBound": true,
+    "lastRevisionSemanticConsequenceHandledCorrectly": true,
+    "alignmentStatus": "ALIGNED",
+    "fixtureOnly": true,
+    "liveRevisionPresent": false
+  },
+  "cursor": {
+    "storeMatch": false,
+    "targetMatch": false,
+    "blastRadiusBound": true,
+    "alignmentStatus": "STORE_MISMATCH",
+    "relationship": "SIBLING_STORE",
+    "potentialRecoveryBytes": 0
+  },
+  "generatedAt": "2026-09-05T05:50:04Z"
+}

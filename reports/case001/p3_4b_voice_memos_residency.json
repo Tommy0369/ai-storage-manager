@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-09-05T10:31:22Z",
+  "residentRecordingCount": 126,
+  "residentBytes": 14021960498,
+  "nativeNonresidentCount": 0,
+  "nativeNonresidentBytes": 0,
+  "unknownResidencyCount": 2,
+  "unknownResidencyBytes": 0,
+  "residencyEvidenceType": "LOCAL_FILE_SIZE_PRESENT",
+  "nativeRematerializationEvidence": "NONE_PROVEN",
+  "note": "Missing/zero-size media \u2260 NONRESIDENT_NATIVE without vendor residency metadata",
+  "ZEVICTIONDATE_nonnull_doesNotProveLocalNonresident": true
+}

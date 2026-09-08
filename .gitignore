@@ -1,0 +1,22 @@
+.DS_Store
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm
+*.xcodeproj
+/build
+*.key
+*.p12
+*.certSigningRequest
+.env
+.env.*
+
+# Local ad-hoc / Finder duplicates — never ship
+/dist-dev/
+**/AI Storage Manager 2.app/
+**/AI Storage Manager 2.app
+
+# Keep release ZIPs + manifests; exclude rebuilt .app trees (recoverable from ZIP)
+/dist/*.app/
+/dist-0.2/*.app/

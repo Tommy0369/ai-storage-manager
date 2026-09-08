@@ -1,0 +1,41 @@
+{
+  "releaseVersion": "0.1.0",
+  "build": "50",
+  "releaseStatus": "V0_1_GLOBAL_RELEASE_FROZEN",
+  "frozenAt": "2026-09-08T01:14:20Z",
+  "references": {
+    "releaseManifest": "dist/release-manifest.json",
+    "releaseManifestArchiveCopy": "reports/release/v0.1.0/release-manifest.json",
+    "p55Signing": "reports/case001/p5_5_signing.json",
+    "p55Notarization": "reports/case001/p5_5_notarization.json",
+    "p55Package": "reports/case001/p5_5_global_package.json",
+    "p55GlobalGate": "reports/case001/p5_5_global_release_gate.json",
+    "p55ComprehensiveReport": "reports/case001/p5_5_総合レポート.md",
+    "p55LocalizationFreezeNote": "P5.4 LOCALIZATION_RELEASE_READY + P5.5 localization bundle validation retained",
+    "p56Fingerprint": "reports/case001/p5_6_release_fingerprint.json",
+    "p56FinalArtifactAudit": "reports/case001/p5_6_final_artifact_audit.json",
+    "p56DocumentationAudit": "reports/case001/p5_6_documentation_audit.json",
+    "p56SafetyFreeze": "reports/case001/p5_6_safety_freeze.json",
+    "p56ComprehensiveReport": "reports/case001/p5_6_総合レポート.md",
+    "finalChecksumRecord": "reports/release/v0.1.0/final-checksum-record.json",
+    "finalApp": "/Users/tomitakatsuhiro/Workspace/10_進行中/ai-storage-manager/dist/AI Storage Manager.app",
+    "finalZip": "/Users/tomitakatsuhiro/Workspace/10_進行中/ai-storage-manager/dist/AIStorageManager-0.1.0-rc50-arm64.zip"
+  },
+  "archiveCopies": [
+    "release-manifest.json",
+    "p5_5_global_release_gate.json",
+    "p5_5_signing.json",
+    "p5_5_notarization.json",
+    "p5_5_global_package.json",
+    "p5_5_global_release_freeze.json",
+    "p5_5_総合レポート.md",
+    "p5_6_release_fingerprint.json",
+    "p5_6_final_artifact_audit.json",
+    "p5_6_documentation_audit.json",
+    "p5_6_safety_freeze.json",
+    "final-checksum-record.json",
+    "release-evidence-index.json",
+    "p5_6_総合レポート.md"
+  ],
+  "generatedAt": "2026-09-08T01:14:20Z"
+}

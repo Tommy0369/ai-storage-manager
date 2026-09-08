@@ -1,0 +1,18 @@
+{
+  "vendorRetentionFound": false,
+  "retentionClasses": [],
+  "TTL": null,
+  "maxEntries": null,
+  "sizeThreshold": null,
+  "cleanupTriggers": [],
+  "userCommands": [],
+  "deleteBlastRadiusKnown": false,
+  "compactionSemantics": "NONE_PROVEN_FOR_STATE_VSCDB",
+  "unknowns": [
+    "Whether UI chat deletion removes bubbleId/agentKv rows",
+    "Whether any Cursor command vacuums/compacts state.vscdb",
+    "Whether cloud sync restores cursorDiskKV"
+  ],
+  "conclusion": "NO_VENDOR_RETENTION_PROOF_FOUND",
+  "generatedAt": "2026-09-05T02:13:42Z"
+}

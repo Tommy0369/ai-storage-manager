@@ -1,0 +1,1071 @@
+{
+  "assessments" : [
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "ai.ollama.blobs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/.ollama\/models\/blobs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "REFERENCE_GRAPH",
+      "entityID" : "ai.ollama.blobs",
+      "feasibility" : "EXPLICIT_ROUTE_AVAILABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/.ollama\/models\/blobs",
+      "reason" : "OLLAMA_MANIFEST_ROUTE",
+      "strategyID" : "OllamaStorageProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "ai.ollama.manifests",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/.ollama\/models\/manifests",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "REFERENCE_GRAPH",
+      "entityID" : "ai.ollama.manifests",
+      "feasibility" : "EXPLICIT_ROUTE_AVAILABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/.ollama\/models\/manifests",
+      "reason" : "OLLAMA_MANIFEST_ROUTE",
+      "strategyID" : "OllamaStorageProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "ai.ollama_models",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/.ollama\/models",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "REFERENCE_GRAPH",
+      "entityID" : "ai.ollama_models",
+      "feasibility" : "EXPLICIT_ROUTE_AVAILABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/.ollama\/models",
+      "reason" : "OLLAMA_MANIFEST_ROUTE",
+      "strategyID" : "OllamaStorageProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "xcode.derived_data",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "SOURCE_OF_TRUTH",
+      "entityID" : "xcode.derived_data",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData",
+      "strategyID" : "SourceOfTruthResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "xcode.module_cache",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "SOURCE_OF_TRUTH",
+      "entityID" : "xcode.module_cache",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/ModuleCache.noindex",
+      "strategyID" : "SourceOfTruthResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "xcode.deriveddata.SDKStatCaches.noindex",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/SDKStatCaches.noindex",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "SOURCE_OF_TRUTH",
+      "entityID" : "xcode.deriveddata.SDKStatCaches.noindex",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/DerivedData\/SDKStatCaches.noindex",
+      "strategyID" : "SourceOfTruthResolver"
+    },
+    {
+      "claim" : "REFERENCE_GRAPH",
+      "entityID" : "ai.hf.hub",
+      "feasibility" : "EXPLICIT_ROUTE_AVAILABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/.cache\/huggingface\/hub",
+      "reason" : "HF_HUB_CACHE_ROUTE",
+      "strategyID" : "HuggingFaceStorageProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "claude.vm.bundle.claudevm.bundle",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "claude.vm.bundle.claudevm.bundle",
+      "feasibility" : "EXPLICIT_ROUTE_AVAILABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle",
+      "reason" : "PROCESS_ASSOCIATED",
+      "strategyID" : "ClaudeVMActiveProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "claude.vm.bundle.claudevm.bundle.runtime",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/rootfs.img",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "claude.vm.bundle.claudevm.bundle.runtime",
+      "feasibility" : "EXPLICIT_ROUTE_AVAILABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/rootfs.img",
+      "reason" : "PROCESS_ASSOCIATED",
+      "strategyID" : "ClaudeVMActiveProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "claude.vm.root",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "claude.vm.root",
+      "feasibility" : "EXPLICIT_ROUTE_AVAILABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles",
+      "reason" : "PROCESS_ASSOCIATED",
+      "strategyID" : "ClaudeVMActiveProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "claude.vm.bundle.claudevm.bundle.writable",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/sessiondata.img",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "claude.vm.bundle.claudevm.bundle.writable",
+      "feasibility" : "EXPLICIT_ROUTE_AVAILABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/sessiondata.img",
+      "reason" : "PROCESS_ASSOCIATED",
+      "strategyID" : "ClaudeVMActiveProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "claude.vm.bundle.claudevm.bundle.kernel",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/vmlinuz",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "claude.vm.bundle.claudevm.bundle.kernel",
+      "feasibility" : "EXPLICIT_ROUTE_AVAILABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/vmlinuz",
+      "reason" : "PROCESS_ASSOCIATED",
+      "strategyID" : "ClaudeVMActiveProofStrategy"
+    },
+    {
+      "claim" : "REFERENCE_GRAPH",
+      "entityID" : "ai.huggingface_cache",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/.cache\/huggingface",
+      "strategyID" : "HuggingFaceStorageProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "claude.vm.bundle.claudevm.bundle.metadata",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/machineIdentifier",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "claude.vm.bundle.claudevm.bundle.metadata",
+      "feasibility" : "EXPLICIT_ROUTE_AVAILABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/claudevm.bundle\/machineIdentifier",
+      "reason" : "PROCESS_ASSOCIATED",
+      "strategyID" : "ClaudeVMActiveProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "claude.vm.warm",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/warm",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "claude.vm.warm",
+      "feasibility" : "EXPLICIT_ROUTE_AVAILABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Claude\/vm_bundles\/warm",
+      "reason" : "PROCESS_ASSOCIATED",
+      "strategyID" : "ClaudeVMActiveProofStrategy"
+    },
+    {
+      "claim" : "REMOTE_COPY_EXISTS",
+      "entityID" : "cloud.fileprovider.root",
+      "feasibility" : "EXPLICIT_ROUTE_AVAILABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/CloudStorage",
+      "reason" : "CLOUD_ENTITY_KIND",
+      "strategyID" : "FileProviderProofStrategy"
+    },
+    {
+      "claim" : "REMOTE_COPY_EXISTS",
+      "entityID" : "cloud.icloud.mobile_documents",
+      "feasibility" : "EXPLICIT_ROUTE_AVAILABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Mobile Documents",
+      "reason" : "CLOUD_ENTITY_KIND",
+      "strategyID" : "FileProviderProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "xcode.preview_cache",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/Xcode\/UserData\/Previews",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "xcode.simulator_devices",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Developer\/CoreSimulator\/Devices",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.workspaceStorage.e0fc1104707bd07ae87361090d3c6aaf",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/e0fc1104707bd07ae87361090d3c6aaf",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.e0fc1104707bd07ae87361090d3c6aaf",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/e0fc1104707bd07ae87361090d3c6aaf",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "CursorMetadataProofStrategy"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.e0fc1104707bd07ae87361090d3c6aaf",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/e0fc1104707bd07ae87361090d3c6aaf",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "WorkspaceRelationshipProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.workspaceStorage.9c26c191bf61ff9bea68275f86e9981a",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/9c26c191bf61ff9bea68275f86e9981a",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.9c26c191bf61ff9bea68275f86e9981a",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/9c26c191bf61ff9bea68275f86e9981a",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "CursorMetadataProofStrategy"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.9c26c191bf61ff9bea68275f86e9981a",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/9c26c191bf61ff9bea68275f86e9981a",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "WorkspaceRelationshipProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "chrome.profile.profile_10.extensions",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Extensions",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "ai.ollama.logs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/.ollama\/logs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.workspaceStorage.682dded78a349fd566ac1eee6c100612",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/682dded78a349fd566ac1eee6c100612",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.682dded78a349fd566ac1eee6c100612",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/682dded78a349fd566ac1eee6c100612",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "CursorMetadataProofStrategy"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.682dded78a349fd566ac1eee6c100612",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/682dded78a349fd566ac1eee6c100612",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "WorkspaceRelationshipProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "chrome.profile.profile_10.history",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/History",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "chrome.profile.profile_10.indexeddb",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/IndexedDB",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.workspaceStorage.f216a64957730028c62a2233c73dd5b4",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/f216a64957730028c62a2233c73dd5b4",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.f216a64957730028c62a2233c73dd5b4",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/f216a64957730028c62a2233c73dd5b4",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "CursorMetadataProofStrategy"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.f216a64957730028c62a2233c73dd5b4",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/f216a64957730028c62a2233c73dd5b4",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "WorkspaceRelationshipProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.workspaceStorage.f3d25ed098f27592cdeb4a1a5643a3d2",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/f3d25ed098f27592cdeb4a1a5643a3d2",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.f3d25ed098f27592cdeb4a1a5643a3d2",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/f3d25ed098f27592cdeb4a1a5643a3d2",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "CursorMetadataProofStrategy"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.f3d25ed098f27592cdeb4a1a5643a3d2",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/f3d25ed098f27592cdeb4a1a5643a3d2",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "WorkspaceRelationshipProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.workspaceStorage.7d8494cb71771bfa30d47b3f808a8ce3",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/7d8494cb71771bfa30d47b3f808a8ce3",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.7d8494cb71771bfa30d47b3f808a8ce3",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/7d8494cb71771bfa30d47b3f808a8ce3",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "CursorMetadataProofStrategy"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.7d8494cb71771bfa30d47b3f808a8ce3",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/7d8494cb71771bfa30d47b3f808a8ce3",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "WorkspaceRelationshipProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.workspaceStorage.cedd91a3de98d1a97796881a4c66966b",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/cedd91a3de98d1a97796881a4c66966b",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.cedd91a3de98d1a97796881a4c66966b",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/cedd91a3de98d1a97796881a4c66966b",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "CursorMetadataProofStrategy"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.cedd91a3de98d1a97796881a4c66966b",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/cedd91a3de98d1a97796881a4c66966b",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "WorkspaceRelationshipProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.workspaceStorage.0aedbd575912a71ca589e7173fdb8451",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/0aedbd575912a71ca589e7173fdb8451",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.0aedbd575912a71ca589e7173fdb8451",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/0aedbd575912a71ca589e7173fdb8451",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "CursorMetadataProofStrategy"
+    },
+    {
+      "claim" : "BELONGS_TO_WORKSPACE",
+      "entityID" : "cursor.workspaceStorage.0aedbd575912a71ca589e7173fdb8451",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/0aedbd575912a71ca589e7173fdb8451",
+      "reason" : "ALREADY_VERIFIED",
+      "strategyID" : "WorkspaceRelationshipProofStrategy"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "chrome.profile.profile_10.preferences",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Preferences",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "docker.volumes",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "entity:\/docker\/volumes",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "chrome.profile.profile_10.service_worker",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Service Worker",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "xcode.swiftpm_cache",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Caches\/org.swift.swiftpm",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "chrome.profile.profile_10.cookies",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Cookies",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "chrome.profile.profile_10.webstorage",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/WebStorage",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "chrome.profile.profile_10.local_storage",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Local Storage",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "chrome.profile.profile_10.session_storage",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Google\/Chrome\/Profile 10\/Session Storage",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "docker.dot_docker",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/.docker",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "ai.cursor.code_cache",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/Code Cache",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "ai.cursor.extensions",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/CachedExtensionVSIXs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "ai.cursor.global_storage",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/globalStorage",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "ai.cursor.history",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/History",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "ai.cursor.workspace_storage",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "ai.cursor_app_support",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "ai.cursor_logs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/logs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.codebases",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.database",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/state\/state.db",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.11f9048f-5cff-4ab3-ad0a-97c0431abb85",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/11f9048f-5cff-4ab3-ad0a-97c0431abb85",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.11f9048f-5cff-4ab3-ad0a-97c0431abb85.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/11f9048f-5cff-4ab3-ad0a-97c0431abb85\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.11f9048f-5cff-4ab3-ad0a-97c0431abb85.refs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/11f9048f-5cff-4ab3-ad0a-97c0431abb85\/refs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/285a93aa-acdf-41cf-b776-03c747b5f916",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/285a93aa-acdf-41cf-b776-03c747b5f916\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.refs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/285a93aa-acdf-41cf-b776-03c747b5f916\/refs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.285a93aa-acdf-41cf-b776-03c747b5f916.staging",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/285a93aa-acdf-41cf-b776-03c747b5f916\/staging",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/2e5ac4eb-eb07-42b1-9952-10f0e9ed7842",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/2e5ac4eb-eb07-42b1-9952-10f0e9ed7842\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.refs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/2e5ac4eb-eb07-42b1-9952-10f0e9ed7842\/refs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.2e5ac4eb-eb07-42b1-9952-10f0e9ed7842.staging",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/2e5ac4eb-eb07-42b1-9952-10f0e9ed7842\/staging",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.33939b83-2294-4195-8328-20f33013c166",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/33939b83-2294-4195-8328-20f33013c166",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.33939b83-2294-4195-8328-20f33013c166.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/33939b83-2294-4195-8328-20f33013c166\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.33939b83-2294-4195-8328-20f33013c166.refs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/33939b83-2294-4195-8328-20f33013c166\/refs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/44fdfc36-64cb-4587-8315-384166a3d0e3",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/44fdfc36-64cb-4587-8315-384166a3d0e3\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.refs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/44fdfc36-64cb-4587-8315-384166a3d0e3\/refs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.44fdfc36-64cb-4587-8315-384166a3d0e3.staging",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/44fdfc36-64cb-4587-8315-384166a3d0e3\/staging",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.8217aef3-7fbd-4514-9e7a-4aeae6056a5e",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/8217aef3-7fbd-4514-9e7a-4aeae6056a5e",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.8217aef3-7fbd-4514-9e7a-4aeae6056a5e.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/8217aef3-7fbd-4514-9e7a-4aeae6056a5e\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.8217aef3-7fbd-4514-9e7a-4aeae6056a5e.refs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/8217aef3-7fbd-4514-9e7a-4aeae6056a5e\/refs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.8a462aec-6903-47b4-b8fb-2a52b8d7481f",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/8a462aec-6903-47b4-b8fb-2a52b8d7481f",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.8a462aec-6903-47b4-b8fb-2a52b8d7481f.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/8a462aec-6903-47b4-b8fb-2a52b8d7481f\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.8a462aec-6903-47b4-b8fb-2a52b8d7481f.refs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/8a462aec-6903-47b4-b8fb-2a52b8d7481f\/refs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.90db91e9-83c1-4659-a56f-0ba61149fec5",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/90db91e9-83c1-4659-a56f-0ba61149fec5",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.90db91e9-83c1-4659-a56f-0ba61149fec5.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/90db91e9-83c1-4659-a56f-0ba61149fec5\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.90db91e9-83c1-4659-a56f-0ba61149fec5.refs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/90db91e9-83c1-4659-a56f-0ba61149fec5\/refs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a1a77563-9e0c-4437-8539-7c85d164875b",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a1a77563-9e0c-4437-8539-7c85d164875b\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.refs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a1a77563-9e0c-4437-8539-7c85d164875b\/refs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.a1a77563-9e0c-4437-8539-7c85d164875b.staging",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a1a77563-9e0c-4437-8539-7c85d164875b\/staging",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.refs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a\/refs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a.staging",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a56a6a4c-a43e-4408-a4c4-40bdd77b6e2a\/staging",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a9b007cc-cceb-4969-b48d-bf385deb5543",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a9b007cc-cceb-4969-b48d-bf385deb5543\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.refs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a9b007cc-cceb-4969-b48d-bf385deb5543\/refs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.a9b007cc-cceb-4969-b48d-bf385deb5543.staging",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/a9b007cc-cceb-4969-b48d-bf385deb5543\/staging",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/c7ec066e-f66e-4dc0-a274-03bed04c6b53",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/c7ec066e-f66e-4dc0-a274-03bed04c6b53\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.refs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/c7ec066e-f66e-4dc0-a274-03bed04c6b53\/refs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.c7ec066e-f66e-4dc0-a274-03bed04c6b53.staging",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/c7ec066e-f66e-4dc0-a274-03bed04c6b53\/staging",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e108bc44-a2b6-41c2-8036-789ee82c6bf8",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e108bc44-a2b6-41c2-8036-789ee82c6bf8\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.refs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e108bc44-a2b6-41c2-8036-789ee82c6bf8\/refs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.e108bc44-a2b6-41c2-8036-789ee82c6bf8.staging",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e108bc44-a2b6-41c2-8036-789ee82c6bf8\/staging",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e8d79678-1c39-4e37-9066-559b7d7a772b",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e8d79678-1c39-4e37-9066-559b7d7a772b\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.refs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e8d79678-1c39-4e37-9066-559b7d7a772b\/refs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.e8d79678-1c39-4e37-9066-559b7d7a772b.staging",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/e8d79678-1c39-4e37-9066-559b7d7a772b\/staging",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/fae47006-d5fa-4b5b-b77c-d1ce7043a7a3",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/fae47006-d5fa-4b5b-b77c-d1ce7043a7a3\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.refs",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/fae47006-d5fa-4b5b-b77c-d1ce7043a7a3\/refs",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.instance.fae47006-d5fa-4b5b-b77c-d1ce7043a7a3.staging",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/codebases\/fae47006-d5fa-4b5b-b77c-d1ce7043a7a3\/staging",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.root",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.rootref.ai-assessment-session-e2535413",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/roots\/ai-assessment-session-e2535413",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.rootref.ai-storage-manager-644107ef",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/roots\/ai-storage-manager-644107ef",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.rootref.cursor-b1863998",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/roots\/cursor-b1863998",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.rootref.my-portfolio-59e3672d",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/roots\/my-portfolio-59e3672d",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.roots",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/roots",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.state",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/state",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/81a50d8e-b83d-8058-aa3b-3288b57a9e49",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.store.81a50d8e-b83d-8058-aa3b-3288b57a9e49.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/81a50d8e-b83d-8058-aa3b-3288b57a9e49\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/d42eecea-ba9b-89e2-9fc1-793666b76c53",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.store.d42eecea-ba9b-89e2-9fc1-793666b76c53.objects",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores\/d42eecea-ba9b-89e2-9fc1-793666b76c53\/objects",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.snapshots.stores",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/snapshots\/stores",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.workspaceStorage.1e35766421451537bc04f9978acd4065",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/1e35766421451537bc04f9978acd4065",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.workspaceStorage.38ea36f9",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/38ea36f9",
+      "strategyID" : "ActiveStateResolver"
+    },
+    {
+      "claim" : "ACTIVE_STATE",
+      "entityID" : "cursor.workspaceStorage.8507c83b3036b875c649d9ebcab1fca0",
+      "feasibility" : "NOT_APPLICABLE",
+      "path" : "\/Users\/tomitakatsuhiro\/Library\/Application Support\/Cursor\/User\/workspaceStorage\/8507c83b3036b875c649d9ebcab1fca0",
+      "strategyID" : "ActiveStateResolver"
+    }
+  ],
+  "blockedNoRouteCount" : 0,
+  "explicitRouteAvailableCount" : 13
+}
