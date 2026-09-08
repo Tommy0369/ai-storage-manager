@@ -95,7 +95,10 @@ Status: DONE | PARTIAL | BLOCKED | NOT STARTED
 Artifact: `dist-0.2/AIStorageManager-0.2.0-rc51-arm64.zip`  
 SHA-256: `a5eb688a77084555af880f7c9bd2be54ff8d1fd4954efc7fb3d530be667c89b1`
 
-次: 公開ホスティング / commit・tag は人間判断。
+Git / 公開:
+- Repo: https://github.com/Tommy0369/ai-storage-manager
+- Tag/Release v0.2.0: https://github.com/Tommy0369/ai-storage-manager/releases/tag/v0.2.0
+- Tag/Release v0.1.0 (frozen): https://github.com/Tommy0369/ai-storage-manager/releases/tag/v0.1.0
 
 ## P5.6 — v0.1 Global Release Finalization
 
